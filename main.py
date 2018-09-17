@@ -4,7 +4,7 @@ from numpy import *
 from RandomSampling import *
 
 # chineseRestaurantProcee
-def chineseRestaurantProcee(n=0,alpha=0.5):
+def chineseRestaurantProcess(n=0,alpha=0.5):
     customers = zeros(n,dtype=int)
     for i in range(n):
         print("time ------------",i+1)
@@ -36,4 +36,4 @@ def chineseRestaurantProcee(n=0,alpha=0.5):
     return customers
 
 if __name__ == '__main__':
-    chineseRestaurantProcee(n=1000, alpha=0.5)
+    chineseRestaurantProcess(n=1000, alpha=0.5)
