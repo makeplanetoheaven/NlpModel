@@ -47,7 +47,48 @@ else:
 ```
 对输入数据进行编码以后，再将其带入到Transformer的Encoder部分，进行Self-Attention，AddNorm, Full-connect计算。其实现类依次为`SelfAttention，LayNormAdd，FeedFowardNetwork`，这三个类通过类`TransformerEncoder`进行封装。
 
-在得到Transformer的输出以后，由于并没有得到每个句子的特征向量表示，
-#### 3.匹配层
+在得到Transformer的输出以后，由于并没有得到每个句子的特征向量表示，需要在其基础上引入Global-Attention，对每个句子的最终特征向量进行计算，其代码如下。
+```
+w_omega = tf.get_variable(name='w_omega', shape=[self.hidden_num * 2, self.attention_num],
+				           initializer=tf.random_normal_initializer())
+b_omega = tf.get_variable(name='b_omega', shape=[self.attention_num],
+				           initializer=tf.random_normal_initializer())
+u_omega = tf.get_variable(name='u_omega', shape=[self.attention_num],
+				           initializer=tf.random_normal_initializer())
 
+v = tf.tanh(tf.tensordot(transformer_output, w_omega, axes=1) + b_omega)
+
+vu = tf.tensordot(v, u_omega, axes=1, name='vu')  # (B,T) shape
+alphas = tf.nn.softmax(vu, name='alphas')  # (B,T) shape
+
+# tf.expand_dims用于在指定维度增加一维
+global_attention_output = tf.reduce_sum(transformer_output * tf.expand_dims(alphas, -1), 1)
+```
+#### 3.匹配层
+匹配层的实现在函数`matching_layer_training`和`matching_layer_infer`中。这是由于模型在进行Tranning时需要进行负采样，而在Infer时不需要，因此需要定义两个不同的余弦相似度计算函数。
 #### 4.梯度更新部分
+匹配层最终的输出是一个二维矩阵，矩阵中的每一行代表一个问题与其所对应答案（第一列），及负样本的余弦相似度值。对于这样一个矩阵，经过Softmax归一化后，截取第一列数据，采用交叉熵损失计算模型最终loss，最后使用Adam优化器对模型进行训练及梯度更新。
+```
+# softmax归一化并输出
+prob = tf.nn.softmax(cos_sim)
+with tf.name_scope('Loss'):
+	# 取正样本
+	hit_prob = tf.slice(prob, [0, 0], [-1, 1])
+	self.loss = -tf.reduce_sum(tf.log(hit_prob)) / self.batch_size
+
+with tf.name_scope('Accuracy'):
+	output_train = tf.argmax(prob, axis=1)
+	self.accuracy = tf.reduce_sum(tf.cast(tf.equal(output_train, tf.zeros_like(output_train)),
+	                                      dtype=tf.float32)) / self.batch_size
+
+# 优化并进行梯度修剪
+with tf.name_scope('Train'):
+	optimizer = tf.train.AdamOptimizer(self.learning_rate)
+	# 分解成梯度列表和变量列表
+	grads, vars = zip(*optimizer.compute_gradients(self.loss))
+	# 梯度修剪
+	gradients, _ = tf.clip_by_global_norm(grads, 5)  # clip gradients
+	# 将每个梯度以及对应变量打包
+	self.train_op = optimizer.apply_gradients(zip(gradients, vars))
+```
+## 模型调用方式
