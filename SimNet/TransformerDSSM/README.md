@@ -39,6 +39,7 @@ fw_drop_cell = DropoutWrapper(fw_cell, output_keep_prob=self.dropout)
 # 反向
 bw_cell = GRUCell(num_units=self.hidden_num)
 bw_drop_cell = DropoutWrapper(bw_cell, output_keep_prob=self.dropout)
+
 # 动态rnn函数传入的是一个三维张量，[batch_size,n_steps,n_input]  输出是一个元组 每一个元素也是这种形状
 if self.is_train and not self.is_extract:
 	output, _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=fw_drop_cell, cell_bw=bw_drop_cell,
@@ -47,6 +48,10 @@ if self.is_train and not self.is_extract:
 else:
 	output, _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=fw_cell, cell_bw=bw_cell, inputs=inputs,
 	                                            sequence_length=inputs_actual_length, dtype=tf.float32)
+
+# hiddens的长度为2，其中每一个元素代表一个方向的隐藏状态序列，将每一时刻的输出合并成一个输出
+structure_output = tf.concat(output, axis=2)
+structure_output = self.layer_normalization(structure_output)
 ```
 对输入数据进行编码以后，再将其带入到Transformer的Encoder部分，进行Self-Attention，AddNorm, Full-connect计算。其实现类依次为`SelfAttention，LayNormAdd，FeedFowardNetwork`，这三个类通过类`TransformerEncoder`进行封装。
 
