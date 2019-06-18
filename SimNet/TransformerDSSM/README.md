@@ -126,3 +126,9 @@ TransformerDSSM模型的表示层特征向量提取通过调用文件中的函�
 
 (2)**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
 ## 模型训练数据
+本模块提供的训练数据，是作为预训练模型的训练数据，主要分为以下两种，其中SameFAQ表示问题，答案指向同一句子，各问答对间的语义完全独立，可用于进行语义空间划分，SimFAQ中的问答对则是语义相近的，用于语义相似度训练，该训练数据位于目录：`/NlpModel/SimNet/TransformerDSSM/TrainData/`：
+
+类型 | 数据量 | 格式
+--- | --- | ---
+SimFAQ | 38113 | json
+SameFAQ | 20109 | json
