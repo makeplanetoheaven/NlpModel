@@ -100,3 +100,29 @@ with tf.name_scope('Train'):
 	self.train_op = optimizer.apply_gradients(zip(gradients, vars))
 ```
 ## 模型调用方式
+模型的调用代码位于目录：`/NlpModel/SimNet/TransformerDSSM/Debug.py`，其调用方式主要分为以下三种。
+#### 1.模型训练
+TransformerDSSM模型的训练通过调用文件中的函数`dssm_model_train`实现，该函数以两个参数作为输入:
+
+(1)**faq_dict**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
+
+(2)**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+#### 2.模型推理
+TransformerDSSM模型的推理通过调用文件中的函数`dssm_model_infer`实现，该函数以五个参数作为输入，需要注意的是，模型的推理返回结果，是输入答案的位置索引：
+
+（1）**queries**，该参数是一系列需要去匹配的问题组成的列表，列表中的每一个元素是一个问题字符串；
+
+（2）**answer_embedding**，该参数是由一系列待匹配的答案经过表示层所提取的特征向量组成的列表，列表中的每一个元素是一个答案对应的特征向量，之所以用特征向量直接作为待匹配答案的输入，是为了减少数据经过表示层的计算时间，提高匹配效率；
+
+（3）**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+
+（4）**top_k**，该参数表示当输入一个问题时，需要从待匹配的答案中返回top_k个候选答案，默认时，该参数的值为1；
+
+（4）**threshold**，该参数通过设置语义相似度计算的阈值，当待匹配的答案其相似度低于给定阈值时，则不返回，高于则返回。
+#### 3.表示层特征向量提取
+TransformerDSSM模型的表示层特征向量提取通过调用文件中的函数`dssm_model_extract_t_pre`实现，该函数以两个参数作为输入:
+
+(1)**faq_dict**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
+
+(2)**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+## 模型训练数据
