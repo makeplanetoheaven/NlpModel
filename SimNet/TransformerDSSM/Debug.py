@@ -125,10 +125,10 @@ def dssm_model_extract_t_pre (faq_dict, embedding_dict):
 	t_state = dssm.extract_t_pre()
 
 
-with open('./TrainData/SimFAQ.json', 'r', encoding='utf-8') as file_object:
+with open('./NlpModel/SimNet/TransformerDSSM/TrainData/SimFAQ.json', 'r', encoding='utf-8') as file_object:
 	faq_dict = json.load(file_object)
 
-with open('./WordEmbedding/Word2Vec/CharactersEmbedding.json', 'r', encoding='utf-8') as file_object:
+with open('./NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json', 'r', encoding='utf-8') as file_object:
 	embedding_dict = json.load(file_object)
 
 dssm_model_train(faq_dict, embedding_dict)
