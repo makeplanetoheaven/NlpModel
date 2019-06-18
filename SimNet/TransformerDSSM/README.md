@@ -128,7 +128,16 @@ TransformerDSSM模型的表示层特征向量提取通过调用文件中的函�
 ## 模型训练数据
 本模块提供的训练数据，是作为预训练模型的训练数据，主要分为以下两种，其中SameFAQ表示问题，答案指向同一句子，各问答对间的语义完全独立，可用于进行语义空间划分，SimFAQ中的问答对则是语义相近的，用于语义相似度训练，该训练数据位于目录：`/NlpModel/SimNet/TransformerDSSM/TrainData/`：
 
-类型 | 数据量 | 格式
+数据类型 | 数据量 | 格式
 --- | --- | ---
 SimFAQ | 38113 | json
 SameFAQ | 20109 | json
+
+## 已训练模型库
+本模块提供三种类型已训练完毕的模型，新的问答对数据可在这三个预训练模型的基础上进行训练，能够达到较好效果，经过实验发现，效果最好的预训练模型为经过SimFAQ训练后的模型。模型的参数为：`hidden_num=256`，`attention_num=512`。其模型下载地址如下：
+
+模型类型 | 下载地址 | 提取码
+--- | --- | ---
+SimFAQ | https://pan.baidu.com/s/1kff2aCsPdMQ_3wGgJaTcHA | 6qhr
+SameFAQ | https://pan.baidu.com/s/1C_BfjRvwV9XNM3BZ5xy-pQ | eexz
+SameFAQ+SimFAQ | https://pan.baidu.com/s/1fKh4h3H6uwlHPNh2et8SKQ | cvmn
