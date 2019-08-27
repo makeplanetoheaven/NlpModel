@@ -1,10 +1,12 @@
 # 语音识别中基于CNN+DFSMN的声学模型实现及代码开源
-本模型是在传统CNN模型的基础上，引入2018年阿里提出的声学模型DFSMN，论文地址：https://arxiv.org/pdf/1803.05030.pdf。该声学模型使用的输入是经过fbank特征提取以后的具有16ms采样率，单声道音频数据。模型整体代码框架使用的是Github：https://github.com/audier/DeepSpeechRecognition中的语音识别框架。
+本模型是在传统CNN模型的基础上，引入2018年阿里提出的声学模型DFSMN，论文地址：https://arxiv.org/pdf/1803.05030.pdf。
+
+该声学模型使用的输入是经过fbank特征提取以后的具有16ms采样率，单声道音频数据。模型整体的语音识别框架使用的是Github：https://github.com/audier/DeepSpeechRecognition。
 
 在该模块中，主要包含了以下4个部分内容：
 * [模型实现代码](#模型实现代码)
-  * [1.卷积层](#1.卷积层)
-  * [2.DFSMN层](#2.DFSMN层)
+  * [1.卷积层](##1.卷积层)
+  * [2.DFSMN层](##2.DFSMN层)
   * [3.梯度更新部分](#4.梯度更新部分)
 * [模型调用方式](#模型调用方式)
 * [模型训练数据](#模型训练数据)
@@ -35,7 +37,7 @@ if self.is_training:
 self.h5 = Reshape((-1, 3200))(self.h4)
 ```
 在卷积层的最后，通过Reshape操作，将提取出的特征转换成一个三维矩阵[batch, data_len, 3200]，以作为DFSMN层的输入。
-#### 2.表示层
+#### 2.DFSMN层
 表示层的实现在函数`presentation_transformer`中。
 
 在原Transformer中，对于其输入的三维矩阵来说，为了能够引入单词在句子中的位置信息，需要在原有单词语义向量的基础上，通过规则的方式加上每个单词在句子中的位置编码向量。在本模型中，输入数据直接通过一个双向GRU来对句子中每个字的上下文信息进行编码。
