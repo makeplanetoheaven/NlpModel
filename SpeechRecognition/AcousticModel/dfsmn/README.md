@@ -1,33 +1,40 @@
 # 语音识别中基于CNN+DFSMN的声学模型实现及代码开源
-该模型在DSSM模型的基础上，将模型的表示层使用基于Transformer的Encoder部分来实现，匹配层将通过表示层得到问题query和答案answer的特征表示进行余弦相似度计算，由于问题i除了与答案i相匹配以外，其余答案均为问题i的负样本，因此需要对每一个问题进行负采样。
+本模型是在传统CNN模型的基础上，引入2018年阿里提出的声学模型DFSMN，论文地址：https://arxiv.org/pdf/1803.05030.pdf。该声学模型使用的输入是经过fbank特征提取以后的具有16ms采样率，单声道音频数据。模型整体代码框架使用的是Github：https://github.com/audier/DeepSpeechRecognition中的语音识别框架。
 
 在该模块中，主要包含了以下4个部分内容：
 * [模型实现代码](#模型实现代码)
-  * [1.输入层](#1.输入层)
-  * [2.表示层](#2.表示层)
-  * [3.匹配层](#3.匹配层)
-  * [4.梯度更新部分](#4.梯度更新部分)
+  * [1.卷积层](#1.卷积层)
+  * [2.DFSMN层](#2.DFSMN层)
+  * [3.梯度更新部分](#4.梯度更新部分)
 * [模型调用方式](#模型调用方式)
 * [模型训练数据](#模型训练数据)
 * [已训练模型库](#已训练模型库)
 
 ## 模型实现代码
-模型的实现代码位于目录：`/NlpModel/SimNet/TransformerDSSM/Model/TransformerDSSM.py`，其实现顺序从`TransformerDSSM`类开始。
+模型的实现代码位于目录：`/NlpModel/SpeechRecognition/AcousticModel/dfsmn/Model/cnn_dfsmn_ctc.py`，其实现顺序从`Am`类开始。
 
-首先，通过调用`build_graph_by_cpu`或者`build_graph_by_gpu`对模型整个数据流图进行构建，以上两种构建方式，分别对应着模型的cpu版本和gpu版本。在构建数据流图的过程中，需要依次去定义模型以下几个部分：
+首先，通过调用`_model_init`对模型整个数据流图进行构建。在构建数据流图的过程中，需要依次去定义模型以下几个部分：
 
-#### 1.输入层
-在输入层中，主要将输入的问题集和答案集转换成每个字符对应的字向量，最终形成一个三维矩阵t，q:
+#### 1.卷积层
+在卷积层中，根据输入的音频数据（一个4维矩阵[batch, data_len, feature_len, 1]）,对其进行卷积操作，整个卷积共分为4层，其中最后一层不使用pooling操作:
 ```
-# 定义词向量
-embeddings = tf.constant(self.vec_set)
-
-# 将句子中的每个字转换为字向量
-if not self.is_extract:
-	q_embeddings = tf.nn.embedding_lookup(embeddings, self.q_inputs)
-if self.is_train:
-	t_embeddings = tf.nn.embedding_lookup(embeddings, self.t_inputs)
+# CNN-layers
+self.h1 = cnn_cell(32, self.inputs)
+if self.is_training:
+	self.h1 = Dropout(self.dropout_r)(self.h1)
+self.h2 = cnn_cell(64, self.h1)
+if self.is_training:
+	self.h2 = Dropout(self.dropout_r)(self.h2)
+self.h3 = cnn_cell(128, self.h2)
+if self.is_training:
+	self.h3 = Dropout(self.dropout_r)(self.h3)
+self.h4 = cnn_cell(128, self.h3, pool=False)
+if self.is_training:
+	self.h4 = Dropout(self.dropout_r)(self.h4)
+# (200 / 8) * 128 = 3200
+self.h5 = Reshape((-1, 3200))(self.h4)
 ```
+在卷积层的最后，通过Reshape操作，将提取出的特征转换成一个三维矩阵[batch, data_len, 3200]，以作为DFSMN层的输入。
 #### 2.表示层
 表示层的实现在函数`presentation_transformer`中。
 
