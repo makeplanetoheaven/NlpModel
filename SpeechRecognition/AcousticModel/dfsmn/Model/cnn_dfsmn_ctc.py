@@ -29,8 +29,8 @@ class Am():
 		self.dropout_r = 0.25
 		self.is_training = args.is_training
 		self._model_init()
+		self._ctc_init()
 		if self.is_training:
-			self._ctc_init()
 			self.opt_init()
 
 	def _model_init (self):

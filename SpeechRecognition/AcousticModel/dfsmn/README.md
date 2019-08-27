@@ -37,103 +37,155 @@ if self.is_training:
 self.h5 = Reshape((-1, 3200))(self.h4)
 ```
 在卷积层的最后，通过Reshape操作，将提取出的特征转换成一个三维矩阵[batch, data_len, 3200]，以作为DFSMN层的输入。
+
+其中，每个卷积层的实现函数是`_cnn_cell`，其代码如下，其中`norm`和`conv2d`分别为BatchNorm和卷积操作的两个函数：
+```
+def cnn_cell (size, x, pool=True):
+	x = norm(conv2d(size)(x))
+	x = norm(conv2d(size)(x))
+	if pool:
+		x = maxpool(x)
+	return x
+	
+def norm (x):
+	return BatchNormalization(axis=-1)(x)
+	
+def conv2d (size):
+	return Conv2D(size, (3, 3), use_bias=True, activation='relu', padding='same', kernel_initializer='he_normal')
+```
 #### 2.DFSMN层
-表示层的实现在函数`presentation_transformer`中。
-
-在原Transformer中，对于其输入的三维矩阵来说，为了能够引入单词在句子中的位置信息，需要在原有单词语义向量的基础上，通过规则的方式加上每个单词在句子中的位置编码向量。在本模型中，输入数据直接通过一个双向GRU来对句子中每个字的上下文信息进行编码。
+DFSMN层的实现在代码如下，在该模型中，总共使用了6层dfsmn，其中每层dfsmn的hidden_num设置为1024，前后步长设置为40，并将dfsmn的输出经过layNorm以后，再带入激活函数swish中，最终得到下一层的输出，在每层dfsmn中，DropOut的丢失率设置为0.5。
 ```
-# 正向
-fw_cell = GRUCell(num_units=self.hidden_num)
-fw_drop_cell = DropoutWrapper(fw_cell, output_keep_prob=self.dropout)
-# 反向
-bw_cell = GRUCell(num_units=self.hidden_num)
-bw_drop_cell = DropoutWrapper(bw_cell, output_keep_prob=self.dropout)
+# FSMN-layers
+with tf.variable_scope('cfsmn'):
+	cfsmn = cfsmn_cell('cfsmn-cell', 512, 512, 1024, 40, 40)
+	cfsmn_o, cfsmn_p_hatt = Lambda(cfsmn)(self.h6)
+	cfsmn_o = LayerNormalization()(cfsmn_o)
+	cfsmn_o = Lambda(tf.nn.swish)(cfsmn_o)
+	if self.is_training:
+		cfsmn_o = Dropout(self.dropout_r * 2)(cfsmn_o)
 
-# 动态rnn函数传入的是一个三维张量，[batch_size,n_steps,n_input]  输出是一个元组 每一个元素也是这种形状
-if self.is_train and not self.is_extract:
-	output, _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=fw_drop_cell, cell_bw=bw_drop_cell,
-	                                            inputs=inputs, sequence_length=inputs_actual_length,
-	                                            dtype=tf.float32)
-else:
-	output, _ = tf.nn.bidirectional_dynamic_rnn(cell_fw=fw_cell, cell_bw=bw_cell, inputs=inputs,
-	                                            sequence_length=inputs_actual_length, dtype=tf.float32)
+with tf.variable_scope('dfsmn1'):
+	dfsmn1 = dfsmn_cell('dfsmn1-cell', 512, 512, 1024, 40, 40)
+	dfsmn1_o, dfsmn1_p_hatt = Lambda(dfsmn1)([cfsmn_o, cfsmn_p_hatt])
+	dfsmn1_o = LayerNormalization()(dfsmn1_o)
+	dfsmn1_o = Lambda(tf.nn.swish)(dfsmn1_o)
+	if self.is_training:
+		dfsmn1_o = Dropout(self.dropout_r * 2)(dfsmn1_o)
 
-# hiddens的长度为2，其中每一个元素代表一个方向的隐藏状态序列，将每一时刻的输出合并成一个输出
-structure_output = tf.concat(output, axis=2)
-structure_output = self.layer_normalization(structure_output)
+with tf.variable_scope('dfsmn2'):
+	dfsmn2 = dfsmn_cell('dfsmn2-cell', 512, 512, 1024, 40, 40)
+	dfsmn2_o, dfsmn2_p_hatt = Lambda(dfsmn2)([dfsmn1_o, dfsmn1_p_hatt])
+	dfsmn2_o = LayerNormalization()(dfsmn2_o)
+	dfsmn2_o = Lambda(tf.nn.swish)(dfsmn2_o)
+	if self.is_training:
+		dfsmn2_o = Dropout(self.dropout_r * 2)(dfsmn2_o)
+
+with tf.variable_scope('dfsmn3'):
+	dfsmn3 = dfsmn_cell('dfsmn3-cell', 512, 512, 1024, 40, 40)
+	dfsmn3_o, dfsmn3_p_hatt = Lambda(dfsmn3)([dfsmn2_o, dfsmn2_p_hatt])
+	dfsmn3_o = LayerNormalization()(dfsmn3_o)
+	dfsmn3_o = Lambda(tf.nn.swish)(dfsmn3_o)
+	if self.is_training:
+		dfsmn3_o = Dropout(self.dropout_r * 2)(dfsmn3_o)
+
+with tf.variable_scope('dfsmn4'):
+	dfsmn4 = dfsmn_cell('dfsmn4-cell', 512, 512, 1024, 40, 40)
+	dfsmn4_o, dfsmn4_p_hatt = Lambda(dfsmn4)([dfsmn3_o, dfsmn3_p_hatt])
+	dfsmn4_o = LayerNormalization()(dfsmn4_o)
+	dfsmn4_o = Lambda(tf.nn.swish)(dfsmn4_o)
+	if self.is_training:
+		dfsmn4_o = Dropout(self.dropout_r * 2)(dfsmn4_o)
+
+with tf.variable_scope('dfsmn5'):
+	dfsmn5 = dfsmn_cell('dfsmn5-cell', 512, 512, 1024, 40, 40)
+	dfsmn5_o, dfsmn5_p_hatt = Lambda(dfsmn5)([dfsmn4_o, dfsmn4_p_hatt])
+	dfsmn5_o = LayerNormalization()(dfsmn5_o)
+	dfsmn5_o = Lambda(tf.nn.swish)(dfsmn5_o)
+	if self.is_training:
+		dfsmn5_o = Dropout(self.dropout_r * 2)(dfsmn5_o)
 ```
-对输入数据进行编码以后，再将其带入到Transformer的Encoder部分，进行Self-Attention，AddNorm, Full-connect计算。其实现类依次为`SelfAttention，LayNormAdd，FeedFowardNetwork`，这三个类通过类`TransformerEncoder`进行封装。
-
-在得到Transformer的输出以后，由于并没有得到每个句子的特征向量表示，需要在其基础上引入Global-Attention，对每个句子的最终特征向量进行计算，其代码如下。
+其中每层dfsmn的实现代码用一个类`dfsmn_cell`进行封装，其模型所需参数和实现流程如下所示：
 ```
-w_omega = tf.get_variable(name='w_omega', shape=[self.hidden_num * 2, self.attention_num],
-				           initializer=tf.random_normal_initializer())
-b_omega = tf.get_variable(name='b_omega', shape=[self.attention_num],
-				           initializer=tf.random_normal_initializer())
-u_omega = tf.get_variable(name='u_omega', shape=[self.attention_num],
-				           initializer=tf.random_normal_initializer())
+def _build_graph (self):
+	self.lay_norm = tf_LayerNormalization('dfsmn_laynor', self._hidden_size)
+	self._V = tf.get_variable("dfsmn_V", [self._input_size, self._hidden_size],
+	                          initializer=tf.contrib.layers.xavier_initializer())
+	self._bias_V = tf.get_variable("dfsmn_V_bias", [self._hidden_size],
+	                               initializer=tf.contrib.layers.xavier_initializer())
+	self._U = tf.get_variable("dfsmn_U", [self._hidden_size, self._output_size],
+	                          initializer=tf.contrib.layers.xavier_initializer())
+	self._bias_U = tf.get_variable("dfsmn_U_bias", [self._output_size],
+	                               initializer=tf.contrib.layers.xavier_initializer())
+	self._memory_weights = tf.get_variable("memory_weights", [self._memory_size],
+	                                       initializer=tf.contrib.layers.xavier_initializer())
 
-v = tf.tanh(tf.tensordot(transformer_output, w_omega, axes=1) + b_omega)
+def __call__ (self, args):
+	inputs = args[0]
+	last_p_hatt = args[1]
 
-vu = tf.tensordot(v, u_omega, axes=1, name='vu')  # (B,T) shape
-alphas = tf.nn.softmax(vu, name='alphas')  # (B,T) shape
+	def for_cond (step, memory_matrix):
+		return step < num_steps
 
-# tf.expand_dims用于在指定维度增加一维
-global_attention_output = tf.reduce_sum(transformer_output * tf.expand_dims(alphas, -1), 1)
+	def for_body (step, memory_matrix):
+		left_pad_num = tf.maximum(0, step + 1 - self._l_memory_size)
+		right_pad_num = tf.maximum(0, num_steps - step - 1 - self._r_memory_size)
+		l_mem = self._memory_weights[tf.minimum(step, self._l_memory_size - 1)::-1]
+		r_mem = self._memory_weights[
+		        self._l_memory_size:self._l_memory_size + tf.minimum(num_steps - step - 1, self._r_memory_size)]
+		mem = tf.concat([l_mem, r_mem], 0)
+		d_batch = tf.pad(mem, [[left_pad_num, right_pad_num]])
+
+		return step + 1, memory_matrix.write(step, d_batch)
+
+	# memory build
+	num_steps = tf.shape(inputs)[1]
+	memory_matrix = tf.TensorArray(dtype=tf.float32, size=num_steps)
+	_, memory_matrix = tf.while_loop(for_cond, for_body, [0, memory_matrix])
+	memory_matrix = memory_matrix.stack()
+
+	p = tf.tensordot(inputs, self._V, axes=1) + self._bias_V
+
+	# memory block
+	p_hatt = tf.transpose(tf.tensordot(tf.transpose(p, [0, 2, 1]), tf.transpose(memory_matrix), axes=1), [0, 2, 1])
+	p_hatt = self.lay_norm(last_p_hatt + p + p_hatt)
+
+	# liner transform
+	h = tf.tensordot(p_hatt, self._U, axes=1) + self._bias_U
+
+	return [h, p_hatt]
 ```
-#### 3.匹配层
-匹配层的实现在函数`matching_layer_training`和`matching_layer_infer`中。这是由于模型在进行Tranning时需要进行负采样，而在Infer时不需要，因此需要定义两个不同的余弦相似度计算函数。
-#### 4.梯度更新部分
-匹配层最终的输出是一个二维矩阵，矩阵中的每一行代表一个问题与其所对应答案（第一列），及负样本的余弦相似度值。对于这样一个矩阵，经过Softmax归一化后，截取第一列数据，采用交叉熵损失计算模型最终loss，最后使用Adam优化器对模型进行训练及梯度更新。
+另外，除了Dfsmn以外，文件中还提供sfsmn、vfsmn、cfsmn代码实现。
+#### 3.梯度更新部分
+cnn_dfsmn模型在`_model_init`的数据流图构建完毕以后，首先通过调用`_ctc_init`函数，以CTC作为模型的损失函数，然后再调用`opt_init`函数选择相应优化器进行模型训练。
 ```
-# softmax归一化并输出
-prob = tf.nn.softmax(cos_sim)
-with tf.name_scope('Loss'):
-	# 取正样本
-	hit_prob = tf.slice(prob, [0, 0], [-1, 1])
-	self.loss = -tf.reduce_sum(tf.log(hit_prob)) / self.batch_size
+def _ctc_init (self):
+	self.labels = Input(name='the_labels', shape=[None], dtype='float32')
+	self.input_length = Input(name='input_length', shape=[1], dtype='int64')
+	self.label_length = Input(name='label_length', shape=[1], dtype='int64')
+	self.loss_out = Lambda(ctc_lambda, output_shape=(1,), name='ctc')(
+		[self.labels, self.outputs, self.input_length, self.label_length])
+	self.ctc_model = Model(inputs=[self.labels, self.inputs, self.input_length, self.label_length],
+	                       outputs=self.loss_out)
 
-with tf.name_scope('Accuracy'):
-	output_train = tf.argmax(prob, axis=1)
-	self.accuracy = tf.reduce_sum(tf.cast(tf.equal(output_train, tf.zeros_like(output_train)),
-	                                      dtype=tf.float32)) / self.batch_size
-
-# 优化并进行梯度修剪
-with tf.name_scope('Train'):
-	optimizer = tf.train.AdamOptimizer(self.learning_rate)
-	# 分解成梯度列表和变量列表
-	grads, vars = zip(*optimizer.compute_gradients(self.loss))
-	# 梯度修剪
-	gradients, _ = tf.clip_by_global_norm(grads, 5)  # clip gradients
-	# 将每个梯度以及对应变量打包
-	self.train_op = optimizer.apply_gradients(zip(gradients, vars))
+def opt_init (self):
+	opt = Adam(lr=self.lr, beta_1=0.9, beta_2=0.999, decay=0.0004, epsilon=10e-8)
+	# opt = SGD(lr=self.lr, momentum=0.0, decay=0.00004, nesterov=False)
+	if self.gpu_nums > 1:
+		self.ctc_model = multi_gpu_model(self.ctc_model, gpus=self.gpu_nums)
+	self.ctc_model.compile(loss={'ctc': lambda y_true, output: output}, optimizer=opt)
 ```
 ## 模型调用方式
-模型的调用代码位于目录：`/NlpModel/SimNet/TransformerDSSM/Debug.py`，其调用方式主要分为以下三种。
+模型的调用代码位于目录：`/NlpModel/SpeechRecognition/AcousticModel/dfsmn/Debug.py`，其调用方式主要分为以下两种。
 #### 1.模型训练
-TransformerDSSM模型的训练通过调用文件中的函数`dssm_model_train`实现，该函数以两个参数作为输入:
+cnn_dfsmn模型的训练通过调用文件中的函数`dfsmn_model_train`实现，该函数以一个参数作为输入:
 
-(1)**faq_dict**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
+(1)**train_data_path**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
 
-(2)**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
-#### 2.模型推理
-TransformerDSSM模型的推理通过调用文件中的函数`dssm_model_infer`实现，该函数以五个参数作为输入，需要注意的是，模型的推理返回结果，是输入答案的位置索引：
+#### 2.模型在线解码
+cnn_dfsmn模型的在线解码通过调用文件中的函数`dfsmn_model_decode`实现，该函数以一个参数作为输入：
 
-（1）**queries**，该参数是一系列需要去匹配的问题组成的列表，列表中的每一个元素是一个问题字符串；
-
-（2）**answer_embedding**，该参数是由一系列待匹配的答案经过表示层所提取的特征向量组成的列表，列表中的每一个元素是一个答案对应的特征向量，之所以用特征向量直接作为待匹配答案的输入，是为了减少数据经过表示层的计算时间，提高匹配效率；
-
-（3）**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
-
-（4）**top_k**，该参数表示当输入一个问题时，需要从待匹配的答案中返回top_k个候选答案，默认时，该参数的值为1；
-
-（4）**threshold**，该参数通过设置语义相似度计算的阈值，当待匹配的答案其相似度低于给定阈值时，则不返回，高于则返回。
-#### 3.表示层特征向量提取
-TransformerDSSM模型的表示层特征向量提取通过调用文件中的函数`dssm_model_extract_t_pre`实现，该函数以两个参数作为输入:
-
-(1)**faq_dict**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
-
-(2)**embedding_dict**，该参数是一个字典，字典中的每一个key是一个字符，value是该字符对应的字向量。字向量的提供位于目录：`/NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json`
+（1）**wav_file_path**，该参数是一系列需要去匹配的问题组成的列表，列表中的每一个元素是一个问题字符串；
 ## 模型训练数据
 本模块提供的训练数据，是作为预训练模型的训练数据，主要分为以下两种，其中SameFAQ表示问题，答案指向同一句子，各问答对间的语义完全独立，可用于进行语义空间划分，SimFAQ中的问答对则是语义相近的，用于语义相似度训练，该训练数据位于目录：`/NlpModel/SimNet/TransformerDSSM/TrainData/`：
 

@@ -11,11 +11,11 @@ from SpeechRecognition.AcousticModel.dfsmn.utils import get_data, data_hparams, 
 from SpeechRecognition.AcousticModel.dfsmn.Model.cnn_dfsmn_ctc import Am, am_hparams
 
 
-def dfsmn_model_train ():
+def dfsmn_model_train (train_data_path):
 	# 0.准备训练所需数据------------------------------
 	data_args = data_hparams()
 	data_args.data_type = 'train'
-	data_args.data_path = '../dataset/'
+	data_args.data_path = train_data_path
 	data_args.thchs30 = True
 	data_args.aishell = True
 	data_args.batch_size = 16
@@ -27,7 +27,7 @@ def dfsmn_model_train ():
 	# 0.准备验证所需数据------------------------------
 	data_args = data_hparams()
 	data_args.data_type = 'dev'
-	data_args.data_path = '../dataset/'
+	data_args.data_path = train_data_path
 	data_args.thchs30 = True
 	data_args.aishell = True
 	data_args.batch_size = 16
