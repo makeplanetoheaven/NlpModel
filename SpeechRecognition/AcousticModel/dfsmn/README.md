@@ -7,7 +7,8 @@
 * [模型实现代码](#模型实现代码)
   * [1.卷积层](##1.卷积层)
   * [2.DFSMN层](##2.DFSMN层)
-  * [3.梯度更新部分](#4.梯度更新部分)
+  * [3.softmax层](##3.softmax层)
+  * [4.梯度更新部分](#4.梯度更新部分)
 * [模型调用方式](#模型调用方式)
 * [模型训练数据](#模型训练数据)
 * [已训练模型库](#已训练模型库)
@@ -155,8 +156,15 @@ def __call__ (self, args):
 
 	return [h, p_hatt]
 ```
-另外，除了Dfsmn以外，文件中还提供sfsmn、vfsmn、cfsmn代码实现。
-#### 3.梯度更新部分
+另外，除了dfsmn以外，文件中还提供sfsmn、vfsmn、cfsmn代码实现。
+#### 3.softmax层
+softmax层将dfsmn的输出带入到一个全连接层进行线性变换后，再经过softmax层，得到每个单词的出现概率，其代码如下：
+```
+# softmax-layers
+self.h8 = dense(384, activation='relu')(dfsmn5_o)
+self.outputs = dense(self.vocab_size, activation='softmax')(self.h8)
+```
+#### 4.梯度更新部分
 cnn_dfsmn模型在`_model_init`的数据流图构建完毕以后，首先通过调用`_ctc_init`函数，以CTC作为模型的损失函数，然后再调用`opt_init`函数选择相应优化器进行模型训练。
 ```
 def _ctc_init (self):
@@ -180,25 +188,25 @@ def opt_init (self):
 #### 1.模型训练
 cnn_dfsmn模型的训练通过调用文件中的函数`dfsmn_model_train`实现，该函数以一个参数作为输入:
 
-(1)**train_data_path**，该参数是一个问答对组成的列表，列表中的每一个元素均为一个问答对字典；
+(1)**train_data_path**，该参数指定训练数据所在路径；
 
 #### 2.模型在线解码
 cnn_dfsmn模型的在线解码通过调用文件中的函数`dfsmn_model_decode`实现，该函数以一个参数作为输入：
 
-（1）**wav_file_path**，该参数是一系列需要去匹配的问题组成的列表，列表中的每一个元素是一个问题字符串；
+（1）**wav_file_path**，该参数指定了待解码音频文件路径；
 ## 模型训练数据
-本模块提供的训练数据，是作为预训练模型的训练数据，主要分为以下两种，其中SameFAQ表示问题，答案指向同一句子，各问答对间的语义完全独立，可用于进行语义空间划分，SimFAQ中的问答对则是语义相近的，用于语义相似度训练，该训练数据位于目录：`/NlpModel/SimNet/TransformerDSSM/TrainData/`：
+(引用https://github.com/audier/DeepSpeechRecognition)
 
-数据类型 | 数据量 | 格式
---- | --- | ---
-SameFAQ | 38113 | json
-SimFAQ | 20109 | json
+包括stc、primewords、Aishell、thchs30四个数据集，共计约430小时, 相关链接：http://www.openslr.org/resources.php
 
+Name | train | dev | test
+--- | --- | --- | ---
+aishell | 120098 | 14326 | 7176
+primewords | 40783 | 5046 | 5073
+thchs-30 | 10000 | 893 | 2495
+st-cmd | 10000 | 600 | 2000
+数据标签整理在LabelData路径下，其中primewords、st-cmd目前未区分训练集测试集。
+
+若需要使用所有数据集，只需解压到统一路径下，然后设置utils.py中datapath的路径即可。
 ## 已训练模型库
-本模块提供三种类型已训练完毕的模型，新的问答对数据可在这三个预训练模型的基础上进行训练，能够达到较好效果，经过实验发现，效果最好的预训练模型为经过SimFAQ训练后的模型。模型的参数为：`hidden_num=256`，`attention_num=512`。其模型下载地址如下：
-
-模型类型 | 下载地址 | 提取码
---- | --- | ---
-SimFAQ | https://pan.baidu.com/s/1kff2aCsPdMQ_3wGgJaTcHA | 6qhr
-SameFAQ | https://pan.baidu.com/s/1C_BfjRvwV9XNM3BZ5xy-pQ | eexz
-SameFAQ+SimFAQ | https://pan.baidu.com/s/1fKh4h3H6uwlHPNh2et8SKQ | cvmn
+本模型已训练完的模型文件位于目录：`/NlpModel/SpeechRecognition/AcousticModel/dfsmn/ModelMemory/`。
