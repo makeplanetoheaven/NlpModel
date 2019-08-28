@@ -199,14 +199,16 @@ cnn_dfsmn模型的在线解码通过调用文件中的函数`dfsmn_model_decode`
 
 包括stc、primewords、Aishell、thchs30四个数据集，共计约430小时, 相关链接：http://www.openslr.org/resources.php
 
+数据标签整理在LabelData路径下，其中primewords、st-cmd目前未区分训练集测试集。
+
+若需要使用所有数据集，只需解压到统一路径下，然后设置utils.py中datapath的路径即可。
+
 Name | train | dev | test
 --- | --- | --- | ---
 aishell | 120098 | 14326 | 7176
 primewords | 40783 | 5046 | 5073
 thchs-30 | 10000 | 893 | 2495
 st-cmd | 10000 | 600 | 2000
-数据标签整理在LabelData路径下，其中primewords、st-cmd目前未区分训练集测试集。
 
-若需要使用所有数据集，只需解压到统一路径下，然后设置utils.py中datapath的路径即可。
 ## 已训练模型库
 本模型已训练完的模型文件位于目录：`/NlpModel/SpeechRecognition/AcousticModel/dfsmn/ModelMemory/`。
