@@ -7,8 +7,8 @@ from keras.callbacks import ModelCheckpoint
 from tqdm import tqdm
 
 # 引入内部库
-from SpeechRecognition.AcousticModel.dfsmn.utils import get_data, data_hparams, get_online_data, decode_ctc, GetEditDistance
-from SpeechRecognition.AcousticModel.dfsmn.Model.cnn_dfsmn_ctc import Am, am_hparams
+from SpeechRecognition.AcousticModel.dfsmn_v1.utils import get_data, data_hparams, get_online_data, decode_ctc, GetEditDistance
+from SpeechRecognition.AcousticModel.dfsmn_v1.Model.cnn_dfsmn_ctc import Am, am_hparams
 
 
 def dfsmn_model_train (train_data_path):
