@@ -106,7 +106,7 @@ class Am:
                     pad_fbank[:fbank.shape[0], :] = fbank
 
                     # 标签转ID
-                    label = [self.vocab_dict[pny] for pny in label_list[i]]
+                    label = [self.vocab_dict.get(pny, 0) for pny in label_list[i]]
 
                     # 判断音频数据长度经过卷积后是否大于标签数据长度
                     label_ctc_len = ctc_len(label)
@@ -339,6 +339,8 @@ class Am:
                     feed_dict = {inputs: batch_data[0], inputs_length: batch_data[1], labels: batch_data[2],
                                  labels_length: batch_data[3]}
                     _, loss_np = sess.run(fetches, feed_dict=feed_dict)
+                    print("setp:{:>4}, step_loss:{:.4f}".format(step, loss_np))
+
                     total_loss += loss_np
                     step += 1
                 tf.logging.info('[%s] [epoch %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), i,
@@ -423,6 +425,8 @@ class Am:
                     feed_dict = {inputs: batch_data[0], inputs_length: batch_data[1], labels: batch_data[2],
                                  labels_length: batch_data[3]}
                     _, loss_np = sess.run(fetches, feed_dict=feed_dict)
+                    print("setp:{:>4}, step_loss:{:.4f}".format(step, loss_np))
+
                     total_loss += loss_np
                     step += 1
                 tf.logging.info('[%s] [epoch %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), i,
