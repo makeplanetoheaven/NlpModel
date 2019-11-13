@@ -47,8 +47,8 @@ class TransformerDSSM:
 		self.is_train = is_train
 		self.is_extract = is_extract
 		self.is_sample = is_sample
-		self.dropout = 0.9
-		self.params = {'num_layers': 3, 'num_heads': 8, 'dropout': self.dropout, 'hidden_size': hidden_num * 2}
+		self.keep_prob = 0.85
+		self.params = {'num_layers': 4, 'num_heads': 8, 'keep_prob': self.keep_prob, 'hidden_size': hidden_num * 2}
 
 		# 内部参数
 		self.q_size = 0
@@ -57,8 +57,8 @@ class TransformerDSSM:
 		self.t_actual_length = []
 		self.q_max_length = 0
 		self.t_max_length = 0
-		self.model_save_name = './ModelMemory/TransformerDSSM/model/transformerDSSM'
-		self.model_save_checkpoint = './ModelMemory/TransformerDSSM/model/checkpoint'
+		self.model_save_name = './ModelMemory/model/transformerDSSM'
+		self.model_save_checkpoint = './ModelMemory/model/checkpoint'
 
 		# 模型参数
 		self.graph = None
@@ -147,10 +147,10 @@ class TransformerDSSM:
 			with tf.name_scope('structure_presentation_layer'):
 				# 正向
 				fw_cell = GRUCell(num_units=self.hidden_num)
-				fw_drop_cell = DropoutWrapper(fw_cell, output_keep_prob=self.dropout)
+				fw_drop_cell = DropoutWrapper(fw_cell, output_keep_prob=self.keep_prob)
 				# 反向
 				bw_cell = GRUCell(num_units=self.hidden_num)
-				bw_drop_cell = DropoutWrapper(bw_cell, output_keep_prob=self.dropout)
+				bw_drop_cell = DropoutWrapper(bw_cell, output_keep_prob=self.keep_prob)
 
 				# 动态rnn函数传入的是一个三维张量，[batch_size,n_steps,n_input]  输出是一个元组 每一个元素也是这种形状
 				if self.is_train and not self.is_extract:
@@ -451,8 +451,8 @@ class TransformerEncoder(tf.layers.Layer):
 		self.layers = []
 		for _ in range(params["num_layers"]):
 			self_attention_layer = SelfAttention(params["hidden_size"], params["num_heads"],
-				params["dropout"])
-			feed_forward_network = FeedFowardNetwork(params["hidden_size"], params["dropout"])
+				params["keep_prob"])
+			feed_forward_network = FeedFowardNetwork(params["hidden_size"], params["keep_prob"])
 
 			self.layers.append([LayNormAdd(self_attention_layer, params),
 			                    LayNormAdd(feed_forward_network, params)])
@@ -475,7 +475,7 @@ class TransformerEncoder(tf.layers.Layer):
 
 
 class SelfAttention(tf.layers.Layer):
-	def __init__ (self, hidden_size, num_heads, dropout):
+	def __init__ (self, hidden_size, num_heads, keep_prob):
 		if hidden_size % num_heads != 0:
 			raise ValueError("Hidden size must be evenly divisible by the number of "
 			                 "heads.")
@@ -483,7 +483,7 @@ class SelfAttention(tf.layers.Layer):
 		super(SelfAttention, self).__init__()
 		self.hidden_size = hidden_size
 		self.num_heads = num_heads
-		self.dropout = dropout
+		self.keep_prob = keep_prob
 
 		self.q_dense_layer = tf.layers.Dense(self.hidden_size, use_bias=False, name="q")
 		self.k_dense_layer = tf.layers.Dense(self.hidden_size, use_bias=False, name="k")
@@ -506,7 +506,7 @@ class SelfAttention(tf.layers.Layer):
 		logits = tf.matmul(q, k, transpose_b=True)
 		weights = tf.nn.softmax(logits, name="attention_weights")
 		if training:
-			weights = tf.nn.dropout(weights, self.dropout)
+			weights = tf.nn.dropout(weights, self.keep_prob)
 		attention_output = tf.matmul(weights, v)
 
 		attention_output = self.combine_heads(attention_output)
@@ -534,10 +534,10 @@ class SelfAttention(tf.layers.Layer):
 
 
 class FeedFowardNetwork(tf.layers.Layer):
-	def __init__ (self, hidden_size, dropout):
+	def __init__ (self, hidden_size, keep_prob):
 		super(FeedFowardNetwork, self).__init__()
 		self.hidden_size = hidden_size
-		self.dropout = dropout
+		self.keep_prob = keep_prob
 		self.filter_dense_layer = tf.layers.Dense(self.hidden_size, use_bias=True, activation=tf.nn.swish,
 		                                          name="filter_layer")
 		self.output_dense_layer = tf.layers.Dense(self.hidden_size, use_bias=True, name="output_layer")
@@ -545,7 +545,7 @@ class FeedFowardNetwork(tf.layers.Layer):
 	def call (self, x, training):
 		output = self.filter_dense_layer(x)
 		if training:
-			output = tf.nn.dropout(output, self.dropout)
+			output = tf.nn.dropout(output, self.keep_prob)
 		output = self.output_dense_layer(output)
 
 		return output
@@ -556,14 +556,14 @@ class LayNormAdd(tf.layers.Layer):
 		super(LayNormAdd, self).__init__()
 		self.layer = layer
 		self.params = params
-		self.dropout = params["dropout"]
+		self.keep_prob = params["keep_prob"]
 		self.layer_norm = LayerNormalization(self.params["hidden_size"])
 
 	def __call__ (self, x, training):
 		y = self.layer(self.layer_norm(x), training)
 
 		if training:
-			y = tf.nn.dropout(y, self.dropout)
+			y = tf.nn.dropout(y, self.keep_prob)
 		return x + y
 
 

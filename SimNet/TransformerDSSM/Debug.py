@@ -14,7 +14,6 @@ from SimNet.TransformerDSSM.Model.TransformerDSSM import *
 
 # 全局变量
 
-
 def dssm_model_train (faq_dict, embedding_dict):
 	"""
 	dssm模型训练函数，从指定路径加载数据
@@ -125,7 +124,7 @@ def dssm_model_extract_t_pre (faq_dict, embedding_dict):
 	t_state = dssm.extract_t_pre()
 
 
-with open('./NlpModel/SimNet/TransformerDSSM/TrainData/SimFAQ.json', 'r', encoding='utf-8') as file_object:
+with open('./NlpModel/SimNet/TransformerDSSM/TrainData/LCQMC.json', 'r', encoding='utf-8') as file_object:
 	faq_dict = json.load(file_object)
 
 with open('./NlpModel/WordEmbedding/Word2Vec/CharactersEmbedding.json', 'r', encoding='utf-8') as file_object:
