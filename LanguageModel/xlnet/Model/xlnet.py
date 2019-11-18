@@ -504,9 +504,9 @@ def two_stream_rel_attn(h, g, r, attn_mask_h, attn_mask_g, d_head, dropout, is_t
         v_head_h = tf.einsum('ibh,hnd->ibnd', h, params['v_weight'])
 
         # core attention ops
-        # attn_vec_h = rel_attn_core(q_head_h, k_head_h, k_head_r, v_head_h, attn_mask_h,
-        #                            dropout, is_training, scale, params['q_w_bias'], params['q_r_bias'])
-        attn_vec_h = rel_attn_core(q_head_h, k_head_h, k_head_r, v_head_h, attn_mask_h, dropout, is_training, scale)
+        attn_vec_h = rel_attn_core(q_head_h, k_head_h, k_head_r, v_head_h, attn_mask_h,
+                                   dropout, is_training, scale, params['q_w_bias'], params['q_r_bias'])
+        # attn_vec_h = rel_attn_core(q_head_h, k_head_h, k_head_r, v_head_h, attn_mask_h, dropout, is_training, scale)
 
         # post-attention projection (back to `d_model`)
         attn_out = tf.einsum('ibnd,hnd->ibh', attn_vec_h, params['o_weight'])
