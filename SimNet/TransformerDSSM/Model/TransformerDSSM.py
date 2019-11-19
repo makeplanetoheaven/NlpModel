@@ -7,12 +7,13 @@ function: 通过使用双向GRU+Transformer作为表示层进行语义相似度�
 
 # 引入外部库
 import os
+
 import numpy as np
 import tensorflow as tf
 from tensorflow.contrib.rnn import GRUCell, DropoutWrapper
 
 # 引入内部库
-from RandomSampling.Sampling import *
+from Sampling.RandomSampling.Sampling import *
 
 
 class TransformerDSSM:
