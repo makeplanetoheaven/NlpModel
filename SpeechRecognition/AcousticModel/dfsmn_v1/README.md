@@ -1,7 +1,7 @@
 # 语音识别中基于CNN+DFSMN的声学模型实现及代码开源
 本模型是在传统CNN模型的基础上，引入2018年阿里提出的声学模型DFSMN，论文地址：https://arxiv.org/pdf/1803.05030.pdf。
 
-该声学模型使用的输入是经过fbank特征提取以后的具有16ms采样率，单声道音频数据。模型整体的语音识别框架使用的是Github：https://github.com/audier/DeepSpeechRecognition。
+该声学模型使用的输入是具有16KHZ采样率，单声道音频数据经过fbank特征提取以后的特征数据。模型整体的语音识别框架使用的是Github：https://github.com/audier/DeepSpeechRecognition。
 
 在该模块中，主要包含了以下4个部分内容：
 * [模型实现代码](#模型实现代码)
