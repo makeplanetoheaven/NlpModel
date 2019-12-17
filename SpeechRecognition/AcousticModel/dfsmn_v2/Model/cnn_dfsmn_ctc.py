@@ -1,5 +1,6 @@
 # coding=utf-8
 
+import json
 import os
 import time
 
@@ -8,6 +9,7 @@ import scipy.io.wavfile as wav
 import tensorflow as tf
 from scipy.fftpack import fft
 from tensorflow.contrib.keras import backend as tfk
+from tqdm import tqdm
 
 tf.logging.set_verbosity(tf.logging.INFO)
 
@@ -15,10 +17,10 @@ tf.logging.set_verbosity(tf.logging.INFO)
 # =============================模型超参数====================================
 def am_hparams():
     params = tf.contrib.training.HParams(data_path=None, label_path=None, thchs30=False, aishell=False, prime=False,
-                                         stcmd=False, vocab_dict=None, bsz=1, epoch=1, lr=1e-4, dropout=0.5,
-                                         d_input=384, d_model=1024, l_mem=20, r_mem=20, stride=2, n_init_filters=32,
-                                         n_conv=2, n_cnn_layers=4, n_dfsmn_layers=6, init_range=1, init_std=0,
-                                         is_training=False, save_path=None)
+                                         stcmd=False, magicdata=False, vocab_dict=None, bsz=1, epoch=1, max_step=1000,
+                                         lr=1e-4, dropout=0.5, d_input=2048, d_model=512, l_mem=20, r_mem=20, stride=2,
+                                         n_init_filters=256, n_conv=1, n_cnn_layers=2, n_dfsmn_layers=8, init_range=1,
+                                         init_std=0, is_training=False, save_path=None)
 
     return params
 
@@ -28,17 +30,21 @@ class Am:
     def __init__(self, args):
         # 数据参数
         self.data_path = args.data_path
+        self.data_cache = '{}/_dscache_/cnn_dfsmn_ctc.tfrecord'.format(
+            args.data_path) if args.data_path is not None else None
         self.label_path = args.label_path
         self.thchs30 = args.thchs30
         self.aishell = args.aishell
         self.prime = args.prime
         self.stcmd = args.stcmd
+        self.magicdata = args.magicdata
         self.vocab_dict = args.vocab_dict
         self.n_vocab = len(self.vocab_dict)
 
         # 超参数
         self.bsz = args.bsz
         self.epoch = args.epoch
+        self.max_step = args.max_step
         self.lr = args.lr
         self.dropout = args.dropout
         self.d_input = args.d_input
@@ -56,7 +62,7 @@ class Am:
 
         # 模型参数
         self.build_initializer()
-        self.build_activation()
+        self.build_activation('swish')
         self.build_opt()
         self.build_parameters()
 
@@ -65,21 +71,37 @@ class Am:
         self.model_save_checkpoint = args.save_path + 'checkpoint'
 
     def generate_data_set(self):
-        # 1.获取文件数据和标签列表
+        """
+        数据预处理函数
+        :return:
+        """
+        assert os.path.exists(self.data_path), 'path {} does not exit'.format(self.data_path)
+        assert os.path.exists(self.label_path), 'path {} does not exit'.format(self.label_path)
+        tf.logging.info('begin of preprocess')
+
+        # 1.获取数据列表和标签列表
         file_list = []
         label_list = []
 
         def read_file_list(data_path, label_path):
             tf.logging.info('get source list...')
             read_files = []
-            if self.thchs30 == True:
+            if self.thchs30:
                 read_files.append(label_path + 'thchs_train.txt')
-            if self.aishell == True:
+                read_files.append(label_path + 'thchs_dev.txt')
+                read_files.append(label_path + 'thchs_test.txt')
+            if self.aishell:
                 read_files.append(label_path + 'aishell_train.txt')
-            if self.prime == True:
+                read_files.append(label_path + 'aishell_dev.txt')
+                read_files.append(label_path + 'aishell_test.txt')
+            if self.prime:
                 read_files.append(label_path + 'prime.txt')
-            if self.stcmd == True:
+            if self.stcmd:
                 read_files.append(label_path + 'stcmd.txt')
+            if self.magicdata:
+                read_files.append(label_path + 'magicdata_train.txt')
+                read_files.append(label_path + 'magicdata_dev.txt')
+                read_files.append(label_path + 'magicdata_test.txt')
 
             for file in read_files:
                 tf.logging.info('load %s data...', file)
@@ -91,45 +113,93 @@ class Am:
 
         read_file_list(self.data_path, self.label_path)
 
-        # batch生成器定义
-        def am_batch():
-            index_list = [i for i in range(len(file_list))]
-            wav_data_list = []
-            label_data_list = []
-            while 1:
-                for i in index_list:
-                    # 数据特征提取
-                    fbank = compute_fbank(file_list[i])
+        # 2.数据预处理 write tfRecord，每个样本一批数据
+        def write_example(inputs, labels):
+            # 创建字典
+            feature_dict = {}
 
-                    # 保证卷积使得长度变为1/8仍有效
-                    pad_fbank = np.zeros((fbank.shape[0] // 8 * 8 + 8, fbank.shape[1]))
-                    pad_fbank[:fbank.shape[0], :] = fbank
+            # 写入数据
+            feature_dict['inputs'] = tf.train.Feature(float_list=tf.train.FloatList(value=inputs.reshape(-1)))
+            feature_dict['inputs_shape'] = tf.train.Feature(int64_list=tf.train.Int64List(value=inputs.shape))
+            feature_dict['inputs_length'] = tf.train.Feature(
+                int64_list=tf.train.Int64List(value=np.array([inputs.shape[0] // 4])))
+            feature_dict['labels'] = tf.train.Feature(float_list=tf.train.FloatList(value=labels))
+            feature_dict['labels_length'] = tf.train.Feature(
+                int64_list=tf.train.Int64List(value=np.array([labels.shape[0]])))
 
-                    # 标签转ID
-                    label = [self.vocab_dict.get(pny, 0) for pny in label_list[i]]
+            # 封装数据
+            tf_features = tf.train.Features(feature=feature_dict)
+            tf_example = tf.train.Example(features=tf_features)
 
-                    # 判断音频数据长度经过卷积后是否大于标签数据长度
-                    label_ctc_len = ctc_len(label)
-                    if pad_fbank.shape[0] // 8 >= label_ctc_len:
-                        wav_data_list.append(pad_fbank)
-                        label_data_list.append(label)
+            # 序列化数据
+            tf_serialized = tf_example.SerializeToString()
 
-                    # batch获取
-                    if len(wav_data_list) >= self.bsz:
-                        wav_data = wav_data_list[:self.bsz]
-                        wav_data_list = wav_data_list[self.bsz:]
-                        label_data = label_data_list[:self.bsz]
-                        label_data_list = label_data_list[self.bsz:]
+            # 写入数据
+            writer.write(tf_serialized)
 
-                        # 长度补全
-                        pad_wav_data, input_length = wav_padding(wav_data)
-                        pad_label_data, label_length = label_padding(label_data)
+        if not os.path.exists('{}/_dscache_/'.format(self.data_path)):
+            os.mkdir('{}/_dscache_/'.format(self.data_path))
+        writer = tf.python_io.TFRecordWriter(self.data_cache)
+        index_list = [i for i in range(len(file_list))]
+        data_nums = 0
+        for i in tqdm(index_list):
+            # 数据特征提取
+            fbank = compute_log_mel_fbank(file_list[i])
 
-                        yield pad_wav_data, input_length, pad_label_data, label_length
+            # 保证卷积使得长度变为1/4仍有效
+            pad_fbank = np.zeros((fbank.shape[0] // 4 * 4 + 4, fbank.shape[1]))
+            pad_fbank[:fbank.shape[0], :] = fbank
 
-                yield None
+            # 标签转ID
+            label = np.array([self.vocab_dict[pny] for pny in label_list[i]])
 
-        return am_batch()
+            # 判断音频数据长度经过卷积后是否大于标签数据长度
+            label_ctc_len = ctc_len(label)
+            if pad_fbank.shape[0] // 4 >= label_ctc_len:
+                write_example(pad_fbank, label)
+                data_nums += 1
+        writer.close()
+        tf.logging.info('the data nums is is %d', data_nums)
+        tf.logging.info('end of preprocess')
+
+    def input_fn(self):
+        """
+        模型输入函数
+        :return:
+        """
+        assert os.path.exists(self.data_cache), 'file {} does not exit'.format(self.data_cache)
+
+        # 数据对象构建 read tfRecord
+        def parser(example):
+            example_dict = {
+                'inputs': tf.VarLenFeature(dtype=tf.float32),  # SparseTensor
+                'inputs_shape': tf.FixedLenFeature(shape=(2,), dtype=tf.int64),
+                'inputs_length': tf.FixedLenFeature(shape=(1,), dtype=tf.int64),
+                'labels': tf.VarLenFeature(dtype=tf.float32),  # SparseTensor
+                'labels_length': tf.FixedLenFeature(shape=(1,), dtype=tf.int64)
+            }
+            parsed_example = tf.parse_single_example(example, example_dict)
+            parsed_example['inputs'] = tf.sparse_tensor_to_dense(parsed_example['inputs'])
+            parsed_example['inputs'] = tf.reshape(parsed_example['inputs'], parsed_example['inputs_shape'])
+            parsed_example['labels'] = tf.sparse_tensor_to_dense(parsed_example['labels'])
+            parsed_example.pop('inputs_shape')
+
+            return parsed_example
+
+        file_names = [self.data_cache]
+        ds = tf.data.TFRecordDataset(file_names)
+        ds = ds.map(parser).repeat(self.epoch)
+        ds = ds.shuffle(buffer_size=self.bsz)  # example-level shuffle
+        padded_shapes = {
+            'inputs': tf.TensorShape([None, 80]),
+            'inputs_length': tf.TensorShape([1]),
+            'labels': tf.TensorShape([None]),
+            'labels_length': tf.TensorShape([1])
+        }
+        ds = ds.padded_batch(self.bsz, padded_shapes=padded_shapes, drop_remainder=True)
+        ds = ds.prefetch(self.bsz)
+
+        return ds
 
     def build_initializer(self, kernel_name='xavier', bias_name='zeros'):
         """
@@ -149,14 +219,14 @@ class Am:
         elif kernel_name == 'he_nor':
             self.kernel_initializer = tf.initializers.he_normal()
         else:
-            raise ValueError("kernel initializer {} not supported".format(name))
+            raise ValueError("kernel initializer {} not supported".format(kernel_name))
 
         if bias_name == "zeros":
             self.bias_initializer = tf.zeros_initializer()
         elif bias_name == "ones":
             self.bias_initializer = tf.ones_initializer()
         else:
-            raise ValueError("bias initializer {} not supported".format(name))
+            raise ValueError("bias initializer {} not supported".format(bias_name))
 
     def build_activation(self, name='relu'):
         """
@@ -170,8 +240,8 @@ class Am:
             self.activation = (name, tf.nn.gelu)
         elif name == 'swish':
             self.activation = (name, tf.nn.swish)
-        elif name == 'sigmod':
-            self.activation = (name, tf.nn.sigmod)
+        elif name == 'sigmoid':
+            self.activation = (name, tf.nn.sigmoid)
         elif name == 'tanh':
             self.activation = (name, tf.nn.tanh)
         else:
@@ -189,13 +259,13 @@ class Am:
                 with tf.variable_scope('layer_{}'.format(i), reuse=tf.AUTO_REUSE):
                     if i < self.n_cnn_layers - 1:
                         cell = Cnn2d_cell(filters=filters, kernel_size=(3, 3), padding='same',
-                                          activation=self.activation[0], use_bias=True, kernel=self.kernel_initializer,
-                                          bias=self.bias_initializer, n_conv=self.n_conv, is_pool=True)
+                                          activation=self.activation[1], use_bias=True, kernel=self.kernel_initializer,
+                                          bias=self.bias_initializer, n_conv=self.n_conv, is_pooling=True)
                         filters = filters * 2
                     else:
                         cell = Cnn2d_cell(filters=filters // 2, kernel_size=(3, 3), padding='same',
-                                          activation=self.activation[0], use_bias=True, kernel=self.kernel_initializer,
-                                          bias=self.bias_initializer, n_conv=self.n_conv, is_pool=False)
+                                          activation=self.activation[1], use_bias=True, kernel=self.kernel_initializer,
+                                          bias=self.bias_initializer, n_conv=self.n_conv, is_pooling=False)
 
                 self.cnn_cells.append(cell)
 
@@ -218,6 +288,9 @@ class Am:
                     self.dfsmn_cells.append(cell)
 
         with tf.variable_scope('softmax_layers', reuse=tf.AUTO_REUSE):
+            self.dnn_layer = tf.layers.Dense(self.d_model, activation=self.activation[1], use_bias=True,
+                                             kernel_initializer=self.kernel_initializer,
+                                             bias_initializer=self.bias_initializer)
             self.softmax_layer = tf.layers.Dense(self.n_vocab, activation=tf.nn.softmax, use_bias=True,
                                                  kernel_initializer=self.kernel_initializer,
                                                  bias_initializer=self.bias_initializer)
@@ -229,6 +302,7 @@ class Am:
         """
         outputs = inputs
         bsz = tf.shape(outputs)[0]
+        outputs = tf.reshape(outputs, shape=(bsz, -1, 80, 1))
         with tf.name_scope('CNNLayer'):
             for i in range(self.n_cnn_layers):
                 with tf.name_scope('Layer{}'.format(i)):
@@ -236,7 +310,7 @@ class Am:
                     outputs = tf.layers.dropout(outputs, self.dropout, training=self.is_training)
 
         with tf.name_scope('LinerTransformer'):
-            outputs = tf.reshape(outputs, shape=(bsz, -1, 3200))
+            outputs = tf.reshape(outputs, shape=(bsz, -1, 2560))
             outputs = self.liner_transformer(outputs)
             outputs = tf.layers.dropout(outputs, self.dropout, training=self.is_training)
 
@@ -251,6 +325,7 @@ class Am:
                     outputs = tf.layers.dropout(outputs, self.dropout, training=self.is_training)
 
         with tf.name_scope('SoftmaxLayer'):
+            outputs = self.dnn_layer(outputs)
             outputs = self.softmax_layer(outputs)
 
         return outputs
@@ -292,15 +367,13 @@ class Am:
         :return: None
         """
         # 1.训练数据获取
-        am_batch = self.generate_data_set()
+        ele = self.input_fn().make_one_shot_iterator().get_next()
+        inputs = ele['inputs']
+        inputs_length = ele['inputs_length']
+        labels = ele['labels']
+        labels_length = ele['labels_length']
 
         # 2.构建数据流图
-        # 模型输入的定义
-        inputs = tf.placeholder(name='the_inputs', shape=[None, None, 200, 1], dtype=tf.float32)
-        inputs_length = tf.placeholder(name='inputs_length', shape=[None, 1], dtype=tf.int32)
-        labels = tf.placeholder(name='the_labels', shape=[None, None], dtype=tf.float32)
-        labels_length = tf.placeholder(name='labels_length', shape=[None, 1], dtype=tf.int32)
-
         # 模型的定义
         outputs = self.build_model(inputs)
 
@@ -327,27 +400,27 @@ class Am:
                 sess.run(tf.global_variables_initializer())
 
             # 开始迭代，使用Adam优化的随机梯度下降法，并将结果输出到日志文件
-            tf.logging.info('training------')
+            tf.logging.info('begin of training')
             fetches = [train_op, loss]
-            for i in range(self.epoch):
-                total_loss = 0
-                step = 0
-                while 1:
-                    batch_data = next(am_batch)
-                    if batch_data is None:
-                        break
-                    feed_dict = {inputs: batch_data[0], inputs_length: batch_data[1], labels: batch_data[2],
-                                 labels_length: batch_data[3]}
-                    _, loss_np = sess.run(fetches, feed_dict=feed_dict)
-                    print("setp:{:>4}, step_loss:{:.4f}".format(step, loss_np))
-
+            total_loss = 0.
+            cur_step = 0
+            while 1:
+                try:
+                    _, loss_np = sess.run(fetches)
                     total_loss += loss_np
-                    step += 1
-                tf.logging.info('[%s] [epoch %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), i,
-                                total_loss / step)
+                    cur_step += 1
+
+                    if cur_step > 0 and cur_step % self.max_step == 0:
+                        cur_loss = total_loss / self.max_step
+                        tf.logging.info('[%s] [step %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                                        cur_step, cur_loss)
+                        total_loss = 0.
+                except tf.errors.OutOfRangeError:
+                    tf.logging.info('end of training')
+                    break
 
             # 保存模型
-            tf.logging.info('save model------')
+            tf.logging.info('save model')
             saver.save(sess, self.model_save_name)
 
         pass
@@ -359,16 +432,14 @@ class Am:
         :return: None
         """
         # 1.训练数据获取
-        am_batch = self.generate_data_set()
+        ele = self.input_fn().make_one_shot_iterator().get_next()
+        inputs = ele['inputs']
+        inputs_length = ele['inputs_length']
+        labels = ele['labels']
+        labels_length = ele['labels_length']
         bsz_per_gpu = self.bsz // gpu_nums
 
         # 2.构建数据流图
-        # 模型输入的定义
-        inputs = tf.placeholder(name='the_inputs', shape=[None, None, 200, 1], dtype=tf.float32)
-        inputs_length = tf.placeholder(name='inputs_length', shape=[None, 1], dtype=tf.int32)
-        labels = tf.placeholder(name='the_labels', shape=[None, None], dtype=tf.float32)
-        labels_length = tf.placeholder(name='labels_length', shape=[None, 1], dtype=tf.int32)
-
         # 多GPU数据流图构建
         tower_grads, tower_losses = [], []
         for i in range(gpu_nums):
@@ -413,27 +484,27 @@ class Am:
                 sess.run(tf.global_variables_initializer())
 
             # 开始迭代，使用Adam优化的随机梯度下降法，并将结果输出到日志文件
-            tf.logging.info('training------')
+            tf.logging.info('begin of training')
             fetches = [train_op, loss]
-            for i in range(self.epoch):
-                total_loss = 0
-                step = 0
-                while 1:
-                    batch_data = next(am_batch)
-                    if batch_data is None:
-                        break
-                    feed_dict = {inputs: batch_data[0], inputs_length: batch_data[1], labels: batch_data[2],
-                                 labels_length: batch_data[3]}
-                    _, loss_np = sess.run(fetches, feed_dict=feed_dict)
-                    print("setp:{:>4}, step_loss:{:.4f}".format(step, loss_np))
-
+            total_loss = 0.
+            cur_step = 0
+            while 1:
+                try:
+                    _, loss_np = sess.run(fetches)
                     total_loss += loss_np
-                    step += 1
-                tf.logging.info('[%s] [epoch %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()), i,
-                                total_loss / step)
+                    cur_step += 1
+
+                    if cur_step > 0 and cur_step % self.max_step == 0:
+                        cur_loss = total_loss / self.max_step
+                        tf.logging.info('[%s] [step %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                                        cur_step, cur_loss)
+                        total_loss = 0.
+                except tf.errors.OutOfRangeError:
+                    tf.logging.info('end of training')
+                    break
 
             # 保存模型
-            tf.logging.info('save model------')
+            tf.logging.info('save model')
             saver.save(sess, self.model_save_name)
 
         pass
@@ -443,38 +514,39 @@ class Am:
         开启模型用于预测时的会话，并加载数据流图
         :return:
         """
+        os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+        os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
         # 1.构建数据流图
-        with tf.device('/cpu:0'):
-            # 模型输入的定义
-            self.pre_inputs = tf.placeholder(name='the_inputs', shape=[None, None, 200, 1], dtype=tf.float32)
+        # 模型输入的定义
+        self.pre_inputs = tf.placeholder(name='the_inputs', shape=[None, None, 80, 1], dtype=tf.float32)
 
-            # 模型的定义
-            self.pre_outputs = self.build_model(self.pre_inputs)
+        # 模型的定义
+        self.pre_outputs = self.build_model(self.pre_inputs)
 
         # 2.开启会话
         saver = tf.train.Saver()
         self.sess = tf.Session()
         saver.restore(self.sess, self.model_save_name)
-        # self.sess.run(tf.global_variables_initializer())
 
         pass
 
-    def predict(self, wav_data):
+    def predict(self, wav_file):
         """
         模型预测
         :param wav_file:
         :return:
         """
-        # wav_data = get_online_data(wav_file)
+        wav_data = get_online_data(wav_file)
         feed_dict = {self.pre_inputs: wav_data}
         output = self.sess.run([self.pre_outputs], feed_dict=feed_dict)
+        pinyin = decode_ctc(output[0], list(self.vocab_dict.keys()))
 
-        return output
+        return pinyin
 
 
 # =============================模型组件====================================
 class Cnn2d_cell(object):
-    def __init__(self, filters, kernel_size, padding, activation, use_bias, kernel, bias, n_conv, is_pool):
+    def __init__(self, filters, kernel_size, padding, activation, use_bias, kernel, bias, n_conv, is_pooling):
         super(Cnn2d_cell, self).__init__()
         self.filters = filters
         self.kernel_size = kernel_size
@@ -484,7 +556,7 @@ class Cnn2d_cell(object):
         self.kernel_initializer = kernel
         self.bias_initializer = bias
         self.n_conv = n_conv
-        self.is_pool = is_pool
+        self.is_pooling = is_pooling
 
         self.build()
 
@@ -501,8 +573,8 @@ class Cnn2d_cell(object):
     def __call__(self, x):
         for i in range(self.n_conv):
             x = self.bn[i](self.conv2d[i](x))
-        if self.is_pool:
-            x = tf.nn.max_pool(value=x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID')
+        if self.is_pooling:
+            x = tf.nn.max_pool(value=x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='VALID')  # 非重叠max-pooling
 
         return x
 
@@ -538,16 +610,20 @@ class cfsmn_cell(object):
     def __call__(self, inputs):
         # liner transformer
         p = tf.tensordot(inputs, self.V, axes=1) + self.bias_V
-        height = tf.shape(p)[0]
-        length = tf.shape(p)[1]
-        depth = tf.shape(p)[2]
 
-        # memory compute
-        btach_p = space_to_batch(inputs=p, stride=self.stride, length=length, l_memory_size=self.l_memory_size,
-                                 r_memory_size=self.r_memory_size)
-        btach_p_m = tf.einsum('tbij,ij->tbij', btach_p, self.memory_weights)
-        btach_p_m = tf.reduce_sum(btach_p_m, axis=2)
-        p_hatt = batch_to_space(inputs=btach_p_m, height=height, length=length, depth=depth)
+        # memory compute v1
+        # height = tf.shape(p)[0]
+        # length = tf.shape(p)[1]
+        # depth = tf.shape(p)[2]
+        # btach_p = space_to_batch(inputs=p, stride=self.stride, length=length, l_memory_size=self.l_memory_size,
+        #                          r_memory_size=self.r_memory_size)
+        # btach_p_m = tf.einsum('tbij,ij->tbij', btach_p, self.memory_weights)
+        # btach_p_m = tf.reduce_sum(btach_p_m, axis=2)
+        # p_hatt = batch_to_space(inputs=btach_p_m, height=height, length=length, depth=depth)
+
+        # memory compute v2
+        p_hatt = compute_memory_block(inputs=p, stride=self.stride, memroy_weight=self.memory_weights,
+                                      l_memory_size=self.l_memory_size, r_memory_size=self.r_memory_size)
 
         # liner transformer
         p_hatt = self.lay_norm(p + p_hatt)
@@ -590,16 +666,20 @@ class dfsmn_cell(object):
 
         # liner transformer
         p = tf.tensordot(inputs, self.V, axes=1) + self.bias_V
-        height = tf.shape(p)[0]
-        length = tf.shape(p)[1]
-        depth = tf.shape(p)[2]
 
-        # memory compute
-        btach_p = space_to_batch(inputs=p, stride=self.stride, length=length, l_memory_size=self.l_memory_size,
-                                 r_memory_size=self.r_memory_size)
-        btach_p_m = tf.einsum('tbij,ij->tbij', btach_p, self.memory_weights)
-        btach_p_m = tf.reduce_sum(btach_p_m, axis=2)
-        p_hatt = batch_to_space(inputs=btach_p_m, height=height, length=length, depth=depth)
+        # memory compute v1
+        # height = tf.shape(p)[0]
+        # length = tf.shape(p)[1]
+        # depth = tf.shape(p)[2]
+        # btach_p = space_to_batch(inputs=p, stride=self.stride, length=length, l_memory_size=self.l_memory_size,
+        #                          r_memory_size=self.r_memory_size)
+        # btach_p_m = tf.einsum('tbij,ij->tbij', btach_p, self.memory_weights)
+        # btach_p_m = tf.reduce_sum(btach_p_m, axis=2)
+        # p_hatt = batch_to_space(inputs=btach_p_m, height=height, length=length, depth=depth)
+
+        # memory compute v2
+        p_hatt = compute_memory_block(inputs=p, stride=self.stride, memroy_weight=self.memory_weights,
+                                      l_memory_size=self.l_memory_size, r_memory_size=self.r_memory_size)
 
         # liner transform + skip-connect
         p_hatt = self.lay_norm(last_p_hatt + p + p_hatt)
@@ -627,12 +707,42 @@ class LayerNormalization(object):
         return norm_x * self.scale + self.bias
 
 
+def compute_memory_block(inputs, stride, memroy_weight, l_memory_size, r_memory_size):
+    """
+    cfsmn,dfsmn记忆单元计算
+    :param inputs: 3D, [batch, length, d_hidden]
+    :param stride:
+    :param memroy_weight:
+    :param l_memory_size:
+    :param r_memory_size:
+    :return:
+    """
+    memory_size = l_memory_size + r_memory_size + 1
+    for i in range(memory_size):
+        l_pad = max((l_memory_size - i) * stride, 0)
+        l_index = max((i - l_memory_size) * stride, 0)
+        r_pad = max((i - l_memory_size) * stride, 0)
+        r_index = min((i - l_memory_size) * stride, 0)
+        if r_index != 0:
+            pad_inputs = tf.pad(inputs[:, l_index:r_index, :], [[0, 0], [l_pad, r_pad], [0, 0]])
+        else:
+            pad_inputs = tf.pad(inputs[:, l_index:, :], [[0, 0], [l_pad, r_pad], [0, 0]])
+        if i == 0:
+            p_hatt = tf.einsum('bld,d->bld', pad_inputs, memroy_weight[i, :])
+        else:
+            p_hatt += tf.einsum('bld,d->bld', pad_inputs, memroy_weight[i, :])
+
+    return p_hatt
+
+
 def space_to_batch(inputs, stride, length, l_memory_size, r_memory_size):
     """
     参照卷积和空洞卷积实现方式，对输入数据进行拆分
-    :param inputs:3-D, [batch, length, depth]
+    :param inputs:
     :param stride:
     :param length:
+    :param l_memory_size:
+    :param r_memory_size:
     :return:
     """
 
@@ -692,31 +802,68 @@ def average_gradients(tower_grads):
     return average_grads
 
 
-def compute_fbank(file):
+def compute_log_mel_fbank(wav_file):
     """
     计算音频文件的fbank特征
-    :param file: 音频文件
+    :param wav_file: 音频文件
     :return:
     """
-    x = np.linspace(0, 400 - 1, 400, dtype=np.int64)
-    w = 0.54 - 0.46 * np.cos(2 * np.pi * (x) / (400 - 1))  # 汉明窗
-    fs, wavsignal = wav.read(file)
-    # wav波形 加时间窗以及时移10ms
-    time_window = 25  # 单位ms
-    wav_arr = np.array(wavsignal)
-    range0_end = int(len(wavsignal) / fs * 1000 - time_window) // 10 + 1  # 计算循环终止的位置，也就是最终生成的窗数
-    data_input = np.zeros((range0_end, 200), dtype=np.float)  # 用于存放最终的频率特征数据
-    data_line = np.zeros((1, 400), dtype=np.float)
-    for i in range(0, range0_end):
-        p_start = i * 160
-        p_end = p_start + 400
-        data_line = wav_arr[p_start:p_end]
-        data_line = data_line * w  # 加窗
-        data_line = np.abs(fft(data_line))
-        data_input[i] = data_line[0:200]  # 设置为400除以2的值（即200）是取一半数据，因为是对称的
-    data_input = np.log(data_input + 1)
-    # data_input = data_input[::]
-    return data_input
+    # 1.数据读取
+    sample_rate, signal = wav.read(wav_file)
+    # print('sample rate:', sample_rate, ', frame length:', len(signal))
+
+    # 2.预增强
+    pre_emphasis = 0.97
+    emphasized_signal = np.append(signal[0], signal[1:] - pre_emphasis * signal[:-1])
+
+    # 3.分帧
+    frame_size, frame_stride = 0.025, 0.01
+    frame_length, frame_step = int(round(frame_size * sample_rate)), int(round(frame_stride * sample_rate))
+    signal_length = len(emphasized_signal)
+    num_frames = int(np.ceil(np.abs(signal_length - frame_length) / frame_step)) + 1
+
+    pad_signal_length = (num_frames - 1) * frame_step + frame_length
+    z = np.zeros((pad_signal_length - signal_length))
+    pad_signal = np.append(emphasized_signal, z)
+
+    indices = np.arange(0, frame_length).reshape(1, -1) + np.arange(0, num_frames * frame_step, frame_step).reshape(-1,
+                                                                                                                    1)
+    frames = pad_signal[indices]
+
+    # 4.加窗
+    hamming = np.hamming(frame_length)
+    frames *= hamming
+
+    # 5.N点快速傅里叶变换（N-FFT）
+    NFFT = 512
+    mag_frames = np.absolute(np.fft.rfft(frames, NFFT))
+    pow_frames = ((1.0 / NFFT) * (mag_frames ** 2))  # 获取能量谱
+
+    # 6.提取mel Fbank
+    low_freq_mel = 0
+    high_freq_mel = 2595 * np.log10(1 + (sample_rate / 2) / 700)
+
+    n_filter = 80  # mel滤波器组的个数, 影响每一帧输出维度，通常取40或80个
+    mel_points = np.linspace(low_freq_mel, high_freq_mel, n_filter + 2)  # 所有的mel中心点，为了方便后面计算mel滤波器组，左右两边各补一个中心点
+    hz_points = 700 * (10 ** (mel_points / 2595) - 1)
+
+    fbank = np.zeros((n_filter, int(NFFT / 2 + 1)))  # 各个mel滤波器在能量谱对应点的取值
+    bin = (hz_points / (sample_rate / 2)) * (NFFT / 2)  # 各个mel滤波器中心点对应FFT的区域编码，找到有值的位置
+    for i in range(1, n_filter + 1):
+        left = int(bin[i - 1])
+        center = int(bin[i])
+        right = int(bin[i + 1])
+        for j in range(left, center):
+            fbank[i - 1, j + 1] = (j + 1 - bin[i - 1]) / (bin[i] - bin[i - 1])
+        for j in range(center, right):
+            fbank[i - 1, j + 1] = (bin[i + 1] - (j + 1)) / (bin[i + 1] - bin[i])
+
+    # 7.提取log mel Fbank
+    filter_banks = np.dot(pow_frames, fbank.T)
+    filter_banks = np.where(filter_banks == 0, np.finfo(float).eps, filter_banks)
+    filter_banks = 20 * np.log10(filter_banks)  # dB
+
+    return filter_banks
 
 
 def ctc_len(label):
@@ -728,31 +875,32 @@ def ctc_len(label):
     return label_len + add_len
 
 
-def wav_padding(wav_data_lst):
-    wav_lens = [len(data) for data in wav_data_lst]
-    wav_max_len = max(wav_lens)
-    wav_lens = np.array([[leng // 8] for leng in wav_lens])
-    new_wav_data_lst = np.zeros((len(wav_data_lst), wav_max_len, 200, 1))
-    for i in range(len(wav_data_lst)):
-        new_wav_data_lst[i, :wav_data_lst[i].shape[0], :, 0] = wav_data_lst[i]
-    return new_wav_data_lst, wav_lens
-
-
-def label_padding(label_data_lst):
-    label_lens = np.array([[len(label)] for label in label_data_lst])
-    max_label_len = max(label_lens)[0]
-    new_label_data_lst = np.zeros((len(label_data_lst), max_label_len))
-    for i in range(len(label_data_lst)):
-        new_label_data_lst[i][:len(label_data_lst[i])] = label_data_lst[i]
-    return new_label_data_lst, label_lens
-
-
-def get_online_data(file):
-    fbank = compute_fbank(file)
-    pad_fbank = np.zeros((fbank.shape[0] // 8 * 8 + 8, fbank.shape[1]))
+def get_online_data(wav_file):
+    fbank = compute_log_mel_fbank(wav_file)
+    pad_fbank = np.zeros((fbank.shape[0] // 4 * 4 + 4, fbank.shape[1]))
     pad_fbank[:fbank.shape[0], :] = fbank
 
-    new_wav_data = np.zeros((1, len(pad_fbank), 200, 1))
+    new_wav_data = np.zeros((1, len(pad_fbank), 80, 1))
     new_wav_data[0, :, :, 0] = pad_fbank
 
     return new_wav_data
+
+
+def decode_ctc(num_result, num2word):
+    """
+    定义解码器
+    :param num_result:
+    :param num2word:
+    :return:
+    """
+    result = num_result[:, :, :]
+    in_len = np.zeros((1), dtype=np.int32)
+    in_len[0] = result.shape[1]
+    r = tfk.ctc_decode(result, in_len, greedy=True, beam_width=10, top_paths=1)
+    r1 = tfk.get_value(r[0][0])
+    r1 = r1[0]
+    text = []
+    for i in r1:
+        text.append(num2word[i])
+
+    return text
