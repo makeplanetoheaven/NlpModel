@@ -38,8 +38,8 @@ def dfsmn_model_train (data_path, label_path):
 	am_args.r_mem = 20
 	am_args.stride = 2
 	am_args.n_init_filters = 32
-	am_args.n_conv = 2
-	am_args.n_cnn_layers = 4
+	am_args.n_conv = 1
+	am_args.n_cnn_layers = 3
 	am_args.n_dfsmn_layers = 6
 	am_args.init_range = 1
 	am_args.init_std = 0
