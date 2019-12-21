@@ -1,0 +1,893 @@
+data_thchs30/dev/A11_101.wav	qī shí nián dài mò wǒ wài chū qiú xué mǔ qīn dīng níng wǒ chī fàn yào xì jiáo màn yàn xué xí yào shēn zuān xì yán	七十年代末我外出求学母亲叮咛我吃饭要细嚼慢咽学习要深钻细研
+data_thchs30/dev/A11_119.wav	chén yún tóng zhì tóng shí yāo qiú gàn bù rèn zhēn xué xí yè wù jīng tōng yè wù xiàng yī qiè yè wù nèi háng rén xué xí	陈云同志同时要求干部认真学习业务精通业务向一切业务内行人学习
+data_thchs30/dev/A11_124.wav	lìng wài nǚ dān zhōng guó duì hái yǒu hán jīng nà hé yáo yàn ào yùn pái míng dì liù qī wèi yě kě yǔ gāo shǒu yī bó	另外女单中国队还有韩晶娜和尧燕奥运排名第六七位也可与高手一搏
+data_thchs30/dev/A11_132.wav	dé dào lǐ gōng pǔ è hào wén yī duō nù fèn tián yīng pāi àn ér qǐ nù chì fǎn dòng pài bēi bǐ wú chǐ	得到李公朴噩耗闻一多怒愤填膺拍案而起怒斥反动派卑鄙无耻
+data_thchs30/dev/A11_170.wav	jù yìn dù guān yuán tòu lù shuāng fāng tǎo lùn le yìn dù kòng zhì de kè shí mǐ ěr dì qū mù qián de jǐn zhāng jú shì wèn tí	据印度官员透露双方讨论了印度控制的克什米尔地区目前的紧张局势问题
+data_thchs30/dev/A11_173.wav	yuán chǎn ōu zhōu de wù wàng cǎo qí mào bù yáng dàn míng wén ōu yà sú chēng wù wàng wǒ huò wú wàng wǒ	原产欧洲的勿忘草其貌不扬但名闻欧亚俗称勿忘我或毋忘我
+data_thchs30/dev/A11_180.wav	liú xiǎo guāng jiǔ duàn yǔ wáng lěi liù duàn zhī zhàn zuì wèi jī liè yě shì zuì wǎn jié shù de yī pán qí gòng xià le èr bǎi wǔ shí wǔ shǒu	刘小光九段与王磊六段之战最为激烈也是最晚结束的一盘棋共下了二百五十五手
+data_thchs30/dev/A11_189.wav	gēn jù cūn guī mín yuē ōu dǎ nüè dài lǎo rén de wáng mǒu ér xí bèi chù èr bǎi yuán fá kuǎn bìng jiāo yī liáo fèi wǔ bǎi yuán	根据村规民约殴打虐待老人的王某儿媳被处二百元罚款并交医疗费五百元
+data_thchs30/dev/A11_191.wav	dāng chuán wǎng xià piào shí bái chún lù yáng qǐ sì tí zài àn biān zhuī suí hǎo xiàng shì sòng xíng yì zhí pǎo le shí jǐ lǐ tài qīn qiè le	当船往下漂时白唇鹿扬起四蹄在岸边追随好像是送行一直跑了十几里太亲切了
+data_thchs30/dev/A11_203.wav	kāi luán kuàng wù jú hòu lǚ jiā tuó kuàng zhāng wén yǒu zhāng wén fù liǎng xiōng dì tóng chāo chǎn tóng lì gōng tóng dāng láo dòng mó fàn	开滦矿务局后吕家坨矿张文友张文富两兄弟同超产同立功同当劳动模范
+data_thchs30/dev/A11_230.wav	yíng yè xìng yǎn chū chǎng suǒ hé yíng yè xìng diàn yǐng fàng yìng chǎng suǒ zhuǎn yè huò chè xiāo bì xū jīng shì wén huà jú huò shì diàn yǐng jú shěn pī	营业性演出场所和营业性电影放映场所转业或撤销必须经市文化局或市电影局审批
+data_thchs30/dev/A11_24.wav	zài gè lèi huò bì chóu kuǎn zhōng ōu zhōu huò bì dān wèi chóu kuǎn yǐ jū shǒu wèi zhàn chóu kuǎn zǒng é de bǎi fēn zhī èr shí	在各类货币筹款中欧洲货币单位筹款已居首位占筹款总额的百分之二十
+data_thchs30/dev/A11_39.wav	fǒu zé guāng yǒu chǎn liàng xiāo bù chū qù kù cún yuè lái yuè duō wài qiàn huò kuǎn yuè lái yuè duō liú dòng zī jīn jiù huì yuè lái yuè shǎo	否则光有产量销不出去库存越来越多外欠货款越来越多流动资金就会越来越少
+data_thchs30/dev/A11_51.wav	lǚ yǔ yóu de shí jiān bǐ wǎng wǎng lǚ zhǎng yóu duǎn yǔ yóu kè de yuàn wàng xiāng bèi	旅与游的时间比往往旅长游短与游客的愿望相悖
+data_thchs30/dev/A11_56.wav	jù shuō mǔ qīn shēng xià méi yī nián gōng fū rǎn shàng le yī zhǒng guài bìng bù chī bù hē luàn kū luàn nào jí dé wài pó mǎn shān biàn yě qù zhǎo cǎo yào lái qū guǐ	据说母亲生下没一年功夫染上了一种怪病不吃不喝乱哭乱闹急得外婆满山遍野去找草药来驱鬼
+data_thchs30/dev/A11_60.wav	dòu fu nǎo pǐn cháng guò le nà fāng fāng zhèng zhèng bái bái nèn nèn de dòu fu kuài ér chī guò hòu mǎn kǒu yú xiāng	豆腐脑品尝过了那方方正正白白嫩嫩的豆腐块儿吃过后满口余香
+data_thchs30/dev/A11_77.wav	yī jiǔ jiǔ wǔ nián yí yuè wēn zhōu shì wěi fù mì shū zhǎng wēng jǐn wǔ lái jiē rèn ōu hǎi qū wěi shū jì	一九九五年一月温州市委副秘书长翁锦武来接任瓯海区委书记
+data_thchs30/dev/A11_81.wav	yìng gú tou liù lián lì rèn zhǔ guǎn zhàn dòu yīng xióng hé zhuǎn yè tuì wǔ gàn bù zhàn shì dài biǎo yìng yāo zuò zài jiā bīn xí shàng	硬骨头六连历任主管战斗英雄和转业退伍干部战士代表应邀坐在嘉宾席上
+data_thchs30/dev/A12_10.wav	pào yǎn dǎ hǎo le zhà yào zěn me zhuāng yuè zhèng cái yǎo le yǎo yá shū dì tuō qù yī fú guāng bǎng zi chōng jìn le shuǐ cuàn dòng	炮眼打好了炸药怎么装岳正才咬了咬牙倏地脱去衣服光膀子冲进了水窜洞
+data_thchs30/dev/A12_115.wav	mǎ xiǎo nián zuò huà de tè zhēng yǔ shén yùn qí huà fēng qū bié yú wén rén huà hé nián huà kě wèi yǎ sú gòng shǎng	马晓年作画的特征与神韵其画风区别于文人画和年画可谓雅俗共赏
+data_thchs30/dev/A12_137.wav	bù qì yǎ bù bì sú huà sú wèi yǎ huà yǎ wèi sú sú bù shāng yǎ yǎ sú gòng shǎng	不弃雅不避俗化俗为雅化雅为俗俗不伤雅雅俗共赏
+data_thchs30/dev/A12_138.wav	jīng guò shàng shàng xià xià de gòng tóng nǔ lì è zhì le wài zī é xià jiàng de qū shì chū xiàn wài zī é dà fú dù huí shēng de jú miàn	经过上上下下的共同努力扼制了外资额下降的趋势出现外资额大幅度回升的局面
+data_thchs30/dev/A12_18.wav	wāng jīng wèi yī xíng rén dào le xiāng gǎng wāng fū fù liǎ yǔ chén gōng bó děng dōu shì guǎng dōng rén yǒu gè fù guān yǔ kuàng yù mín shì xiǎo tóng xiāng	汪精卫一行人到了香港汪夫妇俩与陈公博等都是广东人有个副官与邝裕民是小同乡
+data_thchs30/dev/A12_28.wav	táo mā zuò cài de shí hòu fā xiàn jiàng yóu kuài wán le nà tiān wǔ fàn hòu biàn jiào xiǎo ài yún dǎ jiàng yóu shēng yóu yě yào mǎi le	陶妈做菜的时候发现酱油快完了那天午饭后便叫小艾云打酱油生油也要买了
+data_thchs30/dev/A12_38.wav	sì bǎi èr shí sān mǐ kuà jìng de zhǔ qiáo hé lóng wù chā bù zú liǎng háo mǐ bǐ xiǎo mǐ lì hái xiǎo	四百二十三米跨径的主桥合龙误差不足两毫米比小米粒还小
+data_thchs30/dev/A12_98.wav	quán dǎng bì xū jǐn jǐn tuán jié zài yǐ jiāng zé mín tóng zhì wèi hé xīn de dǎng zhōng yāng zhōu wéi yì xīn yí yì wěn zhā wěn dǎ gòng chuàng wèi lái	全党必须紧紧团结在以江泽民同志为核心的党中央周围一心一意稳扎稳打共创未来
+data_thchs30/dev/A13_126.wav	duì yú tā zài rén zāng jù huò de qíng kuàng xià réng qiáng cí duó lǐ pǒ gǎn yǒu qù tā sì hū bù zhī dào jué wàng wèi hé wù	对於她在人赃俱获的情况下仍强辞夺理颇感有趣她似乎不知道绝望为何物
+data_thchs30/dev/A13_160.wav	yòng chuán tǒng de cháng guī yù yāng fāng shì měi yù yī mǔ yāng miáo zhǐ kě zāi chā bā mǔ dà tián dǐ mó yù yāng zé kě yí zāi wǔ shí mǔ	用传统的常规育秧方式每育一亩秧苗只可栽插八亩大田底膜育秧则可移栽五十亩
+data_thchs30/dev/A13_178.wav	bèi léi gē wǎ zuó tiān zài wài shěng chéng shì pǔ wǎ dì āi de jìng xuǎn jí huì shàng chēng ōu zhōu yīng yǐ jiān dìng de lì chǎng cóng líng kāi shǐ tóng měi guó zhòng kāi nóng yè tán pàn	贝雷戈瓦昨天在外省城市普瓦蒂埃的竞选集会上称欧洲应以坚定的立场从零开始同美国重开农业谈判
+data_thchs30/dev/A13_198.wav	tā men cóng àn biān pá qǐ lái hún shēn shuǐ lín lín de wǎng xià yóu pǎo yòu pū dào xià yóu gāng qǐ de bō làng shàng	他们从岸边爬起来浑身水淋淋地往下游跑又扑到下游刚起的波浪上
+data_thchs30/dev/A13_199.wav	gāi yuàn tè pìn qián wěi zhǎng táng kè wèi gù wèn niè wèi píng wèi míng yù yuàn zhǎng	该院特聘钱伟长唐克为顾问聂卫平为名誉院长
+data_thchs30/dev/A13_200.wav	xiāng kuài rán wán le táng lǎo liù hái méi yǒu lái jiē bān wǒ xīn lǐ zhǐ mà tā hùn zhàng yào shì duō yǒu gè rén yě hǎo zhù wǒ yī bǎ	香快燃完了唐老六还没有来接班我心里只骂他混帐要是多有个人也好助我一把
+data_thchs30/dev/A13_202.wav	dàn duì qǐ yè lái shuō jī zhì zhuǎn huàn le zì zhǔ jīng yíng le zì fù yíng kuī le yě hái yǒu fù yíng hé fù kuī de liǎng zhǒng kě néng xìng	但对企业来说机制转换了自主经营了自负盈亏了也还有负盈和负亏的两种可能性
+data_thchs30/dev/A13_212.wav	zhè wǎn lí niáng fàn gū niáng zài yǒu lí niáng tòng chǔ yě yào měi yàng dōu chī yì diǎn cái suàn xún guī zūn sú de	这碗离娘饭姑娘再有离娘痛楚也要每样都吃一点才算循规遵俗的
+data_thchs30/dev/A13_39.wav	fǒu zé guāng yǒu chǎn liàng xiāo bù chū qù kù cún yuè lái yuè duō wài qiàn huò kuǎn yuè lái yuè duō liú dòng zī jīn jiù huì yuè lái yuè shǎo	否则光有产量销不出去库存越来越多外欠货款越来越多流动资金就会越来越少
+data_thchs30/dev/A13_41.wav	xīn huá shè bō ēn yí yuè sān rì xiāo xī xī dé rén lèi xué jiā jīng kǎo gǔ fā xiàn yuǎn zài shí qì shí dài de rén jiù huàn yǒu ái zhèng	新华社波恩一月三日消息西德人类学家经考古发现远在石器时代的人就患有癌症
+data_thchs30/dev/A13_46.wav	huàn jù huà shuō yí gè lǜ yuán zi zhǐ néng hé yí gè nà yuán zi jié hé ér èr gè lǜ yuán zi cái néng hé yí gè měi yuán zi huà hé	换句话说一个氯原子只能和一个钠原子结合而二个氯原子才能和一个镁原子化合
+data_thchs30/dev/A13_47.wav	cǐ hòu jì zhě men hé gè yǒu guān jī gòu zǒng shì yǒu yì wú yì de bǎ liǎng rén wǎng yī kuài ér còu xī wàng cù chéng yī duàn měi hǎo yīn yuán	此后记者们和各有关机构总是有意无意地把两人往一块儿凑希望促成一段美好姻缘
+data_thchs30/dev/A13_59.wav	yí dàn yù dào liè wù lì jí yòng jiǎo xū qián zhù wěi bā gōu zhuǎn yòng wěi cì zhù shè yī zhēn jiāng liè wù dú sǐ	一旦遇到猎物立即用脚须钳住尾巴钩转用尾刺注射一针将猎物毒死
+data_thchs30/dev/A13_62.wav	běn shū zhōng de cóng bǎi cǎo yuán dào sān wèi shū wū téng yě xiān shēng fàn ài nóng děng piān bèi xuǎn rù zhōng xué yǔ wén kè běn	本书中的从百草园到三味书屋藤野先生范爱农等篇被选入中学语文课本
+data_thchs30/dev/A13_80.wav	kě fā zhǎn chún mián quán sè bèi tào yìn huā bèi dān gōu biān cù róng chuáng zhào chuáng wéi zhěn tào pèi tào jiàn děng	可发展纯棉全色被套印花被单钩边簇绒床罩床围枕套配套件等
+data_thchs30/dev/A13_87.wav	běn bǎn yī yī jiǔ èr qī zá wén shòu hǎo píng yī wén nèi huái běi wén lián yīng wèi huái nán wén lián tè cǐ gēng zhèng	本版一一九二期杂文受好评一文内淮北文联应为淮南文联特此更正
+data_thchs30/dev/A13_91.wav	xī ān dōng nán běi chéng mén qián yǒu xǔ duō xuān chuán pái guà yī kuài pái yī nián yào huā liǎng wàn yuán wǒ men yě guà le yī kuài	西安东南北城门前有许多宣传牌挂一块牌一年要花两万元我们也挂了一块
+data_thchs30/dev/A13_98.wav	quán dǎng bì xū jǐn jǐn tuán jié zài yǐ jiāng zé mín tóng zhì wèi hé xīn de dǎng zhōng yāng zhōu wéi yì xīn yí yì wěn zhā wěn dǎ gòng chuàng wèi lái	全党必须紧紧团结在以江泽民同志为核心的党中央周围一心一意稳扎稳打共创未来
+data_thchs30/dev/A14_10.wav	pào yǎn dǎ hǎo le zhà yào zěn me zhuāng yuè zhèng cái yǎo le yǎo yá shū dì tuō qù yī fú guāng bǎng zi chōng jìn le shuǐ cuàn dòng	炮眼打好了炸药怎么装岳正才咬了咬牙倏地脱去衣服光膀子冲进了水窜洞
+data_thchs30/dev/A14_112.wav	fǎn zhèng zán gāo dī dōu bù shuō shá zuò rén bù néng wàng běn méi yǒu lǎo mǎ nǎ ér yǒu yún xiá de jīn tiān wǒ shá yě bù shuō la	反正咱高低都不说啥做人不能忘本没有老马哪儿有云霞的今天我啥也不说啦
+data_thchs30/dev/A14_139.wav	tā rèn wéi sī chóu zhī lù shàng de mín gē hěn yǒu tè sè yīn wèi dì lǐ wèi zhì héng kuà ōu yà dà lù shì jí tè shū de kuà guó jí mín gē	他认为丝绸之路上的民歌很有特色因为地理位置横跨欧亚大陆是极特殊的跨国籍民歌
+data_thchs30/dev/A14_148.wav	shí jǐ gēn liú jīn shí diāo yuán zhù chéng tuō zhe liǎng céng yuán xíng wū dǐng yuǎn kàn pǒ shì wǒ guó chuán tǒng de zhòng yán yuán tíng	十几根鎏金石雕圆柱承托着两层圆形屋顶远看颇似我国传统的重檐圆亭
+data_thchs30/dev/A14_150.wav	fú ān guǎng gào gōng sī fāng miàn shuō tā men bìng bù zàn chéng chāi mèng lóng chūn guǎng gào dàn shàng tou yǒu yā lì méi yǒu bàn fǎ	福安广告公司方面说他们并不赞成拆梦龙春广告但上头有压力没有办法
+data_thchs30/dev/A14_159.wav	xiōng nú yòu bù zāo dào le chén zhòng dǎ jī xiōng nú hún xié wáng shā xiū tú wáng shuài lǐng bù zhòng sì wàn rén jiàng hàn	匈奴右部遭到了沉重打击匈奴浑邪王杀休屠王率领部众四万人降汉
+data_thchs30/dev/A14_181.wav	duì quán bù yùn kuǎn chē jìn xíng gǎi zào dá dào fáng qiǎng fáng dào yāo qiú bìng wèi quán tǐ yā yùn rén yuán pèi bèi le fáng dàn tóu kuī hé fáng dàn fú	对全部运款车进行改造达到防抢防盗要求并为全体押运人员配备了防弹头盔和防弹服
+data_thchs30/dev/A14_191.wav	dāng chuán wǎng xià piào shí bái chún lù yáng qǐ sì tí zài àn biān zhuī suí hǎo xiàng shì sòng xíng yì zhí pǎo le shí jǐ lǐ tài qīn qiè le	当船往下漂时白唇鹿扬起四蹄在岸边追随好像是送行一直跑了十几里太亲切了
+data_thchs30/dev/A14_202.wav	dàn duì qǐ yè lái shuō jī zhì zhuǎn huàn le zì zhǔ jīng yíng le zì fù yíng kuī le yě hái yǒu fù yíng hé fù kuī de liǎng zhǒng kě néng xìng	但对企业来说机制转换了自主经营了自负盈亏了也还有负盈和负亏的两种可能性
+data_thchs30/dev/A14_203.wav	kāi luán kuàng wù jú hòu lǚ jiā tuó kuàng zhāng wén yǒu zhāng wén fù liǎng xiōng dì tóng chāo chǎn tóng lì gōng tóng dāng láo dòng mó fàn	开滦矿务局后吕家坨矿张文友张文富两兄弟同超产同立功同当劳动模范
+data_thchs30/dev/A14_225.wav	xuè yè xún huán xì tǒng yǒu yán zhòng zhàng ài tè bié shì nèi xiē yóu yú nǎo xuè guǎn biàn zhǎi ér jīng cháng tóu yūn tóu hūn de rén	血液循环系统有严重障碍特别是那些由于脑血管变窄而经常头晕头昏的人
+data_thchs30/dev/A14_241.wav	rén dài huì kāi mù nà tiān ào shēn wěi zhí xíng zhǔ xí wǔ shào zǔ zài rén mín dà huì táng dōng dà tīng yī lòu miàn jiù bèi tuán tuán wéi zhù	人代会开幕那天奥申委执行主席伍绍祖在人民大会堂东大厅一露面就被团团围住
+data_thchs30/dev/A14_249.wav	měi rì xià wǔ sān sì diǎn zhōng péi dé zhì dào dà hǎi de yóu yǒng chí pàn tài yáng sǎn xià zuò zuò chuī chuī hǎi fēng xīn shǎng yóu yǒng rén de fēng zī	每日下午三四点钟陪得志到大海的游泳池畔太阳伞下坐坐吹吹海风欣赏游泳人的风姿
+data_thchs30/dev/A14_37.wav	lìng wài qún zhòng fǎn yìng yuán yùn fā yǒu gè mèi mèi zài ào tóu jū zhù qù nián chūn jié qián qǐng gōng rén qì qiáng bǎ cè suǒ qiáng qì tā le	另外群众反映袁运发有个妹妹在澳头居住去年春节前请工人砌墙把厕所墙砌塌了
+data_thchs30/dev/A14_63.wav	shì ya nán rén yǐ wéi ràng jiǔ ràng yān shì jí pǔ biàn de shì kě shì zhǐ xiàn yú yān jiǔ tā men bú huì féi mǎ qīng qiú yǔ yǒu gòng zhī	是呀男人以为让酒让烟是极普遍的事可是只限于烟酒他们不会肥马轻裘与友共之
+data_thchs30/dev/A14_68.wav	lián guǎng xī nà yàng de biān yuǎn shěng qū jiā diàn wéi xiū péi xùn jié yè xué yuán yě chāo guò le shí wàn rén	连广西那样的边远省区家电维修培训结业学员也超过了十万人
+data_thchs30/dev/A14_76.wav	yǎn xià lóu yuè gài yuè gāo yuè gài yuè duō yuè gài yuè piào liàng kě gài lóu de rén xīn lǐ què shì yuè lái yuè méi dǐ ér le	眼下楼越盖越高越盖越多越盖越漂亮可盖楼的人心里却是越来越没底儿了
+data_thchs30/dev/A14_82.wav	zuì hòu gāi yì àn yǐ sān bǎi yī shí piào fǎn duì èr bǎi jiǔ shí yī piào zàn chéng ér zāo dào fǒu jué dí ní zhèng fǔ xìng miǎn yú nán	最后该议案以三百一十票反对二百九十一票赞成而遭到否决迪尼政府幸免于难
+data_thchs30/dev/A19_101.wav	qī shí nián dài mò wǒ wài chū qiú xué mǔ qīn dīng níng wǒ chī fàn yào xì jiáo màn yàn xué xí yào shēn zuān xì yán	七十年代末我外出求学母亲叮咛我吃饭要细嚼慢咽学习要深钻细研
+data_thchs30/dev/A19_117.wav	wǒ céng zú jì biàn jí hǎi nèi wài dàn shǐ wǒ shǐ zhōng yíng huí bù néng wàng huái de què shì zhè piàn shēng wǒ yǎng wǒ de zhōng yuán gù tǔ	我曾足迹遍及海内外但使我始终萦回不能忘怀的却是这片生我养我的中原故土
+data_thchs30/dev/A19_118.wav	yóu yú chǎn fù zǎo chǎn yī hù rén yuán jiāng sān bāo tāi yīng ér fàng zài yù yīng xiāng nèi jīng xīn hù lǐ yǐ bǎo zhèng tā men cún huó	由于产妇早产医护人员将三胞胎婴儿放在育婴箱内精心护理以保证他们存活
+data_thchs30/dev/A19_145.wav	nǐ men dà jiā chī cāng yíng wǒ yě gēn zhe chī cāng yíng nǐ men yuàn yì chī wén zi wǒ jiù gēn zhe chī wén zi shén me shì bù yòng wèn wǒ	你们大家吃苍蝇我也跟着吃苍蝇你们愿意吃蚊子我就跟着吃蚊子什么事不用问我
+data_thchs30/dev/A19_156.wav	tài hú dōng àn yī dài de yún tuán yóu dàn dào nóng zài yóu nóng dào dàn ér shàng hǎi shì qū shàng kōng de yún yuè lái yuè shǎo yuè lái yuè xī	太湖东岸一带的云团由淡到浓再由浓到淡而上海市区上空的云越来越少越来越稀
+data_thchs30/dev/A19_165.wav	gè qū fù zé gè qū de yè wù zhǐ yǒu sǐ wáng zài bié qū de rén cái yǔn xǔ shǐ yòng bié qū de bìn yí guǎn	各区负责各区的业务只有死亡在别区的人才允许使用别区的殡仪馆
+data_thchs30/dev/A19_188.wav	bù jiǔ cáo zhēn wú tóng zhì yòu duō fāng bēn zǒu wèi tā lián xì diào wǎng tiáo jiàn yōu yuè de nèi dì mǒu yī yuàn	不久曹祯梧同志又多方奔走为他联系调往条件优越的内地某医院
+data_thchs30/dev/A19_200.wav	xiāng kuài rán wán le táng lǎo liù hái méi yǒu lái jiē bān wǒ xīn lǐ zhǐ mà tā hùn zhàng yào shì duō yǒu gè rén yě hǎo zhù wǒ yī bǎ	香快燃完了唐老六还没有来接班我心里只骂他混帐要是多有个人也好助我一把
+data_thchs30/dev/A19_213.wav	jīng shí yàn zhèng míng qí shā jīng zi xiào guǒ gāo yú mù qián guó nèi yì bān wài yòng bì yùn yào ér qiě shǐ yòng qǐ lái ān quán fāng biàn	经实验证明其杀精子效果高于目前国内一般外用避孕药而且使用起来安全方便
+data_thchs30/dev/A19_215.wav	zuǒ guǎi yòu xuán zhōng shí ér qióng tú mò lù wān yāo dī bèi zuān chū xià xì hòu liǔ àn huā míng	左拐右旋中时而穷途末路弯腰低背钻出罅隙后柳暗花明
+data_thchs30/dev/A19_220.wav	dāng shí zhǐ zhāng qí quē wǒ men jiù yòng fèi jiù wén jiàn de bèi miàn lái yóu yìn suī hěn cū cāo dàn zǒng suàn gěi měi gè zǔ yìn le yī běn	当时纸张奇缺我们就用废旧文件的背面来油印虽很粗糙但总算给每个组印了一本
+data_thchs30/dev/A19_236.wav	rán ér bàn nián duō lái mìng yùn zhī shén yì zhí yǔ yè qiáo bō zuò duì yán zhòng de xī shāng shǐ tā yǔ zuì hòu de mèng xiǎng yuè lái yuè yuǎn	然而半年多来命运之神一直与叶乔波作对严重的膝伤使她与最后的梦想越来越远
+data_thchs30/dev/A19_25.wav	zài yǐng shì yǔ yán de zōng hé yùn yòng shàng yě tǐ yàn le yī zhǒng měi xué zhuī qiú yī fú fú guāng yǐng jiāo zhī de huà miàn zào xíng yù yì shēn yuǎn	在影视语言的综合运用上也体验了一种美学追求一幅幅光影交织的画面造型寓意深远
+data_thchs30/dev/A19_43.wav	tā shì lì yòng guāng bō sǎo miáo pèi hé jī guāng guò lǜ yǐ huà xué wù xì qù zào mó zuì hòu yǐ yī zhǒng diàn nǎo jì shù zhì zuò ér chéng	它是利用光波扫描配合激光过滤以化学物矽去造模最后以一种电脑技术制作而成
+data_thchs30/dev/A19_44.wav	cǐ kè tài yáng sī pò yún céng liāo qǐ wù màn yáo shān cái lù chū tā qiào měi de miàn róng	此刻太阳撕破云层撩起雾幔瑶山才露出它俏美的面容
+data_thchs30/dev/A19_68.wav	lián guǎng xī nà yàng de biān yuǎn shěng qū jiā diàn wéi xiū péi xùn jié yè xué yuán yě chāo guò le shí wàn rén	连广西那样的边远省区家电维修培训结业学员也超过了十万人
+data_thchs30/dev/A19_70.wav	yǐ lā sà wèi huì hé diǎn de qí wǎng luò yán shēn diǎn shì rì yuè shān míng shā shān hé huǒ yàn shān děng kè yuán shì chǎng cè zhòng yú ōu měi	以拉萨为汇合点的其网络延伸点是日月山鸣沙山和火焰山等客源市场侧重于欧美
+data_thchs30/dev/A19_90.wav	bù chú le zhè gè yǎng niú chǎng wǒ hái fú chí le yī bǎi èr shí gè yǎng niú zhuān yè hù nín gāng cái kàn guò de lǐ cháng yuǎn hé lǐ cháng jiāng liǎng jiā jiù shì qí zhōng zhī yī	不除了这个养牛场我还扶持了一百二十个养牛专业户您刚才看过的李长远和李长江两家就是其中之一
+data_thchs30/dev/A22_1.wav	tā jǐn píng yāo bù de lì liàng zài yǒng dào shàng xià fān téng yǒng dòng shé xíng zhuàng rú hǎi tún yì zhí yǐ yī tóu de yōu shì lǐng xiān	他仅凭腰部的力量在泳道上下翻腾蛹动蛇行状如海豚一直以一头的优势领先
+data_thchs30/dev/A22_133.wav	cūn zhī bù shū jì gā mǎ luó bù shuō xuě zāi shí quān wō zhǒng de cǎo wéi chí le yī gè bàn yuè fǒu zé sǔn shī gèng dà	村支部书记嘎玛罗布说雪灾时圈窝种的草维持了一个半月否则损失更大
+data_thchs30/dev/A22_138.wav	jīng guò shàng shàng xià xià de gòng tóng nǔ lì è zhì le wài zī é xià jiàng de qū shì chū xiàn wài zī é dà fú dù huí shēng de jú miàn	经过上上下下的共同努力扼制了外资额下降的趋势出现外资额大幅度回升的局面
+data_thchs30/dev/A22_153.wav	jìn nián lái yǐng tán shàng shén me guǐ a xiá a tōu a dào a shā a xiān xuè lín lí de xiōng shā chǎng miàn děng chéng le mǒu xiē yú lè piàn lǐ bù kě shǎo de nèi róng	近年来影坛上什么鬼啊侠啊偷啊盗啊杀啊鲜血淋漓的凶杀场面等成了某些娱乐片里不可少的内容
+data_thchs30/dev/A22_155.wav	shǎn shǎn wū jīn tōng guò gāo sù zì dòng huà pí dài cóng jǐng nèi gōng zuò miàn zhí sòng jǐng wài yuán yuán bù duàn de zhuāng mǎn liè chē yùn wǎng quán guó gè de	闪闪乌金通过高速自动化皮带从井内工作面直送井外源源不断地装满列车运往全国各地
+data_thchs30/dev/A22_159.wav	xiōng nú yòu bù zāo dào le chén zhòng dǎ jī xiōng nú hún xié wáng shā xiū tú wáng shuài lǐng bù zhòng sì wàn rén jiàng hàn	匈奴右部遭到了沉重打击匈奴浑邪王杀休屠王率领部众四万人降汉
+data_thchs30/dev/A22_162.wav	gāi zhōng zhòng yuē shí sì dūn měi zǒu yī xiǎo shí jiù fā chū shēn chén kēng qiāng de bào shí shēng niǎo niǎo yú yīn yáo yuǎn kě wén	该钟重约十四吨每走一小时就发出深沉铿锵的报时声袅袅余音遥远可闻
+data_thchs30/dev/A22_190.wav	nà zhǒng cóng guó wài yǐn jìn de yòng là jiāo jiǎn féi de yáng wán yì ér jiū jìng shì chī hái shì wài fū guǎng gào wèi shuō míng bù dé ér zhī	那种从国外引进的用辣椒减肥的洋玩意儿究竟是吃还是外敷广告未说明不得而知
+data_thchs30/dev/A22_20.wav	wá wá yú de shēng huó xí xìng tè shū bù yì rén gōng wèi yǎng rán ér yóu kè què bù zhī zhè xiē zhǐ tú xī qí hǎo wán suí yì bǔ zhuō	娃娃鱼的生活习性特殊不易人工喂养然而游客却不知这些只图稀奇好玩随意捕捉
+data_thchs30/dev/A22_205.wav	zì cóng yǒu zhè gěi xiā zi zuò qiè de huà tā kàn jiàn jiē shàng de xiā zi jiù yǒu zhǒng yì yàng de gǎn jué yòu tǎo yàn yòu yǒu diǎn pà	自从有这给瞎子作妾的话她看见街上的瞎子就有种异样的感觉又讨厌又有点怕
+data_thchs30/dev/A22_212.wav	zhè wǎn lí niáng fàn gū niáng zài yǒu lí niáng tòng chǔ yě yào měi yàng dōu chī yì diǎn cái suàn xún guī zūn sú de	这碗离娘饭姑娘再有离娘痛楚也要每样都吃一点才算循规遵俗的
+data_thchs30/dev/A22_220.wav	dāng shí zhǐ zhāng qí quē wǒ men jiù yòng fèi jiù wén jiàn de bèi miàn lái yóu yìn suī hěn cū cāo dàn zǒng suàn gěi měi gè zǔ yìn le yī běn	当时纸张奇缺我们就用废旧文件的背面来油印虽很粗糙但总算给每个组印了一本
+data_thchs30/dev/A22_223.wav	jīng yè zhōng yí chuán sǔn shāng jīng zi de shuǐ píng bìng bù yǐng xiǎng shēng yù yī xiē yí chuán sǔn shāng kě yǐ zài shòu yùn hòu zì rán xiū fù	精液中遗传损伤精子的水平并不影响生育一些遗传损伤可以在受孕后自然修复
+data_thchs30/dev/A22_231.wav	sì shì duì quán tǐ yuán gōng jiā qiáng wài yǔ péi xùn yán gé wài yǔ kǎo shì bìng bǎ wài yǔ chéng jī hé běn rén de jīng jì shōu rù guà gōu	四是对全体员工加强外语培训严格外语考试并把外语成绩和本人的经济收入挂钩
+data_thchs30/dev/A22_26.wav	děng cóng yūn yūn hū hū zhōng xǐng zhuǎn lái shí jiān yǐ jīng diū xià yī chuàn cháng cháng de jiǎo yìn xiāo shì dé wú yǐng wú zōng	等从晕晕乎乎中醒转来时间已经丢下一串长长的脚印消逝得无影无踪
+data_thchs30/dev/A22_36.wav	dài yè wǎn jiàn shēn yuè chū yú dōng shān róng róng yuè huá cā liàng xiǎo hú yìng rù shuǐ zhōng de yuè huī rú yù pán xiǎo hú biàn xiàng jìng yuè	待夜晚渐深月出于东山溶溶月华擦亮小湖映入水中的月辉如玉盘小湖便像镜月
+data_thchs30/dev/A22_38.wav	sì bǎi èr shí sān mǐ kuà jìng de zhǔ qiáo hé lóng wù chā bù zú liǎng háo mǐ bǐ xiǎo mǐ lì hái xiǎo	四百二十三米跨径的主桥合龙误差不足两毫米比小米粒还小
+data_thchs30/dev/A22_53.wav	yú shì hū hēi bái diān dǎo jī yā yú ròu shòu lěng luò yě cài wō tóu què chéng le cān zhuō shàng de chǒng ér	于是乎黑白颠倒鸡鸭鱼肉受冷落野菜窝头却成了餐桌上的宠儿
+data_thchs30/dev/A22_58.wav	tè bié shì kuà shěng qū diàn wǎng chāo jì huà yòng diàn bù jǐn sǔn hài zì jǐ yě sǔn hài bié rén sǔn hài diàn wǎng sǔn hài guó jiā	特别是跨省区电网超计划用电不仅损害自己也损害别人损害电网损害国家
+data_thchs30/dev/A22_65.wav	xīn huá shè nán níng yí yuè èr shí liù rì diàn tiě dào yùn yíng cái wù kuài jì tōng yòng ruǎn jiàn xì liè zài liǔ zhōu tiě lù jú yán zhì chéng gōng	新华社南宁一月二十六日电铁道运营财务会计通用软件系列在柳州铁路局研制成功
+data_thchs30/dev/A22_76.wav	yǎn xià lóu yuè gài yuè gāo yuè gài yuè duō yuè gài yuè piào liàng kě gài lóu de rén xīn lǐ què shì yuè lái yuè méi dǐ ér le	眼下楼越盖越高越盖越多越盖越漂亮可盖楼的人心里却是越来越没底儿了
+data_thchs30/dev/A22_8.wav	yáng zhuó yōng hú chōu shuǐ xù néng diàn chǎng shì mù qián shì jiè shàng hǎi bá zuì gāo de chōu shuǐ xù néng diàn chǎng yě shì xī zàng zuì dà de néng yuán jī dì	羊卓雍湖抽水蓄能电厂是目前世界上海拔最高的抽水蓄能电厂也是西藏最大的能源基地
+data_thchs30/dev/A22_95.wav	jǐ chù ào kǒu bèi zhàn huǒ rán shāo guò qīng yān yī rán piāo niǎo ér shēng cháo hé gǔ shàng kōng mí sàn zhí dào yǔ tiān dì róng wéi yī tǐ	几处坳口被战火燃烧过青烟依然飘袅而升朝河谷上空弥散直到与天地融为一体
+data_thchs30/dev/A23_109.wav	jié guǒ bù wǎ wàn bù zhī zěn me wèi néng bǎ sǎn dǎ kāi ér shuāi sǐ ér kǎ tè lín cāo zòng jiàng luò sǎn ān rán zhe de	结果布瓦万不知怎么未能把伞打开而摔死而卡特琳操纵降落伞安然着地
+data_thchs30/dev/A23_115.wav	mǎ xiǎo nián zuò huà de tè zhēng yǔ shén yùn qí huà fēng qū bié yú wén rén huà hé nián huà kě wèi yǎ sú gòng shǎng	马晓年作画的特征与神韵其画风区别于文人画和年画可谓雅俗共赏
+data_thchs30/dev/A23_118.wav	yóu yú chǎn fù zǎo chǎn yī hù rén yuán jiāng sān bāo tāi yīng ér fàng zài yù yīng xiāng nèi jīng xīn hù lǐ yǐ bǎo zhèng tā men cún huó	由于产妇早产医护人员将三胞胎婴儿放在育婴箱内精心护理以保证他们存活
+data_thchs30/dev/A23_120.wav	zhōng nián yǎn yuán mǎ lì lì lù jìng yè qīng nián yǎn yuán sūn xú chūn děng yě wèi guān zhòng yǎn chū le ná shǒu qǔ mù	中年演员马莉莉陆敬业青年演员孙徐春等也为观众演出了拿手曲目
+data_thchs30/dev/A23_162.wav	gāi zhōng zhòng yuē shí sì dūn měi zǒu yī xiǎo shí jiù fā chū shēn chén kēng qiāng de bào shí shēng niǎo niǎo yú yīn yáo yuǎn kě wén	该钟重约十四吨每走一小时就发出深沉铿锵的报时声袅袅余音遥远可闻
+data_thchs30/dev/A23_163.wav	tā qióng zhuī bù shě shēn wā xì chá zhōng yú nòng qīng bèi gào yǔ gāi nǎi niú zhàn shì liǎng kuài pái zi yī tào bān zi	他穷追不舍深挖细查终于弄清被告与该奶牛站是两块牌子一套班子
+data_thchs30/dev/A23_170.wav	jù yìn dù guān yuán tòu lù shuāng fāng tǎo lùn le yìn dù kòng zhì de kè shí mǐ ěr dì qū mù qián de jǐn zhāng jú shì wèn tí	据印度官员透露双方讨论了印度控制的克什米尔地区目前的紧张局势问题
+data_thchs30/dev/A23_171.wav	shēn yè shí èr diǎn zhōng tā zhàn zài shào wèi shàng huán shì zhōu wéi yīn sēn kě bù yuè xiǎng yuè hài pà bào qiāng kū zhe pǎo huí yíng fáng	深夜十二点钟他站在哨位上环视周围阴森可怖越想越害怕抱枪哭着跑回营房
+data_thchs30/dev/A23_188.wav	bù jiǔ cáo zhēn wú tóng zhì yòu duō fāng bēn zǒu wèi tā lián xì diào wǎng tiáo jiàn yōu yuè de nèi dì mǒu yī yuàn	不久曹祯梧同志又多方奔走为他联系调往条件优越的内地某医院
+data_thchs30/dev/A23_194.wav	cān jīn shì cā zuǐ hé shǒu zhǐ de bēi biān qǐng yòng cān zhǐ cā shì liǎn shàng de hàn huò zhān shàng de shuǐ zhī qǐng yòng zì jǐ de shǒu juàn cā diào	餐巾是擦嘴和手指的杯边请用餐纸擦拭脸上的汗或沾上的水汁请用自己的手绢擦掉
+data_thchs30/dev/A23_196.wav	shén hàn wū pó shuō shén me diào jǐng guǐ chán zhù le wǒ èr gē yào chī hē yào qián yòng yào wǒ jiā pò cái xiāo zāi	神汉巫婆说什么吊颈鬼缠住了我二哥要吃喝要钱用要我家破财消灾
+data_thchs30/dev/A23_207.wav	zhēn yōu mò nà jī zhì bǎi biàn nà miào qù héng shēng ràng rén yuè zuó mo yuè pěng fù ér qiě yǒu máo sè dùn kāi bān de qǐ wù	真幽默那机智百变那妙趣横生让人越琢磨越捧腹而且有茅塞顿开般的启悟
+data_thchs30/dev/A23_233.wav	ān dì sī jí tuán yóu bō lì wéi yà gē lún bǐ yà è guā duō ěr bì lǔ hé wěi nèi ruì lā wǔ guó zǔ chéng	安第斯集团由玻利维亚哥伦比亚厄瓜多尔秘鲁和委内瑞拉五国组成
+data_thchs30/dev/A23_28.wav	táo mā zuò cài de shí hòu fā xiàn jiàng yóu kuài wán le nà tiān wǔ fàn hòu biàn jiào xiǎo ài yún dǎ jiàng yóu shēng yóu yě yào mǎi le	陶妈做菜的时候发现酱油快完了那天午饭后便叫小艾云打酱油生油也要买了
+data_thchs30/dev/A23_33.wav	yǔ wáng wěi sì píng shì huò chē sī jī dù dà píng yuè yù jié zhuāng xiè gōng liú chūn shān yī tóng zhuī gǎn táo pǎo de àn fàn	与王伟四平市货车司机杜大平岳玉杰装卸工刘春山一同追赶逃跑的案犯
+data_thchs30/dev/A23_46.wav	huàn jù huà shuō yí gè lǜ yuán zi zhǐ néng hé yí gè nà yuán zi jié hé ér èr gè lǜ yuán zi cái néng hé yí gè měi yuán zi huà hé	换句话说一个氯原子只能和一个钠原子结合而二个氯原子才能和一个镁原子化合
+data_thchs30/dev/A23_7.wav	kuàng yě de fēng yào wǎng zhè ér guā nà ér guā nǐ néng mìng lìng fēng sì miàn bā fāng quán guā yì diǎn ma	旷野的风要往这儿刮那儿刮你能命令风四面八方全刮一点吗
+data_thchs30/dev/A23_71.wav	liú yǒng gāng děng wěi yuán hū yù shí xíng yào pǐn zhuān yíng què bǎo yòng yào ān quán	刘永纲等委员呼吁实行药品专营确保用药安全
+data_thchs30/dev/A23_85.wav	hú yào bāng yǔ yáng yǒng què xì dí qīn yí biǎo xiōng dì yào bāng de mǔ qīn liú míng lún yǔ yáng yǒng de mǔ qīn liú shì zhēn shì tóng bāo jiě mèi	胡耀邦与杨勇确系嫡亲姨表兄弟耀邦的母亲刘明伦与杨勇的母亲刘世珍是同胞姐妹
+data_thchs30/dev/A23_97.wav	shǐ yòng zhè yàng de yá shuā huì bù tóng chéng dù de cì shāng yá yín zào chéng yá yín chū xuè bìng dǎo zhì yá chǐ guò dù mó sǔn	使用这样的牙刷会不同程度地刺伤牙龈造成牙龈出血并导致牙齿过度磨损
+data_thchs30/dev/A2_103.wav	zǒu chū cūn zi lǎo yuǎn lǎo yuǎn wǒ hái huí tóu zhāng wàng nà gè ān níng tián jìng de xiǎo yuàn nà gè shǐ wǒ zhōng shēn nán wàng de xiǎo yuàn	走出村子老远老远我还回头张望那个安宁恬静的小院那个使我终身难忘的小院
+data_thchs30/dev/A2_108.wav	rú yān bàn huáng guā jiāng huáng guā xǐ jìng qiē piàn hòu yòng yán yān bàn xiǎo shí zuǒ yòu shí yòng shí jiā táng cù má yóu jí kě	如腌拌黄瓜将黄瓜洗净切片后用盐腌半小时左右食用时加糖醋麻油即可
+data_thchs30/dev/A2_116.wav	jiàn yú cǐ jīng yán jiū jué dìng hǎi xiá qíng zhuān lán yuán dìng sān yuè dǐ jié shù xiàn yán zhì wǔ yuè sān shí yī rì tè cǐ gào zhī	鉴于此经研究决定海峡情专栏原定三月底结束现延至五月三十一日特此告知
+data_thchs30/dev/A2_119.wav	chén yún tóng zhì tóng shí yāo qiú gàn bù rèn zhēn xué xí yè wù jīng tōng yè wù xiàng yī qiè yè wù nèi háng rén xué xí	陈云同志同时要求干部认真学习业务精通业务向一切业务内行人学习
+data_thchs30/dev/A2_167.wav	sū ān níng suì lìng suí cóng jiào mín táng qǐ yú péng yà chāng děng jiāng lǐ yuán kāng zhuā zǒu	苏安宁遂令随从教民唐启虞彭亚昌等将李元康抓走
+data_thchs30/dev/A2_206.wav	shàng děng táng guǒ xiāng yān yào pǐn děng yòng bó li zhǐ bāo zhuāng chú le měi guān wài hái yǒu bǎo hù wù pǐn de jué miào zuò yòng	上等糖果香烟药品等用玻璃纸包装除了美观外还有保护物品的绝妙作用
+data_thchs30/dev/A2_33.wav	yǔ wáng wěi sì píng shì huò chē sī jī dù dà píng yuè yù jié zhuāng xiè gōng liú chūn shān yī tóng zhuī gǎn táo pǎo de àn fàn	与王伟四平市货车司机杜大平岳玉杰装卸工刘春山一同追赶逃跑的案犯
+data_thchs30/dev/A2_58.wav	tè bié shì kuà shěng qū diàn wǎng chāo jì huà yòng diàn bù jǐn sǔn hài zì jǐ yě sǔn hài bié rén sǔn hài diàn wǎng sǔn hài guó jiā	特别是跨省区电网超计划用电不仅损害自己也损害别人损害电网损害国家
+data_thchs30/dev/A2_85.wav	hú yào bāng yǔ yáng yǒng què xì dí qīn yí biǎo xiōng dì yào bāng de mǔ qīn liú míng lún yǔ yáng yǒng de mǔ qīn liú shì zhēn shì tóng bāo jiě mèi	胡耀邦与杨勇确系嫡亲姨表兄弟耀邦的母亲刘明伦与杨勇的母亲刘世珍是同胞姐妹
+data_thchs30/dev/A2_92.wav	jiē yáng chéng wéi wài shāng tóu zī xīn rè diǎn jiàn shì yī nián yǐn jìn wài zī shí wǔ yì měi yuán	揭阳成为外商投资新热点建市一年引进外资十五亿美元
+data_thchs30/dev/A32_114.wav	jīn jī shān xià de nòng yáo cūn ài kǒu zhèn guò qù qióng dé dīng dāng xiǎng xiàn zài què chū le bǎi wàn fù wēng shèn zhì qiān wàn fù wēng	金鸡山下的弄尧村隘口镇过去穷得叮当响现在却出了百万富翁甚至千万富翁
+data_thchs30/dev/A32_124.wav	lìng wài nǚ dān zhōng guó duì hái yǒu hán jīng nà hé yáo yàn ào yùn pái míng dì liù qī wèi yě kě yǔ gāo shǒu yī bó	另外女单中国队还有韩晶娜和尧燕奥运排名第六七位也可与高手一搏
+data_thchs30/dev/A32_14.wav	jié zhì jīn nián qī yuè zhōng xún gāi shì gòng tuō qiàn jiào shī gōng zī yì bǎi sān shí wǔ wàn yuán yīn zhèng lìng shòu zǔ ér wèi jí shí duì xiàn	截至今年七月中旬该市共拖欠教师工资一百三十五万元因政令受阻而未及时兑现
+data_thchs30/dev/A32_173.wav	yuán chǎn ōu zhōu de wù wàng cǎo qí mào bù yáng dàn míng wén ōu yà sú chēng wù wàng wǒ huò wú wàng wǒ	原产欧洲的勿忘草其貌不扬但名闻欧亚俗称勿忘我或毋忘我
+data_thchs30/dev/A32_19.wav	xiàn nián wǔ shí bā suì de qiè ěr nuò méi ěr jīn shì cóng yī jiǔ jiǔ èr nián shí èr yuè kāi shǐ dān rèn é luó sī zhèng fǔ zǒng lǐ zhí wù de	现年五十八岁的切尔诺梅尔金是从一九九二年十二月开始担任俄罗斯政府总理职务的
+data_thchs30/dev/A32_202.wav	dàn duì qǐ yè lái shuō jī zhì zhuǎn huàn le zì zhǔ jīng yíng le zì fù yíng kuī le yě hái yǒu fù yíng hé fù kuī de liǎng zhǒng kě néng xìng	但对企业来说机制转换了自主经营了自负盈亏了也还有负盈和负亏的两种可能性
+data_thchs30/dev/A32_219.wav	zhè péng yǒu yě xiàng tán liàn ài yī yàng dé jiǎng yuán fèn yǒu yuán fèn shì bù yòng kè yì qù zhuī qiú de	这朋友也象谈恋爱一样得讲缘份有缘份是不用刻意去追求的
+data_thchs30/dev/A32_232.wav	jiāo juǎn chōng wán hòu réng liú zài àn hé zhōng gù kè dé dào yī fèn hé dǐ piàn tóng yàng dà xiǎo de zhào piān gōng kuò yìn xuǎn zé yòng	胶卷冲完后仍留在暗盒中顾客得到一份和底片同样大小的照片供扩印选择用
+data_thchs30/dev/A32_235.wav	lǐ ruì huán shuō zhōng jiǎn yǒu yì shì zhōng guó lǎo yī bèi lǐng dǎo rén hé guó wáng bì xià qīn shǒu dì zào de jīng shòu le gè zhǒng fēng làng de kǎo yàn	李瑞环说中柬友谊是中国老一辈领导人和国王陛下亲手缔造的经受了各种风浪的考验
+data_thchs30/dev/A32_244.wav	ā lā fǎ tè de fū rén sū hā bào zhe bù mǎn wǔ gè yuè de nǚ ér zhā hā wǎ zài yē sū dàn shēng de mǎ cáo páng liú yǐng	阿拉法特的夫人苏哈抱着不满五个月的女儿扎哈瓦在耶稣诞生的马槽旁留影
+data_thchs30/dev/A32_35.wav	dào le yǒu qìng tí zhe yī lán cǎo huí lái shàng xué yě kuài chí dào le jí máng wǎng zuǐ lǐ sāi yī wǎn fàn biān jué biān wǎng chéng lǐ pǎo	到了有庆提着一篮草回来上学也快迟到了急忙往嘴里塞一碗饭边嚼边往城里跑
+data_thchs30/dev/A32_37.wav	lìng wài qún zhòng fǎn yìng yuán yùn fā yǒu gè mèi mèi zài ào tóu jū zhù qù nián chūn jié qián qǐng gōng rén qì qiáng bǎ cè suǒ qiáng qì tā le	另外群众反映袁运发有个妹妹在澳头居住去年春节前请工人砌墙把厕所墙砌塌了
+data_thchs30/dev/A32_50.wav	yī xiāng gǎng de kàng rì jiù wáng yùn dòng yǐ jiù wáng wén huà yùn dòng wèi zhǔ yào xíng shì	一香港的抗日救亡运动以救亡文化运动为主要形式
+data_thchs30/dev/A32_54.wav	zhè zhǒng wěi háng pái diàn zi miè wén yíng dēng cǎi yòng mǒu zhǒng guāng pǔ néng de guāng xiào yìng yòu shā wén yíng hé fēi chóng duì rén tǐ wú hài	这种伟航牌电子灭蚊蝇灯采用某种光谱能的光效应诱杀蚊蝇和飞虫对人体无害
+data_thchs30/dev/A32_62.wav	běn shū zhōng de cóng bǎi cǎo yuán dào sān wèi shū wū téng yě xiān shēng fàn ài nóng děng piān bèi xuǎn rù zhōng xué yǔ wén kè běn	本书中的从百草园到三味书屋藤野先生范爱农等篇被选入中学语文课本
+data_thchs30/dev/A32_67.wav	chì tiě kuàng de chéng fèn shì sān yǎng huà èr tiě yán sè chéng àn hóng sè huò gāng huī sè tā yīn fěn mò chéng hóng sè ér dé míng	赤铁矿的成分是三氧化二铁颜色呈暗红色或钢灰色它因粉末呈红色而得名
+data_thchs30/dev/A32_84.wav	cóng fēi jī shàng wǎng xià wàng qù jiù rú tóng yí gè shuò dà de yù pén yī yàng pén dǐ xià miàn hái yǒu lǚ lǚ qīng yān mào chū	从飞机上往下望去就如同一个硕大的玉盆一样盆底下面还有缕缕青烟冒出
+data_thchs30/dev/A32_91.wav	xī ān dōng nán běi chéng mén qián yǒu xǔ duō xuān chuán pái guà yī kuài pái yī nián yào huā liǎng wàn yuán wǒ men yě guà le yī kuài	西安东南北城门前有许多宣传牌挂一块牌一年要花两万元我们也挂了一块
+data_thchs30/dev/A33_11.wav	zhā yī cǎi fū shí zhuāng bù jǐn nǚ zhuāng gāo yǎ nán zhuāng yě xīn yǐng bù jǐn biǎo yǎn shí zhuāng bié zhì zhí yè nǚ zhuāng yě mèi lì zuì rén	扎依采夫时装不仅女装高雅男装也新颖不仅表演时装别致职业女装也魅力醉人
+data_thchs30/dev/A33_20.wav	wá wá yú de shēng huó xí xìng tè shū bù yì rén gōng wèi yǎng rán ér yóu kè què bù zhī zhè xiē zhǐ tú xī qí hǎo wán suí yì bǔ zhuō	娃娃鱼的生活习性特殊不易人工喂养然而游客却不知这些只图稀奇好玩随意捕捉
+data_thchs30/dev/A33_3.wav	cài zuò hǎo le yī wǎn qīng zhēng wǔ chāng yú yī wǎn fān qié chǎo jī dàn yī wǎn zhà cài gàn zi chǎo ròu sī	菜做好了一碗清蒸武昌鱼一碗蕃茄炒鸡蛋一碗榨菜干子炒肉丝
+data_thchs30/dev/A33_36.wav	dài yè wǎn jiàn shēn yuè chū yú dōng shān róng róng yuè huá cā liàng xiǎo hú yìng rù shuǐ zhōng de yuè huī rú yù pán xiǎo hú biàn xiàng jìng yuè	待夜晚渐深月出于东山溶溶月华擦亮小湖映入水中的月辉如玉盘小湖便像镜月
+data_thchs30/dev/A33_79.wav	měi róng pǐn jiǎn féi yào yíng yǎng yè shì chǎng zǒu qiào yǒu rén rèn wéi shì kào guǎng gào yìng shān huǒ qǐ lái de	美容品减肥药营养液市场走俏有人认为是靠广告硬煽火起来的
+data_thchs30/dev/A34_118.wav	yóu yú chǎn fù zǎo chǎn yī hù rén yuán jiāng sān bāo tāi yīng ér fàng zài yù yīng xiāng nèi jīng xīn hù lǐ yǐ bǎo zhèng tā men cún huó	由于产妇早产医护人员将三胞胎婴儿放在育婴箱内精心护理以保证他们存活
+data_thchs30/dev/A34_120.wav	zhōng nián yǎn yuán mǎ lì lì lù jìng yè qīng nián yǎn yuán sūn xú chūn děng yě wèi guān zhòng yǎn chū le ná shǒu qǔ mù	中年演员马莉莉陆敬业青年演员孙徐春等也为观众演出了拿手曲目
+data_thchs30/dev/A34_127.wav	yào xiǎng fú yōu tài liè shǒu xiān yào jiě jué shéi yōu shéi liè de wèn tí yào pàn dìng shéi yōu shéi liè bì xū dé yǒu yí gè héng liáng de chǐ zi	要想扶优汰劣首先要解决谁优谁劣的问题要判定谁优谁劣必须得有一个衡量的尺子
+data_thchs30/dev/A34_132.wav	dé dào lǐ gōng pǔ è hào wén yī duō nù fèn tián yīng pāi àn ér qǐ nù chì fǎn dòng pài bēi bǐ wú chǐ	得到李公朴噩耗闻一多怒愤填膺拍案而起怒斥反动派卑鄙无耻
+data_thchs30/dev/A34_134.wav	fǎ jì zàn chéng běi yuē dōng kuò yòu tóng yì jiā qiáng ōu ān zǔ zhī de zuò yòng cóng ér hé měi guó yǒu suǒ qū bié	法既赞成北约东扩又同意加强欧安组织的作用从而和美国有所区别
+data_thchs30/dev/A34_160.wav	yòng chuán tǒng de cháng guī yù yāng fāng shì měi yù yī mǔ yāng miáo zhǐ kě zāi chā bā mǔ dà tián dǐ mó yù yāng zé kě yí zāi wǔ shí mǔ	用传统的常规育秧方式每育一亩秧苗只可栽插八亩大田底膜育秧则可移栽五十亩
+data_thchs30/dev/A34_176.wav	qí zhōng shuǐ yùn kǒu àn bā shí yī gè kōng yùn kǒu àn èr shí wǔ gè tiě lù kǒu àn shí gè gōng lù kǒu àn èr shí sān gè	其中水运口岸八十一个空运口岸二十五个铁路口岸十个公路口岸二十三个
+data_thchs30/dev/A34_185.wav	qí zhōng sān shí hào jū mín shào táo ā pó dāng chǎng bèi yā sǐ rán hòu yòu xiōng hěn de pū xiàng běi yuán jiǔ jiā dōng lóu	其中三十号居民邵桃阿婆当场被压死然后又凶狠地扑向北园酒家东楼
+data_thchs30/dev/A34_190.wav	nà zhǒng cóng guó wài yǐn jìn de yòng là jiāo jiǎn féi de yáng wán yì ér jiū jìng shì chī hái shì wài fū guǎng gào wèi shuō míng bù dé ér zhī	那种从国外引进的用辣椒减肥的洋玩意儿究竟是吃还是外敷广告未说明不得而知
+data_thchs30/dev/A34_194.wav	cān jīn shì cā zuǐ hé shǒu zhǐ de bēi biān qǐng yòng cān zhǐ cā shì liǎn shàng de hàn huò zhān shàng de shuǐ zhī qǐng yòng zì jǐ de shǒu juàn cā diào	餐巾是擦嘴和手指的杯边请用餐纸擦拭脸上的汗或沾上的水汁请用自己的手绢擦掉
+data_thchs30/dev/A34_20.wav	wá wá yú de shēng huó xí xìng tè shū bù yì rén gōng wèi yǎng rán ér yóu kè què bù zhī zhè xiē zhǐ tú xī qí hǎo wán suí yì bǔ zhuō	娃娃鱼的生活习性特殊不易人工喂养然而游客却不知这些只图稀奇好玩随意捕捉
+data_thchs30/dev/A34_203.wav	kāi luán kuàng wù jú hòu lǚ jiā tuó kuàng zhāng wén yǒu zhāng wén fù liǎng xiōng dì tóng chāo chǎn tóng lì gōng tóng dāng láo dòng mó fàn	开滦矿务局后吕家坨矿张文友张文富两兄弟同超产同立功同当劳动模范
+data_thchs30/dev/A34_237.wav	mǎ ruì kàn le yī yǎn yòu tǎng xià le zhǐ liú xià yí gè guāng jié fěn hóng shàng wèi yīn jiǎo qì de sāo rǎo ér mí làn tuì pí de jiǎo yā	马锐看了一眼又躺下了只留下一个光洁粉红尚未因脚气的骚扰而糜烂蜕皮的脚丫
+data_thchs30/dev/A34_244.wav	ā lā fǎ tè de fū rén sū hā bào zhe bù mǎn wǔ gè yuè de nǚ ér zhā hā wǎ zài yē sū dàn shēng de mǎ cáo páng liú yǐng	阿拉法特的夫人苏哈抱着不满五个月的女儿扎哈瓦在耶稣诞生的马槽旁留影
+data_thchs30/dev/A34_29.wav	xīn huá shè jī duō èr yuè liù rì diàn zuì jìn èr shí tiān lái è guā duō ěr quán guó nüè jí xùn sù màn yán yǐ yǒu duō rén sǐ wáng	新华社基多二月六日电最近二十天来厄瓜多尔全国疟疾迅速蔓延已有多人死亡
+data_thchs30/dev/A34_36.wav	dài yè wǎn jiàn shēn yuè chū yú dōng shān róng róng yuè huá cā liàng xiǎo hú yìng rù shuǐ zhōng de yuè huī rú yù pán xiǎo hú biàn xiàng jìng yuè	待夜晚渐深月出于东山溶溶月华擦亮小湖映入水中的月辉如玉盘小湖便像镜月
+data_thchs30/dev/A34_51.wav	lǚ yǔ yóu de shí jiān bǐ wǎng wǎng lǚ zhǎng yóu duǎn yǔ yóu kè de yuàn wàng xiāng bèi	旅与游的时间比往往旅长游短与游客的愿望相悖
+data_thchs30/dev/A34_63.wav	shì ya nán rén yǐ wéi ràng jiǔ ràng yān shì jí pǔ biàn de shì kě shì zhǐ xiàn yú yān jiǔ tā men bú huì féi mǎ qīng qiú yǔ yǒu gòng zhī	是呀男人以为让酒让烟是极普遍的事可是只限于烟酒他们不会肥马轻裘与友共之
+data_thchs30/dev/A34_73.wav	zhè cì quán guó qīng nián pái qiú lián sài gòng shè tiān jīn zhōu shān wǔ hàn sān gè sài qū měi gè sài qū de qián liǎng míng jiāng cān jiā fù sài	这次全国青年排球联赛共设天津舟山武汉三个赛区每个赛区的前两名将参加复赛
+data_thchs30/dev/A34_75.wav	chóng zhēn dì běn duì tā pǒ wèi yǐ zhòng hái jià lín sūn fǔ yǐ shì ēn chǒng lìng sūn yuán huà gǎn jī tì líng	崇祯帝本对他颇为倚重还驾临孙府以示恩宠令孙元化感激涕零
+data_thchs30/dev/A35_2.wav	qǐ yè yī kào jì shù wā qián zēng xiào tā fù zé quán chǎng chǎn pǐn zhì liàng yǔ jì shù péi xùn chéng le chǎng lǐ de dà máng rén	企业依靠技术挖潜增效他负责全厂产品质量与技术培训成了厂里的大忙人
+data_thchs30/dev/A36_100.wav	kě shéi zhī wén wán hòu tā yī zhào jìng zi zhī jiàn zuǒ xià yǎn jiǎn de xiàn yòu cū yòu hēi yǔ yòu cè míng xiǎn bù duì chèn	可谁知纹完后她一照镜子只见左下眼睑的线又粗又黑与右侧明显不对称
+data_thchs30/dev/A36_115.wav	mǎ xiǎo nián zuò huà de tè zhēng yǔ shén yùn qí huà fēng qū bié yú wén rén huà hé nián huà kě wèi yǎ sú gòng shǎng	马晓年作画的特征与神韵其画风区别于文人画和年画可谓雅俗共赏
+data_thchs30/dev/A36_133.wav	cūn zhī bù shū jì gā mǎ luó bù shuō xuě zāi shí quān wō zhǒng de cǎo wéi chí le yī gè bàn yuè fǒu zé sǔn shī gèng dà	村支部书记嘎玛罗布说雪灾时圈窝种的草维持了一个半月否则损失更大
+data_thchs30/dev/A36_151.wav	tā qí guài zì jǐ bù jǐn wú yī sī xū qiè jìng yǒu zhǒng yǔ duì shǒu pīn shā jiào liàng yuè yuè yù shì de xīn jìng	她奇怪自己不仅无一丝虚怯竟有种与对手拼杀较量跃跃欲试的心境
+data_thchs30/dev/A36_158.wav	qī shí èr suì de huáng pǔ qū dì yī yǐn shí gōng sī tuì xiū zhí gōng shěn zhì píng shēn bǎn yìng lǎng yīn wèi lǎo bàn wò chuáng yǎng bìng biàn chéng le gāo líng mǎ dà sǎo	七十二岁的黄浦区第一饮食公司退休职工沈治平身板硬朗因为老伴卧床养病便成了高龄马大嫂
+data_thchs30/dev/A36_163.wav	tā qióng zhuī bù shě shēn wā xì chá zhōng yú nòng qīng bèi gào yǔ gāi nǎi niú zhàn shì liǎng kuài pái zi yī tào bān zi	他穷追不舍深挖细查终于弄清被告与该奶牛站是两块牌子一套班子
+data_thchs30/dev/A36_177.wav	pò chǎn zhài wù wèi pò chǎn zhài hù suǒ yǒu zhài quán rén de gòng tóng sǔn shī àn zhài quán fā shēng é píng jūn fēn tān huò chōng jiǎn zhài quán	破产债务为破产债户所有债权人的共同损失按债权发生额平均分摊或冲减债权
+data_thchs30/dev/A36_203.wav	kāi luán kuàng wù jú hòu lǚ jiā tuó kuàng zhāng wén yǒu zhāng wén fù liǎng xiōng dì tóng chāo chǎn tóng lì gōng tóng dāng láo dòng mó fàn	开滦矿务局后吕家坨矿张文友张文富两兄弟同超产同立功同当劳动模范
+data_thchs30/dev/A36_208.wav	cǐ àn zhōng dào qiè wén wù de liú nóng jūn liú jìn wén xī shān lǐ jūn děng sì míng zhǔ fàn yě zài jiǔ yuè shí bā rì bèi yī fǎ pàn chǔ	此案中盗窃文物的刘农军刘进文西山李军等四名主犯也在九月十八日被依法判处
+data_thchs30/dev/A36_233.wav	ān dì sī jí tuán yóu bō lì wéi yà gē lún bǐ yà è guā duō ěr bì lǔ hé wěi nèi ruì lā wǔ guó zǔ chéng	安第斯集团由玻利维亚哥伦比亚厄瓜多尔秘鲁和委内瑞拉五国组成
+data_thchs30/dev/A36_245.wav	zhēn shì cōng míng fǎn bèi cōng míng wù chǎng zhǎng děng rén yīn fàn yǒu bāo bì zuì tóng qiè zéi yì qǐ bèi guān jìn le bān fáng	真是聪明反被聪明误厂长等人因犯有包庇罪同窃贼一起被关进了班房
+data_thchs30/dev/A36_40.wav	shè xiǎng yào hǎi kuò tiān kōng guān chá yào quán miàn xì zhì lì lùn yào yǒu gēn yǒu jù zhè shì ōu yáng zì yuǎn de zhì xué zhǔn zé	设想要海阔天空观察要全面细致立论要有根有据这是欧阳自远的治学准则
+data_thchs30/dev/A36_52.wav	qīng cǎo yòu sōng yòu ruǎn wāi wāi qū qū de zhuī suí zhe dào lù xiàng yuǎn chù yán shēn	青草又松又软歪歪曲曲地追随着道路向远处延伸
+data_thchs30/dev/A36_59.wav	yí dàn yù dào liè wù lì jí yòng jiǎo xū qián zhù wěi bā gōu zhuǎn yòng wěi cì zhù shè yī zhēn jiāng liè wù dú sǐ	一旦遇到猎物立即用脚须钳住尾巴钩转用尾刺注射一针将猎物毒死
+data_thchs30/dev/A36_68.wav	lián guǎng xī nà yàng de biān yuǎn shěng qū jiā diàn wéi xiū péi xùn jié yè xué yuán yě chāo guò le shí wàn rén	连广西那样的边远省区家电维修培训结业学员也超过了十万人
+data_thchs30/dev/A36_88.wav	chéng rán bìng fēi suǒ yǒu wǔ tuán dōu xiàng bā lěi wǔ tuán nà yàng xìng yùn bā lěi wǔ tuán yě bìng fēi suǒ yǒu jù mù dōu shòu huān yíng	诚然并非所有舞团都像芭蕾舞团那样幸运芭蕾舞团也并非所有剧目都受欢迎
+data_thchs30/dev/A4_10.wav	pào yǎn dǎ hǎo le zhà yào zěn me zhuāng yuè zhèng cái yǎo le yǎo yá shū dì tuō qù yī fú guāng bǎng zi chōng jìn le shuǐ cuàn dòng	炮眼打好了炸药怎么装岳正才咬了咬牙倏地脱去衣服光膀子冲进了水窜洞
+data_thchs30/dev/A4_125.wav	gōng chǎng hé chǎng fáng yī shān ér jiàn quán bù pèi bèi pái wū xì tǒng nǐ jiàn bú dào hēi yān tīng bú dào zào shēng yě kàn bù dào wū shuǐ	工厂和厂房依山而建全部配备排污系统你见不到黑烟听不到噪声也看不到污水
+data_thchs30/dev/A4_140.wav	yà xiāo àn lèi zài biàn zhì de shí wù zhōng hán liàng bǐ jiào duō suǒ yǐ yīng shǎo chī xiē yān ròu yān cài xūn yú zhī lèi de shí pǐn	亚硝胺类在变质的食物中含量比较多所以应少吃些腌肉腌菜熏鱼之类的食品
+data_thchs30/dev/A4_157.wav	chú qī hài bāo kuò sǎo chú mài yín piáo chāng jù zhòng dǔ bó xī shí fàn yùn dú pǐn guǎi mài fù nǚ ér tóng děng	除七害包括扫除卖淫嫖娼聚众赌博吸食贩运毒品拐卖妇女儿童等
+data_thchs30/dev/A4_182.wav	shàng wǔ jiǔ shí suí zhe tiān jīn mín yuán tǐ yù chǎng nèi fā lìng qiāng yī shēng cuì xiǎng liù shí yī míng nǚ yùn dòng yuán fēng yōng qǐ pǎo	上午九时随着天津民园体育场内发令枪一声脆响六十一名女运动员蜂拥起跑
+data_thchs30/dev/A4_197.wav	tiān gōng bù zuò měi dàng tiān wǎn kāi shǐ zhuǎn yīn xià yǔ cì rì qīng chén réng yīn yún mì bù rén men jǔ sàng de zhǔn bèi chè lí	天公不作美当天晚开始转阴下雨次日清晨仍阴云密布人们沮丧地准备撤离
+data_thchs30/dev/A4_204.wav	shǐ yòng zuì fāng biàn de suǒ yǐn shì zhèng wén cí tiáo àn zhào hàn yǔ pīn yīn fāng àn pái liè zhè yàng kě zhí jiē àn zhào yīn xù chá zhǎo zhèng wén	使用最方便的索引是正文词条按照汉语拼音方案排列这样可直接按照音序查找正文
+data_thchs30/dev/A4_209.wav	bì kāi duì fāng léi dá zhuī zōng de mì jué zài yú zài jī tǐ shàng pēn tú de tè shū tú liào ér zhè zhǒng tè shū tú liào shì rì běn yán zhì de	避开对方雷达追踪的秘诀在于在机体上喷涂的特殊涂料而这种特殊涂料是日本研制的
+data_thchs30/dev/A4_210.wav	zhǐ yuán tū wéi dǎo wú fāng xiāng jiāng sǔn shī wēi yǐ zūn yì zhèng què zuò jué cè yǒng měng fēi shā qiān gǔ sòng	只缘突围导无方湘江损失危矣遵义正确作决策勇猛飞杀千古颂
+data_thchs30/dev/A4_235.wav	lǐ ruì huán shuō zhōng jiǎn yǒu yì shì zhōng guó lǎo yī bèi lǐng dǎo rén hé guó wáng bì xià qīn shǒu dì zào de jīng shòu le gè zhǒng fēng làng de kǎo yàn	李瑞环说中柬友谊是中国老一辈领导人和国王陛下亲手缔造的经受了各种风浪的考验
+data_thchs30/dev/A4_240.wav	tán huā yī xiàn de wáng shū wén gǎi gé yóu yú fā shēng zài táng shùn zōng yǒng zhēn nián jiān suǒ yǐ yòu bèi chēng wéi yǒng zhēn gé xīn	昙花一现的王叔文改革由于发生在唐顺宗永贞年间所以又被称为永贞革新
+data_thchs30/dev/A4_243.wav	yǒu sān bǎi wǔ shí sān hù rén jiā zài ěr hǎi wǎng xiāng yǎng yú bā shí wǔ mǔ chǎn yú sì bǎi duō dūn píng jūn mǔ chǎn dá dào wǔ qiān sì bǎi wǔ shí gōng jīn	有三百五十三户人家在洱海网箱养鱼八十五亩产鱼四百多吨平均亩产达到五千四百五十公斤
+data_thchs30/dev/A4_26.wav	děng cóng yūn yūn hū hū zhōng xǐng zhuǎn lái shí jiān yǐ jīng diū xià yī chuàn cháng cháng de jiǎo yìn xiāo shì dé wú yǐng wú zōng	等从晕晕乎乎中醒转来时间已经丢下一串长长的脚印消逝得无影无踪
+data_thchs30/dev/A4_4.wav	tā kàn kàn yè jǐ hěn shēn bái tiān de yán rè yǐ gěi yè liáng chuī sàn fēn fù dà jiā gè zì ān xī míng tiān jì xù wán lè	她看看夜己很深白天的炎热已给夜凉吹散吩咐大家各自安息明天继续玩乐
+data_thchs30/dev/A4_48.wav	mù qián nèi méng gǔ yōng yǒu méng yī yuàn èr shí qī suǒ zhōng méng yī yuàn shí jiǔ suǒ zhōng méng yī yán jiū suǒ qī chù	目前内蒙古拥有蒙医院二十七所中蒙医院十九所中蒙医研究所七处
+data_thchs30/dev/A4_52.wav	qīng cǎo yòu sōng yòu ruǎn wāi wāi qū qū de zhuī suí zhe dào lù xiàng yuǎn chù yán shēn	青草又松又软歪歪曲曲地追随着道路向远处延伸
+data_thchs30/dev/A4_74.wav	kōng jūn háng kōng bīng mǒu bù nǚ fēi xíng yuán wáng qín kè kǔ zuān yán fēi xíng jì néng zuì jìn kuà rù le quán tiān hòu fēi xíng yuán háng liè	空军航空兵某部女飞行员王琴刻苦钻研飞行技能最近跨入了全天候飞行员行列
+data_thchs30/dev/A6_0.wav	lǜ shì yáng chūn yān jǐng dà kuài wén zhāng de dǐ sè sì yuè de lín luán gèng shì lǜ dé xiān huó xiù mèi shī yì àng rán	绿是阳春烟景大块文章的底色四月的林峦更是绿得鲜活秀媚诗意盎然
+data_thchs30/dev/A6_108.wav	rú yān bàn huáng guā jiāng huáng guā xǐ jìng qiē piàn hòu yòng yán yān bàn xiǎo shí zuǒ yòu shí yòng shí jiā táng cù má yóu jí kě	如腌拌黄瓜将黄瓜洗净切片后用盐腌半小时左右食用时加糖醋麻油即可
+data_thchs30/dev/A6_109.wav	jié guǒ bù wǎ wàn bù zhī zěn me wèi néng bǎ sǎn dǎ kāi ér shuāi sǐ ér kǎ tè lín cāo zòng jiàng luò sǎn ān rán zhe de	结果布瓦万不知怎么未能把伞打开而摔死而卡特琳操纵降落伞安然着地
+data_thchs30/dev/A6_11.wav	zhā yī cǎi fū shí zhuāng bù jǐn nǚ zhuāng gāo yǎ nán zhuāng yě xīn yǐng bù jǐn biǎo yǎn shí zhuāng bié zhì zhí yè nǚ zhuāng yě mèi lì zuì rén	扎依采夫时装不仅女装高雅男装也新颖不仅表演时装别致职业女装也魅力醉人
+data_thchs30/dev/A6_128.wav	jǐn huì huà ér lùn qí bái shí shì wēi wēi kūn lún kě zhè wèi fù yōng fēng yǎ de mén wài hàn lián yī kuài shí tou dōu bú shì	仅绘画而论齐白石是巍巍昆仑可这位附庸风雅的门外汉连一块石头都不是
+data_thchs30/dev/A6_138.wav	jīng guò shàng shàng xià xià de gòng tóng nǔ lì è zhì le wài zī é xià jiàng de qū shì chū xiàn wài zī é dà fú dù huí shēng de jú miàn	经过上上下下的共同努力扼制了外资额下降的趋势出现外资额大幅度回升的局面
+data_thchs30/dev/A6_141.wav	zhōng guó chú gè bié yùn dòng yuán yǔ wài guó xuǎn shǒu zǔ duì cān jiā shuāng dǎ yù xuǎn sài wài jūn jiāng zhí jiē jìn rù zhèng sài	中国除个别运动员与外国选手组对参加双打预选赛外均将直接进入正赛
+data_thchs30/dev/A6_145.wav	nǐ men dà jiā chī cāng yíng wǒ yě gēn zhe chī cāng yíng nǐ men yuàn yì chī wén zi wǒ jiù gēn zhe chī wén zi shén me shì bù yòng wèn wǒ	你们大家吃苍蝇我也跟着吃苍蝇你们愿意吃蚊子我就跟着吃蚊子什么事不用问我
+data_thchs30/dev/A6_16.wav	yào zhī dào qín yǒng èr hào kēng de jūn zhèn xìng zhì shǒu xiān yào liǎo jiě yī xià xué zhě men guān yú qín yǒng yī hào kēng jūn zhèn xìng zhì de tàn tǎo	要知道秦俑二号坑的军阵性质首先要了解一下学者们关于秦俑一号坑军阵性质的探讨
+data_thchs30/dev/A6_171.wav	shēn yè shí èr diǎn zhōng tā zhàn zài shào wèi shàng huán shì zhōu wéi yīn sēn kě bù yuè xiǎng yuè hài pà bào qiāng kū zhe pǎo huí yíng fáng	深夜十二点钟他站在哨位上环视周围阴森可怖越想越害怕抱枪哭着跑回营房
+data_thchs30/dev/A6_20.wav	wá wá yú de shēng huó xí xìng tè shū bù yì rén gōng wèi yǎng rán ér yóu kè què bù zhī zhè xiē zhǐ tú xī qí hǎo wán suí yì bǔ zhuō	娃娃鱼的生活习性特殊不易人工喂养然而游客却不知这些只图稀奇好玩随意捕捉
+data_thchs30/dev/A6_205.wav	zì cóng yǒu zhè gěi xiā zi zuò qiè de huà tā kàn jiàn jiē shàng de xiā zi jiù yǒu zhǒng yì yàng de gǎn jué yòu tǎo yàn yòu yǒu diǎn pà	自从有这给瞎子作妾的话她看见街上的瞎子就有种异样的感觉又讨厌又有点怕
+data_thchs30/dev/A6_212.wav	zhè wǎn lí niáng fàn gū niáng zài yǒu lí niáng tòng chǔ yě yào měi yàng dōu chī yì diǎn cái suàn xún guī zūn sú de	这碗离娘饭姑娘再有离娘痛楚也要每样都吃一点才算循规遵俗的
+data_thchs30/dev/A6_231.wav	sì shì duì quán tǐ yuán gōng jiā qiáng wài yǔ péi xùn yán gé wài yǔ kǎo shì bìng bǎ wài yǔ chéng jī hé běn rén de jīng jì shōu rù guà gōu	四是对全体员工加强外语培训严格外语考试并把外语成绩和本人的经济收入挂钩
+data_thchs30/dev/A6_247.wav	zhōng ào jīng mào hé zuò fā zhǎn rú cǐ zhī kuài ào fāng réng gǎn bù zú kě jiàn ào zhèng fǔ zhì dìng róng rù yà zhōu zhī jí qiè	中澳经贸合作发展如此之快澳方仍感不足可见澳政府制定融入亚洲之急切
+data_thchs30/dev/A6_3.wav	cài zuò hǎo le yī wǎn qīng zhēng wǔ chāng yú yī wǎn fān qié chǎo jī dàn yī wǎn zhà cài gàn zi chǎo ròu sī	菜做好了一碗清蒸武昌鱼一碗蕃茄炒鸡蛋一碗榨菜干子炒肉丝
+data_thchs30/dev/A6_41.wav	xīn huá shè bō ēn yí yuè sān rì xiāo xī xī dé rén lèi xué jiā jīng kǎo gǔ fā xiàn yuǎn zài shí qì shí dài de rén jiù huàn yǒu ái zhèng	新华社波恩一月三日消息西德人类学家经考古发现远在石器时代的人就患有癌症
+data_thchs30/dev/A6_77.wav	yī jiǔ jiǔ wǔ nián yí yuè wēn zhōu shì wěi fù mì shū zhǎng wēng jǐn wǔ lái jiē rèn ōu hǎi qū wěi shū jì	一九九五年一月温州市委副秘书长翁锦武来接任瓯海区委书记
+data_thchs30/dev/A6_78.wav	bàn gè duō shì jì qián rì jūn xiū zhù de háo qiàn yī rán jiāng shé bān héng wò hēi fēng kǒu liǎng cè huāng shān yě lǐng zhuó tòng wǒ de mù guāng	半个多世纪前日军修筑的壕堑依然僵蛇般横卧黑风口两侧荒山野岭灼痛我的目光
+data_thchs30/dev/A6_89.wav	zài sāng cán shēng chǎn chǔ yú bù jǐng qì de xíng shì xià guǎng xī yǒng fú xiàn sān huáng xiāng cán nóng jīn nián què jī jí hù lǐ sāng miáo fā zhǎn yǎng cán	在桑蚕生产处于不景气的形势下广西永福县三皇乡蚕农今年却积极护理桑苗发展养蚕
+data_thchs30/dev/A7_1.wav	tā jǐn píng yāo bù de lì liàng zài yǒng dào shàng xià fān téng yǒng dòng shé xíng zhuàng rú hǎi tún yì zhí yǐ yī tóu de yōu shì lǐng xiān	他仅凭腰部的力量在泳道上下翻腾蛹动蛇行状如海豚一直以一头的优势领先
+data_thchs30/dev/A7_109.wav	jié guǒ bù wǎ wàn bù zhī zěn me wèi néng bǎ sǎn dǎ kāi ér shuāi sǐ ér kǎ tè lín cāo zòng jiàng luò sǎn ān rán zhe de	结果布瓦万不知怎么未能把伞打开而摔死而卡特琳操纵降落伞安然着地
+data_thchs30/dev/A7_132.wav	dé dào lǐ gōng pǔ è hào wén yī duō nù fèn tián yīng pāi àn ér qǐ nù chì fǎn dòng pài bēi bǐ wú chǐ	得到李公朴噩耗闻一多怒愤填膺拍案而起怒斥反动派卑鄙无耻
+data_thchs30/dev/A7_135.wav	yí dìng hái yǒu bié yàng de shēng huó yǒu chéng shì yǒu yīn yuè yǒu yáo wàng yuǎn fāng shì wù de děng dài yǒu lìng rén kuáng xǐ de fā xiàn	一定还有别样的生活有城市有音乐有遥望远方事物的等待有令人狂喜的发现
+data_thchs30/dev/A7_157.wav	chú qī hài bāo kuò sǎo chú mài yín piáo chāng jù zhòng dǔ bó xī shí fàn yùn dú pǐn guǎi mài fù nǚ ér tóng děng	除七害包括扫除卖淫嫖娼聚众赌博吸食贩运毒品拐卖妇女儿童等
+data_thchs30/dev/A7_162.wav	gāi zhōng zhòng yuē shí sì dūn měi zǒu yī xiǎo shí jiù fā chū shēn chén kēng qiāng de bào shí shēng niǎo niǎo yú yīn yáo yuǎn kě wén	该钟重约十四吨每走一小时就发出深沉铿锵的报时声袅袅余音遥远可闻
+data_thchs30/dev/A7_185.wav	qí zhōng sān shí hào jū mín shào táo ā pó dāng chǎng bèi yā sǐ rán hòu yòu xiōng hěn de pū xiàng běi yuán jiǔ jiā dōng lóu	其中三十号居民邵桃阿婆当场被压死然后又凶狠地扑向北园酒家东楼
+data_thchs30/dev/A7_194.wav	cān jīn shì cā zuǐ hé shǒu zhǐ de bēi biān qǐng yòng cān zhǐ cā shì liǎn shàng de hàn huò zhān shàng de shuǐ zhī qǐng yòng zì jǐ de shǒu juàn cā diào	餐巾是擦嘴和手指的杯边请用餐纸擦拭脸上的汗或沾上的水汁请用自己的手绢擦掉
+data_thchs30/dev/A7_197.wav	tiān gōng bù zuò měi dàng tiān wǎn kāi shǐ zhuǎn yīn xià yǔ cì rì qīng chén réng yīn yún mì bù rén men jǔ sàng de zhǔn bèi chè lí	天公不作美当天晚开始转阴下雨次日清晨仍阴云密布人们沮丧地准备撤离
+data_thchs30/dev/A7_199.wav	gāi yuàn tè pìn qián wěi zhǎng táng kè wèi gù wèn niè wèi píng wèi míng yù yuàn zhǎng	该院特聘钱伟长唐克为顾问聂卫平为名誉院长
+data_thchs30/dev/A7_205.wav	zì cóng yǒu zhè gěi xiā zi zuò qiè de huà tā kàn jiàn jiē shàng de xiā zi jiù yǒu zhǒng yì yàng de gǎn jué yòu tǎo yàn yòu yǒu diǎn pà	自从有这给瞎子作妾的话她看见街上的瞎子就有种异样的感觉又讨厌又有点怕
+data_thchs30/dev/A7_211.wav	kāi fā qū yǐ háng yè guī huà fēn wéi gōng yè qū shāng mào qū lǚ yóu qū shēng huó qū hé gōng gòng jiàn zhù qū	开发区以行业规划分为工业区商贸区旅游区生活区和公共建筑区
+data_thchs30/dev/A7_218.wav	yǐ gān bìng dú fēi cháng wán gù huàn bìng hòu wǎng wǎng cháng qī bù néng quán yù ér qiě màn xìng yǐ xíng gān yán hái yǒu kě néng zhuǎn wèi gān ái	乙肝病毒非常顽固患病后往往长期不能痊愈而且慢性乙型肝炎还有可能转为肝癌
+data_thchs30/dev/A7_219.wav	zhè péng yǒu yě xiàng tán liàn ài yī yàng dé jiǎng yuán fèn yǒu yuán fèn shì bù yòng kè yì qù zhuī qiú de	这朋友也象谈恋爱一样得讲缘份有缘份是不用刻意去追求的
+data_thchs30/dev/A7_229.wav	qù nián shí yuè yóu yú dà suàn zhì xiāo cūn lǐ yī wàn duō gōng jīn dà suàn yǎn kàn yào fā yá huài diào	去年十月由于大蒜滞销村里一万多公斤大蒜眼看要发芽坏掉
+data_thchs30/dev/A7_29.wav	xīn huá shè jī duō èr yuè liù rì diàn zuì jìn èr shí tiān lái è guā duō ěr quán guó nüè jí xùn sù màn yán yǐ yǒu duō rén sǐ wáng	新华社基多二月六日电最近二十天来厄瓜多尔全国疟疾迅速蔓延已有多人死亡
+data_thchs30/dev/A7_40.wav	shè xiǎng yào hǎi kuò tiān kōng guān chá yào quán miàn xì zhì lì lùn yào yǒu gēn yǒu jù zhè shì ōu yáng zì yuǎn de zhì xué zhǔn zé	设想要海阔天空观察要全面细致立论要有根有据这是欧阳自远的治学准则
+data_thchs30/dev/A7_62.wav	běn shū zhōng de cóng bǎi cǎo yuán dào sān wèi shū wū téng yě xiān shēng fàn ài nóng děng piān bèi xuǎn rù zhōng xué yǔ wén kè běn	本书中的从百草园到三味书屋藤野先生范爱农等篇被选入中学语文课本
+data_thchs30/dev/A7_93.wav	bú shì chuī niú yě kě néng shì zì wǒ yāo qiú jiào gāo yǔ wǒ xiāng shú de yùn dòng yuán dà duō shì yǒu zhuī qiú de rén	不是吹牛也可能是自我要求较高与我相熟的运动员大多是有追求的人
+data_thchs30/dev/A8_1.wav	tā jǐn píng yāo bù de lì liàng zài yǒng dào shàng xià fān téng yǒng dòng shé xíng zhuàng rú hǎi tún yì zhí yǐ yī tóu de yōu shì lǐng xiān	他仅凭腰部的力量在泳道上下翻腾蛹动蛇行状如海豚一直以一头的优势领先
+data_thchs30/dev/A8_107.wav	xiāng gǎng yǎn yì quān huān yíng máo ā mǐn jiā méng wú xiàn tái yǔ huá xīng yī xiē zhòng dà de yǎn chàng huó dòng dōu yāo qǐng tā chū chǎng yǒu jǐ cì hái tè yì ān pái yā zhòu yǎn chū	香港演艺圈欢迎毛阿敏加盟无线台与华星一些重大的演唱活动都邀请她出场有几次还特意安排压轴演出
+data_thchs30/dev/A8_108.wav	rú yān bàn huáng guā jiāng huáng guā xǐ jìng qiē piàn hòu yòng yán yān bàn xiǎo shí zuǒ yòu shí yòng shí jiā táng cù má yóu jí kě	如腌拌黄瓜将黄瓜洗净切片后用盐腌半小时左右食用时加糖醋麻油即可
+data_thchs30/dev/A8_115.wav	mǎ xiǎo nián zuò huà de tè zhēng yǔ shén yùn qí huà fēng qū bié yú wén rén huà hé nián huà kě wèi yǎ sú gòng shǎng	马晓年作画的特征与神韵其画风区别于文人画和年画可谓雅俗共赏
+data_thchs30/dev/A8_142.wav	dàn bú yào duì mǎ dǎo yī yōng ér shàng luàn chǎo luàn shuō fáng zhǐ jī huà máo dùn fā shēng yì wài chōng tū	但不要对马导一拥而上乱吵乱说防止激化矛盾发生意外冲突
+data_thchs30/dev/A8_152.wav	sài jù wèi zhí yè yùn dòng yuán zuì zhǎng èr shí sì qiān mǐ yè yú yùn dòng yuán zuì zhǎng èr shí yī qiān mǐ qīng nián yùn dòng yuán zuì zhǎng shí wǔ qiān mǐ	赛距为职业运动员最长二十四千米业余运动员最长二十一千米青年运动员最长十五千米
+data_thchs30/dev/A8_154.wav	zhū chén zài yǎo yá pīn bó tā de duì yǒu wáng lěi wáng pín yě fēn bié zài yǔ hā gé luò wá xī jiā lǐ kē wá kǔ zhàn	诸宸在咬牙拼搏她的队友王蕾王频也分别在与哈格洛娃希加里科娃苦战
+data_thchs30/dev/A8_171.wav	shēn yè shí èr diǎn zhōng tā zhàn zài shào wèi shàng huán shì zhōu wéi yīn sēn kě bù yuè xiǎng yuè hài pà bào qiāng kū zhe pǎo huí yíng fáng	深夜十二点钟他站在哨位上环视周围阴森可怖越想越害怕抱枪哭着跑回营房
+data_thchs30/dev/A8_173.wav	yuán chǎn ōu zhōu de wù wàng cǎo qí mào bù yáng dàn míng wén ōu yà sú chēng wù wàng wǒ huò wú wàng wǒ	原产欧洲的勿忘草其貌不扬但名闻欧亚俗称勿忘我或毋忘我
+data_thchs30/dev/A8_181.wav	duì quán bù yùn kuǎn chē jìn xíng gǎi zào dá dào fáng qiǎng fáng dào yāo qiú bìng wèi quán tǐ yā yùn rén yuán pèi bèi le fáng dàn tóu kuī hé fáng dàn fú	对全部运款车进行改造达到防抢防盗要求并为全体押运人员配备了防弹头盔和防弹服
+data_thchs30/dev/A8_201.wav	zhǔ yào yuán yīn shì shì jiè hóng bái téng zhǔ chǎn guó yìn ní jìn zhǐ hóng bái téng yuán liào chū kǒu dǎo zhì guó jì hóng bái téng yuán liào jià gé shàng zhǎng	主要原因是世界红白藤主产国印尼禁止红白藤原料出口导致国际红白藤原料价格上涨
+data_thchs30/dev/A8_209.wav	bì kāi duì fāng léi dá zhuī zōng de mì jué zài yú zài jī tǐ shàng pēn tú de tè shū tú liào ér zhè zhǒng tè shū tú liào shì rì běn yán zhì de	避开对方雷达追踪的秘诀在于在机体上喷涂的特殊涂料而这种特殊涂料是日本研制的
+data_thchs30/dev/A8_235.wav	lǐ ruì huán shuō zhōng jiǎn yǒu yì shì zhōng guó lǎo yī bèi lǐng dǎo rén hé guó wáng bì xià qīn shǒu dì zào de jīng shòu le gè zhǒng fēng làng de kǎo yàn	李瑞环说中柬友谊是中国老一辈领导人和国王陛下亲手缔造的经受了各种风浪的考验
+data_thchs30/dev/A8_33.wav	yǔ wáng wěi sì píng shì huò chē sī jī dù dà píng yuè yù jié zhuāng xiè gōng liú chūn shān yī tóng zhuī gǎn táo pǎo de àn fàn	与王伟四平市货车司机杜大平岳玉杰装卸工刘春山一同追赶逃跑的案犯
+data_thchs30/dev/A8_40.wav	shè xiǎng yào hǎi kuò tiān kōng guān chá yào quán miàn xì zhì lì lùn yào yǒu gēn yǒu jù zhè shì ōu yáng zì yuǎn de zhì xué zhǔn zé	设想要海阔天空观察要全面细致立论要有根有据这是欧阳自远的治学准则
+data_thchs30/dev/A8_51.wav	lǚ yǔ yóu de shí jiān bǐ wǎng wǎng lǚ zhǎng yóu duǎn yǔ yóu kè de yuàn wàng xiāng bèi	旅与游的时间比往往旅长游短与游客的愿望相悖
+data_thchs30/dev/A8_67.wav	chì tiě kuàng de chéng fèn shì sān yǎng huà èr tiě yán sè chéng àn hóng sè huò gāng huī sè tā yīn fěn mò chéng hóng sè ér dé míng	赤铁矿的成分是三氧化二铁颜色呈暗红色或钢灰色它因粉末呈红色而得名
+data_thchs30/dev/A8_77.wav	yī jiǔ jiǔ wǔ nián yí yuè wēn zhōu shì wěi fù mì shū zhǎng wēng jǐn wǔ lái jiē rèn ōu hǎi qū wěi shū jì	一九九五年一月温州市委副秘书长翁锦武来接任瓯海区委书记
+data_thchs30/dev/A8_8.wav	yáng zhuó yōng hú chōu shuǐ xù néng diàn chǎng shì mù qián shì jiè shàng hǎi bá zuì gāo de chōu shuǐ xù néng diàn chǎng yě shì xī zàng zuì dà de néng yuán jī dì	羊卓雍湖抽水蓄能电厂是目前世界上海拔最高的抽水蓄能电厂也是西藏最大的能源基地
+data_thchs30/dev/A8_92.wav	jiē yáng chéng wéi wài shāng tóu zī xīn rè diǎn jiàn shì yī nián yǐn jìn wài zī shí wǔ yì měi yuán	揭阳成为外商投资新热点建市一年引进外资十五亿美元
+data_thchs30/dev/A8_98.wav	quán dǎng bì xū jǐn jǐn tuán jié zài yǐ jiāng zé mín tóng zhì wèi hé xīn de dǎng zhōng yāng zhōu wéi yì xīn yí yì wěn zhā wěn dǎ gòng chuàng wèi lái	全党必须紧紧团结在以江泽民同志为核心的党中央周围一心一意稳扎稳打共创未来
+data_thchs30/dev/A9_0.wav	lǜ shì yáng chūn yān jǐng dà kuài wén zhāng de dǐ sè sì yuè de lín luán gèng shì lǜ dé xiān huó xiù mèi shī yì àng rán	绿是阳春烟景大块文章的底色四月的林峦更是绿得鲜活秀媚诗意盎然
+data_thchs30/dev/B11_251.wav	qiě fū nú nú ā wén què shàng wú tōu wén rú ōu yáng gōng zhī è dé ér wén zhāng yì jiào wéi néng zuò zuò zhě yě	且夫孥孥阿文确尚无偷文如欧阳公之恶德而文章亦较为能做做者也
+data_thchs30/dev/B11_253.wav	wǒ men yīn wèi xìn fú ér niàn fó yīn wèi niàn fó ér dìng lì dé dào zhì huì yīn cǐ wǒ men niàn fó de xí guàn shì hǎo xí guàn	我们因为信佛而念佛因为念佛而定力得到智慧因此我们念佛的习惯是好习惯
+data_thchs30/dev/B11_255.wav	sī lǐ lán kǎ xī wàng yìn dù jǐn kuài cóng sī chè jūn yìn dù wài zhǎng gǔ jié lā ěr biǎo shì jiāng hěn kuài jǐ yǔ dá fù	斯里兰卡希望印度尽快从斯撤军印度外长古杰拉尔表示将很快给予答复
+data_thchs30/dev/B11_268.wav	pèng shàng ài wán qiě néng wán wù chéng chī wán wù chéng pǐ de rén zǒng néng lìng rén yú kuài de huì xīn yī xiào	碰上爱玩且能玩物成痴玩物成癖的人总能令人愉快地会心一笑
+data_thchs30/dev/B11_278.wav	cǐ shí de liú yù ān bēn zǒu yú gè dà yī yuàn qiú yī wèn yào yě gǎn dào yí gè rén lì liàng de wēi ruò pàn wàng wài bù de bāng zhù	此时的刘玉安奔走于各大医院求医问药也感到一个人力量的微弱盼望外部的帮助
+data_thchs30/dev/B11_330.wav	bù wǒ men yě shì zhōu mò lái zhè lǐ wán wán dàn lǎo shī yào wǒ men gé wài zhù yì zhuā bào yú de yóu rén	不我们也是周末来这里玩玩但老师要我们格外注意抓鲍鱼的游人
+data_thchs30/dev/B11_368.wav	zài jì shù gǎi zào zhōng tā men miáo zhǔn jié néng yíng guāng dēng shì chǎng cóng tái wān yǐn jìn yī tiáo huán xíng yíng guāng dēng shēng chǎn xiàn yī tiáo jié néng yíng guāng dēng shēng chǎn xiàn	在技术改造中他们瞄准节能荧光灯市场从台湾引进一条环形荧光灯生产线一条节能荧光灯生产线
+data_thchs30/dev/B11_397.wav	tā men yíng nán ér shàng bù wèi jiān xiǎn yīng yǒng wán qiáng de yǔ hóng mó zuò kàng zhēng pǔ xiě le yī qū kàng hóng jiù zāi de bēi zhuàng kǎi gē	他们迎难而上不畏艰险英勇顽强地与洪魔作抗争谱写了一曲抗洪救灾的悲壮凯歌
+data_thchs30/dev/B11_417.wav	dì fāng yīng yǔ bù duì lián hé jǔ bàn yī xiē zhuān yè wén yì rén cái de péi xùn yǐ péi yǎng gèng duō de wén yì rén cái	地方应与部队联合举办一些专业文艺人才的培训以培养更多的文艺人才
+data_thchs30/dev/B11_432.wav	qí jiān tā men zāo yǔ lín yù pù shài zǒu dé yāo suān tuǐ téng è le chī kǒu gān liáng kě le hē kǒu shān quán	其间他们遭雨淋遇曝晒走得腰酸腿疼饿了吃口干粮渴了喝口山泉
+data_thchs30/dev/B11_435.wav	wǒ guó gǔ dài yǒu rén céng gēn jù yǔ jù yǒu fǒu yā yùn bǎ wén xué zuò pǐn fēn wéi yùn wén yǔ sǎn wén liǎng gè dà lèi	我国古代有人曾根据语句有否押韵把文学作品分为韵文与散文两个大类
+data_thchs30/dev/B11_440.wav	mín yòng háng kōng qì dǐ yā quán shì yòng mín yòng háng kōng qì guó jí dēng jì guó fǎ lǜ	民用航空器抵押权适用民用航空器国籍登记国法律
+data_thchs30/dev/B11_447.wav	rú yǎng wò qǐ zuò fǔ wò tǐng shēn yǎng wò liǎng tóu qǐ héng chā zòng chā hòu xià yāo chéng qiáo děng	如仰卧起坐俯卧挺身仰卧两头起横叉纵叉后下腰成桥等
+data_thchs30/dev/B11_460.wav	cūn lǐ de lǎo nián rén duān rán sù rán de jiū zhèng zhe wài xiāng rén de fā yīn guò hòu hái biān yáo tóu biān gǎn tàn shuō wài xiāng rén jiù shì bèn	村里的老年人端然肃然地纠正着外乡人的发音过后还边摇头边感叹说外乡人就是笨
+data_thchs30/dev/B11_462.wav	dǎo shàng chú le tū wù de lín xún jiāo shí hé wān yán tōng yōu de xiǎo lù yǐ wài quán rán shì yí gè cǎo mù wēi ruí de lǜ sè wáng guó	岛上除了突兀的嶙峋礁石和蜿蜒通幽的小路以外全然是一个草木葳蕤的绿色王国
+data_thchs30/dev/B11_475.wav	gè mián fǎng qǐ yè bù dé jiāng shēng chǎn yòng mián yòng yǐ zhuǎn mài yī jīng chá chū jí kòu jiǎn yòng mián qǐ yè de yòng mián liàng	各棉纺企业不得将生产用棉用以转卖一经查出即扣减用棉企业的用棉量
+data_thchs30/dev/B11_495.wav	cǐ wài běi yuē hái biǎo shì zhī chí é zài ōu zhōu ān quán zǔ zhī fàn wéi nèi tǎo lùn èr shí yī shì jì ōu zhōu jí quán qiú ān quán mó shì de tí yì	此外北约还表示支持俄在欧洲安全组织范围内讨论二十一世纪欧洲及全球安全模式的提议
+data_thchs30/dev/B12_256.wav	zhōu xìn fāng cháng qī zài shàng hǎi yǎn chū yǔ wáng hóng shòu wāng xiào nóng pān yuè qiáo děng xié zuò biān yǎn le xǔ duō jù mù	周信芳长期在上海演出与王鸿寿汪笑侬潘月樵等协作编演了许多剧目
+data_thchs30/dev/B12_270.wav	tài kōng chuán sān bǎi liù shí dù fān zhuǎn yáo huàng wǒ gōng sū hé fú ruì qū shào xiào xiàng fú biāo shì de bèi shuǎi lái shuǎi qù	太空船三百六十度翻转摇晃我公苏和弗芮区少校像浮标似的被甩来甩去
+data_thchs30/dev/B12_285.wav	jí lín yóu tián xīn lì cǎi yóu chǎng zhí gōng yú guó chén fū fù kān hù zuì biān yuǎn de yì bǎi líng bā cǎi yóu dān jǐng yǐ zhěng zhěng shí nián	吉林油田新立采油厂职工于国臣夫妇看护最边远的一百零八采油单井已整整十年
+data_thchs30/dev/B12_305.wav	tā de sūn nǚ rú jīn ài chī huǒ jiàn xiǎo xī guā wàng zǎi bàng bàng bīng nǎ yī zhǒng zhì shǎo dōu yào yī liǎng kuài qián	他的孙女如今爱吃火箭小西瓜旺仔棒棒冰哪一种至少都要一两块钱
+data_thchs30/dev/B12_344.wav	tā yǒu yí gè fāng fǎ ào táng nài ěr yòng yī zhǒng jìng yǎng de kǒu qì shuō xiǎn rán tā zì jǐ cóng lái méi xiǎng chū guò shén me fāng fǎ	他有一个方法奥唐奈尔用一种敬仰的口气说显然他自己从来没想出过什么方法
+data_thchs30/dev/B12_350.wav	wǒ céng yù dào yīn wèi fū sè suǒ yǐn qǐ de guài shì yě céng duō cì fā xiàn dào zì jǐ shēn chù zhǒng zú wèn tí de zhēng yì dāng zhōng	我曾遇到因为肤色所引起的怪事也曾多次发现到自己身处种族问题的争议当中
+data_thchs30/dev/B12_371.wav	jí huì jié shù shí fèn nù de rén qún chōng xiàng jiē tóu zá chuāng zi cuī huǐ shāng diàn yǔ yà měi ní yà rén fā shēng jī liè chōng tū	集会结束时愤怒的人群冲向街头砸窗子摧毁商店与亚美尼亚人发生激烈冲突
+data_thchs30/dev/B12_378.wav	zhè wèi bèi hái zi men chēng wéi zhāng yé yé de rén jiào zhāng yǒng liàng shì shān dōng shěng yōu xiù gòng chǎn dǎng yuán jǐ níng shòu yào chǎng chǎng zhǎng	这位被孩子们称为张爷爷的人叫张永亮是山东省优秀共产党员济宁兽药厂厂长
+data_thchs30/dev/B12_380.wav	huá guò yī quān yòu yī quān zhōng yú yǒu yī wèi yùn dòng yuán tíng xià lái jiē guò tā sòng shàng de shuǐ bēi lè de tā yòu bèng yòu tiào	滑过一圈又一圈终于有一位运动员停下来接过她送上的水杯乐得她又蹦又跳
+data_thchs30/dev/B12_384.wav	shǎo bù fèn zǎo shì miáo měi zhū hái mài le wǔ liù fēn qián dà bù fèn ǎi huà qiáo huà miáo mù zhǐ hǎo chéng kǔn chéng duī de shài gàn dāng chái shāo	少部分早市苗每株还卖了五六分钱大部分矮化乔化苗木只好成捆成堆地晒干当柴烧
+data_thchs30/dev/B12_387.wav	gāi zhèn mǒu cūn bàn zhǐ xiāng chǎng qù nián chūn tiān shī huǒ suī sǔn shī cǎn zhòng dàn yīn wèi bàn bǎo xiǎn kào cūn mín juān kuǎn cái dù guò nán guān	该镇某村办纸箱厂去年春天失火虽损失惨重但因未办保险靠村民捐款才度过难关
+data_thchs30/dev/B12_396.wav	kuān kuò guī zhěng de miào qián qū guǎng chǎng qīng chè rú jìng de yìn chí gǔ piáo zhuàng guān de xuān yuán qiáo zài yí miàn miàn huáng lóng qí yìng chèn xià xiǎn de fèn wài xióng wěi zhuāng yán	宽阔规整的庙前区广场清澈如镜的印池古朴壮观的轩辕桥在一面面黄龙旗映衬下显得分外雄伟庄严
+data_thchs30/dev/B12_397.wav	tā men yíng nán ér shàng bù wèi jiān xiǎn yīng yǒng wán qiáng de yǔ hóng mó zuò kàng zhēng pǔ xiě le yī qū kàng hóng jiù zāi de bēi zhuàng kǎi gē	他们迎难而上不畏艰险英勇顽强地与洪魔作抗争谱写了一曲抗洪救灾的悲壮凯歌
+data_thchs30/dev/B12_400.wav	kě shì mò guò duō jiǔ zhōng yú dāng shàng le yá lún zuān sī zuān de zì háo xīn qíng jiù bèi zhè xiē yáng shè bèi de huài pí qì suǒ pò huài	可是没过多久终于当上了牙轮钻司钻的自豪心情就被这些洋设备的坏脾气所破坏
+data_thchs30/dev/B12_438.wav	liǔ qiàn ā lǎo děng zhù míng shū huà jiā yìng yāo qián wǎng yòu ér yuán yǔ yì shù bān de ér tóng men tóng zhuō huī háo pō mò chuán shòu jì yì	柳倩阿老等著名书画家应邀前往幼儿园与艺术班的儿童们同桌挥毫泼墨传授技艺
+data_thchs30/dev/B12_448.wav	guó wài yǒu guān zhuān jiā diào chá le sān bǎi duō míng cháng shòu zhě rèn wéi qín yú yòng nǎo kě yán huǎn shuāi lǎo ér lǎn duò kě shǐ rén zǎo shuāi	国外有关专家调查了三百多名长寿者认为勤于用脑可延缓衰老而懒惰可使人早衰
+data_thchs30/dev/B12_459.wav	yǒu rén céng xiǎng yòng gāo é huí kòu àn zhōng sòng lǐ pǐn xiàng tā men tuī xiāo wěi liè yào pǐn bèi tā men yī cì cì yán cí jù jué	有人曾想用高额回扣暗中送礼品向他们推销伪劣药品被他们一次次严辞拒绝
+data_thchs30/dev/B12_461.wav	fēng píng làng jìng de qī hēi wǔ yè wáng yún zhōu wáng xīn huái wáng yáng zi shǒu xiān fā xiàn guài wù shǎn zhe hóng guāng de yǎn jīng	风平浪静的漆黑午夜王云州王新槐王羊子首先发现怪物闪着红光的眼睛
+data_thchs30/dev/B12_486.wav	xīn huá shè wéi yě nà èr yuè èr shí èr rì diàn wéi yě nà ōu zhōu cháng guī cái jūn dì wǔ lún huì tán jīn tiān zài zhè lǐ jié shù	新华社维也纳二月二十二日电维也纳欧洲常规裁军第五轮会谈今天在这里结束
+data_thchs30/dev/B12_489.wav	qīng dài xué zhě chēng zhuī wéi zhòng ní wén wàng zhī lóng zé zài liù jí kǒng zi yīn shǒu kāi sī xué zhěng xiū gǔ jí shōu tú jiǎng xué ér chéng wàn shì shī biǎo	清代学者称追惟仲尼闻望之隆则在六籍孔子因首开私学整修古籍收徒讲学而成万世师表
+data_thchs30/dev/B15_255.wav	sī lǐ lán kǎ xī wàng yìn dù jǐn kuài cóng sī chè jūn yìn dù wài zhǎng gǔ jié lā ěr biǎo shì jiāng hěn kuài jǐ yǔ dá fù	斯里兰卡希望印度尽快从斯撤军印度外长古杰拉尔表示将很快给予答复
+data_thchs30/dev/B15_265.wav	cān zhàn jūn suī rán méi yǒu cān jiā duì dé zhàn zhēng dàn yǒu shí wàn huá gōng bèi pài fù ōu zhōu zhàn chǎng wèi xié yuē guó jūn duì yùn shū dàn yào jǐ yǎng hé xiū zhù gōng shì	参战军虽然没有参加对德战争但有十万华工被派赴欧洲战场为协约国军队运输弹药给养和修筑工事
+data_thchs30/dev/B15_266.wav	àn jié yuē diàn lì jì suàn dào èr líng líng líng nián kě jiǎn shǎo èr yǎng huà liú pái fàng èr shí wàn dūn èr yǎng huà tàn pái fàng qī bǎi sì shí wàn dūn	按节约电力计算到二零零零年可减少二氧化硫排放二十万吨二氧化碳排放七百四十万吨
+data_thchs30/dev/B15_276.wav	zhè zhǒng yì miáo néng gòu yù fáng yǎng zhí de dà mǎ hā yú hé zūn yú de jiē bìng yì miáo de shǐ yòng kě yǐ dà dà jiǎn shǎo shuǐ chǎn yǎng zhí yè zhōng suǒ guǎng fàn shǐ yòng de kàng jūn sù	这种疫苗能够预防养殖的大马哈鱼和鳟鱼的疖病疫苗的使用可以大大减少水产养殖业中所广泛使用的抗菌素
+data_thchs30/dev/B15_305.wav	tā de sūn nǚ rú jīn ài chī huǒ jiàn xiǎo xī guā wàng zǎi bàng bàng bīng nǎ yī zhǒng zhì shǎo dōu yào yī liǎng kuài qián	他的孙女如今爱吃火箭小西瓜旺仔棒棒冰哪一种至少都要一两块钱
+data_thchs30/dev/B15_310.wav	qù nián qiū tiān huá lóng jí tuán gōng sī yǔ nán ào xiàn rén mín zhèng fǔ zhèng shì qiān yuē lián hé kāi fā yān dūn wān wàn dūn jí shēn shuǐ gǎng	去年秋天华隆集团公司与南澳县人民政府正式签约联合开发烟墩湾万吨级深水港
+data_thchs30/dev/B15_324.wav	gōng yuán qián èr líng liù nián qín cháo miè wáng hòu xiàng yǔ zì lì wèi xī chǔ bà wáng fēng liú bāng wèi hàn wáng	公元前二零六年秦朝灭亡后项羽自立为西楚霸王封刘邦为汉王
+data_thchs30/dev/B15_329.wav	yóu yú èr shí wǔ shǐ shì yòng gǔ wén yán wén zhuàn xiě yǔ cí jiān sè qiě juàn zhì páng dà yì bān dú zhě nán yǐ yuè dú	由于二十五史是用古文言文撰写语词艰涩且卷帙庞大一般读者难以阅读
+data_thchs30/dev/B15_330.wav	bù wǒ men yě shì zhōu mò lái zhè lǐ wán wán dàn lǎo shī yào wǒ men gé wài zhù yì zhuā bào yú de yóu rén	不我们也是周末来这里玩玩但老师要我们格外注意抓鲍鱼的游人
+data_thchs30/dev/B15_346.wav	jù sāng jié zhā bā shū jì tòu lù míng nián hái yào kāi tōng chéng kòng zhí bō diàn huà yǎn xià suǒ xū shè bèi yǐ yùn dào le bā yī zhèn	据桑杰扎巴书记透露明年还要开通程控直拨电话眼下所需设备已运到了八一镇
+data_thchs30/dev/B15_353.wav	duǎn zàn xìng nǎo quē xuè fā zuò de bìng lǐ jī chǔ shì lú nèi nǎo dòng mài xì tǒng zhōu yàng yìng huà qí zhōu yàng bān kuài tuō luò yǐn qǐ lú nèi xiǎo xuè guǎn bì sè ér fā bìng	短暂性脑缺血发作的病理基础是颅内脑动脉系统粥样硬化其粥样斑块脱落引起颅内小血管闭塞而发病
+data_thchs30/dev/B15_359.wav	mā mā de liǎn sè yǐ jīng biàn dé xiàng huáng tǔ de yán sè yī yàng huáng liǎng yǎn wú guāng dāi dāi de kàn zhe wū dǐng yī dòng yě bù dòng	妈妈的脸色已经变得象黄土的颜色一样黄两眼无光呆呆地看着屋顶一动也不动
+data_thchs30/dev/B15_366.wav	cóng yī jiǔ bā sì nián yuán yuè qǐ quán chǎng céng céng kāi zhǎn yuè píng shí jiàn hǎo shì huó dòng liù nián duō lái cóng wèi jiàn duàn	从一九八四年元月起全厂层层开展月评十件好事活动六年多来从未间断
+data_thchs30/dev/B15_369.wav	hé yún yòu hēng hēng jī jī le piàn kè kàn dào zhōu zhēng jú zhǎng diǎn diǎn wàn shàng de shǒu biǎo cái gǎn kuài zhuǎn rù zhèng tí	何云又哼哼唧唧了片刻看到周正局长点点腕上的手表才赶快转入正题
+data_thchs30/dev/B15_372.wav	zhēng yuè chū èr zhào lǎo guī ju shì nǚ ér xié gū yé huí niáng jiā de rì zi yě shì lǎo tài shān zuì qiè yì de shí hòu	正月初二照老规矩是女儿偕姑爷回娘家的日子也是老泰山最惬意的时候
+data_thchs30/dev/B15_374.wav	xú xī jūn xiào jīn shēng liú wén huá qū yǒng lì wáng kāi yǔ luò yīng děng yě bèi fēn bié pàn chǔ liù nián zhì shí wǔ nián yǒu qī tú xíng	徐希君肖金生刘文华屈永利王开宇骆瑛等也被分别判处六年至十五年有期徒刑
+data_thchs30/dev/B15_386.wav	hù wài de shēng yīn yǒu yuǎn yǒu jìn shí fēn cáo zá kě lái dào tā wū nèi shí dān diào chéng wēng wēng shēng	户外的声音有远有近十分嘈杂可来到他屋内时单调成嗡嗡声
+data_thchs30/dev/B15_387.wav	gāi zhèn mǒu cūn bàn zhǐ xiāng chǎng qù nián chūn tiān shī huǒ suī sǔn shī cǎn zhòng dàn yīn wèi bàn bǎo xiǎn kào cūn mín juān kuǎn cái dù guò nán guān	该镇某村办纸箱厂去年春天失火虽损失惨重但因未办保险靠村民捐款才度过难关
+data_thchs30/dev/B15_388.wav	sū zhōu běn dì de miào guān jiù hěn duō dìng huì sì xuán miào guān táo huā ān hái yǒu nà lìng lì dài wén rén qiān cháng guà dù de hán shān sì	苏州本地的庙观就很多定慧寺玄妙观桃花庵还有那令历代文人牵肠挂肚的寒山寺
+data_thchs30/dev/B15_390.wav	dàn liè níng bìng méi yǒu yīn cǐ ér fǒu dìng tuō ěr sī tài fǎn ér chēng zàn tā de zuò pǐn shì é guó gé mìng de yí miàn jìng zi	但列宁并没有因此而否定托尔斯泰反而称赞他的作品是俄国革命的一面镜子
+data_thchs30/dev/B15_412.wav	yīn wèi biǎo xiàn xìng huì huà wǎng wǎng yīn xíng xiàng yǐn yù de sī yǒu ér zǔ sè wǒ men duì mǒu jiàn zuò pǐn de shēn dù rèn shi	因为表现性绘画往往因形象隐喻的私有而阻塞我们对某件作品的深度认识
+data_thchs30/dev/B15_428.wav	jiě mèi liǎ xìng gé tián jìng jiě jiě bǐ jiào nèi xiàng mèi mèi zé wài xiàng yì diǎn ér dàn liǎng rén dōu shēng xìng ài shuǐ yī jiàn shuǐ jiù wán mìng	姐妹俩性格恬静姐姐比较内向妹妹则外向一点儿但两人都生性爱水一见水就玩命
+data_thchs30/dev/B15_439.wav	wáng tiě chéng duì jiāo qī tǐ tiē rù wēi duì lǎo mǔ guān huái bèi zhì yuǎn jìn chí míng duì ài zi bǎi bān téng ài gèng shì lù rén jiē zhī	王铁成对娇妻体贴入微对老母关怀备至远近驰名对爱子百般疼爱更是路人皆知
+data_thchs30/dev/B15_470.wav	tiě lù yào cóng zhè lǐ pù tōng tā bù zhǔn wā jué lǎo jiāng jūn sòng chéng fú dài tóu yī xiān shǒu xiān wā kāi le zì jǐ qīn rén de mù xué	铁路要从这里铺通他不准挖掘老将军宋承福带头一锨首先挖开了自己亲人的墓穴
+data_thchs30/dev/B15_475.wav	gè mián fǎng qǐ yè bù dé jiāng shēng chǎn yòng mián yòng yǐ zhuǎn mài yī jīng chá chū jí kòu jiǎn yòng mián qǐ yè de yòng mián liàng	各棉纺企业不得将生产用棉用以转卖一经查出即扣减用棉企业的用棉量
+data_thchs30/dev/B15_476.wav	bǐ rú zuò yī dào shù xué yìng yòng tí gěi liǎng yuán qián zuò yī cì yǔ wén zuò yè gěi wǔ yuán qián xiě yī piān zuò wén gěi shí yuán qián	比如做一道数学应用题给两元钱做一次语文作业给五元钱写一篇作文给十元钱
+data_thchs30/dev/B15_487.wav	qì chē shí ér bàng yá ér shǐ shí ér chuān xiá ér xíng shí ér yuè xī ér guò shí ér pá pō ér shàng	汽车时而傍崖而驶时而穿峡而行时而越溪而过时而爬坡而上
+data_thchs30/dev/B22_255.wav	sī lǐ lán kǎ xī wàng yìn dù jǐn kuài cóng sī chè jūn yìn dù wài zhǎng gǔ jié lā ěr biǎo shì jiāng hěn kuài jǐ yǔ dá fù	斯里兰卡希望印度尽快从斯撤军印度外长古杰拉尔表示将很快给予答复
+data_thchs30/dev/B22_256.wav	zhōu xìn fāng cháng qī zài shàng hǎi yǎn chū yǔ wáng hóng shòu wāng xiào nóng pān yuè qiáo děng xié zuò biān yǎn le xǔ duō jù mù	周信芳长期在上海演出与王鸿寿汪笑侬潘月樵等协作编演了许多剧目
+data_thchs30/dev/B22_260.wav	huá běi běi bù hàn qíng réng wèi jiě chú de dì qū nìng kěn ràng xià yù mǐ zhǒng zi xià dì děng yǔ yě bú yào chí bō	华北北部旱情仍未解除的地区宁肯让夏玉米种子下地等雨也不要迟播
+data_thchs30/dev/B22_265.wav	cān zhàn jūn suī rán méi yǒu cān jiā duì dé zhàn zhēng dàn yǒu shí wàn huá gōng bèi pài fù ōu zhōu zhàn chǎng wèi xié yuē guó jūn duì yùn shū dàn yào jǐ yǎng hé xiū zhù gōng shì	参战军虽然没有参加对德战争但有十万华工被派赴欧洲战场为协约国军队运输弹药给养和修筑工事
+data_thchs30/dev/B22_272.wav	tā cēng cēng cēng pǎo shàng lóu yòu méi dài jiā lǐ yào shi yòu tī yòu chuài yòu zhuàng mén yě dǎ bù kāi	他噌噌噌跑上楼又没带家里钥匙又踢又踹又撞门也打不开
+data_thchs30/dev/B22_282.wav	jǐng chá tǐ yù wǔ xiàng bǐ sài fēn bié wèi tiào yuǎn qiān qiú yóu yǒng shè jī hé yuè yě pǎo	警察体育五项比赛分别为跳远铅球游泳射击和越野跑
+data_thchs30/dev/B22_285.wav	jí lín yóu tián xīn lì cǎi yóu chǎng zhí gōng yú guó chén fū fù kān hù zuì biān yuǎn de yì bǎi líng bā cǎi yóu dān jǐng yǐ zhěng zhěng shí nián	吉林油田新立采油厂职工于国臣夫妇看护最边远的一百零八采油单井已整整十年
+data_thchs30/dev/B22_293.wav	sì yuè èr shí liù rì tóng dēng wàng jiāng lóu píng lán yuǎn tiào shān luán chūn sè shù yān wù zhōng bái fān diǎn diǎn kàn liú shuǐ tāo tāo dōng shì	四月二十六日同登望江楼凭栏远眺山峦春色数烟雾中白帆点点看流水滔滔东逝
+data_thchs30/dev/B22_297.wav	tā dài biǎo é yǔ xué yuàn xiàng nài nà fū rén zèng sòng le yī tào yǔ pǔ xī jīn é yǔ xué yuàn hé biān de jiào cái dōng fāng é yǔ	他代表俄语学院向奈娜夫人赠送了一套与普希金俄语学院合编的教材东方俄语
+data_thchs30/dev/B22_318.wav	jǐ bǎi kuài ní yàn zhuāng jìn tǔ yáo shāo le qī tiān bù liào yī shēng zhà léi yáo bēng le jīng dé yuàn zi lǐ jī fēi gǒu tiào zhū pǎo quān	几百块泥砚装进土窑烧了七天不料一声炸雷窑崩了惊得院子里鸡飞狗跳猪跑圈
+data_thchs30/dev/B22_325.wav	zhè zhī bèi zhàn yà tè lán dà ào yùn huì de jí xùn duì gòng yǒu èr shí míng qiú yuán píng jūn nián líng èr shí wǔ suì píng jūn shēn gāo yī mǐ liù qī	这支备战亚特兰大奥运会的集训队共有二十名球员平均年龄二十五岁平均身高一米六七
+data_thchs30/dev/B22_326.wav	zhōng guó tǐ yù zá zhì shè qī yuè shí yī rì zài běi jīng jǔ xíng le xiàng zhōng guó ào yùn jiàn ér zèng sòng tǐ yù shè yǐng huà cè yí shì	中国体育杂志社七月十一日在北京举行了向中国奥运健儿赠送体育摄影画册仪式
+data_thchs30/dev/B22_333.wav	nán fāng mǒu shì yī wèi yú lè yè lǎo bǎn chéng yì yāo qǐng yīng yǔn yǐ měi wǎn liǎng wàn yuán de jù é chū chǎng fèi qǐng tā wèi yú lè chéng zhù xìng	南方某市一位娱乐业老板诚意邀请应允以每晚两万元的巨额出场费请她为娱乐城助兴
+data_thchs30/dev/B22_339.wav	nà cì bèi dǎ hòu wǒ de shǒu lián kuài zi dōu ná bù zhù shuā guò de guō yǐ wǎng yī yáng shǒu jiù guà qǐ lái le kě nà cì qiào zhe jiǎo yě méi guà shǎng qù	那次被打后我的手连筷子都拿不住刷过的锅以往一扬手就挂起来了可那次翘着脚也没挂上去
+data_thchs30/dev/B22_340.wav	jiǎn pǔ zhài fù zhǔ xí qiáo sēn pān jīn tiān xià wǔ dào dá yǎ jiā dá shí shuō yǎ jiā dá huì yì néng fǒu qǔ de chéng guǒ jiāng qǔ jué yú yuè nán	柬埔寨副主席乔森潘今天下午到达雅加达时说雅加达会议能否取得成果将取决于越南
+data_thchs30/dev/B22_350.wav	wǒ céng yù dào yīn wèi fū sè suǒ yǐn qǐ de guài shì yě céng duō cì fā xiàn dào zì jǐ shēn chù zhǒng zú wèn tí de zhēng yì dāng zhōng	我曾遇到因为肤色所引起的怪事也曾多次发现到自己身处种族问题的争议当中
+data_thchs30/dev/B22_352.wav	tā nà liǎng zhǐ gǔn yuán de dà yǎn jīng zhǎ le zhǎ suí hòu liě kāi zuǐ xiàng wǒ fù qīn yǒu hǎo de xiào le	他那两只滚圆的大眼睛眨了眨随后咧开嘴向我父亲友好地笑了
+data_thchs30/dev/B22_355.wav	shòu xī hú wān yán qū zhé zhōu yǔ sàn luò shān huán shuǐ bào dī biān yī zhū yáng liǔ yī zhū táo hóng lǜ jiāo yìng fēng guāng xiù lì	瘦西湖蜿蜒曲折州屿散落山环水抱堤边一株杨柳一株桃红绿交映风光秀丽
+data_thchs30/dev/B22_367.wav	zhì yú hóng dōu lā sī kuí ěr shì zǎo yǐ dìng hǎo yí yuè èr shí qī rì yào qù cān jiā gāi guó xīn zǒng tǒng de jiù zhí yí shì	至于洪都拉斯奎尔是早已定好一月二十七日要去参加该国新总统的就职仪式
+data_thchs30/dev/B22_370.wav	qū yún xiá wáng yuàn cuī yǐng hé liú dōng zài xià wǔ de nǚ zǐ yī qiān wǔ bǎi mǐ yù sài hòu dōu hàn liú mǎn miàn dàn zǒng suàn jī shēn jué sài	曲云霞王媛崔颖和刘东在下午的女子一千五百米预赛后都汗流满面但总算跻身决赛
+data_thchs30/dev/B22_422.wav	jù kē wēi tè guān fāng xuān bù zì hǎi wān zhàn zhēng jié shù yǐ lái yī lā kè réng kòu yā zhe dà yuē liù bǎi sān shí míng kē wēi tè rén	据科威特官方宣布自海湾战争结束以来伊拉克仍扣押着大约六百三十名科威特人
+data_thchs30/dev/B22_424.wav	yī liàng hóng sè de yuè yě chē kāi le chū qù wǒ hái kě yǐ tīng dào chē zi wū wū kāi yuǎn yǐn qíng shēng yě yuè lái yuè ruò le	一辆红色的越野车开了出去我还可以听到车子呜呜开远引擎声也越来越弱了
+data_thchs30/dev/B22_430.wav	hā xīn dōu ā kè mò lā yuán wèi ā kè mò lā zhōu shǒu fǔ rén kǒu yuē sān shí wàn jù ā lā mù tú yuē yī qiān gōng lǐ	哈新都阿克莫拉原为阿克莫拉州首府人口约三十万距阿拉木图约一千公里
+data_thchs30/dev/B22_437.wav	méi yǒu rén yuán méi yǒu pái liàn chǎng méi yǒu zī jīn yáng hóng nián jiù fā dòng quán jiā chéng yuán nuó chū le zì jǐ de fáng jiān hái hé hái zi jiā zhǎng men yì qǐ tāo yāo bāo	没有人员没有排练场没有资金杨鸿年就发动全家成员挪出了自己的房间还和孩子家长们一起掏腰包
+data_thchs30/dev/B22_455.wav	jiàn yuán zhì jīn yǐ yǒu lù dà ěr yáng kǒng què děng zài zhè lǐ shēng ér yù nǚ liǎng qiān duō tóu	建园至今已有鹿大耳羊孔雀等在这里生儿育女两千多头
+data_thchs30/dev/B22_457.wav	zài yí gè jù dà de pō xíng wǎ dǐng xià shàng bǎi jiān biāo zhǔn kāi jiān de wū zi yán bā guà xíng zǒu láng zuǒ yòu shùn xù pái liè	在一个巨大的坡形瓦顶下上百间标准开间的屋子沿八卦形走廊左右顺序排列
+data_thchs30/dev/B22_460.wav	cūn lǐ de lǎo nián rén duān rán sù rán de jiū zhèng zhe wài xiāng rén de fā yīn guò hòu hái biān yáo tóu biān gǎn tàn shuō wài xiāng rén jiù shì bèn	村里的老年人端然肃然地纠正着外乡人的发音过后还边摇头边感叹说外乡人就是笨
+data_thchs30/dev/B22_482.wav	tài yuán shì yáng quán shì shuài xiān bàn qǐ le lóng yǎ ér yòu ér yuán hé lóng ér tīng lì yǔ xùn zhōng xīn	太原市阳泉市率先办起了聋哑儿幼儿园和聋儿听力语训中心
+data_thchs30/dev/B22_487.wav	qì chē shí ér bàng yá ér shǐ shí ér chuān xiá ér xíng shí ér yuè xī ér guò shí ér pá pō ér shàng	汽车时而傍崖而驶时而穿峡而行时而越溪而过时而爬坡而上
+data_thchs30/dev/B22_493.wav	tīng de chuāng kǒu bèi yòng hēi bù zhē dé yán yán shí shí tīng nèi hūn àn méng lóng wéi yǒu jǐ chuàn hóng lǜ dēng pín pín shǎn shuò	厅的窗口被用黑布遮得严严实实厅内昏暗朦胧唯有几串红绿灯频频闪烁
+data_thchs30/dev/B22_495.wav	cǐ wài běi yuē hái biǎo shì zhī chí é zài ōu zhōu ān quán zǔ zhī fàn wéi nèi tǎo lùn èr shí yī shì jì ōu zhōu jí quán qiú ān quán mó shì de tí yì	此外北约还表示支持俄在欧洲安全组织范围内讨论二十一世纪欧洲及全球安全模式的提议
+data_thchs30/dev/B2_268.wav	pèng shàng ài wán qiě néng wán wù chéng chī wán wù chéng pǐ de rén zǒng néng lìng rén yú kuài de huì xīn yī xiào	碰上爱玩且能玩物成痴玩物成癖的人总能令人愉快地会心一笑
+data_thchs30/dev/B2_275.wav	zhí gōng men ài chǎng ài gǎng ài chǎn pǐn xīn wǎng yī chù xiǎng jìn er wǎng yī chù shǐ	职工们爱厂爱岗爱产品心往一处想劲儿往一处使
+data_thchs30/dev/B2_282.wav	jǐng chá tǐ yù wǔ xiàng bǐ sài fēn bié wèi tiào yuǎn qiān qiú yóu yǒng shè jī hé yuè yě pǎo	警察体育五项比赛分别为跳远铅球游泳射击和越野跑
+data_thchs30/dev/B2_286.wav	yún nán kūn míng juǎn yān chǎng èr duì hé shān dōng jǐ nán juǎn yān chǎng jiāng jūn duì fēn huò nán zi yà jūn hé dì sān míng	云南昆明卷烟厂二队和山东济南卷烟厂将军队分获男子亚军和第三名
+data_thchs30/dev/B2_297.wav	tā dài biǎo é yǔ xué yuàn xiàng nài nà fū rén zèng sòng le yī tào yǔ pǔ xī jīn é yǔ xué yuàn hé biān de jiào cái dōng fāng é yǔ	他代表俄语学院向奈娜夫人赠送了一套与普希金俄语学院合编的教材东方俄语
+data_thchs30/dev/B2_302.wav	zhōng yāng jūn wěi fù zhǔ xí zhāng zhèn chí hào tián guó wù wěi yuán luó gàn zhōng yāng jūn wěi wěi yuán fù quán yǒu yú yǒng bō cān jiā le huì jiàn	中央军委副主席张震迟浩田国务委员罗干中央军委委员傅全有于永波参加了会见
+data_thchs30/dev/B2_307.wav	hé běi shěng zūn huà shì yíng yǎng yǐn pǐn shí yè gōng sī zuì jìn yán zhì shēng chǎn chū xīn xíng tiān rán yíng yǎng yǐn pǐn hé táo rǔ chá	河北省遵化市营养饮品实业公司最近研制生产出新型天然营养饮品核桃乳茶
+data_thchs30/dev/B2_313.wav	zhōng huá rén mín gòng hé guó zhōng yāng jūn shì wěi yuán huì zuì jìn fā bù mìng lìng shòu yǔ wú mèng chāo mó fàn yī xué zhuān jiā róng yù chēng hào	中华人民共和国中央军事委员会最近发布命令授予吴孟超模范医学专家荣誉称号
+data_thchs30/dev/B2_319.wav	yǒu de chá yuè zī liào yǒu de měi féng yǒu zhuǎn bō ài guó zhǔ yì yǐng shì piàn jié mù shí zhēng xiāng guān kàn wán quán dá dào le yù qī mù dì	有的查阅资料有的每逢有转播爱国主义影视片节目时争相观看完全达到了预期目的
+data_thchs30/dev/B2_320.wav	zhōng xué bì yè hòu tā kǎo rù ní ēn luó dé shāng yè xué yuàn bì yè hòu céng fú bīng yì bìng zài yī jiā mào yì gōng sī rèn zhí	中学毕业后他考入尼恩罗德商业学院毕业后曾服兵役并在一家贸易公司任职
+data_thchs30/dev/B2_332.wav	xiàn bìn yí guǎn shí xíng zhòu yè zhí bān bìng bèi yǒu bìn zàng zhuān yòng chē shè yǒu sòng bìn rén yuán xiū xī shì	县殡仪馆实行昼夜值班并备有殡葬专用车设有送殡人员休息室
+data_thchs30/dev/B2_335.wav	yào shī fú yòu jiào dà yī wáng fú tā céng fā xià shí èr dà yuàn yào bāng zhù zhòng shēng jiě chú tòng kǔ yī zhì jí bìng xiāo zāi yán shòu mǎn zú xìn tú de yī qiè yuàn wàng	药师佛又叫大医王佛他曾发下十二大愿要帮助众生解除痛苦医治疾病消灾延寿满足信徒的一切愿望
+data_thchs30/dev/B2_337.wav	zhè lèi nǚ xìng chuān zhe kǎo jiū bù xǐ xīn cháo dàn jīng míng yǒu yǎn guāng cháng xiū shì dé hěn wán měi jǔ zhǐ bīn bīn yǒu lǐ	这类女性穿着考究不喜新潮但精明有眼光常修饰得很完美举止彬彬有礼
+data_thchs30/dev/B2_346.wav	jù sāng jié zhā bā shū jì tòu lù míng nián hái yào kāi tōng chéng kòng zhí bō diàn huà yǎn xià suǒ xū shè bèi yǐ yùn dào le bā yī zhèn	据桑杰扎巴书记透露明年还要开通程控直拨电话眼下所需设备已运到了八一镇
+data_thchs30/dev/B2_348.wav	rán hòu sī jī kàn zhe xīn niáng gěi tā cā liǎn tā gǎn dào bù kě sī yì de shì xīn niáng gěi tā cā liǎn de dòng zuò wèi hé yě rú cǐ wēn róu	然后司机看着新娘给他擦脸他感到不可思议的是新娘给他擦脸的动作为何也如此温柔
+data_thchs30/dev/B2_352.wav	tā nà liǎng zhǐ gǔn yuán de dà yǎn jīng zhǎ le zhǎ suí hòu liě kāi zuǐ xiàng wǒ fù qīn yǒu hǎo de xiào le	他那两只滚圆的大眼睛眨了眨随后咧开嘴向我父亲友好地笑了
+data_thchs30/dev/B2_381.wav	chēng le pí pá yān yòng kuài bái chóu pà zi bāo le jīn huáng tuǒ yuán de pí pá yòng yí gè zhǐ tou gōu zhe yǎn zhū zi róu róu de wàng tā	称了枇杷嫣用块白绸帕子包了金黄椭圆的枇杷用一个指头勾着眼珠子柔柔地望他
+data_thchs30/dev/B2_382.wav	wèi le ràng nèn zhú néng qī shuāng ào xuě zuān tiān tǐng bá lǐ níng bǎ xū huái gǔ yìng de zhú de jīng shén yùn yòng zài tā de gōng zuò zhī zhōng	为了让嫩竹能欺霜傲雪钻天挺拔李宁把虚怀骨硬的竹的精神运用在他的工作之中
+data_thchs30/dev/B2_404.wav	yè tǐ rǔ yě kāi fā le chāo gāo wēn miè jūn nǎi yīng ér pèi fāng nǎi wéi shēng sù qiáng huà nǎi kě kě nǎi guǒ zhī nǎi děng	液体乳也开发了超高温灭菌奶婴儿配方奶维生素强化奶可可奶果汁奶等
+data_thchs30/dev/B2_416.wav	shù qiáng àn zhào fù qīn suǒ shuō tóng èr lín hé mǒu yǔ zhāng shù shì yān cǎo gōng sī de liǔ mǒu zài kūn míng mǒu fàn diàn qià tán yān jià	束强按照父亲所说同二林何某与樟树市烟草公司的柳某在昆明某饭店洽谈烟价
+data_thchs30/dev/B2_435.wav	wǒ guó gǔ dài yǒu rén céng gēn jù yǔ jù yǒu fǒu yā yùn bǎ wén xué zuò pǐn fēn wéi yùn wén yǔ sǎn wén liǎng gè dà lèi	我国古代有人曾根据语句有否押韵把文学作品分为韵文与散文两个大类
+data_thchs30/dev/B2_436.wav	tóng shí wéi rào zhuā yuán tóu zhuā pǐn zhǒng zhuā fú wù zhuā zhòng diǎn zhuā xuān chuán jī jí kāi zhǎn gōng zuò qǔ de jiào hǎo xiào guǒ	同时围绕抓源头抓品种抓服务抓重点抓宣传积极开展工作取得较好效果
+data_thchs30/dev/B2_437.wav	méi yǒu rén yuán méi yǒu pái liàn chǎng méi yǒu zī jīn yáng hóng nián jiù fā dòng quán jiā chéng yuán nuó chū le zì jǐ de fáng jiān hái hé hái zi jiā zhǎng men yì qǐ tāo yāo bāo	没有人员没有排练场没有资金杨鸿年就发动全家成员挪出了自己的房间还和孩子家长们一起掏腰包
+data_thchs30/dev/B2_461.wav	fēng píng làng jìng de qī hēi wǔ yè wáng yún zhōu wáng xīn huái wáng yáng zi shǒu xiān fā xiàn guài wù shǎn zhe hóng guāng de yǎn jīng	风平浪静的漆黑午夜王云州王新槐王羊子首先发现怪物闪着红光的眼睛
+data_thchs30/dev/B2_469.wav	qióng lóng wài xíng yǒu sì fāng liù léng bā léng děng gāo dá liù qī céng zhì shí sān sì céng xià kuān shàng zhǎi chéng jiē tī zhuàng	邛笼外形有四方六棱八棱等高达六七层至十三四层下宽上窄呈阶梯状
+data_thchs30/dev/B2_472.wav	qí bǐ mò chuán shén qì yùn yǔ mò yùn hé yī jī zhì xīn miào tàn yú fǎ mò qū jǐn yú xīn de jìng jiè	其笔墨传神气韵与墨韵合一几至心妙探于法墨曲尽于心的境界
+data_thchs30/dev/B2_477.wav	duì léi qiè tè xiān shēng de wài biǎo wǒ xǐ huān yě bà yàn wù yě bà fǎn zhèng duì nòng qīng chǔ shéi shì xiōng shǒu bú huì yǒu suǒ bāng zhù	对雷切特先生的外表我喜欢也罢厌恶也罢反正对弄清楚谁是凶手不会有所帮助
+data_thchs30/dev/B2_488.wav	wáng cōng ér shuài jūn pīn mìng dǐ kàng jiān chí zhàn dòu le sān gè yuè zhōng yīn guǎ bù dí zhòng wáng cōng ér tiào yá zhuàng liè xī shēng	王聪儿率军拼命抵抗坚持战斗了三个月终因寡不敌众王聪儿跳崖壮烈牺牲
+data_thchs30/dev/B2_492.wav	yī jiǔ jiǔ èr nián sì yuè cūn wěi huì yòu gǎi xuǎn zhè cì cūn wěi huì gān cuì yǐ huàn le xīn cūn wěi huì zhǔ rèn wèi yóu zhōng zhǐ le yǔ yè mǒu de shuǐ kù chéng bāo hé tóng	一九九二年四月村委会又改选这次村委会干脆以换了新村委会主任为由终止了与叶某的水库承包合同
+data_thchs30/dev/B31_260.wav	huá běi běi bù hàn qíng réng wèi jiě chú de dì qū nìng kěn ràng xià yù mǐ zhǒng zi xià dì děng yǔ yě bú yào chí bō	华北北部旱情仍未解除的地区宁肯让夏玉米种子下地等雨也不要迟播
+data_thchs30/dev/B31_279.wav	jìn jǐ nián bù dàn wǒ yòng shū gěi nǚ ér yā suì yě quàn shuō qīn péng bú yào gěi nǚ ér yā suì qián ér gǎi sòng yā suì shū	近几年不但我用书给女儿压岁也劝说亲朋不要给女儿压岁钱而改送压岁书
+data_thchs30/dev/B31_291.wav	bǐ áng dí huò yà jūn chéng jī wèi èr shí èr miǎo yī liù jiǎ gé ěr míng liè dì sān chéng jī shì èr shí èr miǎo èr bā	比昂迪获亚军成绩为二十二秒一六贾格尔名列第三成绩是二十二秒二八
+data_thchs30/dev/B31_297.wav	tā dài biǎo é yǔ xué yuàn xiàng nài nà fū rén zèng sòng le yī tào yǔ pǔ xī jīn é yǔ xué yuàn hé biān de jiào cái dōng fāng é yǔ	他代表俄语学院向奈娜夫人赠送了一套与普希金俄语学院合编的教材东方俄语
+data_thchs30/dev/B31_320.wav	zhōng xué bì yè hòu tā kǎo rù ní ēn luó dé shāng yè xué yuàn bì yè hòu céng fú bīng yì bìng zài yī jiā mào yì gōng sī rèn zhí	中学毕业后他考入尼恩罗德商业学院毕业后曾服兵役并在一家贸易公司任职
+data_thchs30/dev/B31_343.wav	chén zuǒ ěr duì yǐ gǎng yīng kù wù sī céng yīn quán shuài lǐng de yīng fāng zhuān jiā zǔ zhōng yú yuàn yì jiù cǐ wèn tí tóng zhōng fāng cuō shāng biǎo shì huān yíng	陈佐洱对以港英库务司曾荫权率领的英方专家组终于愿意就此问题同中方磋商表示欢迎
+data_thchs30/dev/B31_377.wav	yòng rén dān wèi yī jù qián kuǎn guī dìng cái jiǎn rén yuán zài liù gè yuè nèi lù yòng rén yuán de yīng dāng yōu xiān lù yòng bèi cái jiǎn de rén yuán	用人单位依据前款规定裁减人员在六个月内录用人员的应当优先录用被裁减的人员
+data_thchs30/dev/B31_384.wav	shǎo bù fèn zǎo shì miáo měi zhū hái mài le wǔ liù fēn qián dà bù fèn ǎi huà qiáo huà miáo mù zhǐ hǎo chéng kǔn chéng duī de shài gàn dāng chái shāo	少部分早市苗每株还卖了五六分钱大部分矮化乔化苗木只好成捆成堆地晒干当柴烧
+data_thchs30/dev/B31_385.wav	dì qiào shì nèi bù quān céng de zuì wài céng yóu fēng huà de tǔ céng hé jiān yìng de yán shí zǔ chéng suǒ yǐ dì qiào yě kě chēng wéi yán shí quān	地壳是内部圈层的最外层由风化的土层和坚硬的岩石组成所以地壳也可称为岩石圈
+data_thchs30/dev/B31_388.wav	sū zhōu běn dì de miào guān jiù hěn duō dìng huì sì xuán miào guān táo huā ān hái yǒu nà lìng lì dài wén rén qiān cháng guà dù de hán shān sì	苏州本地的庙观就很多定慧寺玄妙观桃花庵还有那令历代文人牵肠挂肚的寒山寺
+data_thchs30/dev/B31_389.wav	yīn wèi duì guó yǒu qǐ yè rú guǒ cóng zǒng tǐ shàng kàn yīng yǔ kěn dìng huò zhě qià qià xiāng fǎn gǎi gé de sī lù jiù huì jiǒng rán bù tóng	因为对国有企业如果从总体上看应予肯定或者恰恰相反改革的思路就会迥然不同
+data_thchs30/dev/B31_403.wav	wū zī bié kè sī tǎn wài zhǎng kǎ mǐ luò fū yě duì běn shè jì zhě biǎo shì wū zhōng guān xì fā zhǎn shùn lì wū fāng duì cǐ biǎo shì mǎn yì	乌兹别克斯坦外长卡米洛夫也对本社记者表示乌中关系发展顺利乌方对此表示满意
+data_thchs30/dev/B31_413.wav	lìng yī zhǒng rèn wéi dòng zuò yuè kuài yuè hǎo xiān zhuā kǎ lā jì qí yīn wèi zhuā tā yào bǐ zhuā mǔ lā dí qí róng yì xiē	另一种认为动作越快越好先抓卡拉季奇因为抓他要比抓姆拉迪奇容易些
+data_thchs30/dev/B31_416.wav	shù qiáng àn zhào fù qīn suǒ shuō tóng èr lín hé mǒu yǔ zhāng shù shì yān cǎo gōng sī de liǔ mǒu zài kūn míng mǒu fàn diàn qià tán yān jià	束强按照父亲所说同二林何某与樟树市烟草公司的柳某在昆明某饭店洽谈烟价
+data_thchs30/dev/B31_418.wav	fāng tún wēng táo nàn dào shàng hǎi jǐng kuàng bù bǐ cóng qián duō shǎo ài xī xiǎo fèi bù kěn wèi èr sūn zi yòng rǔ mǔ	方豚翁逃难到上海景况不比从前多少爱惜小费不肯为二孙子用乳母
+data_thchs30/dev/B31_436.wav	tóng shí wéi rào zhuā yuán tóu zhuā pǐn zhǒng zhuā fú wù zhuā zhòng diǎn zhuā xuān chuán jī jí kāi zhǎn gōng zuò qǔ de jiào hǎo xiào guǒ	同时围绕抓源头抓品种抓服务抓重点抓宣传积极开展工作取得较好效果
+data_thchs30/dev/B31_439.wav	wáng tiě chéng duì jiāo qī tǐ tiē rù wēi duì lǎo mǔ guān huái bèi zhì yuǎn jìn chí míng duì ài zi bǎi bān téng ài gèng shì lù rén jiē zhī	王铁成对娇妻体贴入微对老母关怀备至远近驰名对爱子百般疼爱更是路人皆知
+data_thchs30/dev/B31_455.wav	jiàn yuán zhì jīn yǐ yǒu lù dà ěr yáng kǒng què děng zài zhè lǐ shēng ér yù nǚ liǎng qiān duō tóu	建园至今已有鹿大耳羊孔雀等在这里生儿育女两千多头
+data_thchs30/dev/B31_460.wav	cūn lǐ de lǎo nián rén duān rán sù rán de jiū zhèng zhe wài xiāng rén de fā yīn guò hòu hái biān yáo tóu biān gǎn tàn shuō wài xiāng rén jiù shì bèn	村里的老年人端然肃然地纠正着外乡人的发音过后还边摇头边感叹说外乡人就是笨
+data_thchs30/dev/B31_474.wav	sù yún shāng xīn dì duǒ zài qiáng gā lá tǎng yǎn lèi kū guò le réng zhuāng zuò méi shì yī yàng qù gěi pó po sòng chī de	素云伤心地躲在墙旮旯淌眼泪哭过了仍装作没事一样去给婆婆送吃的
+data_thchs30/dev/B31_476.wav	bǐ rú zuò yī dào shù xué yìng yòng tí gěi liǎng yuán qián zuò yī cì yǔ wén zuò yè gěi wǔ yuán qián xiě yī piān zuò wén gěi shí yuán qián	比如做一道数学应用题给两元钱做一次语文作业给五元钱写一篇作文给十元钱
+data_thchs30/dev/B31_481.wav	táng xuán zōng céng fēng wǔ yuè wèi wáng sòng zhēn zōng fēng wǔ yuè wèi dì dào le míng tài zǔ zé fēng wǔ yuè wèi shén le	唐玄宗曾封五岳为王宋真宗封五岳为帝到了明太祖则封五岳为神了
+data_thchs30/dev/B32_275.wav	zhí gōng men ài chǎng ài gǎng ài chǎn pǐn xīn wǎng yī chù xiǎng jìn er wǎng yī chù shǐ	职工们爱厂爱岗爱产品心往一处想劲儿往一处使
+data_thchs30/dev/B32_294.wav	qí xíng zhuàng rú láng yá jiāo cuò dāng dì bǎi xìng jiào tā láng yá bà yīn kǒng bù duō guài yòu chēng tā mó guǐ gǔ	其形状如狼牙交错当地百姓叫它狼牙坝因恐怖多怪又称它魔鬼谷
+data_thchs30/dev/B32_296.wav	zhè yàng de qǐ yè suàn bù suàn néng shì yìng shì chǎng jīng jì suàn bù suàn yǒu jìng zhēng lì dá àn yīng gāi shì kěn dìng de	这样的企业算不算能适应市场经济算不算有竞争力答案应该是肯定的
+data_thchs30/dev/B32_297.wav	tā dài biǎo é yǔ xué yuàn xiàng nài nà fū rén zèng sòng le yī tào yǔ pǔ xī jīn é yǔ xué yuàn hé biān de jiào cái dōng fāng é yǔ	他代表俄语学院向奈娜夫人赠送了一套与普希金俄语学院合编的教材东方俄语
+data_thchs30/dev/B32_301.wav	zhàng péng ān hǎo hòu sì zhōu hái yào yòng shéng zi shuān zhù yòng xuě yā shí jì fáng fēng chuī yòu kě fáng zhǐ xuě jìn rù zhàng péng nèi	帐篷安好后四周还要用绳子拴住用雪压实既防风吹又可防止雪浸入帐篷内
+data_thchs30/dev/B32_302.wav	zhōng yāng jūn wěi fù zhǔ xí zhāng zhèn chí hào tián guó wù wěi yuán luó gàn zhōng yāng jūn wěi wěi yuán fù quán yǒu yú yǒng bō cān jiā le huì jiàn	中央军委副主席张震迟浩田国务委员罗干中央军委委员傅全有于永波参加了会见
+data_thchs30/dev/B32_303.wav	cáo yú jué de zhè gè xì xiě dé hěn bié zhì yóu cǐ kāi shǐ xún zhǎo ào ní ěr de jù běn lái dú dāng rán shì yīng wén yuán zhù	曹禺觉得这个戏写得很别致由此开始寻找奥尼尔的剧本来读当然是英文原著
+data_thchs30/dev/B32_304.wav	tā jǐng tì dì xià le chuáng gěi liǎng gè sūn zi yè hǎo bèi zi yòu ná guò yī bǎ dà yǐ zi bǎ jiě mèi liǎ dǎng zhù gāng zǒu dào kè tīng jiù bèi rén lán yāo bào zhù le	她警惕地下了床给两个孙子腋好被子又拿过一把大椅子把姐妹俩挡住刚走到客厅就被人拦腰抱住了
+data_thchs30/dev/B32_321.wav	tā jué de yǒu xiē bù duì shéi yě méi yǒu wǒ rè ài měi guó a wèi shén me bù ràng wǒ qù měi guó shì wǒ de jīng shén jiā yuán wǒ bù néng bù qù xún zhǎo wǒ de jiā yuán	他觉得有些不对谁也没有我热爱美国啊为什么不让我去美国是我的精神家园我不能不去寻找我的家园
+data_thchs30/dev/B32_323.wav	jù gū jì mù qián zhù xiōng sū jūn yuē yǒu liù wàn yú rén shì gēn jù yī jiǔ wǔ liù nián qiān dìng de sū xiōng tiáo yuē jìn zhù xiōng jìng nèi de	据估计目前驻匈苏军约有六万余人是根据一九五六年签订的苏匈条约进驻匈境内的
+data_thchs30/dev/B32_329.wav	yóu yú èr shí wǔ shǐ shì yòng gǔ wén yán wén zhuàn xiě yǔ cí jiān sè qiě juàn zhì páng dà yì bān dú zhě nán yǐ yuè dú	由于二十五史是用古文言文撰写语词艰涩且卷帙庞大一般读者难以阅读
+data_thchs30/dev/B32_335.wav	yào shī fú yòu jiào dà yī wáng fú tā céng fā xià shí èr dà yuàn yào bāng zhù zhòng shēng jiě chú tòng kǔ yī zhì jí bìng xiāo zāi yán shòu mǎn zú xìn tú de yī qiè yuàn wàng	药师佛又叫大医王佛他曾发下十二大愿要帮助众生解除痛苦医治疾病消灾延寿满足信徒的一切愿望
+data_thchs30/dev/B32_342.wav	xióng xiā xìng xiàn dāng nián chéng shú jí yǔ cí xiā jiāo pèi cí xiā xìng xiàn chéng shú jiào chí suǒ yǐ yào dào dì èr nián cái néng huái yùn chǎn zǎi	雄虾性腺当年成熟即与雌虾交配雌虾性腺成熟较迟所以要到第二年才能怀孕产仔
+data_thchs30/dev/B32_356.wav	zhōng guó hé wǎ nǔ ā tú shuāng fāng jīn tiān zài zhè lǐ jiù wǎ nǔ ā tú zǒng lǐ kǎ luò tè fǎng huá fā biǎo le xīn wén gōng bào	中国和瓦努阿图双方今天在这里就瓦努阿图总理卡洛特访华发表了新闻公报
+data_thchs30/dev/B32_364.wav	zài wén zhōng lǎo zǔ mǔ duì sūn ér de téng ài hé pàn sūn chéng lóng de yīn qiè xīn qíng quán dōu yuè rán zhǐ shàng	在文中老祖母对孙儿的疼爱和盼孙成龙的殷切心情全都跃然纸上
+data_thchs30/dev/B32_365.wav	cóng shǐ yòng cháng wēn tuī jìn dào yè qīng yè yǎng dī wēn gāo néng tuī jìn jì bìng jiě jué le dī wēn jì shù de yìng yòng wèn tí	从使用常温推进到液氢液氧低温高能推进剂并解决了低温技术的应用问题
+data_thchs30/dev/B32_369.wav	hé yún yòu hēng hēng jī jī le piàn kè kàn dào zhōu zhēng jú zhǎng diǎn diǎn wàn shàng de shǒu biǎo cái gǎn kuài zhuǎn rù zhèng tí	何云又哼哼唧唧了片刻看到周正局长点点腕上的手表才赶快转入正题
+data_thchs30/dev/B32_412.wav	yīn wèi biǎo xiàn xìng huì huà wǎng wǎng yīn xíng xiàng yǐn yù de sī yǒu ér zǔ sè wǒ men duì mǒu jiàn zuò pǐn de shēn dù rèn shi	因为表现性绘画往往因形象隐喻的私有而阻塞我们对某件作品的深度认识
+data_thchs30/dev/B32_427.wav	gěi kè rén qī chá dào nǎi zhēn jiǔ quán yòng de shì yín wǎn hé mù wǎn kè rén hē wán dì yī wǎn chá hòu zhǔ rén kāi shǐ gěi kè rén jìng jiǔ	给客人沏茶倒奶斟酒全用的是银碗和木碗客人喝完第一碗茶后主人开始给客人敬酒
+data_thchs30/dev/B32_429.wav	hé běi shěng shè xiàn chì àn cūn céng shì bā lù jūn yī èr jiǔ shī sī lìng bù tài xíng jūn qū sī lìng bù hé tài xíng qū dǎng wěi de zhù dì	河北省涉县赤岸村曾是八路军一二九师司令部太行军区司令部和太行区党委的驻地
+data_thchs30/dev/B32_491.wav	yáng duì zhǎng jiā de èr wá zi fā shāo dào qū shàng zhěn suǒ kàn le bìng dài huí yī bāo zhēn yào yào yì qióng gěi tā zhù shè	杨队长家的二娃子发烧到区上诊所看了病带回一包针药要亦琼给他注射
+data_thchs30/dev/B33_250.wav	xián yí fàn yǎn kàn tuō táo wú wàng cuàn shàng wū dǐng zòng shēn tiào xià yì yù zì shā jié guǒ shuāi chéng gǔ zhé bèi shēng qín	嫌疑犯眼看脱逃无望窜上屋顶纵身跳下意欲自杀结果摔成骨折被生擒
+data_thchs30/dev/B33_253.wav	wǒ men yīn wèi xìn fú ér niàn fó yīn wèi niàn fó ér dìng lì dé dào zhì huì yīn cǐ wǒ men niàn fó de xí guàn shì hǎo xí guàn	我们因为信佛而念佛因为念佛而定力得到智慧因此我们念佛的习惯是好习惯
+data_thchs30/dev/B33_269.wav	qīng huá dà xué zhī yuán péng huán wǔ jīn jiàn zhōng děng zhè jiāng dà xué zhī yuán wáng gàn chāng xīn xián jié děng lái suǒ cān jiā jiàn suǒ gōng zuò	清华大学支援彭桓武金建中等浙江大学支援王淦昌忻贤杰等来所参加建所工作
+data_thchs30/dev/B33_272.wav	tā cēng cēng cēng pǎo shàng lóu yòu méi dài jiā lǐ yào shi yòu tī yòu chuài yòu zhuàng mén yě dǎ bù kāi	他噌噌噌跑上楼又没带家里钥匙又踢又踹又撞门也打不开
+data_thchs30/dev/B33_278.wav	cǐ shí de liú yù ān bēn zǒu yú gè dà yī yuàn qiú yī wèn yào yě gǎn dào yí gè rén lì liàng de wēi ruò pàn wàng wài bù de bāng zhù	此时的刘玉安奔走于各大医院求医问药也感到一个人力量的微弱盼望外部的帮助
+data_thchs30/dev/B33_298.wav	yī tiān yè lǐ pīng pāng luàn xiǎng hòu wū yī jiǎo shuǐ rú kuáng pù wǒ jiē lián cóng chuāng kǒu wǎng wài qīng dǎo chū shí jǐ tǒng yǔ shuǐ	一天夜里乒乓乱响后屋一角水如狂瀑我接连从窗口往外倾倒出十几桶雨水
+data_thchs30/dev/B33_352.wav	tā nà liǎng zhǐ gǔn yuán de dà yǎn jīng zhǎ le zhǎ suí hòu liě kāi zuǐ xiàng wǒ fù qīn yǒu hǎo de xiào le	他那两只滚圆的大眼睛眨了眨随后咧开嘴向我父亲友好地笑了
+data_thchs30/dev/B33_355.wav	shòu xī hú wān yán qū zhé zhōu yǔ sàn luò shān huán shuǐ bào dī biān yī zhū yáng liǔ yī zhū táo hóng lǜ jiāo yìng fēng guāng xiù lì	瘦西湖蜿蜒曲折州屿散落山环水抱堤边一株杨柳一株桃红绿交映风光秀丽
+data_thchs30/dev/B33_363.wav	kě shì qīng chén měi dāng mù sòng mài cài de nǚ ér chě zhe qīng wù zǒu yuǎn shí tā yòu huì yǐ zhe cài ān de mén kuāng tàn xī	可是清晨每当目送卖菜的女儿扯着轻雾走远时他又会倚着菜庵的门框叹息
+data_thchs30/dev/B33_389.wav	yīn wèi duì guó yǒu qǐ yè rú guǒ cóng zǒng tǐ shàng kàn yīng yǔ kěn dìng huò zhě qià qià xiāng fǎn gǎi gé de sī lù jiù huì jiǒng rán bù tóng	因为对国有企业如果从总体上看应予肯定或者恰恰相反改革的思路就会迥然不同
+data_thchs30/dev/B33_390.wav	dàn liè níng bìng méi yǒu yīn cǐ ér fǒu dìng tuō ěr sī tài fǎn ér chēng zàn tā de zuò pǐn shì é guó gé mìng de yí miàn jìng zi	但列宁并没有因此而否定托尔斯泰反而称赞他的作品是俄国革命的一面镜子
+data_thchs30/dev/B33_396.wav	kuān kuò guī zhěng de miào qián qū guǎng chǎng qīng chè rú jìng de yìn chí gǔ piáo zhuàng guān de xuān yuán qiáo zài yí miàn miàn huáng lóng qí yìng chèn xià xiǎn de fèn wài xióng wěi zhuāng yán	宽阔规整的庙前区广场清澈如镜的印池古朴壮观的轩辕桥在一面面黄龙旗映衬下显得分外雄伟庄严
+data_thchs30/dev/B33_400.wav	kě shì mò guò duō jiǔ zhōng yú dāng shàng le yá lún zuān sī zuān de zì háo xīn qíng jiù bèi zhè xiē yáng shè bèi de huài pí qì suǒ pò huài	可是没过多久终于当上了牙轮钻司钻的自豪心情就被这些洋设备的坏脾气所破坏
+data_thchs30/dev/B33_406.wav	wàn xiàn shì de máo jīn chuáng dān chǎng lā sī zhì dīng chǎng rì huà chǎng děng èr shí sì jiā qǐ yè yǐ xiān hòu wán chéng le bān qiān	万县市的毛巾床单厂拉丝制钉厂日化厂等二十四家企业已先后完成了搬迁
+data_thchs30/dev/B33_409.wav	jié guǒ dài fū zài wǒ liǎng yǎn yǎn pí xià chōu diào yī kuài ròu yóu qí shì nèi yǎn jiǎo chōu dé gèng kuān bǐ wèi shēng kuài zi hái kuān	结果大夫在我两眼眼皮下抽掉一块肉尤其是内眼角抽得更宽比卫生筷子还宽
+data_thchs30/dev/B33_428.wav	jiě mèi liǎ xìng gé tián jìng jiě jiě bǐ jiào nèi xiàng mèi mèi zé wài xiàng yì diǎn ér dàn liǎng rén dōu shēng xìng ài shuǐ yī jiàn shuǐ jiù wán mìng	姐妹俩性格恬静姐姐比较内向妹妹则外向一点儿但两人都生性爱水一见水就玩命
+data_thchs30/dev/B33_441.wav	lǎo rén shuō dào zhè lǐ yǒu xiē gěng yè yì zhí zài yī páng péi zhe de ér xí yàn yàn qiāo qiāo xiàng wǒ dì yǎn sè wǒ mǎ shàng shōu zhù wèn huà	老人说到这里有些哽咽一直在一旁陪着的儿媳燕燕悄悄向我递眼色我马上收住问话
+data_thchs30/dev/B33_458.wav	nà shí wǒ yǐ jīng shàng xué bàng wǎn fàng xué hòu tīng shuō lín cūn yǒu xì cǎo cǎo bā jǐ kǒu fàn xīn biàn bèi lín cūn de luó gǔ shēng yǐn le qù	那时我已经上学傍晚放学后听说邻村有戏草草扒几口饭心便被邻村的锣鼓声引了去
+data_thchs30/dev/B33_470.wav	tiě lù yào cóng zhè lǐ pù tōng tā bù zhǔn wā jué lǎo jiāng jūn sòng chéng fú dài tóu yī xiān shǒu xiān wā kāi le zì jǐ qīn rén de mù xué	铁路要从这里铺通他不准挖掘老将军宋承福带头一锨首先挖开了自己亲人的墓穴
+data_thchs30/dev/B33_474.wav	sù yún shāng xīn dì duǒ zài qiáng gā lá tǎng yǎn lèi kū guò le réng zhuāng zuò méi shì yī yàng qù gěi pó po sòng chī de	素云伤心地躲在墙旮旯淌眼泪哭过了仍装作没事一样去给婆婆送吃的
+data_thchs30/dev/B34_251.wav	qiě fū nú nú ā wén què shàng wú tōu wén rú ōu yáng gōng zhī è dé ér wén zhāng yì jiào wéi néng zuò zuò zhě yě	且夫孥孥阿文确尚无偷文如欧阳公之恶德而文章亦较为能做做者也
+data_thchs30/dev/B34_254.wav	xīn pìn guó wù yuàn cān shì wáng yī píng xīn pìn zhōng yāng wén shǐ yán jiū guǎn guǎn yuán sūn jī chéng yì zhōng yě yìng yāo cān jiā le zhāo dāi huì	新聘国务院参事王一平新聘中央文史研究馆馆员孙机程毅中也应邀参加了招待会
+data_thchs30/dev/B4_266.wav	àn jié yuē diàn lì jì suàn dào èr líng líng líng nián kě jiǎn shǎo èr yǎng huà liú pái fàng èr shí wàn dūn èr yǎng huà tàn pái fàng qī bǎi sì shí wàn dūn	按节约电力计算到二零零零年可减少二氧化硫排放二十万吨二氧化碳排放七百四十万吨
+data_thchs30/dev/B4_275.wav	zhí gōng men ài chǎng ài gǎng ài chǎn pǐn xīn wǎng yī chù xiǎng jìn er wǎng yī chù shǐ	职工们爱厂爱岗爱产品心往一处想劲儿往一处使
+data_thchs30/dev/B4_319.wav	yǒu de chá yuè zī liào yǒu de měi féng yǒu zhuǎn bō ài guó zhǔ yì yǐng shì piàn jié mù shí zhēng xiāng guān kàn wán quán dá dào le yù qī mù dì	有的查阅资料有的每逢有转播爱国主义影视片节目时争相观看完全达到了预期目的
+data_thchs30/dev/B4_320.wav	zhōng xué bì yè hòu tā kǎo rù ní ēn luó dé shāng yè xué yuàn bì yè hòu céng fú bīng yì bìng zài yī jiā mào yì gōng sī rèn zhí	中学毕业后他考入尼恩罗德商业学院毕业后曾服兵役并在一家贸易公司任职
+data_thchs30/dev/B4_352.wav	tā nà liǎng zhǐ gǔn yuán de dà yǎn jīng zhǎ le zhǎ suí hòu liě kāi zuǐ xiàng wǒ fù qīn yǒu hǎo de xiào le	他那两只滚圆的大眼睛眨了眨随后咧开嘴向我父亲友好地笑了
+data_thchs30/dev/B4_354.wav	sòng zǒu shàng fǎng de qún zhòng wú tiān xiáng dàng tiān biàn mào yǔ lái dào cè suǒ zhōu wéi chá kàn mù dǔ pō shàng pō xià zàng xī xī de jǐng kuàng	送走上访的群众吴天祥当天便冒雨来到厕所周围察看目睹坡上坡下脏兮兮的景况
+data_thchs30/dev/B4_357.wav	zhè gè dà zhài yóu píng zhài dōng yǐn yáng pán nán guì sì gè cūn zǔ chéng gòng yī qiān èr bǎi èr shí qī hù jìn liù qiān míng miáo zú tóng bāo	这个大寨由平寨东引羊盘南贵四个村组成共一千二百二十七户近六千名苗族同胞
+data_thchs30/dev/B4_364.wav	zài wén zhōng lǎo zǔ mǔ duì sūn ér de téng ài hé pàn sūn chéng lóng de yīn qiè xīn qíng quán dōu yuè rán zhǐ shàng	在文中老祖母对孙儿的疼爱和盼孙成龙的殷切心情全都跃然纸上
+data_thchs30/dev/B4_398.wav	shuō dào èr máo qǐ yè yīng gāi xiàng èr máo nà yàng yǒu zī jīn yǒu jì shù yǒu yuán liào bǎo zhèng yǒu xiāo shòu qú dào yǒu qǐ yè xíng xiàng	说到二毛企业应该像二毛那样有资金有技术有原料保证有销售渠道有企业形象
+data_thchs30/dev/B4_399.wav	tā men àn dì qū bǎ cán jiǎn gōng yìng gěi sāo sī chǎng sāo sī chǎng duì jiē zhī chóu chǎng zhī chóu chǎng duì kǒu yìn rǎn chǎng	他们按地区把蚕茧供应给缫丝厂缫丝厂对接织绸厂织绸厂对口印染厂
+data_thchs30/dev/B4_417.wav	dì fāng yīng yǔ bù duì lián hé jǔ bàn yī xiē zhuān yè wén yì rén cái de péi xùn yǐ péi yǎng gèng duō de wén yì rén cái	地方应与部队联合举办一些专业文艺人才的培训以培养更多的文艺人才
+data_thchs30/dev/B4_418.wav	fāng tún wēng táo nàn dào shàng hǎi jǐng kuàng bù bǐ cóng qián duō shǎo ài xī xiǎo fèi bù kěn wèi èr sūn zi yòng rǔ mǔ	方豚翁逃难到上海景况不比从前多少爱惜小费不肯为二孙子用乳母
+data_thchs30/dev/B4_423.wav	kě bié xiǎo kàn zhè xiē bái sǎn sǎn zài guó jì shì chǎng yī gōng jīn néng mài liǎng qiān duō měi yuán gāi chǎng yī nián néng shēng chǎn wǔ dūn xiāng dāng yú shí jǐ dūn huáng jīn	可别小看这些白糁糁在国际市场一公斤能卖两千多美元该厂一年能生产五吨相当于十几吨黄金
+data_thchs30/dev/B4_431.wav	shuō wán wǒ gǎn jǐn zǒu chū mén qù yǒu qìng cái bèi mái dào tǔ lǐ shī gǔ wèi hán a zài hé jiā zhēn shuō xià qù wǒ jiù wěn bú zhù zì jǐ le	说完我赶紧走出门去有庆才被埋到土里尸骨未寒啊再和家珍说下去我就稳不住自己了
+data_thchs30/dev/B4_434.wav	cóng níng bō mǎi lái de bǐ sài yòng qiú jìng yǒu duō bàn shì xùn liàn yòng qiú tán xìng hé nài jiǔ xìng dōu nán yǐ dá dào bǐ sài yāo qiú	从宁波买来的比赛用球竟有多半是训练用球弹性和耐久性都难以达到比赛要求
+data_thchs30/dev/B4_460.wav	cūn lǐ de lǎo nián rén duān rán sù rán de jiū zhèng zhe wài xiāng rén de fā yīn guò hòu hái biān yáo tóu biān gǎn tàn shuō wài xiāng rén jiù shì bèn	村里的老年人端然肃然地纠正着外乡人的发音过后还边摇头边感叹说外乡人就是笨
+data_thchs30/dev/B4_464.wav	yīn cǐ sēng rén bù zài yú duō ér zài yú jīng zài yú néng zhēn zhèng yán xí jiào yì xiū chí fó fǎ chuán chéng fó fǎ	因此僧人不在于多而在于精在于能真正研习教义修持佛法传承佛法
+data_thchs30/dev/B4_475.wav	gè mián fǎng qǐ yè bù dé jiāng shēng chǎn yòng mián yòng yǐ zhuǎn mài yī jīng chá chū jí kòu jiǎn yòng mián qǐ yè de yòng mián liàng	各棉纺企业不得将生产用棉用以转卖一经查出即扣减用棉企业的用棉量
+data_thchs30/dev/B4_491.wav	yáng duì zhǎng jiā de èr wá zi fā shāo dào qū shàng zhěn suǒ kàn le bìng dài huí yī bāo zhēn yào yào yì qióng gěi tā zhù shè	杨队长家的二娃子发烧到区上诊所看了病带回一包针药要亦琼给他注射
+data_thchs30/dev/B6_251.wav	qiě fū nú nú ā wén què shàng wú tōu wén rú ōu yáng gōng zhī è dé ér wén zhāng yì jiào wéi néng zuò zuò zhě yě	且夫孥孥阿文确尚无偷文如欧阳公之恶德而文章亦较为能做做者也
+data_thchs30/dev/B6_310.wav	qù nián qiū tiān huá lóng jí tuán gōng sī yǔ nán ào xiàn rén mín zhèng fǔ zhèng shì qiān yuē lián hé kāi fā yān dūn wān wàn dūn jí shēn shuǐ gǎng	去年秋天华隆集团公司与南澳县人民政府正式签约联合开发烟墩湾万吨级深水港
+data_thchs30/dev/B6_319.wav	yǒu de chá yuè zī liào yǒu de měi féng yǒu zhuǎn bō ài guó zhǔ yì yǐng shì piàn jié mù shí zhēng xiāng guān kàn wán quán dá dào le yù qī mù dì	有的查阅资料有的每逢有转播爱国主义影视片节目时争相观看完全达到了预期目的
+data_thchs30/dev/B6_323.wav	jù gū jì mù qián zhù xiōng sū jūn yuē yǒu liù wàn yú rén shì gēn jù yī jiǔ wǔ liù nián qiān dìng de sū xiōng tiáo yuē jìn zhù xiōng jìng nèi de	据估计目前驻匈苏军约有六万余人是根据一九五六年签订的苏匈条约进驻匈境内的
+data_thchs30/dev/B6_328.wav	qiáng gēn qiáng jiǎo zé wǎng wǎng guāng liū liū de liàng shì hái zi men kào zài qiáng shàng wán shuǎ shí mó chéng de	墙根墙脚则往往光溜溜的亮是孩子们靠在墙上玩耍时磨成的
+data_thchs30/dev/B6_335.wav	yào shī fú yòu jiào dà yī wáng fú tā céng fā xià shí èr dà yuàn yào bāng zhù zhòng shēng jiě chú tòng kǔ yī zhì jí bìng xiāo zāi yán shòu mǎn zú xìn tú de yī qiè yuàn wàng	药师佛又叫大医王佛他曾发下十二大愿要帮助众生解除痛苦医治疾病消灾延寿满足信徒的一切愿望
+data_thchs30/dev/B6_356.wav	zhōng guó hé wǎ nǔ ā tú shuāng fāng jīn tiān zài zhè lǐ jiù wǎ nǔ ā tú zǒng lǐ kǎ luò tè fǎng huá fā biǎo le xīn wén gōng bào	中国和瓦努阿图双方今天在这里就瓦努阿图总理卡洛特访华发表了新闻公报
+data_thchs30/dev/B6_398.wav	shuō dào èr máo qǐ yè yīng gāi xiàng èr máo nà yàng yǒu zī jīn yǒu jì shù yǒu yuán liào bǎo zhèng yǒu xiāo shòu qú dào yǒu qǐ yè xíng xiàng	说到二毛企业应该像二毛那样有资金有技术有原料保证有销售渠道有企业形象
+data_thchs30/dev/B6_420.wav	hú wén duó jiào shòu rèn wéi mù qián yǒu xiē huàn zhě yòng yào cún zài wù qū rèn wéi jìn kǒu yào cái néng zhì bìng jià qián yuè guì de yào xiào yuè gāo	胡文铎教授认为目前有些患者用药存在误区认为进口药才能治病价钱越贵的药效越高
+data_thchs30/dev/B6_423.wav	kě bié xiǎo kàn zhè xiē bái sǎn sǎn zài guó jì shì chǎng yī gōng jīn néng mài liǎng qiān duō měi yuán gāi chǎng yī nián néng shēng chǎn wǔ dūn xiāng dāng yú shí jǐ dūn huáng jīn	可别小看这些白糁糁在国际市场一公斤能卖两千多美元该厂一年能生产五吨相当于十几吨黄金
+data_thchs30/dev/B6_449.wav	nán guài měi guó zhù míng zuò jiā suō luó yào bǎ wǎ ěr téng hú pàn de xīn xiān kōng qì zhuāng jìn píng zi mài gěi nèi xiē shuì zǎo jué de rén le	难怪美国著名作家梭罗要把瓦尔腾湖畔的新鲜空气装进瓶子卖给那些睡早觉的人了
+data_thchs30/dev/B6_455.wav	jiàn yuán zhì jīn yǐ yǒu lù dà ěr yáng kǒng què děng zài zhè lǐ shēng ér yù nǚ liǎng qiān duō tóu	建园至今已有鹿大耳羊孔雀等在这里生儿育女两千多头
+data_thchs30/dev/B6_462.wav	dǎo shàng chú le tū wù de lín xún jiāo shí hé wān yán tōng yōu de xiǎo lù yǐ wài quán rán shì yí gè cǎo mù wēi ruí de lǜ sè wáng guó	岛上除了突兀的嶙峋礁石和蜿蜒通幽的小路以外全然是一个草木葳蕤的绿色王国
+data_thchs30/dev/B6_468.wav	zǎo bèi guó wài nóng hù guǎng fàn cǎi yòng de wēi shēng wù jūn yǎng qín chù jì shù yǐ luò hù zhōng guó	早被国外农户广泛采用的微生物菌养禽畜技术已落户中国
+data_thchs30/dev/B6_471.wav	jǐ gè yuè lái hā lì fǎ āi mǐ ěr yì zhí wèi qián wǎng āi mǐ ěr gōng zhì lǐ cháo zhèng wáng gōng shì wù shí jì shàng yǐ yóu hā mǎ dé zhǔ chí	几个月来哈利法埃米尔一直未前往埃米尔宫治理朝政王宫事务实际上已由哈马德主持
+data_thchs30/dev/B6_476.wav	bǐ rú zuò yī dào shù xué yìng yòng tí gěi liǎng yuán qián zuò yī cì yǔ wén zuò yè gěi wǔ yuán qián xiě yī piān zuò wén gěi shí yuán qián	比如做一道数学应用题给两元钱做一次语文作业给五元钱写一篇作文给十元钱
+data_thchs30/dev/B6_482.wav	tài yuán shì yáng quán shì shuài xiān bàn qǐ le lóng yǎ ér yòu ér yuán hé lóng ér tīng lì yǔ xùn zhōng xīn	太原市阳泉市率先办起了聋哑儿幼儿园和聋儿听力语训中心
+data_thchs30/dev/B6_493.wav	tīng de chuāng kǒu bèi yòng hēi bù zhē dé yán yán shí shí tīng nèi hūn àn méng lóng wéi yǒu jǐ chuàn hóng lǜ dēng pín pín shǎn shuò	厅的窗口被用黑布遮得严严实实厅内昏暗朦胧唯有几串红绿灯频频闪烁
+data_thchs30/dev/B7_251.wav	qiě fū nú nú ā wén què shàng wú tōu wén rú ōu yáng gōng zhī è dé ér wén zhāng yì jiào wéi néng zuò zuò zhě yě	且夫孥孥阿文确尚无偷文如欧阳公之恶德而文章亦较为能做做者也
+data_thchs30/dev/B7_261.wav	dà yuàn lǐ yě shì liǎng pài zài mà yè wǎn yě zài dòu zǒu zī pài yī tiān dào wǎn xīn jīng ròu tiào suí shí zhǔn bèi zhe āi dòu	大院里也是两派在骂夜晚也在斗走资派一天到晚心惊肉跳随时准备着挨斗
+data_thchs30/dev/B7_278.wav	cǐ shí de liú yù ān bēn zǒu yú gè dà yī yuàn qiú yī wèn yào yě gǎn dào yí gè rén lì liàng de wēi ruò pàn wàng wài bù de bāng zhù	此时的刘玉安奔走于各大医院求医问药也感到一个人力量的微弱盼望外部的帮助
+data_thchs30/dev/B7_279.wav	jìn jǐ nián bù dàn wǒ yòng shū gěi nǚ ér yā suì yě quàn shuō qīn péng bú yào gěi nǚ ér yā suì qián ér gǎi sòng yā suì shū	近几年不但我用书给女儿压岁也劝说亲朋不要给女儿压岁钱而改送压岁书
+data_thchs30/dev/B7_289.wav	tā men bái tiān suí zhe gǔn gǔn chē liú bēn bō yú tài xíng nán běi wǎn shàng dǎ kāi pū gài yǎng wàng tiān kōng tán lǐ xiǎng tán rén shēng	他们白天随着滚滚车流奔波于太行南北晚上打开铺盖仰望天空谈理想谈人生
+data_thchs30/dev/B7_313.wav	zhōng huá rén mín gòng hé guó zhōng yāng jūn shì wěi yuán huì zuì jìn fā bù mìng lìng shòu yǔ wú mèng chāo mó fàn yī xué zhuān jiā róng yù chēng hào	中华人民共和国中央军事委员会最近发布命令授予吴孟超模范医学专家荣誉称号
+data_thchs30/dev/B7_315.wav	dì chǔ pín kùn shān qū de zhè jiāng jiāng shān shì dà luán kǒu xiāng yè jiā yáng cūn lì yòng dāng dì máo zhú zī yuán chuàng bàn yè jiā yáng zhú qì chǎng	地处贫困山区的浙江江山市大峦口乡叶家洋村利用当地毛竹资源创办叶家洋竹器厂
+data_thchs30/dev/B7_351.wav	tā men yòng zhuān tóu mù gùn jiǔ píng děng xí jī quán fù wǔ zhuāng de fáng bào jǐng chá jǐng fāng zé dòng yòng mǎ duì hé gùn bàng yǔ yǐ huán jī	他们用砖头木棍酒瓶等袭击全副武装的防暴警察警方则动用马队和棍棒予以还击
+data_thchs30/dev/B7_358.wav	jiè shào xìn yǔ wěi tuō xié yì cóng shēng huó xǐ dí jì dào xióng māo nǎi fěn mái xià sòng àn dìng shí zhà dàn	介绍信与委托协议从生活洗涤剂到熊猫奶粉埋下讼案定时炸弹
+data_thchs30/dev/B7_368.wav	zài jì shù gǎi zào zhōng tā men miáo zhǔn jié néng yíng guāng dēng shì chǎng cóng tái wān yǐn jìn yī tiáo huán xíng yíng guāng dēng shēng chǎn xiàn yī tiáo jié néng yíng guāng dēng shēng chǎn xiàn	在技术改造中他们瞄准节能荧光灯市场从台湾引进一条环形荧光灯生产线一条节能荧光灯生产线
+data_thchs30/dev/B7_369.wav	hé yún yòu hēng hēng jī jī le piàn kè kàn dào zhōu zhēng jú zhǎng diǎn diǎn wàn shàng de shǒu biǎo cái gǎn kuài zhuǎn rù zhèng tí	何云又哼哼唧唧了片刻看到周正局长点点腕上的手表才赶快转入正题
+data_thchs30/dev/B7_384.wav	shǎo bù fèn zǎo shì miáo měi zhū hái mài le wǔ liù fēn qián dà bù fèn ǎi huà qiáo huà miáo mù zhǐ hǎo chéng kǔn chéng duī de shài gàn dāng chái shāo	少部分早市苗每株还卖了五六分钱大部分矮化乔化苗木只好成捆成堆地晒干当柴烧
+data_thchs30/dev/B7_389.wav	yīn wèi duì guó yǒu qǐ yè rú guǒ cóng zǒng tǐ shàng kàn yīng yǔ kěn dìng huò zhě qià qià xiāng fǎn gǎi gé de sī lù jiù huì jiǒng rán bù tóng	因为对国有企业如果从总体上看应予肯定或者恰恰相反改革的思路就会迥然不同
+data_thchs30/dev/B7_395.wav	zhèng zāo rì wěi sǎo dàng de guó mín dǎng wán jūn hán dé qín pài rén yǔ wǒ lián xì yāo qiú lǜ qí bù duì zhuǎn yí dào wǒ huái ān gēn jù dì	正遭日伪扫荡的国民党顽军韩德勤派人与我联系要求率其部队转移到我淮安根据地
+data_thchs30/dev/B7_420.wav	hú wén duó jiào shòu rèn wéi mù qián yǒu xiē huàn zhě yòng yào cún zài wù qū rèn wéi jìn kǒu yào cái néng zhì bìng jià qián yuè guì de yào xiào yuè gāo	胡文铎教授认为目前有些患者用药存在误区认为进口药才能治病价钱越贵的药效越高
+data_thchs30/dev/B7_421.wav	jù ruì diǎn tōng xùn shè bào dào yī sōu é luó sī yú chuán èr shí liù rì chén zài nuó wēi běi bù yán hǎi chén mò gū jì yǒu shí rén sàng shēng	据瑞典通讯社报道一艘俄罗斯渔船二十六日晨在挪威北部沿海沉没估计有十人丧生
+data_thchs30/dev/B7_437.wav	méi yǒu rén yuán méi yǒu pái liàn chǎng méi yǒu zī jīn yáng hóng nián jiù fā dòng quán jiā chéng yuán nuó chū le zì jǐ de fáng jiān hái hé hái zi jiā zhǎng men yì qǐ tāo yāo bāo	没有人员没有排练场没有资金杨鸿年就发动全家成员挪出了自己的房间还和孩子家长们一起掏腰包
+data_thchs30/dev/B7_440.wav	mín yòng háng kōng qì dǐ yā quán shì yòng mín yòng háng kōng qì guó jí dēng jì guó fǎ lǜ	民用航空器抵押权适用民用航空器国籍登记国法律
+data_thchs30/dev/B7_441.wav	lǎo rén shuō dào zhè lǐ yǒu xiē gěng yè yì zhí zài yī páng péi zhe de ér xí yàn yàn qiāo qiāo xiàng wǒ dì yǎn sè wǒ mǎ shàng shōu zhù wèn huà	老人说到这里有些哽咽一直在一旁陪着的儿媳燕燕悄悄向我递眼色我马上收住问话
+data_thchs30/dev/B7_451.wav	hóu zōng bīn wáng wéi chéng liú yún shān wáng xù dōng wáng gāng gōng yù zhī liú shèng yù liú hǎi fān yáng chūn guì děng chū xí diǎn lǐ	侯宗宾王维澄刘云山王旭东王刚龚育之刘胜玉刘海藩杨春贵等出席典礼
+data_thchs30/dev/B7_456.wav	liù shí nián dài wǒ guó jū mín shēng huó shì liáng shí yǐn lù guā cài dāng jiā chī shàng chún yù mǐ miàn wō wō tóu jiù suàn dǐng guā guā	六十年代我国居民生活是粮食引路瓜菜当家吃上纯玉米面窝窝头就算顶呱呱
+data_thchs30/dev/B7_463.wav	tàn suǒ wéi rào jīng jì jiàn shè zhuā dǎng jiàn de yǒu xiào tú jìng luó tián nóng cūn dǎng zhī bù kāi zhǎn chuàng jiàn xiǎo kāng cūn jìng sài	探索围绕经济建设抓党建的有效途径罗田农村党支部开展创建小康村竞赛
+data_thchs30/dev/B7_467.wav	běi jīng fù wài yī yuàn xīn wài kē zhuān jiā hán xù de jiě shì biǎo míng huàn ér mǔ qīn tǐ zhì jí chà zhí jiē yǐng xiǎng le hòu dài de jiàn kāng	北京阜外医院心外科专家含蓄的解释表明患儿母亲体质极差直接影响了后代的健康
+data_thchs30/dev/B7_468.wav	zǎo bèi guó wài nóng hù guǎng fàn cǎi yòng de wēi shēng wù jūn yǎng qín chù jì shù yǐ luò hù zhōng guó	早被国外农户广泛采用的微生物菌养禽畜技术已落户中国
+data_thchs30/dev/B8_256.wav	zhōu xìn fāng cháng qī zài shàng hǎi yǎn chū yǔ wáng hóng shòu wāng xiào nóng pān yuè qiáo děng xié zuò biān yǎn le xǔ duō jù mù	周信芳长期在上海演出与王鸿寿汪笑侬潘月樵等协作编演了许多剧目
+data_thchs30/dev/B8_272.wav	tā cēng cēng cēng pǎo shàng lóu yòu méi dài jiā lǐ yào shi yòu tī yòu chuài yòu zhuàng mén yě dǎ bù kāi	他噌噌噌跑上楼又没带家里钥匙又踢又踹又撞门也打不开
+data_thchs30/dev/B8_285.wav	jí lín yóu tián xīn lì cǎi yóu chǎng zhí gōng yú guó chén fū fù kān hù zuì biān yuǎn de yì bǎi líng bā cǎi yóu dān jǐng yǐ zhěng zhěng shí nián	吉林油田新立采油厂职工于国臣夫妇看护最边远的一百零八采油单井已整整十年
+data_thchs30/dev/B8_287.wav	dà huì zhǐ rè nào tóu liǎng tiān yuè hòu yuè sōng kuǎ zuì zhōng chū běn lùn wén jí jiù suàn yuán mǎn wán chéng rèn wù	大会只热闹头两天越后越松垮最终出本论文集就算圆满完成任务
+data_thchs30/dev/B8_295.wav	ā pǒ ruì tè kàn zhe hēi àn jiàng lín le zhè sōu chuán tīng jiàn nà yáo yuǎn ér róu hé de yuán zi fā dòng jī de gū lū shēng tū rán tíng zhǐ	阿颇瑞特看着黑暗降临了这艘船听见那遥远而柔和的原子发动机的咕噜声突然停止
+data_thchs30/dev/B8_307.wav	hé běi shěng zūn huà shì yíng yǎng yǐn pǐn shí yè gōng sī zuì jìn yán zhì shēng chǎn chū xīn xíng tiān rán yíng yǎng yǐn pǐn hé táo rǔ chá	河北省遵化市营养饮品实业公司最近研制生产出新型天然营养饮品核桃乳茶
+data_thchs30/dev/B8_330.wav	bù wǒ men yě shì zhōu mò lái zhè lǐ wán wán dàn lǎo shī yào wǒ men gé wài zhù yì zhuā bào yú de yóu rén	不我们也是周末来这里玩玩但老师要我们格外注意抓鲍鱼的游人
+data_thchs30/dev/B8_359.wav	mā mā de liǎn sè yǐ jīng biàn dé xiàng huáng tǔ de yán sè yī yàng huáng liǎng yǎn wú guāng dāi dāi de kàn zhe wū dǐng yī dòng yě bù dòng	妈妈的脸色已经变得象黄土的颜色一样黄两眼无光呆呆地看着屋顶一动也不动
+data_thchs30/dev/B8_375.wav	cāng wài liǎng àn yī pái pái yī chuáng chuáng gǔ jiàn zhù lián mián bù duàn de yíng miàn pū lái yòu xùn sù yǐn méi zài wǒ men hòu miàn	舱外两岸一排排一幢幢古建筑连绵不断地迎面扑来又迅速隐没在我们后面
+data_thchs30/dev/B8_384.wav	shǎo bù fèn zǎo shì miáo měi zhū hái mài le wǔ liù fēn qián dà bù fèn ǎi huà qiáo huà miáo mù zhǐ hǎo chéng kǔn chéng duī de shài gàn dāng chái shāo	少部分早市苗每株还卖了五六分钱大部分矮化乔化苗木只好成捆成堆地晒干当柴烧
+data_thchs30/dev/B8_408.wav	shān lù dǒu qiào pō dù yòu dà cūn mín gěi chē dǎ yǎn bù dàng chē tíng xià bù jiǔ tū rán kāi shǐ shùn pō xià huá	山路陡峭坡度又大村民给车打掩不当车停下不久突然开始顺坡下滑
+data_thchs30/dev/B8_415.wav	gāi piàn dǎo yǎn wèi yú shí shù yáng jūn zhǔ yào yǎn yuán yǒu hán fū yī lǐ jìn mù ài qiū zhōu guì yún jīn xīn féng yún kuí děng	该片导演为虞石束杨军主要演员有韩夫一李进慕爱秋周桂云金鑫冯云魁等
+data_thchs30/dev/B8_419.wav	hú lǎo hàn ài shū rú mìng nóng xián shí zǒng ài zǒu cūn chuàn hù shuí jiā yǒu shū bào tā jiù bǎo bèi yī yàng shōu jí qǐ lái	胡老汉爱书如命农闲时总爱走村串户谁家有书报他就宝贝一样收集起来
+data_thchs30/dev/B8_423.wav	kě bié xiǎo kàn zhè xiē bái sǎn sǎn zài guó jì shì chǎng yī gōng jīn néng mài liǎng qiān duō měi yuán gāi chǎng yī nián néng shēng chǎn wǔ dūn xiāng dāng yú shí jǐ dūn huáng jīn	可别小看这些白糁糁在国际市场一公斤能卖两千多美元该厂一年能生产五吨相当于十几吨黄金
+data_thchs30/dev/B8_455.wav	jiàn yuán zhì jīn yǐ yǒu lù dà ěr yáng kǒng què děng zài zhè lǐ shēng ér yù nǚ liǎng qiān duō tóu	建园至今已有鹿大耳羊孔雀等在这里生儿育女两千多头
+data_thchs30/dev/B8_467.wav	běi jīng fù wài yī yuàn xīn wài kē zhuān jiā hán xù de jiě shì biǎo míng huàn ér mǔ qīn tǐ zhì jí chà zhí jiē yǐng xiǎng le hòu dài de jiàn kāng	北京阜外医院心外科专家含蓄的解释表明患儿母亲体质极差直接影响了后代的健康
+data_thchs30/dev/B8_472.wav	qí bǐ mò chuán shén qì yùn yǔ mò yùn hé yī jī zhì xīn miào tàn yú fǎ mò qū jǐn yú xīn de jìng jiè	其笔墨传神气韵与墨韵合一几至心妙探于法墨曲尽于心的境界
+data_thchs30/dev/B8_478.wav	xiǎo ào sī kǎ fā xiàn zhōu wéi de shì jiè tài guò huāng dàn jiù àn xià jué xīn yào yǒng yuǎn zuò xiǎo hái zi	小奥斯卡发现周围的世界太过荒诞就暗下决心要永远做小孩子
+data_thchs30/dev/B8_480.wav	dí què cóng gǔ dào jīn yīn shuō jiǎ huà shòu chǒng shēng guān shuō zhēn huà fǎn zāo yā yì shèn zhì diū guān diào nǎo dài de shì bù shèng méi jǔ	的确从古到今因说假话受宠升官说真话反遭压抑甚至丢官掉脑袋的事不胜枚举
+data_thchs30/dev/B8_483.wav	tā men zhuā lái le huí jiā wèi fù qīn sòng sàng de nián qīng yī shēng sū yuán hé qī zǐ móu qīng bī pò wèi tā men zhì bìng	他们抓来了回家为父亲送丧的年轻医生苏原和妻子牟青逼迫为他们治病
+data_thchs30/dev/B8_498.wav	zhōng wén wén běn wài wén wén běn fā shēng qí yì shí yǐ zhōng wén wén běn wèi zhǔn	中文文本外文文本发生歧义时以中文文本为准
+data_thchs30/dev/C12_511.wav	jiāng xī hú kǒu xiàn shuāng zhōng shuǐ chǎn chǎng yú mín zhāng hòu yú rì qián jiāng yī tiáo bǔ huò rù wǎng de xíng sì biān yú de yān zhī yú fàng huí jiāng zhōng	江西湖口县双钟水产场渔民张后渔日前将一条捕获入网的形似鳊鱼的胭脂鱼放回江中
+data_thchs30/dev/C12_518.wav	gān shǔ tiān é zài wǒ shěng dì guā zhòng zhí qū dōu yǒu suǒ fā shēng yì bān yī nián fā shēng liǎng dài yǐ yǒng zài tǔ zhōng yuè dōng	甘薯天蛾在我省地瓜种植区都有所发生一般一年发生两代以蛹在土中越冬
+data_thchs30/dev/C12_526.wav	yán wáng bǎo zhǎng yòng wén míng gùn zhè lǐ chā yī xià nà lǐ tǒng yī xià yī xiē pò bù làn piàn gěi tā de wén míng gùn fān dé luàn qī bā zào	阎王保长用文明棍这里插一下那里捅一下一些破布烂片给他的文明棍翻得乱七八糟
+data_thchs30/dev/C12_544.wav	huí dào jiā huáng niáng niáng de nǎi wá ér zhèng kū dé sī shēng yǎ qì dà yì diǎn de yí gè wá ér zài táng wū de shàng pá	回到家黄娘娘的奶娃儿正哭得嘶声哑气大一点的一个娃儿在堂屋地上爬
+data_thchs30/dev/C12_549.wav	tā suī rán zì yǐ bìng bù kàn jiàn zhuāng le zěn yàng de liǎn dàn cǐ shí què jué de hěn jú cù zuǐ chún wēi wēi yī dòng yòu yáo yī yáo tóu	他虽然自已并不看见装了怎样的脸但此时却觉得很局促嘴唇微微一动又摇一摇头
+data_thchs30/dev/C12_595.wav	diàn lú liàn gāng jià gé chéng běn dī yú zhuàn lú liàn gāng ér qiě hé lǐ jīng jì guī mó xiǎo dūn gāng tóu zī jiào dī shì dāng jīn shì jiè gāng tiě gōng yè fā zhǎn cháo liú	电炉炼钢价格成本低于转炉炼钢而且合理经济规模小吨钢投资较低是当今世界钢铁工业发展潮流
+data_thchs30/dev/C12_603.wav	jīn wǎn zài shùn dé tǐ yù zhōng xīn guó jiā zú qiú jí xùn duì tiǎo dēng yè zhàn guǎng zhōu duì shuāng fāng yǐ èr bǐ èr wò shǒu yán hé	今晚在顺德体育中心国家足球集训队挑灯夜战广州队双方以二比二握手言和
+data_thchs30/dev/C12_615.wav	chén dú xiù gǎn shuō gǎn zuò tā lǐng dǎo le wǔ sì yùn dòng ér qún zhòng yùn dòng yě tuī dòng zhe tā fèn yǒng qián jìn	陈独秀敢说敢做他领导了五四运动而群众运动也推动着他奋勇前进
+data_thchs30/dev/C12_616.wav	wǒ de jiān bǎng hún yuán xiōng qián féi dū dū de shēn cái yòu biàn dé nà me ǎi xiǎo yóu qí shì jiǎo xià hǎo xiàng cǎi zhe gāo qiāo jiǎn zhí yào bǎ jiǎo jīn bēng duàn	我的肩膀浑圆胸前肥嘟嘟的身材又变得那么矮小尤其是脚下好像踩着高跷简直要把脚筋绷断
+data_thchs30/dev/C12_628.wav	zhè yàng de xiū yǎng de yǎn yuán jí shǐ zhèng zǒu hóng yě bù guò rú guò yǎn yún yān ér yǐ chéng bù liǎo zhēn zhèng yì yì shàng de yì shù jiā	这样的修养的演员即使正走红也不过如过眼云烟而已成不了真正意义上的艺术家
+data_thchs30/dev/C12_637.wav	kāng shì tǎn dīng chéng zhè dāng ér xiǎng shòu le yī fān yàn fú ér gōng zhǔ ne wèi zì jǐ de hóng yán bó mìng ér āi kū	康士坦丁乘这当儿享受了一番艳福而公主呢为自己的红颜薄命而哀哭
+data_thchs30/dev/C12_670.wav	bǐ sài cǎi yòng shuāng xún huán liǎng jú jì fēn zhì zài shí lún gòng jì èr shí chǎng jiào liàng zhōng dìng chū shèng fù de zhǐ yǒu bā chǎng ér shuāng fāng wò shǒu yán hé de yǒu shí èr chǎng	比赛采用双循环两局计分制在十轮共计二十场较量中定出胜负的只有八场而双方握手言和的有十二场
+data_thchs30/dev/C12_680.wav	liáo níng jiào liàn guō jīn fèng duì cǐ jiě shì shuō wáng yuàn zhèng huàn gǎn mào ér qū yún xiá zé yóu yú jié shí bìng yīn yì zhí méi liàn chū lái	辽宁教练郭金凤对此解释说王瑗正患感冒而曲云霞则由于结石病因一直没练出来
+data_thchs30/dev/C12_697.wav	lín yè bù mén zài yíng lín zào lín gōng zuò zhōng bù wàng shuǐ bǎo yán jìn quán kěn liàn shān yāo qiú gǎi quán kěn wèi tiáo kěn zhěng dì	林业部门在营林造林工作中不忘水保严禁全垦炼山要求改全垦为条垦整地
+data_thchs30/dev/C13_500.wav	jù xī měi guó cān yì yuàn yǐ cǎo nǐ yī fèn zhī chí kè lín dùn xiàng bō hēi pài bīng de jué yì àn zhǔn bèi zài běn yuè shàng xún jìn xíng biǎo jué	据悉美国参议院已草拟一份支持克林顿向波黑派兵的决议案准备在本月上旬进行表决
+data_thchs30/dev/C13_505.wav	xiū dé ān mín yún yún shuō dé guò yú táng huáng ér dǎo kōng shí jì shàng tā yǒu yìng de yī shǒu hé ruǎn de yī shǒu	修得安民云云说得过于堂皇而蹈空实际上他有硬的一手和软的一手
+data_thchs30/dev/C13_519.wav	yīng guó kē xué jiā zuì jìn fā xiàn huàn fēng niú bìng de niú de hòu dài yě hěn kě néng huàn fēng niú bìng yīng guó huàn fēng niú bìng de niú bǐ yuán xiān rèn wéi de yào duō	英国科学家最近发现患疯牛病的牛的后代也很可能患疯牛病英国患疯牛病的牛比原先认为的要多
+data_thchs30/dev/C13_521.wav	tā men yòu pài yī duì rén dēng shàng àn qù wān zhe gōng nǔ jiàn tóu cháo zhǔn xiǎo chuán bù ràng chuán lǐ de rén néng yǒu yí gè táo shàng àn qù	他们又派一队人登上岸去弯着弓弩箭头朝准小船不让船里的人能有一个逃上岸去
+data_thchs30/dev/C13_539.wav	féng nián guò jié cūn lǐ zǔ zhī gè zhǒng xíng shì de gē wǔ huì tǐ yù bǐ sài qǐng jù tuán fàng yìng duì lái cūn lǐ yǎn chū	逢年过节村里组织各种形式的歌舞会体育比赛请剧团放映队来村里演出
+data_thchs30/dev/C13_560.wav	kě shì tù chǎng de nóng mín sì yǎng yuán gěi tù zi wèi shí wèi yào dōu bèi tù zi shùn shùn dāng dāng jiē shòu le	可是兔场的农民饲养员给兔子喂食喂药都被兔子顺顺当当接受了
+data_thchs30/dev/C13_573.wav	zhì yú yè yǐ jié hūn chéng jiā de rén yuán kě yǐ bù kǎo lǜ nóng zhuǎn fēi yīn wèi zhè xiē rén nóng zhuǎn fēi yǐ wú shí jì yì yì	至于业已结婚成家的人员可以不考虑农转非因为这些人农转非已无实际意义
+data_thchs30/dev/C13_577.wav	tā méi yǒu duō shǎo háo yán zhuàng yǔ dàn tā què bǎ ài qīn rén ài jiā tíng ài zǔ guó ài jūn duì wán měi de tǒng yī le qǐ lái	她没有多少豪言壮语但她却把爱亲人爱家庭爱祖国爱军队完美地统一了起来
+data_thchs30/dev/C13_587.wav	xīn huá shè kūn míng èr yuè shí èr rì diàn wǒ guó zhù míng zhé xué jiā ài sī qí de yī pī yí wù zuì jìn cóng běi jīng sòng wǎng yún nán téng chōng	新华社昆明二月十二日电我国著名哲学家艾思奇的一批遗物最近从北京送往云南腾冲
+data_thchs30/dev/C13_589.wav	tā cóng yòu nián kāi shǐ jí shòu dào yīn yuè xūn táo liù suì jí jiē shòu yīn yuè jiào yù céng suí fù xué xí dà tí qín	她从幼年开始即受到音乐熏陶六岁即接受音乐教育曾随父学习大提琴
+data_thchs30/dev/C13_611.wav	tā shuō yà yì niǔ yuē rén wéi tā men néng gòu wèi yà měi liǎng dà lù de mín zú yǔ yán hé wén huà jià shè qiáo liáng ér gǎn dào zì háo	她说亚裔纽约人为他们能够为亚美两大陆的民族语言和文化架设桥梁而感到自豪
+data_thchs30/dev/C13_634.wav	qián yī duàn guān bì xiǎo méi yáo yǒu rén yuàn chū yì bǎi wàn yuán yào wǒ de tóu jīn tiān guān tǔ liàn jiāo yòu yǒu rén chū yì bǎi wàn	前一段关闭小煤窑有人愿出一百万元要我的头今天关土炼焦又有人出一百万
+data_thchs30/dev/C13_687.wav	wáng lì qiáng huì xiàng níng duàn yī gēn huáng guā yī yàng kā chā yī shēng níng duàn wǒ de bó zi	王立强会像拧断一根黄瓜一样咔嚓一声拧断我的脖子
+data_thchs30/dev/C13_694.wav	qǔ dài de duō shì gàn mǐn yuè míng cí chǎng shēng chǎn de báo bái cí xiǎo bēi xiǎo qiǎo líng lóng zhuàng rú bàn gè pīng pāng qiú dà xiǎo sān gè bēi dié qǐ kě hán yú kǒu ér bù lù	取代的多是赣闽粤名瓷厂生产的薄白瓷小杯小巧玲珑状如半个乒乓球大小三个杯叠起可含于口而不露
+data_thchs30/dev/C13_706.wav	lìng wài kuàng qū méi tàn guǎn lǐ jú duì xiāng zhèn kuàng de kāi cǎi fàn wéi zuò le míng què huà fēn yán jìn yuè jiè yuè céng kāi cǎi	另外矿区煤炭管理局对乡镇矿的开采范围做了明确划分严禁越界越层开采
+data_thchs30/dev/C13_722.wav	xiàn jiē duàn wèi shēng shì yè shǒu fā zhǎn yìng cóng wài yán zhuǎn xiàng nèi hán yǐ tí gāo xiàn yǒu wèi shēng zī yuán de lì yòng xiào lǜ wèi zhòng diǎn	现阶段卫生事业手发展应从外延转向内涵以提高现有卫生资源的利用效率为重点
+data_thchs30/dev/C14_501.wav	kě shì xiǎo pàng zi kě bié shēng bìng bà de biǎo niáng de jiè zhǐ quán dé zàn rù dàng pù ér qiě zhòu yè chī bù hǎo shuì bù ān bù yà yú guó nàn dāng qián	可是小胖子可别生病爸的表娘的戒指全得暂入当铺而且昼夜吃不好睡不安不亚于国难当前
+data_thchs30/dev/C14_516.wav	lú tài yú yīn fàn yǒu zhǔ dòng cān yù jūn shì pàn luàn hé nèi luàn zuì móu shā shàng sī wèi suì zuì jí shòu huì zuì děng bèi pàn chǔ wú qī tú xíng	卢泰愚因犯有主动参与军事叛乱和内乱罪谋杀上司未遂罪及受贿罪等被判处无期徒刑
+data_thchs30/dev/C14_518.wav	gān shǔ tiān é zài wǒ shěng dì guā zhòng zhí qū dōu yǒu suǒ fā shēng yì bān yī nián fā shēng liǎng dài yǐ yǒng zài tǔ zhōng yuè dōng	甘薯天蛾在我省地瓜种植区都有所发生一般一年发生两代以蛹在土中越冬
+data_thchs30/dev/C14_524.wav	èr shí nián lái yān cǎo shāng chéng le zhì piàn shāng de cái shén yé yān cǎo guǎng gào yuè zuò yuè jīng měi biàn xiàng guǎng gào gèng shì huā yàng bǎi chū	二十年来烟草商成了制片商的财神爷烟草广告越做越精美变相广告更是花样百出
+data_thchs30/dev/C14_529.wav	míng hóng xiǎo fú liǎ wèi nǚ yǒu jī hū dà jīng shī sè wǒ yě jīng dé fēi tóng xiǎo kě zěn me nà zhè fàn shá cuò wù le	鸣鸿晓佛俩位女友几乎大惊失色我也惊得非同小可怎么那这犯啥错误了
+data_thchs30/dev/C14_537.wav	dāng sī xiǎng pǒ wèi kāi fàng de zhōng nián cūn zhǎng wáng yǒu shuāng lǐng wǒ lái dào wáng jūn xiá jiā de shí hòu wǒ zhēng le yī xià	当思想颇为开放的中年村长王有双领我来到王军霞家的时候我怔了一下
+data_thchs30/dev/C14_556.wav	yīng xióng céng zhào gāng wú kuì yú zhè guāng róng de chēng hào wú kuì yú wǒ men de shí dài	英雄曾召刚无愧于这光荣的称号无愧于我们的时代
+data_thchs30/dev/C14_562.wav	dāng dì yú mín yòng zhè zhǒng wǎng lái zuò yú wǎng fēi cháng jiē shi nài yòng ér qiě bù pà hǎi shuǐ fǔ shí	当地渔民用这种网来作渔网非常结实耐用而且不怕海水腐蚀
+data_thchs30/dev/C14_585.wav	suàn chóu jiù shì yī xiē yòng mù zhú zhì zuò de yún chèn de xiǎo gùn suàn chóu zòng héng bù zhì jiù kě yǐ biǎo shì rèn hé yí gè zì rán shù	算筹就是一些用木竹制作的匀称的小棍算筹纵横布置就可以表示任何一个自然数
+data_thchs30/dev/C14_594.wav	tōng piān yáng yì zhe ài guó jiā ài jí tǐ ài shè huì ài tā rén de zhì piáo zhì chéng gāo yáng zhe jīng shén wén míng de zhǔ xuán lǜ	通篇洋溢着爱国家爱集体爱社会爱他人的质朴至诚高扬着精神文明的主旋律
+data_thchs30/dev/C14_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C14_600.wav	zài tǎ shān yīng xióng tuán wèi wèn yǎn chū shí guān bīng men kàn wán yǎn chū hòu yòng zhōng huá fēng gǔ zhàn shì běn sè lái zàn měi yǎn zhí yuán	在塔山英雄团慰问演出时官兵们看完演出后用中华风骨战士本色来赞美演职员
+data_thchs30/dev/C14_627.wav	dàn shì tā nìng yuàn ràng zì jǐ hé qī zǐ ér nǚ chī kāng yàn cài yě bù ràng wáng shì yún lǎo rén chī kǔ	但是他宁愿让自己和妻子儿女吃糠咽菜也不让王世云老人吃苦
+data_thchs30/dev/C14_628.wav	zhè yàng de xiū yǎng de yǎn yuán jí shǐ zhèng zǒu hóng yě bù guò rú guò yǎn yún yān ér yǐ chéng bù liǎo zhēn zhèng yì yì shàng de yì shù jiā	这样的修养的演员即使正走红也不过如过眼云烟而已成不了真正意义上的艺术家
+data_thchs30/dev/C14_630.wav	ā zhā ěr yāo qiú xiū gǎi yīng guó de fěi bàng fǎ shǐ zhī bù jǐn shì yòng yú jī dū jiào ér qiě yě shì yòng yú yī sī lán jiào	阿扎尔要求修改英国的诽谤法使之不仅适用于基督教而且也适用于伊斯兰教
+data_thchs30/dev/C14_635.wav	rì běn duì zài nán zi tuán tǐ sài zhōng huò yín pái duì yuán yán jǐng zhé xián zài gè rén quán néng sài yě duó de yī méi yín pái	日本队在男子团体赛中获银牌队员岩井哲贤在个人全能赛也夺得一枚银牌
+data_thchs30/dev/C14_638.wav	xiàng gǔn xuě qiú nà yàng yù gǔn yù dà yù dà yù gǔn gòu zhù chéng le guāng yào xiǎn hè de qún fēng	像滚雪球那样愈滚愈大愈大愈滚构筑成了光耀显赫的群峰
+data_thchs30/dev/C14_647.wav	nǐ de jiě men ér ne wǒ máng yíng shǎng qù wèn wǒ men zhè ér yī bāng cāo lǎo yé men ér děng zhe hé tā men rèn shi rèn shi ne	你的姐们儿呢我忙迎上去问我们这儿一帮糙老爷们儿等着和她们认识认识呢
+data_thchs30/dev/C14_664.wav	jiā líng jiāng chóng qìng háng dào duàn cóng qù nián shí yuè qǐ biàn tíng zhǐ háng dào shū jùn ér luàn wā luàn cǎi xiàn xiàng què gèng jiā yán zhòng	嘉陵江重庆航道段从去年十月起便停止航道疏浚而乱挖乱采现象却更加严重
+data_thchs30/dev/C14_669.wav	tā xiǎng zhōng yī jiǎng yīn yáng tiáo hé yīn yáng bù xié tiáo bù píng héng jiù huì shēng bìng jiān zhōu yán yě shì rén tǐ nèi bù xié tiáo bù píng héng de biǎo xiàn	他想中医讲阴阳调和阴阳不协调不平衡就会生病肩周炎也是人体内不协调不平衡的表现
+data_thchs30/dev/C14_670.wav	bǐ sài cǎi yòng shuāng xún huán liǎng jú jì fēn zhì zài shí lún gòng jì èr shí chǎng jiào liàng zhōng dìng chū shèng fù de zhǐ yǒu bā chǎng ér shuāng fāng wò shǒu yán hé de yǒu shí èr chǎng	比赛采用双循环两局计分制在十轮共计二十场较量中定出胜负的只有八场而双方握手言和的有十二场
+data_thchs30/dev/C14_677.wav	yī wèi zhuān jiā tán dào dà jiā gǎn xìng qù de jiǎn féi shí shuō jiǎn féi wú wài hū chī yào jiǎn féi hé tǐ wài jiǎn féi liǎng zhǒng	一位专家谈到大家感兴趣的减肥时说减肥无外乎吃药减肥和体外减肥两种
+data_thchs30/dev/C14_713.wav	zhè lǐ shèng chǎn de lián ǒu shēng shí tián chǎo shí cuì dùn shí fěn tǒng cū pí báo jié zhǎng ròu nèn wèi xiān yíng yǎng fēng fù	这里盛产的莲藕生食甜炒食脆炖食粉筒粗皮薄节长肉嫩味鲜营养丰富
+data_thchs30/dev/C14_724.wav	yīng táo jù shuō wén kǎo wèi yīng niǎo suǒ hán shí gù yòu míng wèi yīng táo hán táo shǔ qiáng wēi kē zhí wù	樱桃据说文考为莺鸟所含食故又名为莺桃含桃属蔷薇科植物
+data_thchs30/dev/C14_725.wav	nín yào shì xiāng xìn wǒ shì shā rén xiōng shǒu ér ràng zhēn zhèng de xiōng shǒu xiāo yáo fǎ wài de huà jiù qǐng nín bǎ wǒ zhuā qǐ lái	您要是相信我是杀人凶手而让真正的凶手逍遥法外的话就请您把我抓起来
+data_thchs30/dev/C14_747.wav	dāng wǒ bìng yù qù yī yuàn kàn wàng nín shí nín zhè gè nián zhǎng zhě què tǎng zài bìng chuáng shàng jǐn jǐn lā zhe wǒ de shǒu yīn yīn zhǔ wǒ bǎo zhòng	当我病愈去医院看望您时您这个年长者却躺在病床上紧紧拉着我的手殷殷嘱我保重
+data_thchs30/dev/C17_529.wav	míng hóng xiǎo fú liǎ wèi nǚ yǒu jī hū dà jīng shī sè wǒ yě jīng dé fēi tóng xiǎo kě zěn me nà zhè fàn shá cuò wù le	鸣鸿晓佛俩位女友几乎大惊失色我也惊得非同小可怎么那这犯啥错误了
+data_thchs30/dev/C17_556.wav	yīng xióng céng zhào gāng wú kuì yú zhè guāng róng de chēng hào wú kuì yú wǒ men de shí dài	英雄曾召刚无愧于这光荣的称号无愧于我们的时代
+data_thchs30/dev/C17_567.wav	rì běn yín háng wèi le fáng zhǐ wěi zào zài piào miàn shàng cǎi qǔ le yán mì de fáng wěi cuò shī chāo piào zhōng hái hán yǒu cí xìng gǎn yìng cái liào	日本银行为了防止伪造在票面上采取了严密的防伪措施钞票中还含有磁性感应材料
+data_thchs30/dev/C17_592.wav	chú zi qì qì bǐ ào shòu dào zhǔ rén de zé guài què suí kǒu shuō le jù miào yǔ shǐ zhǔ rén zhuǎn nù wèi xǐ ráo shù le tā	厨子契契比奥受到主人的责怪却随口说了句妙语使主人转怒为喜饶恕了他
+data_thchs30/dev/C17_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C17_597.wav	tā wú yí zài shí xià jiǎng pǐn zhèng shū yuè fā yuè zhòng yuè fā yuè làn de liú bì zhōng chuī jìn yī gǔ qīng xīn zhī fēng	它无疑在时下奖品证书越发越重越发越滥的流弊中吹进一股清新之风
+data_thchs30/dev/C17_600.wav	zài tǎ shān yīng xióng tuán wèi wèn yǎn chū shí guān bīng men kàn wán yǎn chū hòu yòng zhōng huá fēng gǔ zhàn shì běn sè lái zàn měi yǎn zhí yuán	在塔山英雄团慰问演出时官兵们看完演出后用中华风骨战士本色来赞美演职员
+data_thchs30/dev/C17_603.wav	jīn wǎn zài shùn dé tǐ yù zhōng xīn guó jiā zú qiú jí xùn duì tiǎo dēng yè zhàn guǎng zhōu duì shuāng fāng yǐ èr bǐ èr wò shǒu yán hé	今晚在顺德体育中心国家足球集训队挑灯夜战广州队双方以二比二握手言和
+data_thchs30/dev/C17_618.wav	yī jiǔ sì yī nián shí yī yuè shǎn gān níng biān qū gēn jù sān sān zhì yuán zé jǔ xíng cān yì huì yì yuán jìng xuǎn yī wèi míng jiào sēn jiàn de xué yuán bèi tuī wèi hòu xuǎn rén	一九四一年十一月陕甘宁边区根据三三制原则举行参议会议员竞选一位名叫森健的学员被推为候选人
+data_thchs30/dev/C17_627.wav	dàn shì tā nìng yuàn ràng zì jǐ hé qī zǐ ér nǚ chī kāng yàn cài yě bù ràng wáng shì yún lǎo rén chī kǔ	但是他宁愿让自己和妻子儿女吃糠咽菜也不让王世云老人吃苦
+data_thchs30/dev/C17_641.wav	shuān xiàn shí xiān shuān zuǒ wàn tóng shí yào jǔ qǐ yòu shǒu shuān yòu wàn shí yào jǔ qǐ zuǒ shǒu	拴线时先拴左腕同时要举起右手拴右腕时要举起左手
+data_thchs30/dev/C17_669.wav	tā xiǎng zhōng yī jiǎng yīn yáng tiáo hé yīn yáng bù xié tiáo bù píng héng jiù huì shēng bìng jiān zhōu yán yě shì rén tǐ nèi bù xié tiáo bù píng héng de biǎo xiàn	他想中医讲阴阳调和阴阳不协调不平衡就会生病肩周炎也是人体内不协调不平衡的表现
+data_thchs30/dev/C17_671.wav	rú hé tí gāo shǎo ér dú wù de zhì liàng sòng qìng líng yě tí chū le hěn zhuó yuè de jiàn jiě nà jiù shì zhuā chuàng zuò zhuā shū gǎo	如何提高少儿读物的质量宋庆龄也提出了很卓越的见解那就是抓创作抓书稿
+data_thchs30/dev/C17_678.wav	tiān xīn guà zhe méng méng de dàn zǐ piāo zhe piàn piàn de shēn hóng ǒu ér yǒu yī sī jīn máng zhēng zhá zhe yì xiàng qīng diàn de yáo kōng	天心挂着蒙蒙的淡紫飘着片片的深红偶而有一丝金芒挣扎着逸向青靛的遥空
+data_thchs30/dev/C17_689.wav	jǐ nián qián wǒ zhōng yú yǒu jī huì dào le xiàng wǎng yǐ jiǔ chōng mǎn mèng huàn sè cǎi de ā wǎ shān kǎo chá cāng yuán yá huà	几年前我终于有机会到了向往已久充满梦幻色彩的阿佤山考察沧源崖画
+data_thchs30/dev/C17_695.wav	guó nèi yǒu guān zhuān jiā de yán jiū yě biǎo míng jìn qī wǒ guó xìn yòng kǎ de yìng yòng zhì shǎo zài wǔ dà lǐng yù yǒu zhe yòu rén de qián jǐng	国内有关专家的研究也表明近期我国信用卡的应用至少在五大领域有着诱人的前景
+data_thchs30/dev/C17_736.wav	zhè yě nán guài gāi chǎng yǐ zǒu mǎ dēng shì de huàn le shí jǐ wèi chǎng zhǎng méi yí gè yǒu néng nài bǎ chǎng zǐ zhěng hǎo	这也难怪该厂已走马灯似的换了十几位厂长没一个有能耐把厂子整好
+data_thchs30/dev/C17_748.wav	zhuān yè xún hū wǎng zhōng huá xùn xún hū tái róng dēng bǎng shǒu dà zhǎng le zhuān yè xún hū wǎng de zhì qì hé xìng qù	专业寻呼网中华讯寻呼台荣登榜首大涨了专业寻呼网的志气和兴趣
+data_thchs30/dev/C18_502.wav	liù shěng qū jūn wèi huáng tǔ gāo yuán qū shēn shān qū huāng mò qū hé gāo hán shān qū zì rán tiáo jiàn è liè zāi hài pín fán	六省区均为黄土高原区深山区荒漠区和高寒山区自然条件恶劣灾害频繁
+data_thchs30/dev/C18_509.wav	nián dǐ mián fǎng yìn rǎn chǎng niǔ kuī wèi yíng bìng shí xiàn lì shuì yī qiān yì bǎi wàn yuán chéng wéi quán guó fǎng zhī háng yè niǔ kuī zēng yíng dà hù	年底棉纺印染厂扭亏为盈并实现利税一千一百万元成为全国纺织行业扭亏增盈大户
+data_thchs30/dev/C18_538.wav	tā yào xué xí yòu yào bāng nǎi nǎi chí jiā kě fān yuè tā de zuò yè běn gēn běn kàn bù dào bā shí fēn yǐ xià de chéng jī	她要学习又要帮奶奶持家可翻阅她的作业本根本看不到八十分以下的成绩
+data_thchs30/dev/C18_546.wav	xiāng chuán suí yáng dì nán xià yáng zhōu kàn qióng huā tú jīng huái yīn shí wén dé huái yīn páo chú shàn cháng shāo yú nǎi tū fā qí xiǎng	相传隋炀帝南下扬州看琼花途经淮阴时闻得淮阴庖厨擅长烧鱼乃突发奇想
+data_thchs30/dev/C18_548.wav	zài shì chǎng pí ruǎn de qíng kuàng xià zhè gè chéng jī lái zhī bù yì a shuō qǐ lái yǔ gāi chǎng chì hēi yuē rì chǎng zhǎng de dà péng chē yǒu guān	在市场疲软的情况下这个成绩来之不易啊说起来与该厂赤黑约日厂长的大篷车有关
+data_thchs30/dev/C18_553.wav	quán xiàn zhòng diǎn tuī guǎng le wǎng xiāng yǎng zhí jì shù guì yú miáo fán zhí jì shù jiǎ yú páng xiè fán bàng yù zhū děng tè zhǒng yǎng zhí jì shù	全县重点推广了网箱养殖技术桂鱼苗繁殖技术甲鱼螃蟹繁蚌育珠等特种养殖技术
+data_thchs30/dev/C18_556.wav	yīng xióng céng zhào gāng wú kuì yú zhè guāng róng de chēng hào wú kuì yú wǒ men de shí dài	英雄曾召刚无愧于这光荣的称号无愧于我们的时代
+data_thchs30/dev/C18_557.wav	zài fú yuán liáo kuò de nóng cūn jiě jué le wēn bǎo wèn tí de nóng mín jīng shén wén huà xū qiú wèn tí yuè lái yuè tū chū	在幅员辽阔的农村解决了温饱问题的农民精神文化需求问题越来越突出
+data_thchs30/dev/C18_573.wav	zhì yú yè yǐ jié hūn chéng jiā de rén yuán kě yǐ bù kǎo lǜ nóng zhuǎn fēi yīn wèi zhè xiē rén nóng zhuǎn fēi yǐ wú shí jì yì yì	至于业已结婚成家的人员可以不考虑农转非因为这些人农转非已无实际意义
+data_thchs30/dev/C18_588.wav	yī tiān jiàn shè cūn sān shí yī chuáng qī shí yī suì de lǎo tài tài wáng nián yù bù gù nián mài tǐ ruò zhǔ dòng bāng lín jū qín lǐ zhēn mǎi mǐ	一天建设村三十一幢七十一岁的老太太王年育不顾年迈体弱主动帮邻居秦理珍买米
+data_thchs30/dev/C18_593.wav	yī lèi zhèn tòng xīn yào yán suān èr qīng āi tuō fēi de yán zhì chéng gōng wèi rén lèi xún zhǎo xīn de tè xiào zhèn tòng yào wù kāi pì le xīn lù	一类镇痛新药盐酸二氢埃托啡的研制成功为人类寻找新的特效镇痛药物开辟了新路
+data_thchs30/dev/C18_594.wav	tōng piān yáng yì zhe ài guó jiā ài jí tǐ ài shè huì ài tā rén de zhì piáo zhì chéng gāo yáng zhe jīng shén wén míng de zhǔ xuán lǜ	通篇洋溢着爱国家爱集体爱社会爱他人的质朴至诚高扬着精神文明的主旋律
+data_thchs30/dev/C18_599.wav	kě shì cháng cháng yǒu rén gào sù yáo xiān shēng shuō kàn jiàn èr xiǎo jiě zài kā fēi guǎn lǐ hé wáng jùn yè wò zhuó shǒu yī zuò zuò shàng jǐ gè zhōng tóu	可是常常有人告诉姚先生说看见二小姐在咖啡馆里和王俊业握着手一坐坐上几个钟头
+data_thchs30/dev/C18_606.wav	shí yuè gé mìng hòu wèi le jiào yù liú làng hé fàn zuì ér tóng mǎ kǎ lián kē zài bō ěr tǎ wǎ chuàng jiàn le gāo ěr jī gōng xué tuán	十月革命后为了教育流浪和犯罪儿童马卡连柯在波尔塔瓦创建了高尔基工学团
+data_thchs30/dev/C18_619.wav	yí gè mín zú yào yǒu mín zú wén huà yí gè qǐ yè yào yǒu qǐ yè wén huà ér yí gè jiā yě yào yǒu jiā tíng wén huà	一个民族要有民族文化一个企业要有企业文化而一个家也要有家庭文化
+data_thchs30/dev/C18_626.wav	wǒ yǐ wéi zhè bì néng wèn zhù tā men yīn wèi tā men bì bú huì zài wèi pà wǒ chéng le lǎo jué hù ér yuàn měi yuè jīn tiē wǒ duō shǎo qián	我以为这必能问住他们因为他们必不会在为怕我成了老绝户而愿每月津贴我多少钱
+data_thchs30/dev/C18_651.wav	shè zhì zǔ quán tǐ rén yuán yǐ yīng xióng sǎo léi duì wèi bǎng yàng zài léi qū wán qiáng pīn bó rì yè fèn zhàn	摄制组全体人员以英雄扫雷队为榜样在雷区顽强拼搏日夜奋战
+data_thchs30/dev/C18_656.wav	tā qīng rú ěr yǔ de wèn tā shì fǒu yǒu kòng néng bù néng qū zūn péi tā shàng jiē mǎi xiē pí pá wài miàn hēi tā pà yù shàng dǎi rén	她轻如耳语地问他是否有空能不能屈尊陪她上街买些枇杷外面黑她怕遇上歹人
+data_thchs30/dev/C18_664.wav	jiā líng jiāng chóng qìng háng dào duàn cóng qù nián shí yuè qǐ biàn tíng zhǐ háng dào shū jùn ér luàn wā luàn cǎi xiàn xiàng què gèng jiā yán zhòng	嘉陵江重庆航道段从去年十月起便停止航道疏浚而乱挖乱采现象却更加严重
+data_thchs30/dev/C18_677.wav	yī wèi zhuān jiā tán dào dà jiā gǎn xìng qù de jiǎn féi shí shuō jiǎn féi wú wài hū chī yào jiǎn féi hé tǐ wài jiǎn féi liǎng zhǒng	一位专家谈到大家感兴趣的减肥时说减肥无外乎吃药减肥和体外减肥两种
+data_thchs30/dev/C18_695.wav	guó nèi yǒu guān zhuān jiā de yán jiū yě biǎo míng jìn qī wǒ guó xìn yòng kǎ de yìng yòng zhì shǎo zài wǔ dà lǐng yù yǒu zhe yòu rén de qián jǐng	国内有关专家的研究也表明近期我国信用卡的应用至少在五大领域有着诱人的前景
+data_thchs30/dev/C18_737.wav	jiǔ ér jiǔ zhī zhè xiē guān niàn zào chéng yī xiē dì fāng de nóng mín yuè qióng yuè shēng yuè shēng yuè qióng è xìng xún huán	久而久之这些观念造成一些地方的农民越穷越生越生越穷恶性循环
+data_thchs30/dev/C18_745.wav	qián xuán tóng chì zé yī wèi nǐ gǔ de pián wén sǎn wén wèi xuǎn xué yāo niè tóng chéng miù zhǒng	钱玄同斥责一味拟古的骈文散文为选学妖孽桐城谬种
+data_thchs30/dev/C18_748.wav	zhuān yè xún hū wǎng zhōng huá xùn xún hū tái róng dēng bǎng shǒu dà zhǎng le zhuān yè xún hū wǎng de zhì qì hé xìng qù	专业寻呼网中华讯寻呼台荣登榜首大涨了专业寻呼网的志气和兴趣
+data_thchs30/dev/C19_509.wav	nián dǐ mián fǎng yìn rǎn chǎng niǔ kuī wèi yíng bìng shí xiàn lì shuì yī qiān yì bǎi wàn yuán chéng wéi quán guó fǎng zhī háng yè niǔ kuī zēng yíng dà hù	年底棉纺印染厂扭亏为盈并实现利税一千一百万元成为全国纺织行业扭亏增盈大户
+data_thchs30/dev/C19_530.wav	tā de shí zhuāng shè jì jì yǒu róng rù qián wèi yì shí de xiān fēng pài zuò pǐn yòu yǒu jiāng yì shù xìng yǔ shí yòng xìng wán měi jié hé de jiā zuò	他的时装设计既有融入前卫意识的先锋派作品又有将艺术性与实用性完美结合的佳作
+data_thchs30/dev/C19_536.wav	jìn rì wǒ xiàn nán hé diàn zhàn kù qū yú lèi dà liàng sǐ wáng yuán yīn shì shàng yóu bǎo kāng xiàn pái fàng de gōng yè fèi shuǐ dà liàng liú rù	近日我县南河电站库区鱼类大量死亡原因是上游保康县排放的工业废水大量流入
+data_thchs30/dev/C19_567.wav	rì běn yín háng wèi le fáng zhǐ wěi zào zài piào miàn shàng cǎi qǔ le yán mì de fáng wěi cuò shī chāo piào zhōng hái hán yǒu cí xìng gǎn yìng cái liào	日本银行为了防止伪造在票面上采取了严密的防伪措施钞票中还含有磁性感应材料
+data_thchs30/dev/C19_570.wav	zhè zhōng jiān zuì ràng rén chēng mù jié shé de lì zi dà gài yào suàn táng zhí yán juǎn èr suǒ jì de nà wèi wáng líng rán le	这中间最让人瞠目结舌的例子大概要算唐摭言卷二所记的那位王泠然了
+data_thchs30/dev/C19_593.wav	yī lèi zhèn tòng xīn yào yán suān èr qīng āi tuō fēi de yán zhì chéng gōng wèi rén lèi xún zhǎo xīn de tè xiào zhèn tòng yào wù kāi pì le xīn lù	一类镇痛新药盐酸二氢埃托啡的研制成功为人类寻找新的特效镇痛药物开辟了新路
+data_thchs30/dev/C19_607.wav	guó wù yuàn lín yè xíng zhèng zhǔ guǎn bù mén zhǔ guǎn quán guó lín qū nèi yě shēng zhí wù hé lín qū wài zhēn guì yě shēng shù mù de jiān dū guǎn lǐ gōng zuò	国务院林业行政主管部门主管全国林区内野生植物和林区外珍贵野生树木的监督管理工作
+data_thchs30/dev/C19_613.wav	yī lǎng lǐng xiù hā méi nèi yī zǒng tǒng lā fū sāng jiǎ ní dì yī fù zǒng tǒng hā bǐ bǐ děng dōu céng jīng fǎng wèn guò zhōng guó	伊朗领袖哈梅内伊总统拉夫桑贾尼第一副总统哈比比等都曾经访问过中国
+data_thchs30/dev/C19_617.wav	shēn zhe cáng páo yǐn sū yóu chá qí mǎ chí chěng yú huāng yuán chéng wéi xǔ duō hǎi wài yóu kè nán yǐ wàng què de tǐ yàn	身着藏袍饮酥油茶骑马驰骋于荒原成为许多海外游客难以忘却的体验
+data_thchs30/dev/C19_622.wav	xìng fú de nán rén cái huì bǎ quán bù xīn sī dōu yòng zài gōng zuò shàng wǒ bù néng ràng rén jué de wǒ de hòu yuàn yě xū yào wǒ fēn xīn	幸福的男人才会把全部心思都用在工作上我不能让人觉得我的后院也需要我分心
+data_thchs30/dev/C19_639.wav	tán yě má zi mà lì gāng wō nāng lì gāng yě rèn wéi zì jǐ duì sōng yě tài zào zhī sǐ fù yǒu bù kě tuī xiè de zé rèn	檀野麻子骂笠冈窝囊笠冈也认为自己对松野泰造之死负有不可推卸的责任
+data_thchs30/dev/C19_665.wav	cǐ wài jiè yān guǎng gào yù fáng ài zī bìng guǎng gào jìn zhǐ jiǔ hòu kāi chē guǎng gào děng yě cháng tū chū yùn yòng sǐ wáng děng kǒng jù jìng tóu	此外戒烟广告预防艾滋病广告禁止酒后开车广告等也常突出运用死亡等恐惧镜头
+data_thchs30/dev/C19_678.wav	tiān xīn guà zhe méng méng de dàn zǐ piāo zhe piàn piàn de shēn hóng ǒu ér yǒu yī sī jīn máng zhēng zhá zhe yì xiàng qīng diàn de yáo kōng	天心挂着蒙蒙的淡紫飘着片片的深红偶而有一丝金芒挣扎着逸向青靛的遥空
+data_thchs30/dev/C19_684.wav	dàn yǒu yí gè qiáo dūn wài biǎo guāng jié dù bù gòu yǐng xiǎng qiáo liáng wài guān yǒu rén rèn wéi zhè yī xiǎo cī diǎn wú ài zhì liàng bù bì fǎn gōng	但有一个桥墩外表光洁度不够影响桥梁外观有人认为这一小疵点无碍质量不必返工
+data_thchs30/dev/C19_712.wav	zhè qiáng jìng de xīn yīn lǜ yì wèi zhe wǒ guó jí xū de gōng yè yuán liào lěng yà báo bǎn de shēng chǎn néng lì měng zēng le bǎi fēn zhī èr shí	这强劲的新音律意味着我国急需的工业原料冷轧薄板的生产能力猛增了百分之二十
+data_thchs30/dev/C19_717.wav	tā hái qù kàn zhěng róng yī shēng bǎ bí zi yě gǎi biàn le jié guǒ què rèn wéi zì jǐ bǐ zhěng róng yǐ qián gèng chǒu suǒ yǐ hěn ào sàng	她还去看整容医生把鼻子也改变了结果却认为自己比整容以前更丑所以很懊丧
+data_thchs30/dev/C19_723.wav	tā de sǎng yīn tián rùn qiě yīn yù kuān hòu gāo dī zì rán yùn yòng zì rú bìng yǒu yōu měi de zhuāng shì chàn yīn	她的嗓音甜润且音域宽厚高低自然运用自如并有优美的装饰颤音
+data_thchs30/dev/C20_511.wav	jiāng xī hú kǒu xiàn shuāng zhōng shuǐ chǎn chǎng yú mín zhāng hòu yú rì qián jiāng yī tiáo bǔ huò rù wǎng de xíng sì biān yú de yān zhī yú fàng huí jiāng zhōng	江西湖口县双钟水产场渔民张后渔日前将一条捕获入网的形似鳊鱼的胭脂鱼放回江中
+data_thchs30/dev/C20_515.wav	wǒ ài huā ài zì rán jiè de huā gèng ài yòng gè zhǒng wén yì xíng shì sù zào péi yù de shēng mìng shēng huó de huā yǒu yì de huā	我爱花爱自然界的花更爱用各种文艺形式塑造培育的生命生活的花友谊的花
+data_thchs30/dev/C20_521.wav	tā men yòu pài yī duì rén dēng shàng àn qù wān zhe gōng nǔ jiàn tóu cháo zhǔn xiǎo chuán bù ràng chuán lǐ de rén néng yǒu yí gè táo shàng àn qù	他们又派一队人登上岸去弯着弓弩箭头朝准小船不让船里的人能有一个逃上岸去
+data_thchs30/dev/C20_530.wav	tā de shí zhuāng shè jì jì yǒu róng rù qián wèi yì shí de xiān fēng pài zuò pǐn yòu yǒu jiāng yì shù xìng yǔ shí yòng xìng wán měi jié hé de jiā zuò	他的时装设计既有融入前卫意识的先锋派作品又有将艺术性与实用性完美结合的佳作
+data_thchs30/dev/C20_531.wav	xiè yuè é dà shǐ qǐng xiè xīn lā nà liè hé hóng sēn zhuǎn dá zhōng guó zhèng fǔ hé rén mín duì xī hā nǔ kè guó wáng de shēn qiè xiè yì	谢月娥大使请谢辛拉那烈和洪森转达中国政府和人民对西哈努克国王的深切谢意
+data_thchs30/dev/C20_561.wav	bèi gǎn xià wáng wèi hòu hái yào bèi zhòng hóu tuī xià nù jiāng yān sǐ suǒ yǐ jiào zàng wáng tān	被赶下王位后还要被众猴推下怒江淹死所以叫葬王滩
+data_thchs30/dev/C20_567.wav	rì běn yín háng wèi le fáng zhǐ wěi zào zài piào miàn shàng cǎi qǔ le yán mì de fáng wěi cuò shī chāo piào zhōng hái hán yǒu cí xìng gǎn yìng cái liào	日本银行为了防止伪造在票面上采取了严密的防伪措施钞票中还含有磁性感应材料
+data_thchs30/dev/C20_587.wav	xīn huá shè kūn míng èr yuè shí èr rì diàn wǒ guó zhù míng zhé xué jiā ài sī qí de yī pī yí wù zuì jìn cóng běi jīng sòng wǎng yún nán téng chōng	新华社昆明二月十二日电我国著名哲学家艾思奇的一批遗物最近从北京送往云南腾冲
+data_thchs30/dev/C20_588.wav	yī tiān jiàn shè cūn sān shí yī chuáng qī shí yī suì de lǎo tài tài wáng nián yù bù gù nián mài tǐ ruò zhǔ dòng bāng lín jū qín lǐ zhēn mǎi mǐ	一天建设村三十一幢七十一岁的老太太王年育不顾年迈体弱主动帮邻居秦理珍买米
+data_thchs30/dev/C20_606.wav	shí yuè gé mìng hòu wèi le jiào yù liú làng hé fàn zuì ér tóng mǎ kǎ lián kē zài bō ěr tǎ wǎ chuàng jiàn le gāo ěr jī gōng xué tuán	十月革命后为了教育流浪和犯罪儿童马卡连柯在波尔塔瓦创建了高尔基工学团
+data_thchs30/dev/C20_610.wav	yī jiǔ jiǔ sān nián tái wān chá yǐn liào xiāo shòu é dá wǔ yì měi yuán shì gè lèi yǐn liào zhōng zēng fú zuì kuài de chǎn pǐn	一九九三年台湾茶饮料销售额达五亿美元是各类饮料中增幅最快的产品
+data_thchs30/dev/C20_612.wav	tú wèi shěn yáng lǚ kè zhāng huì quán fū fù huái bào èr gè kě ài de yīng ér zhuān chéng lái dào jǐ nán huǒ chē zhàn zhí bān shì gǎn xiè jiù mìng ēn rén	图为沈阳旅客张慧泉夫妇怀抱二个可爱的婴儿专程来到济南火车站值班室感谢救命恩人
+data_thchs30/dev/C20_613.wav	yī lǎng lǐng xiù hā méi nèi yī zǒng tǒng lā fū sāng jiǎ ní dì yī fù zǒng tǒng hā bǐ bǐ děng dōu céng jīng fǎng wèn guò zhōng guó	伊朗领袖哈梅内伊总统拉夫桑贾尼第一副总统哈比比等都曾经访问过中国
+data_thchs30/dev/C20_616.wav	wǒ de jiān bǎng hún yuán xiōng qián féi dū dū de shēn cái yòu biàn dé nà me ǎi xiǎo yóu qí shì jiǎo xià hǎo xiàng cǎi zhe gāo qiāo jiǎn zhí yào bǎ jiǎo jīn bēng duàn	我的肩膀浑圆胸前肥嘟嘟的身材又变得那么矮小尤其是脚下好像踩着高跷简直要把脚筋绷断
+data_thchs30/dev/C20_624.wav	rú jīn zài ěr hǎi hú miàn shàng sān qiān duō sōu yùn shū chuán bǔ lāo chuán nóng yòng hé yǎng yú chuán rì yè chuān suō máng lù	如今在洱海湖面上三千多艘运输船捕捞船农用和养鱼船日夜穿梭忙碌
+data_thchs30/dev/C20_626.wav	wǒ yǐ wéi zhè bì néng wèn zhù tā men yīn wèi tā men bì bú huì zài wèi pà wǒ chéng le lǎo jué hù ér yuàn měi yuè jīn tiē wǒ duō shǎo qián	我以为这必能问住他们因为他们必不会在为怕我成了老绝户而愿每月津贴我多少钱
+data_thchs30/dev/C20_628.wav	zhè yàng de xiū yǎng de yǎn yuán jí shǐ zhèng zǒu hóng yě bù guò rú guò yǎn yún yān ér yǐ chéng bù liǎo zhēn zhèng yì yì shàng de yì shù jiā	这样的修养的演员即使正走红也不过如过眼云烟而已成不了真正意义上的艺术家
+data_thchs30/dev/C20_635.wav	rì běn duì zài nán zi tuán tǐ sài zhōng huò yín pái duì yuán yán jǐng zhé xián zài gè rén quán néng sài yě duó de yī méi yín pái	日本队在男子团体赛中获银牌队员岩井哲贤在个人全能赛也夺得一枚银牌
+data_thchs30/dev/C20_638.wav	xiàng gǔn xuě qiú nà yàng yù gǔn yù dà yù dà yù gǔn gòu zhù chéng le guāng yào xiǎn hè de qún fēng	像滚雪球那样愈滚愈大愈大愈滚构筑成了光耀显赫的群峰
+data_thchs30/dev/C20_641.wav	shuān xiàn shí xiān shuān zuǒ wàn tóng shí yào jǔ qǐ yòu shǒu shuān yòu wàn shí yào jǔ qǐ zuǒ shǒu	拴线时先拴左腕同时要举起右手拴右腕时要举起左手
+data_thchs30/dev/C20_643.wav	qín huá sūn zhǐ chū wèi le shí xiàn yìn dù yáng hé píng qū de mù biāo xū yào qū yù nèi bù hé wài bù guó jiā de gòng tóng nǔ lì	秦华孙指出为了实现印度洋和平区的目标需要区域内部和外部国家的共同努力
+data_thchs30/dev/C20_657.wav	qù nián bā yuè bā rì yī qún chū zhōng xué shēng zài gāi zhōu hēng dé sēn xiàn yóu wán shí zhuā zhù èr shí èr zhǐ qīng wā qí zhōng shí yī zhǐ hòu tuǐ yán zhòng jī xíng	去年八月八日一群初中学生在该州亨德森县游玩时抓住二十二只青蛙其中十一只后腿严重畸形
+data_thchs30/dev/C20_658.wav	páng tài tài yī lù xiào zhe zǒu lái kāi chuāng wú yuán wú gù cháo wài kàn yī kàn xiù yī xiù jiāng yī zhī yòng guò de yá qiān diū chū qù	庞太太一路笑着走来开窗无缘无故朝外看一看嗅一嗅将一只用过的牙签丢出去
+data_thchs30/dev/C20_686.wav	měi dào yuè huì yīn yǔ yè jiān láng háo shēng jiù yuǎn yuǎn jìn jìn chuán lái shēng yīn dī chén ér mián zhǎng sì hū zá jiā zhe yōu yù yǔ bēi shāng	每到月晦阴雨夜间狼嚎声就远远近近传来声音低沉而绵长似乎杂夹着忧郁与悲伤
+data_thchs30/dev/C20_699.wav	cháng ān huàn shàng le lán ài guó bù de xiào fú bù shàng bàn nián liǎn sè yě hóng rùn le gē bo tuǐ wàn yě cū le yī quān	长安换上了蓝爱国布的校服不上半年脸色也红润了胳膊腿腕也粗了一圈
+data_thchs30/dev/C20_729.wav	bào dào yuán yǐn zǒng tǒng fā yán rén kāng sāi sāng de huà shuō duō sī sāng tuō sī rèn wéi xiàn zài méi yǒu bì yào huì jiàn sà wén bǐ	报道援引总统发言人康塞桑的话说多斯桑托斯认为现在没有必要会见萨文比
+data_thchs30/dev/C20_747.wav	dāng wǒ bìng yù qù yī yuàn kàn wàng nín shí nín zhè gè nián zhǎng zhě què tǎng zài bìng chuáng shàng jǐn jǐn lā zhe wǒ de shǒu yīn yīn zhǔ wǒ bǎo zhòng	当我病愈去医院看望您时您这个年长者却躺在病床上紧紧拉着我的手殷殷嘱我保重
+data_thchs30/dev/C21_500.wav	jù xī měi guó cān yì yuàn yǐ cǎo nǐ yī fèn zhī chí kè lín dùn xiàng bō hēi pài bīng de jué yì àn zhǔn bèi zài běn yuè shàng xún jìn xíng biǎo jué	据悉美国参议院已草拟一份支持克林顿向波黑派兵的决议案准备在本月上旬进行表决
+data_thchs30/dev/C21_505.wav	xiū dé ān mín yún yún shuō dé guò yú táng huáng ér dǎo kōng shí jì shàng tā yǒu yìng de yī shǒu hé ruǎn de yī shǒu	修得安民云云说得过于堂皇而蹈空实际上他有硬的一手和软的一手
+data_thchs30/dev/C21_520.wav	bā qí qīn guì qiān nù yú fú lín ài fēi dǒng è shì fú lín nèi wài jiāo kùn pò bù dé yǐ yǔ qí zhōu xuán kǔ dòu	八旗亲贵迁怒于福临爱妃董鄂氏福临内外交困迫不得已与其周旋苦斗
+data_thchs30/dev/C21_523.wav	shuō nà shí hòu wēi é dà bié shān měng liè zhèn chàn le yī xià kuáng fēng zhòu qǐ lüè guò shān yě máng máng hēi yè yī piàn kū shēng	说那时候巍峨大别山猛烈震颤了一下狂风骤起掠过山野茫茫黑夜一片哭声
+data_thchs30/dev/C21_526.wav	yán wáng bǎo zhǎng yòng wén míng gùn zhè lǐ chā yī xià nà lǐ tǒng yī xià yī xiē pò bù làn piàn gěi tā de wén míng gùn fān dé luàn qī bā zào	阎王保长用文明棍这里插一下那里捅一下一些破布烂片给他的文明棍翻得乱七八糟
+data_thchs30/dev/C21_530.wav	tā de shí zhuāng shè jì jì yǒu róng rù qián wèi yì shí de xiān fēng pài zuò pǐn yòu yǒu jiāng yì shù xìng yǔ shí yòng xìng wán měi jié hé de jiā zuò	他的时装设计既有融入前卫意识的先锋派作品又有将艺术性与实用性完美结合的佳作
+data_thchs30/dev/C21_571.wav	cháng jiāng háng wù guǎn lǐ jú hé cháng jiāng lún chuán zǒng gōng sī zuì jìn jué dìng ān pái yì bǎi sān shí sān sōu kè lún yíng jiē cháng jiāng gàn xiàn chūn yùn	长江航务管理局和长江轮船总公司最近决定安排一百三十三艘客轮迎接长江干线春运
+data_thchs30/dev/C21_584.wav	yìn jiā rén suǒ chuàng zào de wén míng yǔ mǎ yǎ wén míng ā zī tè kè wén míng yì qǐ bèi yù wèi měi zhōu yìn dì ān sān dà wén míng	印加人所创造的文明与玛雅文明阿兹特克文明一起被誉为美洲印第安三大文明
+data_thchs30/dev/C21_603.wav	jīn wǎn zài shùn dé tǐ yù zhōng xīn guó jiā zú qiú jí xùn duì tiǎo dēng yè zhàn guǎng zhōu duì shuāng fāng yǐ èr bǐ èr wò shǒu yán hé	今晚在顺德体育中心国家足球集训队挑灯夜战广州队双方以二比二握手言和
+data_thchs30/dev/C21_604.wav	jiǎng huì juān liào luán fèng liào jìng wén dí wén róng yán xiǎo jūn pān zhǎng yù pān wén lán xuē zhāo dài lì fāng	蒋慧娟廖鸾凤廖静文翟文蓉颜小军潘长玉潘文兰薛昭戴丽芳
+data_thchs30/dev/C21_606.wav	shí yuè gé mìng hòu wèi le jiào yù liú làng hé fàn zuì ér tóng mǎ kǎ lián kē zài bō ěr tǎ wǎ chuàng jiàn le gāo ěr jī gōng xué tuán	十月革命后为了教育流浪和犯罪儿童马卡连柯在波尔塔瓦创建了高尔基工学团
+data_thchs30/dev/C21_613.wav	yī lǎng lǐng xiù hā méi nèi yī zǒng tǒng lā fū sāng jiǎ ní dì yī fù zǒng tǒng hā bǐ bǐ děng dōu céng jīng fǎng wèn guò zhōng guó	伊朗领袖哈梅内伊总统拉夫桑贾尼第一副总统哈比比等都曾经访问过中国
+data_thchs30/dev/C21_632.wav	yà měi ní yà wài zhǎng pà pà zī yáng jīn zǎo fā biǎo shēng míng shuō guān yú ā yà chōng tū qū dá chéng tíng huǒ de xié yì bìng wèi qiān shǔ	亚美尼亚外长帕帕兹扬今早发表声明说关于阿亚冲突区达成停火的协议并未签署
+data_thchs30/dev/C21_638.wav	xiàng gǔn xuě qiú nà yàng yù gǔn yù dà yù dà yù gǔn gòu zhù chéng le guāng yào xiǎn hè de qún fēng	像滚雪球那样愈滚愈大愈大愈滚构筑成了光耀显赫的群峰
+data_thchs30/dev/C21_640.wav	yín háng chéng duì huì piào de chéng duì shēn qǐng rén yīng yú yín háng chéng duì huì piào dào qī qián jiāng piào kuǎn zú é jiāo cún qí kāi hù yín háng	银行承兑汇票的承兑申请人应于银行承兑汇票到期前将票款足额交存其开户银行
+data_thchs30/dev/C21_653.wav	pú yáng shì zhèng jiàn shè rì xīn yuè yì jiè dìng de yóu diàn fú wù bù duàn bèi xīn lóu qún suǒ yān mò	濮阳市政建设日新月异界定的邮电服务不断被新楼群所淹没
+data_thchs30/dev/C21_670.wav	bǐ sài cǎi yòng shuāng xún huán liǎng jú jì fēn zhì zài shí lún gòng jì èr shí chǎng jiào liàng zhōng dìng chū shèng fù de zhǐ yǒu bā chǎng ér shuāng fāng wò shǒu yán hé de yǒu shí èr chǎng	比赛采用双循环两局计分制在十轮共计二十场较量中定出胜负的只有八场而双方握手言和的有十二场
+data_thchs30/dev/C21_684.wav	dàn yǒu yí gè qiáo dūn wài biǎo guāng jié dù bù gòu yǐng xiǎng qiáo liáng wài guān yǒu rén rèn wéi zhè yī xiǎo cī diǎn wú ài zhì liàng bù bì fǎn gōng	但有一个桥墩外表光洁度不够影响桥梁外观有人认为这一小疵点无碍质量不必返工
+data_thchs30/dev/C21_692.wav	měi jūn yú shàng yuè èr shí jiǔ rì sōu chá le ní jiā lā guā zhù bā ná mǎ dà shǐ guān dǐ sān shí yī rì yòu sōu chá le ní wài jiāo rén yuán gōng yù	美军于上月二十九日搜查了尼加拉瓜驻巴拿马大使官邸三十一日又搜查了尼外交人员公寓
+data_thchs30/dev/C21_709.wav	huò xǔ tā huì ǒu ěr kàn yī yǎn tóng xué men shǒu lǐ de gè shì xīn wán yì dàn tā gèng kě wàng yī dùn yǒu yú yǒu ròu de bǎo shí	或许他会偶尔看一眼同学们手里的各式新玩意但他更渴望一顿有鱼有肉的饱食
+data_thchs30/dev/C21_721.wav	jīn qiū bā yuè yǐ shì tiān gāo qì shuǎng zhōng qiū de yuè liàng yě xiǎn de shí fēn míng liàng tè bié yuán mǎn gé wài yí rén	金秋八月已是天高气爽中秋的月亮也显得十分明亮特别圆满格外怡人
+data_thchs30/dev/C21_730.wav	liú yù shēng nà chún cuì de xiā shuō yǒu shí yě huì pèng qiǎo yán zhōng yīn cǐ nà shén xìng jìng rán yuè chuán yuè xuán hū	刘玉升那纯粹的瞎说有时也会碰巧言中因此那神性竟然越传越玄乎
+data_thchs30/dev/C22_509.wav	nián dǐ mián fǎng yìn rǎn chǎng niǔ kuī wèi yíng bìng shí xiàn lì shuì yī qiān yì bǎi wàn yuán chéng wéi quán guó fǎng zhī háng yè niǔ kuī zēng yíng dà hù	年底棉纺印染厂扭亏为盈并实现利税一千一百万元成为全国纺织行业扭亏增盈大户
+data_thchs30/dev/C22_512.wav	xiè jìn héng tōng yǐng yè gōng sī yǐ zhōng guó běn tǔ diàn yǐng wèi lì shēn zhī běn yǐ pāi shè pǐn wèi gāo yì shù xìng qiáng de yǐng piān wèi mù biāo	谢晋恒通影业公司以中国本土电影为立身之本以拍摄品位高艺术性强的影片为目标
+data_thchs30/dev/C22_516.wav	lú tài yú yīn fàn yǒu zhǔ dòng cān yù jūn shì pàn luàn hé nèi luàn zuì móu shā shàng sī wèi suì zuì jí shòu huì zuì děng bèi pàn chǔ wú qī tú xíng	卢泰愚因犯有主动参与军事叛乱和内乱罪谋杀上司未遂罪及受贿罪等被判处无期徒刑
+data_thchs30/dev/C22_519.wav	yīng guó kē xué jiā zuì jìn fā xiàn huàn fēng niú bìng de niú de hòu dài yě hěn kě néng huàn fēng niú bìng yīng guó huàn fēng niú bìng de niú bǐ yuán xiān rèn wéi de yào duō	英国科学家最近发现患疯牛病的牛的后代也很可能患疯牛病英国患疯牛病的牛比原先认为的要多
+data_thchs30/dev/C22_542.wav	xīn huá shè píng rǎng yí yuè shí sì rì xiāo xī píng rǎng dì qū rì qián yán dōng shì nuǎn chūn chū xiàn jìn bǎi nián wèi céng yǒu guò de dōng nuǎn xiàn xiàng	新华社平壤一月十四日消息平壤地区日前严冬似暖春出现近百年未曾有过的冬暖现象
+data_thchs30/dev/C22_563.wav	xià yóu yǐn niú shàng yóu xǐ ěr jí rán nǐ yǐ zhī dào zì jǐ shuāng ěr yǐ wū wèi shén me yòu lái nòng zāng wǒ de niú kǒu	下游饮牛上游洗耳即然你已知道自己双耳已污为什么又来弄脏我的牛口
+data_thchs30/dev/C22_578.wav	chú cái zhèng bō gěi liǎng qiān sān bǎi wàn yuán jiào yù zī jīn wài hái bō chū zhuān kuǎn sì qiān wǔ bǎi qī shí wàn yuán xīn jiàn zhōng xiǎo xué	除财政拨给两千三百万元教育资金外还拨出专款四千五百七十万元新建中小学
+data_thchs30/dev/C22_579.wav	tā dào guò xǔ duō jūn yíng shào suǒ wèi wèn zǐ dì bīng dào yī yuàn tàn wàng hù lǐ shāng cán jūn rén yuē èr qiān qī bǎi duō rén cì	她到过许多军营哨所慰问子弟兵到医院探望护理伤残军人约二千七百多人次
+data_thchs30/dev/C22_594.wav	tōng piān yáng yì zhe ài guó jiā ài jí tǐ ài shè huì ài tā rén de zhì piáo zhì chéng gāo yáng zhe jīng shén wén míng de zhǔ xuán lǜ	通篇洋溢着爱国家爱集体爱社会爱他人的质朴至诚高扬着精神文明的主旋律
+data_thchs30/dev/C22_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C22_603.wav	jīn wǎn zài shùn dé tǐ yù zhōng xīn guó jiā zú qiú jí xùn duì tiǎo dēng yè zhàn guǎng zhōu duì shuāng fāng yǐ èr bǐ èr wò shǒu yán hé	今晚在顺德体育中心国家足球集训队挑灯夜战广州队双方以二比二握手言和
+data_thchs30/dev/C22_604.wav	jiǎng huì juān liào luán fèng liào jìng wén dí wén róng yán xiǎo jūn pān zhǎng yù pān wén lán xuē zhāo dài lì fāng	蒋慧娟廖鸾凤廖静文翟文蓉颜小军潘长玉潘文兰薛昭戴丽芳
+data_thchs30/dev/C22_610.wav	yī jiǔ jiǔ sān nián tái wān chá yǐn liào xiāo shòu é dá wǔ yì měi yuán shì gè lèi yǐn liào zhōng zēng fú zuì kuài de chǎn pǐn	一九九三年台湾茶饮料销售额达五亿美元是各类饮料中增幅最快的产品
+data_thchs30/dev/C22_622.wav	xìng fú de nán rén cái huì bǎ quán bù xīn sī dōu yòng zài gōng zuò shàng wǒ bù néng ràng rén jué de wǒ de hòu yuàn yě xū yào wǒ fēn xīn	幸福的男人才会把全部心思都用在工作上我不能让人觉得我的后院也需要我分心
+data_thchs30/dev/C22_629.wav	liǎng cì dōng ào huì guàn jūn wéi tè wèi le néng gòu cān jiā běn jiè dōng ào huì fàng qì le zhí yè bǐ sài chóng xīn zhuǎn wèi yè yú xuǎn shǒu	两次冬奥会冠军维特为了能够参加本届冬奥会放弃了职业比赛重新转为业余选手
+data_thchs30/dev/C22_630.wav	ā zhā ěr yāo qiú xiū gǎi yīng guó de fěi bàng fǎ shǐ zhī bù jǐn shì yòng yú jī dū jiào ér qiě yě shì yòng yú yī sī lán jiào	阿扎尔要求修改英国的诽谤法使之不仅适用于基督教而且也适用于伊斯兰教
+data_thchs30/dev/C22_635.wav	rì běn duì zài nán zi tuán tǐ sài zhōng huò yín pái duì yuán yán jǐng zhé xián zài gè rén quán néng sài yě duó de yī méi yín pái	日本队在男子团体赛中获银牌队员岩井哲贤在个人全能赛也夺得一枚银牌
+data_thchs30/dev/C22_649.wav	lù zhǎi ér qū huán pán rào chē màn ér luó xuán jiàn shēng tóu dǐng bái yún piāo fú wàng bù chuān gāo chù jiǎo dǐ nù jiāng shēn xiàn kàn bù qīng tuān liú	路窄而曲环盘绕车慢而螺旋渐升头顶白云飘浮望不穿高处脚底怒江深陷看不清湍流
+data_thchs30/dev/C22_650.wav	sì chuān měi shù xué yuàn qún tǐ zhèn yíng hào dà fēng gé duō yàng chéng wéi běn jiè yì shù bó lǎn huì de dì yī dà jǐng guān	四川美术学院群体阵营浩大风格多样成为本届艺术博览会的第一大景观
+data_thchs30/dev/C22_656.wav	tā qīng rú ěr yǔ de wèn tā shì fǒu yǒu kòng néng bù néng qū zūn péi tā shàng jiē mǎi xiē pí pá wài miàn hēi tā pà yù shàng dǎi rén	她轻如耳语地问他是否有空能不能屈尊陪她上街买些枇杷外面黑她怕遇上歹人
+data_thchs30/dev/C22_658.wav	páng tài tài yī lù xiào zhe zǒu lái kāi chuāng wú yuán wú gù cháo wài kàn yī kàn xiù yī xiù jiāng yī zhī yòng guò de yá qiān diū chū qù	庞太太一路笑着走来开窗无缘无故朝外看一看嗅一嗅将一只用过的牙签丢出去
+data_thchs30/dev/C22_673.wav	lǐ bái xíng yín tú miáo huì táng cháo shī rén lǐ bái yǎng miàn cāng tiān shī qíng mǎn huái yùn sī cuò jù shí xiāo sǎ chāo tuō de shén tài	李白行吟图描绘唐朝诗人李白仰面苍天诗情满怀运思措句时潇洒超脱的神态
+data_thchs30/dev/C22_675.wav	shì chǎng bào yìng yùn ér shēng yì zhí mù yù zhe gǎi gé kāi fàng de chūn fēng zhuó zhuàng chéng zhǎng áng shǒu kuò bù zǒu guò le shí wǔ nián lì chéng	市场报应运而生一直沐浴着改革开放的春风茁壮成长昂首阔步走过了十五年历程
+data_thchs30/dev/C22_682.wav	huáng yǐng wéi qū wèi yú huái hé gàn liú xíng hóng qū nèi shì huái shǐ quán sān tiáo hé liú hé shàng yóu yù wǎn è sān shěng èr shí bā xiàn de hóng shuǐ huì liú chù	黄郢圩区位于淮河干流行洪区内是淮史泉三条河流和上游豫皖鄂三省二十八县的洪水汇流处
+data_thchs30/dev/C22_685.wav	bù fēn bié hé suàn huò zhě bù néng zhǔn què hé suàn de qí fēi yīng shuì láo wù yīng yǔ huò wù huò yīng shuì láo wù yī bìng zhēng shōu zēng zhí shuì	不分别核算或者不能准确核算的其非应税劳务应与货物或应税劳务一并征收增值税
+data_thchs30/dev/C22_693.wav	tā jù yǒu bǎo liú yá gēn jiǎn chú bá yá tòng kǔ jiā qiáng yá gēn gōng néng yǐ jí shǐ yì chǐ wěn dìng bù yì tuō wèi děng yōu diǎn	它具有保留牙根减除拔牙痛苦加强牙根功能以及使义齿稳定不易脱位等优点
+data_thchs30/dev/C22_697.wav	lín yè bù mén zài yíng lín zào lín gōng zuò zhōng bù wàng shuǐ bǎo yán jìn quán kěn liàn shān yāo qiú gǎi quán kěn wèi tiáo kěn zhěng dì	林业部门在营林造林工作中不忘水保严禁全垦炼山要求改全垦为条垦整地
+data_thchs30/dev/C22_702.wav	mèng jùn xiū zhāng zuò kǎi wáng xué wén xǔ pǐn fú sūn yǔ bó zhù míng jìng xú rén kuān pú chóng wǔ	孟俊修张作楷王学文许品福孙禹伯祝明镜徐仁宽蒲崇武
+data_thchs30/dev/C22_734.wav	jié mù dān shàng hè rán yìn zhe tè yāo zhōng yāng yuè tuán bǎi yú wèi yǎn zòu yǎn chàng jiā wēi miào de bì kāi le máo dùn	节目单上赫然印着特邀中央乐团百余位演奏演唱家微妙地避开了矛盾
+data_thchs30/dev/C23_512.wav	xiè jìn héng tōng yǐng yè gōng sī yǐ zhōng guó běn tǔ diàn yǐng wèi lì shēn zhī běn yǐ pāi shè pǐn wèi gāo yì shù xìng qiáng de yǐng piān wèi mù biāo	谢晋恒通影业公司以中国本土电影为立身之本以拍摄品位高艺术性强的影片为目标
+data_thchs30/dev/C23_532.wav	tú wèi xiàn zhèng xié fù zhǔ xí gāo jí nóng yì shī mì xiù yún zài sūn lóu xiāng guō lóu cūn gěi mián nóng jiǎng jiě liáng zhǒng de shǐ yòng fāng fǎ	图为县政协副主席高级农艺师密秀云在孙楼乡郭楼村给棉农讲解良种的使用方法
+data_thchs30/dev/C23_549.wav	tā suī rán zì yǐ bìng bù kàn jiàn zhuāng le zěn yàng de liǎn dàn cǐ shí què jué de hěn jú cù zuǐ chún wēi wēi yī dòng yòu yáo yī yáo tóu	他虽然自已并不看见装了怎样的脸但此时却觉得很局促嘴唇微微一动又摇一摇头
+data_thchs30/dev/C23_553.wav	quán xiàn zhòng diǎn tuī guǎng le wǎng xiāng yǎng zhí jì shù guì yú miáo fán zhí jì shù jiǎ yú páng xiè fán bàng yù zhū děng tè zhǒng yǎng zhí jì shù	全县重点推广了网箱养殖技术桂鱼苗繁殖技术甲鱼螃蟹繁蚌育珠等特种养殖技术
+data_thchs30/dev/C23_558.wav	táng míng huáng dài yáng guì fēi táo lí cháng ān guān jūn jiāng yáng guó zhōng shā sǐ yòu bī táng míng huáng jiāng yáng guì fēi yì sǐ	唐明皇带杨贵妃逃离长安官军将杨国忠杀死又逼唐明皇将杨贵妃缢死
+data_thchs30/dev/C23_571.wav	cháng jiāng háng wù guǎn lǐ jú hé cháng jiāng lún chuán zǒng gōng sī zuì jìn jué dìng ān pái yì bǎi sān shí sān sōu kè lún yíng jiē cháng jiāng gàn xiàn chūn yùn	长江航务管理局和长江轮船总公司最近决定安排一百三十三艘客轮迎接长江干线春运
+data_thchs30/dev/C23_572.wav	wáng xiàn yù hé zhī wěi wáng xiàn běn tīng shuō lín jìn hé zhuāng cūn yǒu rén yòng dà péng péi yù suàn huáng chéng gōng jiù qù cǎi fǎng	王宪玉和支委王宪本听说邻近何庄村有人用大棚培育蒜黄成功就去采访
+data_thchs30/dev/C23_575.wav	yīn cǐ jiā sù nóng cūn zhōng yī yào shì yòng rén cái de péi yǎng shì jiā qiáng nóng cūn zhōng yī yào gōng zuò de yí gè zhàn lüè zhòng diǎn	因此加速农村中医药适用人才的培养是加强农村中医药工作的一个战略重点
+data_thchs30/dev/C23_592.wav	chú zi qì qì bǐ ào shòu dào zhǔ rén de zé guài què suí kǒu shuō le jù miào yǔ shǐ zhǔ rén zhuǎn nù wèi xǐ ráo shù le tā	厨子契契比奥受到主人的责怪却随口说了句妙语使主人转怒为喜饶恕了他
+data_thchs30/dev/C23_597.wav	tā wú yí zài shí xià jiǎng pǐn zhèng shū yuè fā yuè zhòng yuè fā yuè làn de liú bì zhōng chuī jìn yī gǔ qīng xīn zhī fēng	它无疑在时下奖品证书越发越重越发越滥的流弊中吹进一股清新之风
+data_thchs30/dev/C23_598.wav	zài hán zuǒ cūn kǒu bú jiàn wǎng rì shài tài yáng lào kè de rén duī tuī mén jìn shě bù wén chóu bèi guò nián de chuī yān fàn xiāng	在韩佐村口不见往日晒太阳唠嗑的人堆推门进舍不闻筹备过年的炊烟饭香
+data_thchs30/dev/C23_606.wav	shí yuè gé mìng hòu wèi le jiào yù liú làng hé fàn zuì ér tóng mǎ kǎ lián kē zài bō ěr tǎ wǎ chuàng jiàn le gāo ěr jī gōng xué tuán	十月革命后为了教育流浪和犯罪儿童马卡连柯在波尔塔瓦创建了高尔基工学团
+data_thchs30/dev/C23_612.wav	tú wèi shěn yáng lǚ kè zhāng huì quán fū fù huái bào èr gè kě ài de yīng ér zhuān chéng lái dào jǐ nán huǒ chē zhàn zhí bān shì gǎn xiè jiù mìng ēn rén	图为沈阳旅客张慧泉夫妇怀抱二个可爱的婴儿专程来到济南火车站值班室感谢救命恩人
+data_thchs30/dev/C23_622.wav	xìng fú de nán rén cái huì bǎ quán bù xīn sī dōu yòng zài gōng zuò shàng wǒ bù néng ràng rén jué de wǒ de hòu yuàn yě xū yào wǒ fēn xīn	幸福的男人才会把全部心思都用在工作上我不能让人觉得我的后院也需要我分心
+data_thchs30/dev/C23_628.wav	zhè yàng de xiū yǎng de yǎn yuán jí shǐ zhèng zǒu hóng yě bù guò rú guò yǎn yún yān ér yǐ chéng bù liǎo zhēn zhèng yì yì shàng de yì shù jiā	这样的修养的演员即使正走红也不过如过眼云烟而已成不了真正意义上的艺术家
+data_thchs30/dev/C23_636.wav	jiāo tōng bù mén zé lìng céng mǒu péi cháng yáng mǒu qīn shǔ ān zàng yáng mǒu de bù fèn fèi yòng jí qí tā sǔn shī	交通部门责令曾某赔偿杨某亲属安葬杨某的部分费用及其它损失
+data_thchs30/dev/C23_639.wav	tán yě má zi mà lì gāng wō nāng lì gāng yě rèn wéi zì jǐ duì sōng yě tài zào zhī sǐ fù yǒu bù kě tuī xiè de zé rèn	檀野麻子骂笠冈窝囊笠冈也认为自己对松野泰造之死负有不可推卸的责任
+data_thchs30/dev/C23_654.wav	mǒu xiē chǎng jiā wèi huò qǔ gāo é lì rùn fǎng zhì jiǎ mào yōu zhì pǐn kēng hài xiāo fèi zhě yǐng xiǎng le nóng mín de gòu mǎi yù wàng	某些厂家为获取高额利润仿制假冒优质品坑害消费者影响了农民的购买欲望
+data_thchs30/dev/C23_657.wav	qù nián bā yuè bā rì yī qún chū zhōng xué shēng zài gāi zhōu hēng dé sēn xiàn yóu wán shí zhuā zhù èr shí èr zhǐ qīng wā qí zhōng shí yī zhǐ hòu tuǐ yán zhòng jī xíng	去年八月八日一群初中学生在该州亨德森县游玩时抓住二十二只青蛙其中十一只后腿严重畸形
+data_thchs30/dev/C23_667.wav	běi fāng sān xià fēng shōu nán fāng chūn liáng chūn yóu xǐ xùn pín chuán liáng mián děng zhǔ yào nóng zuò wù bō zhǒng miàn jī pǔ biàn zēng jiā miáo qīng yè zhuàng	北方三夏丰收南方春粮春油喜讯频传粮棉等主要农作物播种面积普遍增加苗青叶壮
+data_thchs30/dev/C23_681.wav	xiān shuǐ yán zhì fēi mǎ zǔ yán zhǎng dá shí huá lǐ de shān yá dòng xué lǐ yǒu chūn qiū zhàn guó shí qī gǔ yuè zú yá mù qún	仙水岩至飞马祖岩长达十华里的山崖洞穴里有春秋战国时期古越族崖墓群
+data_thchs30/dev/C23_686.wav	měi dào yuè huì yīn yǔ yè jiān láng háo shēng jiù yuǎn yuǎn jìn jìn chuán lái shēng yīn dī chén ér mián zhǎng sì hū zá jiā zhe yōu yù yǔ bēi shāng	每到月晦阴雨夜间狼嚎声就远远近近传来声音低沉而绵长似乎杂夹着忧郁与悲伤
+data_thchs30/dev/C23_700.wav	ài dá hā xǐ léng wǔ sú chēng yě zhū wǔ shì è wēn kè rén zuì yuán shǐ zuì gǔ lǎo de yī zhǒng nán xìng jí tǐ wǔ	爱达哈喜楞舞俗称野猪舞是鄂温克人最原始最古老的一种男性集体舞
+data_thchs30/dev/C23_708.wav	dào bǎn jī guāng chàng piàn wài hé de yán mì dù chà nèi xīn de zhòng liàng yǒu chā yì zài yīn zhì shàng yǔ zhèng bǎn chàng piàn yǒu qū bié	盗版激光唱片外盒的严密度差内芯的重量有差异在音质上与正版唱片有区别
+data_thchs30/dev/C23_711.wav	jiào wù zhǎng chū wài xuān gào bǔ kǎo jué yì hòu bǐ děng yōng jìn zǒu láng yù rù shì zhōng jiào shòu huì xuán jí jué dìng zǒng cí zhí	教务长出外宣告补考决议后彼等拥进走廊欲入室中教授会旋即决定总辞职
+data_thchs30/dev/C23_715.wav	yǒu rén bǎ zhè zhǒng zhuàng kuàng gài kuò wèi jǐng yuè dǎ yuè shēn bèng yuè huàn yuè dà qián yuè huā yuè duō shuǐ yuè chōu yuè shǎo	有人把这种状况概括为井越打越深泵越换越大钱越花越多水越抽越少
+data_thchs30/dev/C23_720.wav	yòu wā hé chéng wā xǐ chī ròu shí kě yǐ bǔ lāo yíng qū yǎng zhí qiū yǐn bǔ zhuō hài chóng děng fāng fǎ wèi chéng wā tí gōng shí liào	幼蛙和成蛙喜吃肉食可以捕捞蝇蛆养殖蚯蚓捕捉害虫等方法为成蛙提供食料
+data_thchs30/dev/C23_724.wav	yīng táo jù shuō wén kǎo wèi yīng niǎo suǒ hán shí gù yòu míng wèi yīng táo hán táo shǔ qiáng wēi kē zhí wù	樱桃据说文考为莺鸟所含食故又名为莺桃含桃属蔷薇科植物
+data_thchs30/dev/C23_729.wav	bào dào yuán yǐn zǒng tǒng fā yán rén kāng sāi sāng de huà shuō duō sī sāng tuō sī rèn wéi xiàn zài méi yǒu bì yào huì jiàn sà wén bǐ	报道援引总统发言人康塞桑的话说多斯桑托斯认为现在没有必要会见萨文比
+data_thchs30/dev/C23_738.wav	yú shì zhōng qiū de yōu yōu yuè sè zhōng biàn yǒu yī lǚ shū dàn de xiāng yùn lǜ yǐng yìng yì yú wǒ de líng hún wǒ de xīn mèng zhōng	于是中秋的幽幽月色中便有一缕疏淡的香韵绿影映逸于我的灵魂我的新梦中
+data_thchs30/dev/C2_506.wav	huó fó zhuǎn shì de guān niàn zhǔ yào lái yuán yú gǔ dài zàng zú mín jiān zōng jiào de líng hún bù miè guān niàn hé fó jiào de huà shēn lǐ lùn	活佛转世的观念主要来源于古代藏族民间宗教的灵魂不灭观念和佛教的化身理论
+data_thchs30/dev/C2_511.wav	jiāng xī hú kǒu xiàn shuāng zhōng shuǐ chǎn chǎng yú mín zhāng hòu yú rì qián jiāng yī tiáo bǔ huò rù wǎng de xíng sì biān yú de yān zhī yú fàng huí jiāng zhōng	江西湖口县双钟水产场渔民张后渔日前将一条捕获入网的形似鳊鱼的胭脂鱼放回江中
+data_thchs30/dev/C2_519.wav	yīng guó kē xué jiā zuì jìn fā xiàn huàn fēng niú bìng de niú de hòu dài yě hěn kě néng huàn fēng niú bìng yīng guó huàn fēng niú bìng de niú bǐ yuán xiān rèn wéi de yào duō	英国科学家最近发现患疯牛病的牛的后代也很可能患疯牛病英国患疯牛病的牛比原先认为的要多
+data_thchs30/dev/C2_534.wav	lǎo xìn kè zhèng hǎo yào gěi yuǎn qīn sòng yī fèn lǐ jiù xià zhǎi zhǎi de yī tiáo hóng chóu kǔn zhā lǐ pǐn tú gè hǎo kàn	老信客正好要给远亲送一份礼就下窄窄的一条红绸捆扎礼品图个好看
+data_thchs30/dev/C2_542.wav	xīn huá shè píng rǎng yí yuè shí sì rì xiāo xī píng rǎng dì qū rì qián yán dōng shì nuǎn chūn chū xiàn jìn bǎi nián wèi céng yǒu guò de dōng nuǎn xiàn xiàng	新华社平壤一月十四日消息平壤地区日前严冬似暖春出现近百年未曾有过的冬暖现象
+data_thchs30/dev/C2_556.wav	yīng xióng céng zhào gāng wú kuì yú zhè guāng róng de chēng hào wú kuì yú wǒ men de shí dài	英雄曾召刚无愧于这光荣的称号无愧于我们的时代
+data_thchs30/dev/C2_565.wav	zhè zhǒng róu ruǎn rú rùn xìng hǎo yòu tòu qì de xīn cái liào duì yǐn xíng yǎn jìng de tuī guǎng pǔ jí chǎn shēng le huà shí dài yì yì	这种柔软濡润性好又透气的新材料对隐形眼镜的推广普及产生了划时代意义
+data_thchs30/dev/C2_572.wav	wáng xiàn yù hé zhī wěi wáng xiàn běn tīng shuō lín jìn hé zhuāng cūn yǒu rén yòng dà péng péi yù suàn huáng chéng gōng jiù qù cǎi fǎng	王宪玉和支委王宪本听说邻近何庄村有人用大棚培育蒜黄成功就去采访
+data_thchs30/dev/C31_506.wav	huó fó zhuǎn shì de guān niàn zhǔ yào lái yuán yú gǔ dài zàng zú mín jiān zōng jiào de líng hún bù miè guān niàn hé fó jiào de huà shēn lǐ lùn	活佛转世的观念主要来源于古代藏族民间宗教的灵魂不灭观念和佛教的化身理论
+data_thchs30/dev/C31_508.wav	wěi liè fēng gōng fèi jǐn yí shān xīn lì jǐn zhū lián huà dòng juǎn bù jí mù yǔ zhāo yún biàn duàn jié cán bēi dōu fù yǔ cāng yān luò zhào	伟烈丰功费尽移山心力尽珠帘画栋卷不及暮雨朝云便断碣残碑都付与苍烟落照
+data_thchs30/dev/C31_528.wav	yòng rén dān wèi pìn yòng wài guó rén cóng shì de gǎng wèi yīng shì yǒu tè shū xū yào guó nèi zàn quē shì dàng rén xuǎn qiě bù wéi fǎn guó jiā yǒu guān guī dìng de gǎng wèi	用人单位聘用外国人从事的岗位应是有特殊需要国内暂缺适当人选且不违反国家有关规定的岗位
+data_thchs30/dev/C31_538.wav	tā yào xué xí yòu yào bāng nǎi nǎi chí jiā kě fān yuè tā de zuò yè běn gēn běn kàn bù dào bā shí fēn yǐ xià de chéng jī	她要学习又要帮奶奶持家可翻阅她的作业本根本看不到八十分以下的成绩
+data_thchs30/dev/C31_540.wav	èr shì jiāo shū yù rén xì tǒng yào bǎ dé yù yǒu jī de shèn tòu yú zhì yù zhī zhōng nǔ lì zuò dào dé yù hé zhì yù de tǒng yī	二是教书育人系统要把德育有机地渗透于智育之中努力做到德育和智育的统一
+data_thchs30/dev/C31_574.wav	yǒu xiē yú mín yīn yàn wù hǎi xīng dào shí bèi lèi chī diào yú ěr zhuō zhù hǎi xīng hòu cháng jiāng qí qiè suì rēng rù hǎi zhōng	有些渔民因厌恶海星盗食贝类吃掉鱼饵捉住海星后常将其切碎扔入海中
+data_thchs30/dev/C31_578.wav	chú cái zhèng bō gěi liǎng qiān sān bǎi wàn yuán jiào yù zī jīn wài hái bō chū zhuān kuǎn sì qiān wǔ bǎi qī shí wàn yuán xīn jiàn zhōng xiǎo xué	除财政拨给两千三百万元教育资金外还拨出专款四千五百七十万元新建中小学
+data_thchs30/dev/C31_590.wav	wài miàn de kōng qì hán lěng ér yòu shī rùn yǔ shuǐ zhōng guǒ rán jiā zá zhe diǎn diǎn xuě huā fēn fēn luò luò piāo piāo yáng yáng suí fēng ér xià	外面的空气寒冷而又湿润雨水中果然夹杂着点点雪花纷纷落落飘飘扬扬随风而下
+data_thchs30/dev/C31_594.wav	tōng piān yáng yì zhe ài guó jiā ài jí tǐ ài shè huì ài tā rén de zhì piáo zhì chéng gāo yáng zhe jīng shén wén míng de zhǔ xuán lǜ	通篇洋溢着爱国家爱集体爱社会爱他人的质朴至诚高扬着精神文明的主旋律
+data_thchs30/dev/C31_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C31_605.wav	zhè shì quán shěng gè jí nóng zī gōng sī zhuān mén xià pài de zhī nóng sòng féi chē sòng huò xià xiāng bāng zhù nóng mín chǔ bèi chūn gēng yòng féi	这是全省各级农资公司专门下派的支农送肥车送货下乡帮助农民储备春耕用肥
+data_thchs30/dev/C31_616.wav	wǒ de jiān bǎng hún yuán xiōng qián féi dū dū de shēn cái yòu biàn dé nà me ǎi xiǎo yóu qí shì jiǎo xià hǎo xiàng cǎi zhe gāo qiāo jiǎn zhí yào bǎ jiǎo jīn bēng duàn	我的肩膀浑圆胸前肥嘟嘟的身材又变得那么矮小尤其是脚下好像踩着高跷简直要把脚筋绷断
+data_thchs30/dev/C31_640.wav	yín háng chéng duì huì piào de chéng duì shēn qǐng rén yīng yú yín háng chéng duì huì piào dào qī qián jiāng piào kuǎn zú é jiāo cún qí kāi hù yín háng	银行承兑汇票的承兑申请人应于银行承兑汇票到期前将票款足额交存其开户银行
+data_thchs30/dev/C31_661.wav	xiàng dà duō shù gé mìng lǎo ōu yī yàng jiān shān xià cūn yōng yǒu zhèng zhì guāng huán hé xiù lì jǐng sè yě yōng yǒu pín qióng	像大多数革命老区一样尖山下村拥有政治光环和秀丽景色也拥有贫穷
+data_thchs30/dev/C31_663.wav	zài sōu chá guò chéng zhōng měi jūn hé ài dí dé pài mín bīng yǒu qīng wēi jiāo huǒ qí zhōng yǒu liǎng míng ài dí dé pài mín bīng shòu shāng hòu táo zǒu	在搜查过程中美军和艾迪德派民兵有轻微交火其中有两名艾迪德派民兵受伤后逃走
+data_thchs30/dev/C31_668.wav	hú yǒng guì xiān shì jiǎo huá dǐ lài yǐ zì yuàn jiāo yì yuàn dǎ yuàn āi wèi yóu tuō yán bàn àn qǐ tú méng hùn guò guān	胡永贵先是狡猾抵赖以自愿交易愿打愿挨为由拖延办案企图蒙混过关
+data_thchs30/dev/C31_672.wav	zuì hòu àn zhuān yè zǔ yè yú qīng nián zǔ yè yú zhōng lǎo nián zǔ fēn bié chǎn shēng guàn jūn sān rén yà jūn liù rén jì jūn jiǔ rén	最后按专业组业余青年组业余中老年组分别产生冠军三人亚军六人季军九人
+data_thchs30/dev/C31_675.wav	shì chǎng bào yìng yùn ér shēng yì zhí mù yù zhe gǎi gé kāi fàng de chūn fēng zhuó zhuàng chéng zhǎng áng shǒu kuò bù zǒu guò le shí wǔ nián lì chéng	市场报应运而生一直沐浴着改革开放的春风茁壮成长昂首阔步走过了十五年历程
+data_thchs30/dev/C31_678.wav	tiān xīn guà zhe méng méng de dàn zǐ piāo zhe piàn piàn de shēn hóng ǒu ér yǒu yī sī jīn máng zhēng zhá zhe yì xiàng qīng diàn de yáo kōng	天心挂着蒙蒙的淡紫飘着片片的深红偶而有一丝金芒挣扎着逸向青靛的遥空
+data_thchs30/dev/C31_683.wav	měi guó yī xiē jī gòu wǎng wǎng jī guān suàn jìn jié guǒ shì yuè jiǎo yuè hùn yuè mǒ yuè hēi zuì hòu cháng cháng sǔn jí zì shēn	美国一些机构往往机关算尽结果是越搅越混越抹越黑最后常常损及自身
+data_thchs30/dev/C31_693.wav	tā jù yǒu bǎo liú yá gēn jiǎn chú bá yá tòng kǔ jiā qiáng yá gēn gōng néng yǐ jí shǐ yì chǐ wěn dìng bù yì tuō wèi děng yōu diǎn	它具有保留牙根减除拔牙痛苦加强牙根功能以及使义齿稳定不易脱位等优点
+data_thchs30/dev/C31_710.wav	yī qún qún de shān yá zi cháo hǎi biān bēn qù yī chá chá de shān huā dōu diāo xiè le ér nǐ de mèng bù kěn diāo xiè	一群群的山伢子朝海边奔去一茬茬的山花都凋谢了而你的梦不肯凋谢
+data_thchs30/dev/C31_735.wav	tā niáng jiā xiōng dì zǐ mèi shí yī gè tā lǎo dà cóng xiǎo jiù gěi jiù jiā zuò yǎng nǚ gǎi míng lǚ ài zhì mǐn nán huà shì ài dì	她娘家兄弟姊妹十一个她老大从小就给舅家做养女改名吕爱治闽南话是爱弟
+data_thchs30/dev/C31_747.wav	dāng wǒ bìng yù qù yī yuàn kàn wàng nín shí nín zhè gè nián zhǎng zhě què tǎng zài bìng chuáng shàng jǐn jǐn lā zhe wǒ de shǒu yīn yīn zhǔ wǒ bǎo zhòng	当我病愈去医院看望您时您这个年长者却躺在病床上紧紧拉着我的手殷殷嘱我保重
+data_thchs30/dev/C31_749.wav	bǎi yè cóng yào yào yè lì rùn dà yīn cǐ zuān kòng zi de rén yě duō xú dà yì xiǎng yào fā cái hěn róng yì	百业从药药业利润大因此钻空子的人也多徐大毅想要发财很容易
+data_thchs30/dev/C32_516.wav	lú tài yú yīn fàn yǒu zhǔ dòng cān yù jūn shì pàn luàn hé nèi luàn zuì móu shā shàng sī wèi suì zuì jí shòu huì zuì děng bèi pàn chǔ wú qī tú xíng	卢泰愚因犯有主动参与军事叛乱和内乱罪谋杀上司未遂罪及受贿罪等被判处无期徒刑
+data_thchs30/dev/C32_524.wav	èr shí nián lái yān cǎo shāng chéng le zhì piàn shāng de cái shén yé yān cǎo guǎng gào yuè zuò yuè jīng měi biàn xiàng guǎng gào gèng shì huā yàng bǎi chū	二十年来烟草商成了制片商的财神爷烟草广告越做越精美变相广告更是花样百出
+data_thchs30/dev/C32_533.wav	jiāng lái huí xiǎng qǐ lái zhè yī duàn yún yǔ wū shān de yùn shì yě bù guò shì yún tiān xiá yǐng kōng liú cán hóng diǎn zhuì xīn tóu bà le	将来回想起来这一段云雨巫山的韵事也不过似云天霞影空留残红点缀心头罢了
+data_thchs30/dev/C32_543.wav	jǐ gè yuè qián é fāng hái xuān bù jiǎn shǎo duì hā yuán yóu de shū chū pèi é yuán yīn jù shuō shì hā de yuán yóu hán zá zhì tài duō	几个月前俄方还宣布减少对哈原油的输出配额原因据说是哈的原油含杂质太多
+data_thchs30/dev/C32_558.wav	táng míng huáng dài yáng guì fēi táo lí cháng ān guān jūn jiāng yáng guó zhōng shā sǐ yòu bī táng míng huáng jiāng yáng guì fēi yì sǐ	唐明皇带杨贵妃逃离长安官军将杨国忠杀死又逼唐明皇将杨贵妃缢死
+data_thchs30/dev/C32_570.wav	zhè zhōng jiān zuì ràng rén chēng mù jié shé de lì zi dà gài yào suàn táng zhí yán juǎn èr suǒ jì de nà wèi wáng líng rán le	这中间最让人瞠目结舌的例子大概要算唐摭言卷二所记的那位王泠然了
+data_thchs30/dev/C32_577.wav	tā méi yǒu duō shǎo háo yán zhuàng yǔ dàn tā què bǎ ài qīn rén ài jiā tíng ài zǔ guó ài jūn duì wán měi de tǒng yī le qǐ lái	她没有多少豪言壮语但她却把爱亲人爱家庭爱祖国爱军队完美地统一了起来
+data_thchs30/dev/C32_583.wav	zhè zhī zài ā gēn tíng zú tán běn lái zhàn jī bù suàn hěn tū chū de jù lè bù duì kuà yáng zhēng duó zhōu jì bēi yǐn qǐ yú lùn de guān zhù	这支在阿根廷足坛本来战绩不算很突出的俱乐部队跨洋争夺洲际杯引起舆论的关注
+data_thchs30/dev/C32_590.wav	wài miàn de kōng qì hán lěng ér yòu shī rùn yǔ shuǐ zhōng guǒ rán jiā zá zhe diǎn diǎn xuě huā fēn fēn luò luò piāo piāo yáng yáng suí fēng ér xià	外面的空气寒冷而又湿润雨水中果然夹杂着点点雪花纷纷落落飘飘扬扬随风而下
+data_thchs30/dev/C32_598.wav	zài hán zuǒ cūn kǒu bú jiàn wǎng rì shài tài yáng lào kè de rén duī tuī mén jìn shě bù wén chóu bèi guò nián de chuī yān fàn xiāng	在韩佐村口不见往日晒太阳唠嗑的人堆推门进舍不闻筹备过年的炊烟饭香
+data_thchs30/dev/C32_604.wav	jiǎng huì juān liào luán fèng liào jìng wén dí wén róng yán xiǎo jūn pān zhǎng yù pān wén lán xuē zhāo dài lì fāng	蒋慧娟廖鸾凤廖静文翟文蓉颜小军潘长玉潘文兰薛昭戴丽芳
+data_thchs30/dev/C32_632.wav	yà měi ní yà wài zhǎng pà pà zī yáng jīn zǎo fā biǎo shēng míng shuō guān yú ā yà chōng tū qū dá chéng tíng huǒ de xié yì bìng wèi qiān shǔ	亚美尼亚外长帕帕兹扬今早发表声明说关于阿亚冲突区达成停火的协议并未签署
+data_thchs30/dev/C32_637.wav	kāng shì tǎn dīng chéng zhè dāng ér xiǎng shòu le yī fān yàn fú ér gōng zhǔ ne wèi zì jǐ de hóng yán bó mìng ér āi kū	康士坦丁乘这当儿享受了一番艳福而公主呢为自己的红颜薄命而哀哭
+data_thchs30/dev/C32_650.wav	sì chuān měi shù xué yuàn qún tǐ zhèn yíng hào dà fēng gé duō yàng chéng wéi běn jiè yì shù bó lǎn huì de dì yī dà jǐng guān	四川美术学院群体阵营浩大风格多样成为本届艺术博览会的第一大景观
+data_thchs30/dev/C32_652.wav	guǎng zhōu yuè jù èr tuán cóng nián chū èr qǐ zài pān yú yǎn chū hòu jiāng yào dào yuè dōng shān qū méi zhōu hé yuán xiàn yì	广州粤剧二团从年初二起在番禺演出后将要到粤东山区梅州河源献艺
+data_thchs30/dev/C32_667.wav	běi fāng sān xià fēng shōu nán fāng chūn liáng chūn yóu xǐ xùn pín chuán liáng mián děng zhǔ yào nóng zuò wù bō zhǒng miàn jī pǔ biàn zēng jiā miáo qīng yè zhuàng	北方三夏丰收南方春粮春油喜讯频传粮棉等主要农作物播种面积普遍增加苗青叶壮
+data_thchs30/dev/C32_678.wav	tiān xīn guà zhe méng méng de dàn zǐ piāo zhe piàn piàn de shēn hóng ǒu ér yǒu yī sī jīn máng zhēng zhá zhe yì xiàng qīng diàn de yáo kōng	天心挂着蒙蒙的淡紫飘着片片的深红偶而有一丝金芒挣扎着逸向青靛的遥空
+data_thchs30/dev/C32_710.wav	yī qún qún de shān yá zi cháo hǎi biān bēn qù yī chá chá de shān huā dōu diāo xiè le ér nǐ de mèng bù kěn diāo xiè	一群群的山伢子朝海边奔去一茬茬的山花都凋谢了而你的梦不肯凋谢
+data_thchs30/dev/C32_713.wav	zhè lǐ shèng chǎn de lián ǒu shēng shí tián chǎo shí cuì dùn shí fěn tǒng cū pí báo jié zhǎng ròu nèn wèi xiān yíng yǎng fēng fù	这里盛产的莲藕生食甜炒食脆炖食粉筒粗皮薄节长肉嫩味鲜营养丰富
+data_thchs30/dev/C32_742.wav	zhè lǐ shuō de yì yá zhēng le tā ér zi gěi jié zhòu chī yě shì kuáng rén yǔ pǒ cuò zá wú lún cì de biǎo xiàn	这里说的易牙蒸了他儿子给桀纣吃也是狂人语颇错杂无伦次的表现
+data_thchs30/dev/C32_746.wav	shǎo píng suō zài yí gè xiǎo shān yáo lǐ tòu guò yǔ lián kàn jiàn hóng shuǐ yǐ kuài yào zhǎng dào hóu yù yīng bì yǔ de nà gè shí yá xià le	少平缩在一个小山窑里透过雨帘看见洪水已快要涨到侯玉英避雨的那个石崖下了
+data_thchs30/dev/C4_515.wav	wǒ ài huā ài zì rán jiè de huā gèng ài yòng gè zhǒng wén yì xíng shì sù zào péi yù de shēng mìng shēng huó de huā yǒu yì de huā	我爱花爱自然界的花更爱用各种文艺形式塑造培育的生命生活的花友谊的花
+data_thchs30/dev/C4_520.wav	bā qí qīn guì qiān nù yú fú lín ài fēi dǒng è shì fú lín nèi wài jiāo kùn pò bù dé yǐ yǔ qí zhōu xuán kǔ dòu	八旗亲贵迁怒于福临爱妃董鄂氏福临内外交困迫不得已与其周旋苦斗
+data_thchs30/dev/C4_542.wav	xīn huá shè píng rǎng yí yuè shí sì rì xiāo xī píng rǎng dì qū rì qián yán dōng shì nuǎn chūn chū xiàn jìn bǎi nián wèi céng yǒu guò de dōng nuǎn xiàn xiàng	新华社平壤一月十四日消息平壤地区日前严冬似暖春出现近百年未曾有过的冬暖现象
+data_thchs30/dev/C4_543.wav	jǐ gè yuè qián é fāng hái xuān bù jiǎn shǎo duì hā yuán yóu de shū chū pèi é yuán yīn jù shuō shì hā de yuán yóu hán zá zhì tài duō	几个月前俄方还宣布减少对哈原油的输出配额原因据说是哈的原油含杂质太多
+data_thchs30/dev/C4_544.wav	huí dào jiā huáng niáng niáng de nǎi wá ér zhèng kū dé sī shēng yǎ qì dà yì diǎn de yí gè wá ér zài táng wū de shàng pá	回到家黄娘娘的奶娃儿正哭得嘶声哑气大一点的一个娃儿在堂屋地上爬
+data_thchs30/dev/C4_574.wav	yǒu xiē yú mín yīn yàn wù hǎi xīng dào shí bèi lèi chī diào yú ěr zhuō zhù hǎi xīng hòu cháng jiāng qí qiè suì rēng rù hǎi zhōng	有些渔民因厌恶海星盗食贝类吃掉鱼饵捉住海星后常将其切碎扔入海中
+data_thchs30/dev/C4_575.wav	yīn cǐ jiā sù nóng cūn zhōng yī yào shì yòng rén cái de péi yǎng shì jiā qiáng nóng cūn zhōng yī yào gōng zuò de yí gè zhàn lüè zhòng diǎn	因此加速农村中医药适用人才的培养是加强农村中医药工作的一个战略重点
+data_thchs30/dev/C4_584.wav	yìn jiā rén suǒ chuàng zào de wén míng yǔ mǎ yǎ wén míng ā zī tè kè wén míng yì qǐ bèi yù wèi měi zhōu yìn dì ān sān dà wén míng	印加人所创造的文明与玛雅文明阿兹特克文明一起被誉为美洲印第安三大文明
+data_thchs30/dev/C4_599.wav	kě shì cháng cháng yǒu rén gào sù yáo xiān shēng shuō kàn jiàn èr xiǎo jiě zài kā fēi guǎn lǐ hé wáng jùn yè wò zhuó shǒu yī zuò zuò shàng jǐ gè zhōng tóu	可是常常有人告诉姚先生说看见二小姐在咖啡馆里和王俊业握着手一坐坐上几个钟头
+data_thchs30/dev/C4_622.wav	xìng fú de nán rén cái huì bǎ quán bù xīn sī dōu yòng zài gōng zuò shàng wǒ bù néng ràng rén jué de wǒ de hòu yuàn yě xū yào wǒ fēn xīn	幸福的男人才会把全部心思都用在工作上我不能让人觉得我的后院也需要我分心
+data_thchs30/dev/C4_623.wav	yǒu rén zhǐ chū duì zhà piàn xíng wéi yīng gāi yán lì dǎ jī yuán huò bù jǐn yào rú shù zhuī huí hái yīng zhuī jiū é wài sǔn shī péi cháng	有人指出对诈骗行为应该严厉打击原货不仅要如数追回还应追究额外损失赔偿
+data_thchs30/dev/C4_652.wav	guǎng zhōu yuè jù èr tuán cóng nián chū èr qǐ zài pān yú yǎn chū hòu jiāng yào dào yuè dōng shān qū méi zhōu hé yuán xiàn yì	广州粤剧二团从年初二起在番禺演出后将要到粤东山区梅州河源献艺
+data_thchs30/dev/C4_661.wav	xiàng dà duō shù gé mìng lǎo ōu yī yàng jiān shān xià cūn yōng yǒu zhèng zhì guāng huán hé xiù lì jǐng sè yě yōng yǒu pín qióng	像大多数革命老区一样尖山下村拥有政治光环和秀丽景色也拥有贫穷
+data_thchs30/dev/C4_666.wav	zhù míng yǎn yuán yǒu chéng fāng yuán móu xuàn fǔ yuǎn zhēng zhāng qiáng chén jùn huá zī shā lì ōu yáng bīn lín wén zēng zhōu wéi děng	著名演员有成方圆牟炫甫远征张强陈俊华訾莎莉欧阳滨林文增周维等
+data_thchs30/dev/C4_683.wav	měi guó yī xiē jī gòu wǎng wǎng jī guān suàn jìn jié guǒ shì yuè jiǎo yuè hùn yuè mǒ yuè hēi zuì hòu cháng cháng sǔn jí zì shēn	美国一些机构往往机关算尽结果是越搅越混越抹越黑最后常常损及自身
+data_thchs30/dev/C4_713.wav	zhè lǐ shèng chǎn de lián ǒu shēng shí tián chǎo shí cuì dùn shí fěn tǒng cū pí báo jié zhǎng ròu nèn wèi xiān yíng yǎng fēng fù	这里盛产的莲藕生食甜炒食脆炖食粉筒粗皮薄节长肉嫩味鲜营养丰富
+data_thchs30/dev/C4_715.wav	yǒu rén bǎ zhè zhǒng zhuàng kuàng gài kuò wèi jǐng yuè dǎ yuè shēn bèng yuè huàn yuè dà qián yuè huā yuè duō shuǐ yuè chōu yuè shǎo	有人把这种状况概括为井越打越深泵越换越大钱越花越多水越抽越少
+data_thchs30/dev/C4_733.wav	jīn gǔ hóng liáng qīng cài bái mián rú rǎn le tā de sè pán jī míng yā xì mǎ chí niú gēng róu huó le tā de huà bǐ	金谷红粱青菜白棉濡染了他的色盘鸡鸣鸭戏马驰牛耕揉活了他的画笔
+data_thchs30/dev/C6_525.wav	ài shè shá bù zhī dào wài pó tiān tiān shuō diē shì hǎo rén shuō diē shì jiào huài rén hài le shuō diē yuān wǎng dé hěn	爱社啥不知道外婆天天说爹是好人说爹是叫坏人害了说爹冤枉得很
+data_thchs30/dev/C6_531.wav	xiè yuè é dà shǐ qǐng xiè xīn lā nà liè hé hóng sēn zhuǎn dá zhōng guó zhèng fǔ hé rén mín duì xī hā nǔ kè guó wáng de shēn qiè xiè yì	谢月娥大使请谢辛拉那烈和洪森转达中国政府和人民对西哈努克国王的深切谢意
+data_thchs30/dev/C6_533.wav	jiāng lái huí xiǎng qǐ lái zhè yī duàn yún yǔ wū shān de yùn shì yě bù guò shì yún tiān xiá yǐng kōng liú cán hóng diǎn zhuì xīn tóu bà le	将来回想起来这一段云雨巫山的韵事也不过似云天霞影空留残红点缀心头罢了
+data_thchs30/dev/C6_545.wav	zài qián yáng xiàn nóng mín quán guó láo mó qīn wàn yǒu de yuán yì chǎng kàn dào sì qiān mǔ gān jú lín zài yàn yáng xià lǜ zhī yáo yè xú bù zhǎng zàn bù jué kǒu	在黔阳县农民全国劳模钦万有的园艺场看到四千亩柑桔林在艳阳下绿枝摇曳徐部长赞不绝口
+data_thchs30/dev/C6_560.wav	kě shì tù chǎng de nóng mín sì yǎng yuán gěi tù zi wèi shí wèi yào dōu bèi tù zi shùn shùn dāng dāng jiē shòu le	可是兔场的农民饲养员给兔子喂食喂药都被兔子顺顺当当接受了
+data_thchs30/dev/C6_564.wav	zhè kuài shén qí de wò tǔ yǎng yù zhe qī shí wàn qín láo zhì huì de nè hé rén yě yǎng yù zhe wáng róng shēng hé tā de tóng shì men	这块神奇的沃土养育着七十万勤劳智慧的讷河人也养育着王荣生和他的同事们
+data_thchs30/dev/C6_582.wav	tīng zhě cóng zhōng jì néng tǐ yàn dào bó bó de shān yě háo qíng yòu kě gǎn wù dào nuǎn nuǎn de chún zhēn róu qíng	听者从中既能体验到勃勃的山野豪情又可感悟到暖暖的纯真柔情
+data_thchs30/dev/C6_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C6_598.wav	zài hán zuǒ cūn kǒu bú jiàn wǎng rì shài tài yáng lào kè de rén duī tuī mén jìn shě bù wén chóu bèi guò nián de chuī yān fàn xiāng	在韩佐村口不见往日晒太阳唠嗑的人堆推门进舍不闻筹备过年的炊烟饭香
+data_thchs30/dev/C6_601.wav	rán ér cāng mǎn dùn liú de huā shēng bìng méi yǒu gěi nóng mín dài lái duō shǎo xǐ yuè shí xià wǒ xiàn yuē yǒu wǔ wàn dūn huā shēng jí dài wài xiāo	然而仓满囤流的花生并没有给农民带来多少喜悦时下我县约有五万吨花生亟待外销
+data_thchs30/dev/C6_618.wav	yī jiǔ sì yī nián shí yī yuè shǎn gān níng biān qū gēn jù sān sān zhì yuán zé jǔ xíng cān yì huì yì yuán jìng xuǎn yī wèi míng jiào sēn jiàn de xué yuán bèi tuī wèi hòu xuǎn rén	一九四一年十一月陕甘宁边区根据三三制原则举行参议会议员竞选一位名叫森健的学员被推为候选人
+data_thchs30/dev/C6_644.wav	nán shuō shì guò kè xīn fú yì zào xìng qíng guāi zhāng zěn nài shì tā xiāng de shān gèng qīng cuì liǔ gèng nèn lǜ shuǐ gèng gān tián	难说是过客心浮意躁性情乖张怎奈是他乡的山更青翠柳更嫩绿水更甘甜
+data_thchs30/dev/C6_653.wav	pú yáng shì zhèng jiàn shè rì xīn yuè yì jiè dìng de yóu diàn fú wù bù duàn bèi xīn lóu qún suǒ yān mò	濮阳市政建设日新月异界定的邮电服务不断被新楼群所淹没
+data_thchs30/dev/C6_679.wav	tè lì yǎ nǚ xié jìn jià yì bǎi sān shí sì yuán jiā yùn fèi èr yuán shuì jīn wǔ shí bā yuán jí qí tā fèi yòng líng shòu jià yì bǎi qī shí sì yuán	特丽雅女鞋进价一百三十四元加运费二元税金五十八元及其他费用零售价一百七十四元
+data_thchs30/dev/C6_681.wav	xiān shuǐ yán zhì fēi mǎ zǔ yán zhǎng dá shí huá lǐ de shān yá dòng xué lǐ yǒu chūn qiū zhàn guó shí qī gǔ yuè zú yá mù qún	仙水岩至飞马祖岩长达十华里的山崖洞穴里有春秋战国时期古越族崖墓群
+data_thchs30/dev/C6_682.wav	huáng yǐng wéi qū wèi yú huái hé gàn liú xíng hóng qū nèi shì huái shǐ quán sān tiáo hé liú hé shàng yóu yù wǎn è sān shěng èr shí bā xiàn de hóng shuǐ huì liú chù	黄郢圩区位于淮河干流行洪区内是淮史泉三条河流和上游豫皖鄂三省二十八县的洪水汇流处
+data_thchs30/dev/C6_707.wav	xīn huá shè shěn yáng yí yuè èr shí sān rì diàn liáo níng shěng shěn yáng shì wèi jiào yù mù juān dà xíng yì yǎn huó dòng yí yuè èr shí yī rì lā kāi wéi mù	新华社沈阳一月二十三日电辽宁省沈阳市为教育募捐大型义演活动一月二十一日拉开帷幕
+data_thchs30/dev/C6_714.wav	nà shuì rén yíng yè é dá dào qǐ zhēng diǎn de yīng àn yíng yè é quán é jì suàn yīng nà shuì é	纳税人营业额达到起征点的应按营业额全额计算应纳税额
+data_thchs30/dev/C6_715.wav	yǒu rén bǎ zhè zhǒng zhuàng kuàng gài kuò wèi jǐng yuè dǎ yuè shēn bèng yuè huàn yuè dà qián yuè huā yuè duō shuǐ yuè chōu yuè shǎo	有人把这种状况概括为井越打越深泵越换越大钱越花越多水越抽越少
+data_thchs30/dev/C6_735.wav	tā niáng jiā xiōng dì zǐ mèi shí yī gè tā lǎo dà cóng xiǎo jiù gěi jiù jiā zuò yǎng nǚ gǎi míng lǚ ài zhì mǐn nán huà shì ài dì	她娘家兄弟姊妹十一个她老大从小就给舅家做养女改名吕爱治闽南话是爱弟
+data_thchs30/dev/C7_512.wav	xiè jìn héng tōng yǐng yè gōng sī yǐ zhōng guó běn tǔ diàn yǐng wèi lì shēn zhī běn yǐ pāi shè pǐn wèi gāo yì shù xìng qiáng de yǐng piān wèi mù biāo	谢晋恒通影业公司以中国本土电影为立身之本以拍摄品位高艺术性强的影片为目标
+data_thchs30/dev/C7_520.wav	bā qí qīn guì qiān nù yú fú lín ài fēi dǒng è shì fú lín nèi wài jiāo kùn pò bù dé yǐ yǔ qí zhōu xuán kǔ dòu	八旗亲贵迁怒于福临爱妃董鄂氏福临内外交困迫不得已与其周旋苦斗
+data_thchs30/dev/C7_541.wav	kān tàn biǎo míng tā shì guó nèi shǎo yǒu de yín jīn gòng shēng kuàng pǐn wèi gāo yì cǎi yì xuǎn yě shì wǒ guó shǒu jiā jí cǎi kuàng xuǎn kuàng yě liàn wèi yī tǐ de yín kuàng	勘探表明它是国内少有的银金共生矿品位高易采易选也是我国首家集采矿选矿冶炼为一体的银矿
+data_thchs30/dev/C7_557.wav	zài fú yuán liáo kuò de nóng cūn jiě jué le wēn bǎo wèn tí de nóng mín jīng shén wén huà xū qiú wèn tí yuè lái yuè tū chū	在幅员辽阔的农村解决了温饱问题的农民精神文化需求问题越来越突出
+data_thchs30/dev/C7_596.wav	tā men néng zuò wéi kē yán de tī duì dǐng shàng lái wǒ yě kě yǐ fàng xīn qù gàn wǒ suǒ xǐ ài de yě wài kǎo chá le	他们能作为科研的梯队顶上来我也可以放心去干我所喜爱的野外考察了
+data_thchs30/dev/C7_613.wav	yī lǎng lǐng xiù hā méi nèi yī zǒng tǒng lā fū sāng jiǎ ní dì yī fù zǒng tǒng hā bǐ bǐ děng dōu céng jīng fǎng wèn guò zhōng guó	伊朗领袖哈梅内伊总统拉夫桑贾尼第一副总统哈比比等都曾经访问过中国
+data_thchs30/dev/C7_617.wav	shēn zhe cáng páo yǐn sū yóu chá qí mǎ chí chěng yú huāng yuán chéng wéi xǔ duō hǎi wài yóu kè nán yǐ wàng què de tǐ yàn	身着藏袍饮酥油茶骑马驰骋于荒原成为许多海外游客难以忘却的体验
+data_thchs30/dev/C7_631.wav	dài mǎ jùn rén wǎn jiān lí kāi jī dì fǎn bié shù hòu gēn jù lóu nèi àn hào shǐ jìn lóu qū lǐ yìng wài hé àn hào zhào jiù	待马俊仁晚间离开基地返别墅后根据楼内暗号驶近楼区里应外合暗号照旧
+data_thchs30/dev/C7_638.wav	xiàng gǔn xuě qiú nà yàng yù gǔn yù dà yù dà yù gǔn gòu zhù chéng le guāng yào xiǎn hè de qún fēng	像滚雪球那样愈滚愈大愈大愈滚构筑成了光耀显赫的群峰
+data_thchs30/dev/C7_648.wav	chú cǐ zhī wài tú wén bìng mào de bèng bèng qiú jiàn shēn shǒu líng hé hé xīn jiā tíng xiǎo lán qiú de duàn liàn fāng fǎ biān dǎo gōng zuò yǐ jiāng wán chéng	除此之外图文并茂的蹦蹦球健身手铃和核心家庭小篮球的锻炼方法编导工作已将完成
+data_thchs30/dev/C7_662.wav	yǒu cì yù jìng rán bì jīng bàn nián yù jīng kǒng wàn zhuàng wǒ bù gǎn kěn dìng mó cā zhōng méi yǒu lòu wǎng zhī yú yě huáng huáng bù kě zhōng rì	有次玉竟然闭经半年玉惊恐万状我不敢肯定磨擦中没有漏网之鱼也惶惶不可终日
+data_thchs30/dev/C7_679.wav	tè lì yǎ nǚ xié jìn jià yì bǎi sān shí sì yuán jiā yùn fèi èr yuán shuì jīn wǔ shí bā yuán jí qí tā fèi yòng líng shòu jià yì bǎi qī shí sì yuán	特丽雅女鞋进价一百三十四元加运费二元税金五十八元及其他费用零售价一百七十四元
+data_thchs30/dev/C7_693.wav	tā jù yǒu bǎo liú yá gēn jiǎn chú bá yá tòng kǔ jiā qiáng yá gēn gōng néng yǐ jí shǐ yì chǐ wěn dìng bù yì tuō wèi děng yōu diǎn	它具有保留牙根减除拔牙痛苦加强牙根功能以及使义齿稳定不易脱位等优点
+data_thchs30/dev/C7_700.wav	ài dá hā xǐ léng wǔ sú chēng yě zhū wǔ shì è wēn kè rén zuì yuán shǐ zuì gǔ lǎo de yī zhǒng nán xìng jí tǐ wǔ	爱达哈喜楞舞俗称野猪舞是鄂温克人最原始最古老的一种男性集体舞
+data_thchs30/dev/C7_701.wav	wáng pó kàn yī kàn rì wǔ le hái yào gǎn huí qù shāo wǔ fàn dàn rèn tā zěn yàng lā jiāng shéng mǎ réng shì méi yǒu yí dòng	王婆看一看日午了还要赶回去烧午饭但任她怎样拉疆绳马仍是没有移动
+data_thchs30/dev/C7_702.wav	mèng jùn xiū zhāng zuò kǎi wáng xué wén xǔ pǐn fú sūn yǔ bó zhù míng jìng xú rén kuān pú chóng wǔ	孟俊修张作楷王学文许品福孙禹伯祝明镜徐仁宽蒲崇武
+data_thchs30/dev/C7_704.wav	zǒu wán sū dī zhī hòu yì yóu wèi jǐn zài lóu wài lóu chī guò xī hú cù yú děng jiā yáo zhī hòu yòu tà shàng le bái dī	走完苏堤之后意犹未尽在楼外楼吃过西湖醋鱼等佳肴之后又踏上了白堤
+data_thchs30/dev/C7_711.wav	jiào wù zhǎng chū wài xuān gào bǔ kǎo jué yì hòu bǐ děng yōng jìn zǒu láng yù rù shì zhōng jiào shòu huì xuán jí jué dìng zǒng cí zhí	教务长出外宣告补考决议后彼等拥进走廊欲入室中教授会旋即决定总辞职
+data_thchs30/dev/C7_747.wav	dāng wǒ bìng yù qù yī yuàn kàn wàng nín shí nín zhè gè nián zhǎng zhě què tǎng zài bìng chuáng shàng jǐn jǐn lā zhe wǒ de shǒu yīn yīn zhǔ wǒ bǎo zhòng	当我病愈去医院看望您时您这个年长者却躺在病床上紧紧拉着我的手殷殷嘱我保重
+data_thchs30/dev/C8_513.wav	dì yī pī shōu jí de yǒu xiǎng yù shěng gǎng ào hé dōng nán yà de ōu yáng shān chén cán yún qín mù dù āi huáng qiū yún děng wǔ rén	第一批收集的有享誉省港澳和东南亚的欧阳山陈残云秦牧杜埃黄秋耘等五人
+data_thchs30/dev/C8_517.wav	tā céng wèi huǒ yào cāng kù yán jiū bì léi zhuāng zhì wèi guó jiā zào bì chǎng yán jiū jiǎn shǎo jīn bì mó sǔn xiāo hào de bàn fǎ	他曾为火药仓库研究避雷装置为国家造币厂研究减少金币磨损消耗的办法
+data_thchs30/dev/C8_527.wav	yī lù shēng jiàng wān yán rú xíng luàn yún dié làng zhī zhōng nà jiǔ shí qī mǐ gāo de huá yán pù bù gèng shì chuān xué yú cuì cóng de yù liàn	一路升降蜿蜒如行乱云叠浪之中那九十七米高的华严瀑布更似穿穴于翠丛的玉练
+data_thchs30/dev/C8_537.wav	dāng sī xiǎng pǒ wèi kāi fàng de zhōng nián cūn zhǎng wáng yǒu shuāng lǐng wǒ lái dào wáng jūn xiá jiā de shí hòu wǒ zhēng le yī xià	当思想颇为开放的中年村长王有双领我来到王军霞家的时候我怔了一下
+data_thchs30/dev/C8_548.wav	zài shì chǎng pí ruǎn de qíng kuàng xià zhè gè chéng jī lái zhī bù yì a shuō qǐ lái yǔ gāi chǎng chì hēi yuē rì chǎng zhǎng de dà péng chē yǒu guān	在市场疲软的情况下这个成绩来之不易啊说起来与该厂赤黑约日厂长的大篷车有关
+data_thchs30/dev/C8_559.wav	yào zhī dào jí xìng xīn jī gěng sè shì bì xū zhù yuàn zhì liáo de dào yī yuàn yuè zǎo yuè hǎo yuè wǎn sǐ wáng lǜ yuè gāo	要知道急性心肌梗塞是必须住院治疗的到医院越早越好越晚死亡率越高
+data_thchs30/dev/C8_569.wav	kě shì xiàng tā zhè yàng de yí gè shū dāi zi tū rán ràng tā qù dōng bēn xī pǎo qiú yé yé gào nǎi nǎi zhēn shì gòu nán wèi tā de le	可是像他这样的一个书呆子突然让他去东奔西跑求爷爷告奶奶真是够难为他的了
+data_thchs30/dev/C8_594.wav	tōng piān yáng yì zhe ài guó jiā ài jí tǐ ài shè huì ài tā rén de zhì piáo zhì chéng gāo yáng zhe jīng shén wén míng de zhǔ xuán lǜ	通篇洋溢着爱国家爱集体爱社会爱他人的质朴至诚高扬着精神文明的主旋律
+data_thchs30/dev/C8_624.wav	rú jīn zài ěr hǎi hú miàn shàng sān qiān duō sōu yùn shū chuán bǔ lāo chuán nóng yòng hé yǎng yú chuán rì yè chuān suō máng lù	如今在洱海湖面上三千多艘运输船捕捞船农用和养鱼船日夜穿梭忙碌
+data_thchs30/dev/C8_628.wav	zhè yàng de xiū yǎng de yǎn yuán jí shǐ zhèng zǒu hóng yě bù guò rú guò yǎn yún yān ér yǐ chéng bù liǎo zhēn zhèng yì yì shàng de yì shù jiā	这样的修养的演员即使正走红也不过如过眼云烟而已成不了真正意义上的艺术家
+data_thchs30/dev/C8_644.wav	nán shuō shì guò kè xīn fú yì zào xìng qíng guāi zhāng zěn nài shì tā xiāng de shān gèng qīng cuì liǔ gèng nèn lǜ shuǐ gèng gān tián	难说是过客心浮意躁性情乖张怎奈是他乡的山更青翠柳更嫩绿水更甘甜
+data_thchs30/dev/C8_655.wav	wèi jīn nián yāng tián chú bài yǒu shén me hǎo yào yī wèi yè xià jiā gēn yān tóng gān de lǎo nóng qiǎng xiān wèn dào	喂今年秧田除稗有什么好药一位腋下夹根烟筒杆的老农抢先问道
+data_thchs30/dev/C8_657.wav	qù nián bā yuè bā rì yī qún chū zhōng xué shēng zài gāi zhōu hēng dé sēn xiàn yóu wán shí zhuā zhù èr shí èr zhǐ qīng wā qí zhōng shí yī zhǐ hòu tuǐ yán zhòng jī xíng	去年八月八日一群初中学生在该州亨德森县游玩时抓住二十二只青蛙其中十一只后腿严重畸形
+data_thchs30/dev/C8_672.wav	zuì hòu àn zhuān yè zǔ yè yú qīng nián zǔ yè yú zhōng lǎo nián zǔ fēn bié chǎn shēng guàn jūn sān rén yà jūn liù rén jì jūn jiǔ rén	最后按专业组业余青年组业余中老年组分别产生冠军三人亚军六人季军九人
+data_thchs30/dev/C8_684.wav	dàn yǒu yí gè qiáo dūn wài biǎo guāng jié dù bù gòu yǐng xiǎng qiáo liáng wài guān yǒu rén rèn wéi zhè yī xiǎo cī diǎn wú ài zhì liàng bù bì fǎn gōng	但有一个桥墩外表光洁度不够影响桥梁外观有人认为这一小疵点无碍质量不必返工
+data_thchs30/dev/C8_697.wav	lín yè bù mén zài yíng lín zào lín gōng zuò zhōng bù wàng shuǐ bǎo yán jìn quán kěn liàn shān yāo qiú gǎi quán kěn wèi tiáo kěn zhěng dì	林业部门在营林造林工作中不忘水保严禁全垦炼山要求改全垦为条垦整地
+data_thchs30/dev/C8_747.wav	dāng wǒ bìng yù qù yī yuàn kàn wàng nín shí nín zhè gè nián zhǎng zhě què tǎng zài bìng chuáng shàng jǐn jǐn lā zhe wǒ de shǒu yīn yīn zhǔ wǒ bǎo zhòng	当我病愈去医院看望您时您这个年长者却躺在病床上紧紧拉着我的手殷殷嘱我保重

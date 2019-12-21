@@ -11,7 +11,7 @@ from keras import backend as K
 
 
 def data_hparams ():
-    params = tf.contrib.training.HParams(data_type='train', data_path='data/', thchs30=False, aishell=False, prime=False,
+    params = tf.contrib.training.HParams(data_type='train', data_path=None, label_data_path=None,thchs30=False, aishell=False, prime=False,
                                          stcmd=False, batch_size=1, data_length=10, shuffle=True)
     return params
 
@@ -20,6 +20,7 @@ class get_data():
     def __init__ (self, args):
         self.data_type = args.data_type
         self.data_path = args.data_path
+        self.label_data_path = args.label_data_path
         self.thchs30 = args.thchs30
         self.aishell = args.aishell
         self.prime = args.prime
@@ -56,7 +57,7 @@ class get_data():
         self.han_lst = []
         for file in read_files:
             print('load ', file, ' data...')
-            sub_file = 'LabelData/' + file
+            sub_file = self.label_data_path + file
             with open(sub_file, 'r', encoding='utf8') as f:
                 data = f.readlines()
             for line in tqdm(data):

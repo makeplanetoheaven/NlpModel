@@ -4,7 +4,7 @@
 import os, sys
 import tensorflow as tf
 import json
-sys.path.append(r'D:\workspace\ASR\NlpModel')
+
 # 引入内部库
 from SpeechRecognition.AcousticModel.dfsmn_v2.utils import get_online_data, decode_ctc
 from SpeechRecognition.AcousticModel.dfsmn_v2.Model.cnn_dfsmn_ctc import Am, am_hparams
@@ -19,6 +19,7 @@ def dfsmn_model_train (data_path, label_path):
 			pinyin_dict[line.rstrip('\n')] = idx
 			idx += 1
 		pinyin_dict['_'] = idx
+
 	# 1.语言模型训练-----------------------------------
 	am_args = am_hparams()
 	am_args.data_path = data_path
@@ -48,6 +49,7 @@ def dfsmn_model_train (data_path, label_path):
 	os.makedirs(am_args.save_path, exist_ok=True)
 	am = Am(am_args)
 
+	# am.generate_data_set()
 	am.train_gpu(gpu_nums=4)
 
 
@@ -84,11 +86,6 @@ def dfsmn_model_decode (wav_file_path):
 
 	# 3. 启动在线识别-------------------------------------------
 	print('start online decode...')
-	x = get_online_data(wav_file_path)
-	pinyin_id = am.predict(x)
-	_, pinyin = decode_ctc(pinyin_id, list(pinyin_dict.keys()))
+	pinyin = am.predict(wav_file_path)
 
-if __name__ == '__main__':
-    label_path = r'D:\workspace\ASR\NlpModel\SpeechRecognition\AcousticModel\dfsmn_v1\LabelData/'
-    data_path = r'D:\workspace\datas/'
-    dfsmn_model_train(data_path, label_path)
+	return pinyin
