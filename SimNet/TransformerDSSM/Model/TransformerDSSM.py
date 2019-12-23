@@ -49,7 +49,7 @@ class TransformerDSSM:
 		self.is_extract = is_extract
 		self.is_sample = is_sample
 		self.keep_prob = 0.85
-		self.params = {'num_layers': 4, 'num_heads': 8, 'keep_prob': self.keep_prob, 'hidden_size': hidden_num * 2}
+		self.params = {'num_layers': 3, 'num_heads': 8, 'keep_prob': self.keep_prob, 'hidden_size': hidden_num * 2}
 
 		# 内部参数
 		self.q_size = 0
