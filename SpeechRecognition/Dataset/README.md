@@ -1,5 +1,5 @@
 # 1.模型标注数据
-模型标注数据文件位于：https://github.com/makeplanetoheaven/NlpModel/tree/master/SpeechRecognition/AcousticModel/Dataset
+模型标注数据文件位于：https://github.com/makeplanetoheaven/NlpModel/tree/master/SpeechRecognition/Dataset
 
 其文件中每行代表一条数据，其格式为：
 
