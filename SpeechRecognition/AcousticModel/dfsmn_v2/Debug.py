@@ -2,11 +2,9 @@
 
 # 引入外部库
 import os, sys
-import tensorflow as tf
 import json
 
 # 引入内部库
-from SpeechRecognition.AcousticModel.dfsmn_v2.utils import get_online_data, decode_ctc
 from SpeechRecognition.AcousticModel.dfsmn_v2.Model.cnn_dfsmn_ctc import Am, am_hparams
 
 
@@ -48,7 +46,7 @@ def dfsmn_model_train (data_path, label_path):
 	am = Am(am_args)
 
 	# am.generate_data_set()
-	am.train_gpu(gpu_nums=4)
+	am.train_gpu(gpu_index=[0, 1, 2, 3])
 
 
 def dfsmn_model_decode (wav_file_path):

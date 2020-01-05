@@ -3,6 +3,7 @@
 import json
 import os
 import time
+from random import shuffle
 
 import numpy as np
 import scipy.io.wavfile as wav
@@ -17,10 +18,10 @@ tf.logging.set_verbosity(tf.logging.INFO)
 # =============================模型超参数====================================
 def am_hparams():
     params = tf.contrib.training.HParams(data_path=None, label_path=None, thchs30=False, aishell=False, prime=False,
-                                         stcmd=False, magicdata=False, vocab_dict=None, bsz=1, epoch=1, max_step=1000,
-                                         lr=1e-4, dropout=0.5, d_input=2048, d_model=512, l_mem=20, r_mem=20, stride=2,
-                                         n_init_filters=256, n_conv=1, n_cnn_layers=2, n_dfsmn_layers=8, init_range=1,
-                                         init_std=0, is_training=False, save_path=None)
+                                         stcmd=False, magicdata=False, aidatatang=False, vocab_dict=None, bsz=1,
+                                         epoch=1, max_step=1000, lr=1e-4, dropout=0.5, d_input=2048, d_model=512,
+                                         l_mem=20, r_mem=20, stride=2, n_init_filters=256, n_conv=1, n_cnn_layers=2,
+                                         n_dfsmn_layers=8, init_range=1, init_std=0, is_training=False, save_path=None)
 
     return params
 
@@ -30,7 +31,7 @@ class Am:
     def __init__(self, args):
         # 数据参数
         self.data_path = args.data_path
-        self.data_cache = '{}/_dscache_/cnn_dfsmn_ctc.tfrecord'.format(
+        self.data_cache = '{}/__dscache__/cnn_dfsmn_ctc.tfrecord'.format(
             args.data_path) if args.data_path is not None else None
         self.label_path = args.label_path
         self.thchs30 = args.thchs30
@@ -38,6 +39,7 @@ class Am:
         self.prime = args.prime
         self.stcmd = args.stcmd
         self.magicdata = args.magicdata
+        self.aidatatang = args.aidatatang
         self.vocab_dict = args.vocab_dict
         self.n_vocab = len(self.vocab_dict)
 
@@ -102,18 +104,22 @@ class Am:
                 read_files.append(label_path + 'magicdata_train.txt')
                 read_files.append(label_path + 'magicdata_dev.txt')
                 read_files.append(label_path + 'magicdata_test.txt')
+            if self.aidatatang:
+                read_files.append(label_path + 'aidatatang_200zh_train.txt')
+                read_files.append(label_path + 'aidatatang_200zh_dev.txt')
+                read_files.append(label_path + 'aidatatang_200zh_test.txt')
 
             for file in read_files:
                 tf.logging.info('load %s data...', file)
                 with open(file, 'r', encoding='utf8') as fo:
                     for line in fo:
-                        wav_file, label, _ = line.split('\t')
+                        wav_file, labels, _ = line.split('\t')
                         file_list.append(data_path + wav_file)
-                        label_list.append(label.split(' '))
+                        label_list.append(labels.split(' '))
 
         read_file_list(self.data_path, self.label_path)
 
-        # 2.数据预处理 write tfRecord，每个样本一批数据
+        # 2.数据预处理 write tfRecord，每个样本一条数据
         def write_example(inputs, labels):
             # 创建字典
             feature_dict = {}
@@ -137,27 +143,31 @@ class Am:
             # 写入数据
             writer.write(tf_serialized)
 
-        if not os.path.exists('{}/_dscache_/'.format(self.data_path)):
-            os.mkdir('{}/_dscache_/'.format(self.data_path))
+        if not os.path.exists('{}/__dscache__/'.format(self.data_path)):
+            os.mkdir('{}/__dscache__/'.format(self.data_path))
         writer = tf.python_io.TFRecordWriter(self.data_cache)
-        index_list = [i for i in range(len(file_list))]
+        shuffle_list = [i for i in range(len(file_list))]
+        shuffle(shuffle_list)
         data_nums = 0
-        for i in tqdm(index_list):
-            # 数据特征提取
-            fbank = compute_log_mel_fbank(file_list[i])
+        for i in tqdm(shuffle_list):
+            try:
+                # 数据特征提取
+                fbank = compute_log_mel_fbank(file_list[i])
 
-            # 保证卷积使得长度变为1/4仍有效
-            pad_fbank = np.zeros((fbank.shape[0] // 4 * 4 + 4, fbank.shape[1]))
-            pad_fbank[:fbank.shape[0], :] = fbank
+                # 保证卷积使得长度变为1/4仍有效
+                pad_fbank = np.zeros((fbank.shape[0] // 4 * 4 + 4, fbank.shape[1]))
+                pad_fbank[:fbank.shape[0], :] = fbank
 
-            # 标签转ID
-            label = np.array([self.vocab_dict[pny] for pny in label_list[i]])
+                # 标签转ID
+                label = np.array([self.vocab_dict[pny] for pny in label_list[i]])
 
-            # 判断音频数据长度经过卷积后是否大于标签数据长度
-            label_ctc_len = ctc_len(label)
-            if pad_fbank.shape[0] // 4 >= label_ctc_len:
-                write_example(pad_fbank, label)
-                data_nums += 1
+                # 判断音频数据长度经过卷积后是否大于标签数据长度
+                label_ctc_len = ctc_len(label)
+                if pad_fbank.shape[0] // 4 >= label_ctc_len:
+                    write_example(pad_fbank, label)
+                    data_nums += 1
+            except Exception as e:
+                continue
         writer.close()
         tf.logging.info('the data nums is is %d', data_nums)
         tf.logging.info('end of preprocess')
@@ -351,7 +361,7 @@ class Am:
         if name == 'sgd':
             self.opt = tf.train.GradientDescentOptimizer(self.lr)
         elif name == 'momentum':
-            self.opt = tf.train.MomentumOptimizer(self.lr)
+            self.opt = tf.train.MomentumOptimizer(self.lr, 0.9)
         elif name == 'rms':
             self.opt = tf.train.RMSPropOptimizer(self.lr)
         elif name == 'adagrad':
@@ -366,6 +376,10 @@ class Am:
         模型cpu训练
         :return: None
         """
+        # 环境设置
+        os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+        os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+
         # 1.训练数据获取
         ele = self.input_fn().make_one_shot_iterator().get_next()
         inputs = ele['inputs']
@@ -425,26 +439,30 @@ class Am:
 
         pass
 
-    def train_gpu(self, gpu_nums=1):
+    def train_gpu(self, gpu_index):
         """
         模型gpu训练
-        :param gpu_nums: gpu数目
+        :param gpu_index: gpu索引列表
         :return: None
         """
+        # 环境设置
+        os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(map(str, gpu_index))
+        os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+
         # 1.训练数据获取
         ele = self.input_fn().make_one_shot_iterator().get_next()
         inputs = ele['inputs']
         inputs_length = ele['inputs_length']
         labels = ele['labels']
         labels_length = ele['labels_length']
-        bsz_per_gpu = self.bsz // gpu_nums
+        bsz_per_gpu = self.bsz // len(gpu_index)
 
         # 2.构建数据流图
         # 多GPU数据流图构建
         tower_grads, tower_losses = [], []
-        for i in range(gpu_nums):
+        for i, core in enumerate(gpu_index):
             reuse = True if i > 0 else None
-            with tf.device("/gpu:%d" % i), tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
+            with tf.device("/gpu:%d" % core), tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
                 # 数据的分割
                 inputs_i = inputs[i * bsz_per_gpu:(i + 1) * bsz_per_gpu]
                 inputs_length_i = inputs_length[i * bsz_per_gpu:(i + 1) * bsz_per_gpu]
@@ -514,8 +532,9 @@ class Am:
         开启模型用于预测时的会话，并加载数据流图
         :return:
         """
-        os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"
+        # 环境设置
         os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+
         # 1.构建数据流图
         # 模型输入的定义
         self.pre_inputs = tf.placeholder(name='the_inputs', shape=[None, None, 80, 1], dtype=tf.float32)
