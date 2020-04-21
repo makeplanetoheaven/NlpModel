@@ -14,7 +14,7 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 # =============================模型超参数====================================
 def lm_hparams():
-    params = tf.contrib.training.HParams(data_path='', vocab_dict=None, bsz=64, seq_len=7, epoch=10,
+    params = tf.contrib.training.HParams(data_path='', vocab_dict=None, bsz=64, seq_len=7, stride=1, epoch=10,
                                          max_step=1000, lr=0.0008,
                                          dropout=0.5, d_embed=768, d_model=768, n_layers=12, n_head=12, d_head=512,
                                          init_range=1, init_std=0, is_training=True, task_name=None, save_path=None)
@@ -35,6 +35,7 @@ class Lm:
         # 超参数
         self.bsz = args.bsz
         self.seq_len = args.seq_len
+        self.stride = args.stride
         self.epoch = args.epoch
         self.max_step = args.max_step
         self.lr = args.lr
@@ -82,7 +83,7 @@ class Lm:
 
         read_file_list(self.data_path)
 
-        # 2.数据预处理 write tfRecord，每个样本一批数据
+        # 2.数据预处理 write tfRecord，每个样本一条数据
         def write_example(inputs):
             # 创建字典
             feature_dict = {}
@@ -107,14 +108,19 @@ class Lm:
         for file in file_list:
             tf.logging.info('generate {} data'.format(file))
             with open(file, 'r', encoding='utf-8') as fo:
+                temp_line = ''
                 for line in tqdm(fo):
-                    line = line.rstrip('\n')
+                    line = temp_line + line.rstrip('\n')
+                    temp_line = ''
                     # 滑动窗口采样
                     if len(line) >= self.seq_len:
-                        for i in range(len(line) - self.seq_len + 1):
-                            inputs = [self.vocab_dict[char] for char in line[i:i + self.seq_len]]
+                        for i in range(0, len(line) - self.seq_len // 2, self.stride):
+                            inputs = [self.vocab_dict[char] for char in
+                                      line[min(i, len(line) - self.seq_len):min(i + self.seq_len, len(line))]]
                             write_example(np.array(inputs))
                             n_data += 1
+                    else:
+                        temp_line = line
         writer.close()
         tf.logging.info('the data nums is %d', n_data)
         tf.logging.info('end of preprocess')
@@ -139,7 +145,7 @@ class Lm:
 
         file_names = [self.data_cache]
         ds = tf.data.TFRecordDataset(file_names)
-        ds = ds.cache().map(parser).repeat(self.epoch)
+        ds = ds.map(parser).repeat(self.epoch)
         ds = ds.shuffle(buffer_size=self.bsz)  # example-level shuffle
         ds = ds.batch(self.bsz, drop_remainder=True)
         ds = ds.prefetch(self.bsz)
@@ -239,14 +245,14 @@ class Lm:
 
                         with tf.variable_scope('ff', reuse=tf.AUTO_REUSE):
                             layer_para = {}
-                            layer_para['ff_1'] = tf.layers.Dense(self.d_model, activation=self.activation[1],
-                                                                 use_bias=True,
-                                                                 kernel_initializer=self.kernel_initializer,
-                                                                 name='ff_1')
-                            layer_para['ff_2'] = tf.layers.Dense(self.d_model, activation=self.activation[1],
-                                                                 use_bias=True,
-                                                                 kernel_initializer=self.kernel_initializer,
-                                                                 name='ff_2')
+                            layer_para['ff_1'] = Dense('ff_1', d_inputs=self.d_model, d_model=self.d_model,
+                                                       kernel_initializer=self.kernel_initializer,
+                                                       bias_initializer=self.bias_initializer,
+                                                       activation=self.activation[1], use_bias=True)
+                            layer_para['ff_2'] = Dense('ff_2', d_inputs=self.d_model, d_model=self.d_model,
+                                                       kernel_initializer=self.kernel_initializer,
+                                                       bias_initializer=self.bias_initializer,
+                                                       activation=self.activation[1], use_bias=True)
                             layer_para['lay_norm'] = LayerNormalization('lay_norm', self.d_model,
                                                                         kernel_initializer=self.kernel_initializer,
                                                                         bias_initializer=self.bias_initializer)
@@ -300,13 +306,12 @@ class Lm:
         模型损失函数的构建
         :return: loss
         """
-        with tf.variable_scope('lm_loss'):
+        with tf.variable_scope('lm_loss', reuse=tf.AUTO_REUSE):
             softmax_w = tf.get_variable('weight', [self.n_token, self.d_model], dtype=tf.float32,
                                         initializer=self.kernel_initializer)
             softmax_b = tf.get_variable('bias', [self.n_token], dtype=tf.float32, initializer=self.bias_initializer)
 
-            logits = tf.einsum('ibd,nd->ibn', inputs, softmax_w) + softmax_b
-
+        logits = tf.einsum('ibd,nd->ibn', inputs, softmax_w) + softmax_b
         loss = tf.nn.sparse_softmax_cross_entropy_with_logits(labels=labels, logits=logits)
         loss = tf.reduce_mean(loss)
 
@@ -321,7 +326,7 @@ class Lm:
         if name == 'sgd':
             self.opt = tf.train.GradientDescentOptimizer(self.lr)
         elif name == 'momentum':
-            self.opt = tf.train.MomentumOptimizer(self.lr)
+            self.opt = tf.train.MomentumOptimizer(self.lr, 0.9)
         elif name == 'rms':
             self.opt = tf.train.RMSPropOptimizer(self.lr)
         elif name == 'adagrad':
@@ -336,6 +341,10 @@ class Lm:
         模型cpu训练
         :return: None
         """
+        # 环境设置
+        os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+        os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+
         # 1.数据获取
         ele = self.input_fn().make_one_shot_iterator().get_next()
         inputs = tf.transpose(ele['inputs'], [1, 0])
@@ -369,19 +378,20 @@ class Lm:
             # 开始迭代，使用Adam优化的随机梯度下降法，并将结果输出到日志文件
             tf.logging.info('begin of training')
             fetches = [train_op, loss]
-            total_loss = 0.
+            total_loss = np.zeros(shape=[self.max_step], dtype=float)
             cur_step = 0
             while 1:
                 try:
                     _, loss_np = sess.run(fetches)
-                    total_loss += loss_np
+                    total_loss[cur_step % self.max_step] = loss_np
                     cur_step += 1
 
                     if cur_step > 0 and cur_step % self.max_step == 0:
-                        cur_loss = total_loss / self.max_step
-                        tf.logging.info('[%s] [step %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
-                                        cur_step, cur_loss)
-                        total_loss = 0.
+                        loss_mean = np.mean(total_loss)
+                        loss_var = np.var(total_loss)
+                        tf.logging.info('[%s] [step %d] loss %f var %f',
+                                        time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                                        cur_step, loss_mean, loss_var)
                 except tf.errors.OutOfRangeError:
                     tf.logging.info('end of training')
                     break
@@ -392,23 +402,27 @@ class Lm:
 
         pass
 
-    def train_gpu(self, gpu_nums=1):
+    def train_gpu(self, gpu_index):
         """
         模型gpu训练
-        :param gpu_nums: gpu数目
+        :param gpu_index: gpu索引列表
         :return: None
         """
+        # 环境设置
+        os.environ["CUDA_VISIBLE_DEVICES"] = ','.join(map(str, gpu_index))
+        os.environ['TF_ENABLE_AUTO_MIXED_PRECISION'] = '1'
+
         # 1.数据获取
         ele = self.input_fn().make_one_shot_iterator().get_next()
         inputs = tf.transpose(ele['inputs'], [1, 0])
-        bsz_per_gpu = self.bsz // gpu_nums
+        bsz_per_gpu = self.bsz // len(gpu_index)
 
         # 2.构建数据流图
         # 多GPU数据流图构建
         tower_grads, tower_losses = [], []
-        for i in range(gpu_nums):
+        for i, core in enumerate(gpu_index):
             reuse = True if i > 0 else None
-            with tf.device("/gpu:%d" % i), tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
+            with tf.device("/gpu:%d" % core), tf.variable_scope(tf.get_variable_scope(), reuse=reuse):
                 # 数据的分割
                 inputs_i = inputs[:, i * bsz_per_gpu:(i + 1) * bsz_per_gpu]
 
@@ -447,19 +461,20 @@ class Lm:
             # 开始迭代，使用Adam优化的随机梯度下降法，并将结果输出到日志文件
             tf.logging.info('begin of training')
             fetches = [train_op, loss]
-            total_loss = 0.
+            total_loss = np.zeros(shape=[self.max_step], dtype=float)
             cur_step = 0
             while 1:
                 try:
                     _, loss_np = sess.run(fetches)
-                    total_loss += loss_np
+                    total_loss[cur_step % self.max_step] = loss_np
                     cur_step += 1
 
                     if cur_step > 0 and cur_step % self.max_step == 0:
-                        cur_loss = total_loss / self.max_step
-                        tf.logging.info('[%s] [step %d] loss %f', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
-                                        cur_step, cur_loss)
-                        total_loss = 0.
+                        loss_mean = np.mean(total_loss)
+                        loss_var = np.var(total_loss)
+                        tf.logging.info('[%s] [step %d] loss %f var %f',
+                                        time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()),
+                                        cur_step, loss_mean, loss_var)
                 except tf.errors.OutOfRangeError:
                     tf.logging.info('end of training')
                     break
@@ -633,8 +648,47 @@ def rel_shift(x, klen=-1):
     return x
 
 
+class Dense(object):
+    def __init__(self, name,
+                 d_inputs,
+                 d_model,
+                 kernel_initializer,
+                 bias_initializer=None,
+                 activation=None,
+                 use_bias=True):
+        super(Dense, self).__init__()
+        self.name = name
+        self.d_inputs = d_inputs
+        self.d_model = d_model
+        self.kernel_initializer = kernel_initializer
+        self.bias_initializer = bias_initializer
+        self.activation = activation
+        self.use_bias = use_bias
+        self.build()
+
+    def build(self):
+        self.kernel = tf.get_variable(self.name + "_kernel", [self.d_inputs, self.d_model],
+                                      initializer=self.kernel_initializer)
+        if self.use_bias:
+            self.bias = tf.get_variable(self.name + "_bias", [self.d_model], initializer=self.bias_initializer)
+
+    def __call__(self, x):
+        out = tf.tensordot(x, self.kernel, axes=1)
+
+        if self.use_bias:
+            out += self.bias
+
+        if self.activation:
+            out = self.activation(out)
+
+        return out
+
+
 class LayerNormalization(object):
-    def __init__(self, name, d_model, kernel_initializer, bias_initializer):
+    def __init__(self, name,
+                 d_model,
+                 kernel_initializer,
+                 bias_initializer):
         super(LayerNormalization, self).__init__()
         self.__name__ = name
         self.d_model = d_model
