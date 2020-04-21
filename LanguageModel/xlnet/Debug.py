@@ -9,7 +9,7 @@ from LanguageModel.xlnet.Model.xlnet import Lm, lm_hparams
 
 def xlnet_model_train (data_path, save_path):
 	# 0.准备训练所需语料------------------------------
-	with open('./lang/char_dict.json', 'r', encoding='utf-8') as fo:
+	with open('./Lang/char_dict.json', 'r', encoding='utf-8') as fo:
 		char_dict = json.load(fo)
 
 	# 1.语言模型训练-----------------------------------

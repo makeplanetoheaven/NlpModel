@@ -69,9 +69,9 @@ def dfsmn_model_train (train_data_path, label_data_path):
 
 def dfsmn_model_decode (wav_file_path):
 	# 1.语料加载-----------------------------------
-	print('loading lang...')
+	print('loading Lang...')
 	pinyin_list = []
-	with open('lang/pinyin.txt', 'r', encoding='utf-8') as file_object:
+	with open('Lang/pinyin.txt', 'r', encoding='utf-8') as file_object:
 		for pinyin in tqdm(file_object):
 			pinyin_list.append(pinyin.rstrip('\n'))
 	pinyin_list.append('_')

@@ -10,7 +10,7 @@ from SpeechRecognition.AcousticModel.dfsmn_v2.Model.cnn_dfsmn_ctc import Am, am_
 
 def dfsmn_model_train (data_path, label_path):
 	# 0.准备训练所需语料------------------------------
-	with open('./lang/pinyin_dict.json', 'r', encoding='utf-8') as fo:
+	with open('./Lang/pinyin_dict.json', 'r', encoding='utf-8') as fo:
 		pinyin_dict = json.load(fo)
 	pinyin_dict['_'] = len(pinyin_dict)
 
@@ -51,8 +51,8 @@ def dfsmn_model_train (data_path, label_path):
 
 def dfsmn_model_decode (wav_file_path):
 	# 1.语料加载-----------------------------------
-	print('loading lang...')
-	with open('./lang/pinyin_dict.json', 'r', encoding='utf-8') as fo:
+	print('loading Lang...')
+	with open('./Lang/pinyin_dict.json', 'r', encoding='utf-8') as fo:
 		pinyin_dict = json.load(fo)
 	pinyin_dict['_'] = len(pinyin_dict)
 
