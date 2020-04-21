@@ -245,3 +245,9 @@ xlnet模型的训练通过调用文件中的函数`xlnet_model_train`实现，�
 数据类型 | 格式 | 地址 | 提取码
 --- | ---| ---| ---
 中文预训练数据 | txt | [https://pan.baidu.com/s/1sTYdq-Id07hd1SJLBMBSVw](https://pan.baidu.com/s/1sTYdq-Id07hd1SJLBMBSVw) | sx0q
+
+## 已训练模型库
+
+task_name| 参数| 地址 | 提取码
+--- | ---| ---| ---
+xlnet | seq_len = 512,stride = 256,d_embed=768,d_model = 768,n_layers = 12,n_head = 12,d_head = 64 | [点击](https://pan.baidu.com/s/1MGkknyD7f1qvpmsYTNtuaw) | 0imo
