@@ -18,6 +18,7 @@ def xlnet_model_train (data_path, save_path):
 	lm_args.vocab_dict = char_dict
 	lm_args.bsz = 18
 	lm_args.seq_len = 512
+	lm_args.stride = 256
 	lm_args.epoch = 1
 	lm_args.max_step = 1000
 	lm_args.lr = 1e-4
