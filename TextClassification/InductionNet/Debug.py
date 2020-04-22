@@ -6,7 +6,7 @@ import json
 
 # 引入内部库
 from LanguageModel.xlnet.Model.xlnet import Lm, lm_hparams
-from TexCategorization.InductionNet.Model.induction_net import InductionNet, induction_net_hparams
+from TextClassification.InductionNet.Model.induction_net import InductionNet, induction_net_hparams
 
 
 def induction_net_model_train (data_path, lm_save_path, save_path):
