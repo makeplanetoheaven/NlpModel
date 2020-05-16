@@ -13,7 +13,7 @@ def stochastic_drop(sen_list: list, rate=0.15) -> list:
 	:param rate:
 	:return:
 	"""
-	retain_list = []
+	res_list = []
 	for sen in tqdm(sen_list):
 		s_l = len(sen)
 		idx_list = [i for i in range(s_l)]
@@ -23,6 +23,6 @@ def stochastic_drop(sen_list: list, rate=0.15) -> list:
 		for idx in idx_list:
 			if idx not in drop_list:
 				new_sen += sen[idx]
-		retain_list.append(new_sen)
+		res_list.append(new_sen)
 
-	return retain_list
+	return res_list
