@@ -5,7 +5,6 @@ import grequests
 from googletrans import Translator
 from googletrans.utils import format_json
 
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
 translator = Translator(service_urls=['translate.google.cn'])
 
 
@@ -48,6 +47,13 @@ def sentence_translate (line, src='zh-cn', dest='en'):
 
 
 def total_translate (sen_list: list, src='zh-cn', dest='en') -> list:
+	"""
+
+	:param sen_list:
+	:param src:
+	:param dest:
+	:return:
+	"""
 	res_list = []
 
 	urls = []
@@ -72,7 +78,9 @@ def complete_translate (sen_list: list, res_list: list, src='zh-cn', dest='en'):
 	"""
 
 	:param sen_list:
-	:param res_list:
+	:param sen_list:
+	:param src:
+	:param dest:
 	:return:
 	"""
 	for i in range(len(sen_list)):
