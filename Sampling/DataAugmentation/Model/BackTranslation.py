@@ -1,122 +1,42 @@
 # coding=utf-8
 
-import grequests
+
+import json
 from tqdm import tqdm
-from googletrans import Translator
-from googletrans.utils import format_json
-
-headers = {'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
-translator = Translator(service_urls=['translate.google.cn'])
+from urllib import request, parse
 
 
-def get_trans_res (urls: list) -> list:
-	res_list = []
-	reqs = (grequests.get(u, verify=True, allow_redirects=True, timeout=4, headers=headers) for u in urls)
-	res = grequests.map(reqs, size=20)
-	for r in res:
-		if hasattr(r, 'status_code'):
-			if r.status_code == 200:
-				try:
-					a = format_json(r.text)
-					target = ''.join([d[0] if d[0] else '' for d in a[0]])
-					source = ''.join([d[1] if d[1] else '' for d in a[0]])
-				except Exception as e:
-					source = ''
-					target = ''
-				if len(source) != 0 and len(target) != 0:
-					res_list.append(target)
-				else:
-					res_list.append('')
-			else:
-				res_list.append('')
+def youdao_translte (content, src='zh-cn', dest='en'):
+	Request_URL = 'http://fanyi.youdao.com/translate?smartresult=dict&smartresult=rule'
+	Form_Data = {}
+	Form_Data['from'] = src
+	Form_Data['to'] = dest
+	Form_Data['doctype'] = 'json'  # can't delete,return type
+	Form_Data['i'] = content  # can't delete,what you want to translate
+	data = parse.urlencode(Form_Data).encode('utf-8')
+	response = request.urlopen(Request_URL, data)
+	html = response.read().decode('utf-8')
+	translate_results = json.loads(html)
+	translate_results = translate_results['translateResult'][0][0]['tgt']
 
-	return res_list
+	return translate_results
 
 
-def sentence_translate (line, src='zh-cn', dest='en'):
-	"""
-
-	:param line:
-	:param src:
-	:param dest:
-	:return:
-	"""
-	line = line.strip()
-	text = translator.translate(line, src=src, dest=dest).text
-
-	return text
-
-
-def map_translate (sen_list: list, src='zh-cn', dest='en') -> list:
-	"""
-
-	:param sen_list:
-	:param src:
-	:param dest:
-	:return:
-	"""
-	res_list = []
-
-	urls = []
-	num = 0
-	for sen in sen_list:
-		num += 1
-		token = translator.token_acquirer.do(sen)
-		url = "https://translate.google.cn/translate_a/single?client=t&sl={0}&tl={1}&hl={1}&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=3&tsel=0&kc=1&tk={2}&q={3}".format(
-			src, dest, token, sen)
-		urls.append(url)
-
-		if len(urls) >= 50:
-			res_list += get_trans_res(urls)
-			urls = []
-
-	res_list += get_trans_res(urls)
-
-	return res_list
-
-
-def complete_translate (sen_list: list, res_list: list, src='zh-cn', dest='en'):
-	"""
-
-	:param sen_list:
-	:param sen_list:
-	:param src:
-	:param dest:
-	:return:
-	"""
-	for i in range(len(sen_list)):
-		src_sen = sen_list[i]
-		dest_sen = res_list[i]
-		if dest_sen == '':
-			res_list[i] = sentence_translate(src_sen, src, dest)
-
-
-def back_translation (sen_list, lang='en', is_map=False) -> list:
+def back_translation (sen_list, lang='en') -> list:
 	"""
 	反向翻译
 	:param sen_list:
 	:param lang:
-	:param is_map:
 	:return:
 	"""
-	if is_map:
-		# forward
-		temp_list = map_translate(sen_list, src='zh-cn', dest=lang)
-		print(temp_list)
-		complete_translate(sen_list, temp_list, src='zh-cn', dest=lang)
+	# forward
+	temp_list = []
+	for sen in tqdm(sen_list):
+		temp_list.append(youdao_translte(sen, src='zh-cn', dest=lang))
 
-		# backward
-		res_list = map_translate(temp_list, src=lang, dest='zh-cn')
-		complete_translate(temp_list, res_list, src=lang, dest='zh-cn')
-	else:
-		# forward
-		temp_list = []
-		for sen in tqdm(sen_list):
-			temp_list.append(sentence_translate(sen, src='zh-cn', dest=lang))
-
-		# backward
-		res_list = []
-		for temp in tqdm(temp_list):
-			res_list.append(sentence_translate(temp, src=lang, dest='zh-cn'))
+	# backward
+	res_list = []
+	for temp in tqdm(temp_list):
+		res_list.append(youdao_translte(temp, src=lang, dest='zh-cn'))
 
 	return res_list
