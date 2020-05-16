@@ -36,7 +36,7 @@ with open('./StochasticDrop_faq.json', 'w', encoding='utf-8') as fo:
 
 # BackTranslation
 print('begin BackTranslation')
-res_list = back_translation(sen_list)
+res_list = back_translation_youdao(sen_list)
 faq_list = []
 for i in range(len(sen_list)):
 	faq_dict = {
