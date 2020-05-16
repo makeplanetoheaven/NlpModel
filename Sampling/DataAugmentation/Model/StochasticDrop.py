@@ -3,6 +3,7 @@
 
 import random
 import math
+from tqdm import tqdm
 
 
 def stochastic_drop(sen_list: list, rate=0.15) -> list:
@@ -13,7 +14,7 @@ def stochastic_drop(sen_list: list, rate=0.15) -> list:
 	:return:
 	"""
 	retain_list = []
-	for sen in sen_list:
+	for sen in tqdm(sen_list):
 		s_l = len(sen)
 		idx_list = [i for i in range(s_l)]
 		drop_n = math.ceil(s_l * rate)

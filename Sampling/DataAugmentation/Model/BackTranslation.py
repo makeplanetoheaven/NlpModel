@@ -2,6 +2,7 @@
 
 
 import grequests
+from tqdm import tqdm
 from googletrans import Translator
 from googletrans.utils import format_json
 
@@ -58,7 +59,7 @@ def total_translate (sen_list: list, src='zh-cn', dest='en') -> list:
 
 	urls = []
 	num = 0
-	for sen in sen_list:
+	for sen in tqdm(sen_list):
 		num += 1
 		token = translator.token_acquirer.do(sen)
 		url = "https://translate.google.cn/translate_a/single?client=t&sl={0}&tl={1}&hl={1}&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=3&tsel=0&kc=1&tk={2}&q={3}".format(
