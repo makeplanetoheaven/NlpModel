@@ -1,17 +1,17 @@
 # coding=utf-8
 
-
 import grequests
 from tqdm import tqdm
 from googletrans import Translator
 from googletrans.utils import format_json
 
+headers = {'User-Agent': "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.1 (KHTML, like Gecko) Chrome/22.0.1207.1 Safari/537.1"}
 translator = Translator(service_urls=['translate.google.cn'])
 
 
 def get_trans_res (urls: list) -> list:
 	res_list = []
-	reqs = (grequests.get(u, verify=True, allow_redirects=True, timeout=4) for u in urls)
+	reqs = (grequests.get(u, verify=True, allow_redirects=True, timeout=4, headers=headers) for u in urls)
 	res = grequests.map(reqs, size=20)
 	for r in res:
 		if hasattr(r, 'status_code'):
@@ -47,7 +47,7 @@ def sentence_translate (line, src='zh-cn', dest='en'):
 	return text
 
 
-def total_translate (sen_list: list, src='zh-cn', dest='en') -> list:
+def map_translate (sen_list: list, src='zh-cn', dest='en') -> list:
 	"""
 
 	:param sen_list:
@@ -59,7 +59,7 @@ def total_translate (sen_list: list, src='zh-cn', dest='en') -> list:
 
 	urls = []
 	num = 0
-	for sen in tqdm(sen_list):
+	for sen in sen_list:
 		num += 1
 		token = translator.token_acquirer.do(sen)
 		url = "https://translate.google.cn/translate_a/single?client=t&sl={0}&tl={1}&hl={1}&dt=at&dt=bd&dt=ex&dt=ld&dt=md&dt=qca&dt=rw&dt=rm&dt=ss&dt=t&ie=UTF-8&oe=UTF-8&otf=1&ssel=3&tsel=0&kc=1&tk={2}&q={3}".format(
@@ -91,19 +91,32 @@ def complete_translate (sen_list: list, res_list: list, src='zh-cn', dest='en'):
 			res_list[i] = sentence_translate(src_sen, src, dest)
 
 
-def back_translation (sen_list, lang='en') -> list:
+def back_translation (sen_list, lang='en', is_map=False) -> list:
 	"""
 	反向翻译
 	:param sen_list:
 	:param lang:
+	:param is_map:
 	:return:
 	"""
-	# forward
-	temp_list = total_translate(sen_list, src='zh-cn', dest=lang)
-	complete_translate(sen_list, temp_list, src='zh-cn', dest=lang)
+	if is_map:
+		# forward
+		temp_list = map_translate(sen_list, src='zh-cn', dest=lang)
+		print(temp_list)
+		complete_translate(sen_list, temp_list, src='zh-cn', dest=lang)
 
-	# backward
-	res_list = total_translate(temp_list, src=lang, dest='zh-cn')
-	complete_translate(temp_list, res_list, src=lang, dest='zh-cn')
+		# backward
+		res_list = map_translate(temp_list, src=lang, dest='zh-cn')
+		complete_translate(temp_list, res_list, src=lang, dest='zh-cn')
+	else:
+		# forward
+		temp_list = []
+		for sen in tqdm(sen_list):
+			temp_list.append(sentence_translate(sen, src='zh-cn', dest=lang))
+
+		# backward
+		res_list = []
+		for temp in tqdm(temp_list):
+			res_list.append(sentence_translate(temp, src=lang, dest='zh-cn'))
 
 	return res_list
