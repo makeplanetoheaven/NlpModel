@@ -21,18 +21,18 @@ with open(data_path, 'r', encoding='utf-8') as fo:
 			break
 
 # StochasticDrop
-# print('begin StochasticDrop')
-# res_list = stochastic_drop(sen_list)
-# faq_list = []
-# for i in range(len(sen_list)):
-# 	faq_dict = {
-# 		'index': i,
-# 		'问题': sen_list[i],
-# 		'答案': res_list[i]
-# 	}
-# 	faq_list.append(faq_dict)
-# with open('./StochasticDrop_faq.json', 'w', encoding='utf-8') as fo:
-# 	json.dump(faq_list, fo, ensure_ascii=False, indent=2)
+print('begin StochasticDrop')
+res_list = stochastic_drop(sen_list)
+faq_list = []
+for i in range(len(sen_list)):
+	faq_dict = {
+		'index': i,
+		'问题': sen_list[i],
+		'答案': res_list[i]
+	}
+	faq_list.append(faq_dict)
+with open('./StochasticDrop_faq.json', 'w', encoding='utf-8') as fo:
+	json.dump(faq_list, fo, ensure_ascii=False, indent=2)
 
 # BackTranslation
 print('begin BackTranslation')
